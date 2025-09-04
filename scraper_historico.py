@@ -19,9 +19,9 @@ import os
 from typing import Dict, Set, List, Tuple, Optional
 
 # CONFIGURACIÓN GLOBAL
-PRODUCCION = False  # Cambiar a True para scrapear sin límites
-LIMITE_TEST = 3    # Límite de propiedades en modo test
-E_COMPLETO = True  # False = incremental (novedades), True = completo (verificar cambios)
+PRODUCCION = True  # Cambiar a True para scrapear sin límites
+LIMITE_TEST = 999    # Límite de propiedades en modo test
+E_COMPLETO = False  # False = incremental (novedades), True = completo (verificar cambios)
 
 # Archivos de datos
 #ARCHIVO_PROPIEDADES = 'propiedades_menorca_estandarizado.json'
