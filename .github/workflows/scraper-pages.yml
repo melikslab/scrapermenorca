@@ -2,12 +2,11 @@ name: Scraper diario + Pages
 
 on:
   schedule:
-    # OJO: esto es hora UTC. 04:00 UTC ≈ 06:00 en Madrid (CEST).
-    - cron: "0 4 * * *"
+    - cron: "0 4 * * *"   # 04:00 UTC ≈ 06:00 Madrid
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write         # <- necesario para auto-commit
   pages: write
   id-token: write
 
@@ -23,22 +22,21 @@ jobs:
         with:
           python-version: "3.11"
 
+      # Instala deps UNA vez (incluye lxml)
       - name: Instalar dependencias
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 certifi
-      - name: Install deps
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install requests beautifulsoup4 lxml certifi
+
+      # Asegura carpeta public para que los siguientes pasos no fallen
+      - name: Preparar carpeta public
+        run: mkdir -p public
 
       - name: Ejecutar scraper (salida a /public)
-        run: |
-          python scraper_historico.py
+        run: python scraper_historico.py
         env:
-          DATA_DIR: public
+          DATA_DIR: public   # si tu script ya soporta DATA_DIR; si no, lo quitamos
 
-      # Persistimos los ficheros incrementales para que la próxima run tenga memoria
       - name: Commit JSONs incrementales
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -48,7 +46,6 @@ jobs:
             public/registro_scraping.json
             public/propiedades_temp.json
 
-      # Preparar artefacto para Pages (ya está todo en /public)
       - name: Añadir .nojekyll e índice simple (opcional)
         run: |
           touch public/.nojekyll
