@@ -36,14 +36,13 @@ jobs:
         env:
           DATA_DIR: public
 
-      - name: Commit JSONs incrementales (propiedades + registro)
+      - name: Commit JSONs incrementales
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Datos diarios: propiedades + registro"
-          file_pattern: |
-            public/propiedades_menorca_estandarizado.json
-            public/registro_scraping.json
-            public/propiedades_temp.json
+          file_pattern: public/**.json
+          add_options: "-A"   # evita error por pathspec vacío
+      
 
       - name: Añadir .nojekyll e índice (opcional)
         run: |
