@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write         # <- necesario para auto-commit
+  contents: write         # necesario para auto-commit
   pages: write
   id-token: write
 
@@ -17,27 +17,26 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Setup Python (cache pip)
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"
 
-      # Instala deps UNA vez (incluye lxml)
-      - name: Instalar dependencias
+      - name: Install deps
         run: |
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 lxml certifi
 
-      # Asegura carpeta public para que los siguientes pasos no fallen
-      - name: Preparar carpeta public
+      - name: Ensure public dir
         run: mkdir -p public
 
-      - name: Ejecutar scraper (salida a /public)
+      - name: Ejecutar scraper (lee/escribe en public/)
         run: python scraper_historico.py
         env:
-          DATA_DIR: public   # si tu script ya soporta DATA_DIR; si no, lo quitamos
+          DATA_DIR: public
 
-      - name: Commit JSONs incrementales
+      - name: Commit JSONs incrementales (propiedades + registro)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Datos diarios: propiedades + registro"
@@ -46,7 +45,7 @@ jobs:
             public/registro_scraping.json
             public/propiedades_temp.json
 
-      - name: Añadir .nojekyll e índice simple (opcional)
+      - name: Añadir .nojekyll e índice (opcional)
         run: |
           touch public/.nojekyll
           [ -f public/index.html ] || printf '<!doctype html><meta charset="utf-8"><title>Feed</title><h1>Feed JSON</h1><ul><li><a href="propiedades_menorca_estandarizado.json">propiedades</a></li><li><a href="registro_scraping.json">registro</a></li></ul>' > public/index.html
