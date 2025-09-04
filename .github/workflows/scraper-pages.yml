@@ -1,0 +1,67 @@
+name: Scraper diario + Pages
+
+on:
+  schedule:
+    # OJO: esto es hora UTC. 04:00 UTC ≈ 06:00 en Madrid (CEST).
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 certifi
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Ejecutar scraper (salida a /public)
+        run: |
+          python scraper_historico.py
+        env:
+          DATA_DIR: public
+
+      # Persistimos los ficheros incrementales para que la próxima run tenga memoria
+      - name: Commit JSONs incrementales
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Datos diarios: propiedades + registro"
+          file_pattern: |
+            public/propiedades_menorca_estandarizado.json
+            public/registro_scraping.json
+            public/propiedades_temp.json
+
+      # Preparar artefacto para Pages (ya está todo en /public)
+      - name: Añadir .nojekyll e índice simple (opcional)
+        run: |
+          touch public/.nojekyll
+          [ -f public/index.html ] || printf '<!doctype html><meta charset="utf-8"><title>Feed</title><h1>Feed JSON</h1><ul><li><a href="propiedades_menorca_estandarizado.json">propiedades</a></li><li><a href="registro_scraping.json">registro</a></li></ul>' > public/index.html
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
