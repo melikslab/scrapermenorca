@@ -24,9 +24,24 @@ LIMITE_TEST = 900    # Límite de propiedades en modo test
 E_COMPLETO = False  # False = incremental (novedades), True = completo (verificar cambios)
 
 # Archivos de datos
-ARCHIVO_PROPIEDADES = 'propiedades_menorca_estandarizado.json'
-ARCHIVO_REGISTRO = 'registro_scraping.json'
-ARCHIVO_TEMP = 'propiedades_temp.json'
+#ARCHIVO_PROPIEDADES = 'propiedades_menorca_estandarizado.json'
+#ARCHIVO_REGISTRO = 'registro_scraping.json'
+#ARCHIVO_TEMP = 'propiedades_temp.json'
+# Directorio de datos (por defecto ".", pero lo podremos fijar a "public")
+DATA_DIR = os.getenv('DATA_DIR', '.')
+
+# Asegurar que existe el directorio
+os.makedirs(DATA_DIR, exist_ok=True)
+
+# Archivos de datos (parametrizables por ENV, con defaults en DATA_DIR)
+ARCHIVO_PROPIEDADES = os.getenv('ARCHIVO_PROPIEDADES',
+                                os.path.join(DATA_DIR, 'propiedades_menorca_estandarizado.json'))
+ARCHIVO_REGISTRO   = os.getenv('ARCHIVO_REGISTRO',
+                                os.path.join(DATA_DIR, 'registro_scraping.json'))
+ARCHIVO_TEMP       = os.getenv('ARCHIVO_TEMP',
+                                os.path.join(DATA_DIR, 'propiedades_temp.json'))
+
+
 # Diccionario global para almacenar estados desde el listado
 _estados_fincasseminari = {}
 _estados_inmocampsbosch = {}
