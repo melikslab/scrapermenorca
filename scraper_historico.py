@@ -1833,6 +1833,8 @@ def scrape_bonninsanso_detalle(url, referencia):
     try:
         r = requests.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
+        soup = BeautifulSoup(r.text, 'html.parser')
+
         contenido = soup.find("div", id="contenido")
         if contenido:
             soup = BeautifulSoup(str(contenido), 'html.parser')
@@ -2134,6 +2136,8 @@ def scrape_fincasfaro_detalle(url, referencia):
     try:
         r = requests.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
+        soup = BeautifulSoup(r.text, 'html.parser')
+
         contenido = soup.find("div", id="contenido")
         if contenido:
             soup = BeautifulSoup(str(contenido), 'html.parser')
