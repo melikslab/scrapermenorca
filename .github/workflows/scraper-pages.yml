@@ -2,7 +2,7 @@ name: Scraper diario + Pages
 
 on:
   schedule:
-    - cron: "0 4 * * *"   # 04:00 UTC ≈ 06:00 Madrid
+    - cron: "0 21 * * *"   # 021:00 UTC ≈ 23:00 Madrid
   workflow_dispatch:
 
 permissions:
