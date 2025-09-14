@@ -65315,12 +65315,12 @@
     "habitaciones": 1,
     "banos": 1,
     "tipo": "Chalet",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/bungalow-en-son-xoriguer-ciutadella-menorca/36698/",
     "inmobiliaria": "Bonnin Sanso",
@@ -65341,7 +65341,8 @@
       "https://images.bonninsanso.com/1/a/propiedades_fotos_673832_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:13:14.643743",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-09-14T21:19:49.658696"
   },
   {
     "referencia": "92448",
@@ -138611,6 +138612,34 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P25614009/Tphoto/IDb9d68601-0000-0500-0000-000014447bd8.JPG"
     ],
     "fecha_scraping": "2025-09-13T21:21:15.976748",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "8305",
+    "titulo": "CASA EN CONTRAMURADA",
+    "ubicacion": "Ciutadella",
+    "precio": 470000,
+    "metros": 110,
+    "metros_parcela": null,
+    "habitaciones": 2,
+    "banos": 3,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": true,
+    "garaje": true,
+    "ascensor": true,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.enprimeralinea.immo/casa-adosada-en-ciutadella-de-menorca-es1641649.html",
+    "inmobiliaria": "En Primera Linea",
+    "imagen_destacada": "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1641649/image/img_0041.jpg?v=20250912114859590",
+    "galeria": [
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1641649/image/img_0041.jpg?v=20250912114859590",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1641649/image/thumb/585_335/img_0041.jpg?20250912114859590",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1640903/image/thumb/585_335/123.jpg"
+    ],
+    "fecha_scraping": "2025-09-14T21:20:03.575798",
     "fecha_ultima_actualizacion": null
   }
 ]
