@@ -80468,12 +80468,12 @@
     "habitaciones": 4,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "http://www.fincasfaro.net/es/ficha/1974/",
     "inmobiliaria": "Fincas Faro",
@@ -80495,7 +80495,8 @@
       "http://www.fincasfaro.net/watermark/585551/380x380"
     ],
     "fecha_scraping": "2025-09-02T22:23:06.846280",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-09-15T21:22:00.078877"
   },
   {
     "referencia": "1961",
@@ -103254,12 +103255,12 @@
     "habitaciones": 3,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.portalmenorca.com/es/trebaluger/chalet-22152519",
     "inmobiliaria": "Portal Menorca",
@@ -103295,7 +103296,8 @@
       "https://images.egorealestate.com/Z1280x960/S5/C1174/P25614290/Tphoto/IDd2d78601-0000-0500-0000-00001495a4cb.JPG"
     ],
     "fecha_scraping": "2025-09-02T22:37:57.650739",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-09-15T21:22:57.821210"
   },
   {
     "referencia": "H3611",
@@ -137891,12 +137893,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Piso",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/piso-en-primera-planta-con-luz-natural-y-espacio-para-disenar-a-tu-gusto-en-es-catell-menorca/92661/",
     "inmobiliaria": "Bonnin Sanso",
@@ -137931,7 +137933,8 @@
       "https://images.bonninsanso.com/c/0/propiedades_fotos_692639_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-12T21:20:42.043250",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-09-15T21:21:50.592588"
   },
   {
     "referencia": "92828",
@@ -138640,6 +138643,58 @@
       "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1640903/image/thumb/585_335/123.jpg"
     ],
     "fecha_scraping": "2025-09-14T21:20:03.575798",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "92661",
+    "titulo": "Piso en primera planta con luz natural y espacio para diseñar a tu gusto en es Castell, Menorca",
+    "ubicacion": "Es Castell",
+    "precio": 405000,
+    "metros": 98,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 2,
+    "tipo": "Piso",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/piso-en-primera-planta-con-luz-natural-y-espacio-para-disenar-a-tu-gusto-en-es-castell-menorca/92661/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/f/6/propiedades_fotos_692599_w120_h90_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/f/6/propiedades_fotos_692599_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/c/9/propiedades_fotos_692611_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/2/8/propiedades_fotos_692609_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/d/0/propiedades_fotos_692608_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/f/c/propiedades_fotos_692617_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/4/d/propiedades_fotos_692614_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/3/e/propiedades_fotos_692615_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/1/2/propiedades_fotos_692613_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/b/0/propiedades_fotos_692633_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/4/d/propiedades_fotos_692631_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/5/8/propiedades_fotos_692630_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/5/2/propiedades_fotos_692629_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/c/d/propiedades_fotos_692619_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/b/d/propiedades_fotos_692618_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/1/1/propiedades_fotos_692621_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/e/b/propiedades_fotos_692620_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/5/f/propiedades_fotos_692627_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/9/2/propiedades_fotos_692625_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/9/8/propiedades_fotos_692626_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/9/6/propiedades_fotos_692622_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/7/7/propiedades_fotos_692623_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/c/9/propiedades_fotos_692624_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/c/8/propiedades_fotos_692605_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/5/6/propiedades_fotos_692607_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/1/a/propiedades_fotos_692600_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/c/e/propiedades_fotos_692601_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/c/0/propiedades_fotos_692639_w120_h90_wm.jpg"
+    ],
+    "fecha_scraping": "2025-09-15T21:21:52.925273",
     "fecha_ultima_actualizacion": null
   }
 ]
