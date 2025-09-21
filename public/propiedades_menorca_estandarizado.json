@@ -107533,12 +107533,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.portalmenorca.com/es/sant-lluis-sullestrar-torret/casa-23379728",
     "inmobiliaria": "Portal Menorca",
@@ -107591,7 +107591,8 @@
       "https://images.egorealestate.com/Z1280x960/S5/C1123/P26483043/Tphoto/ID63199401-0000-0500-0000-000014f87508.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:40:00.220816",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-09-21T21:21:40.301213"
   },
   {
     "referencia": "V2625",
@@ -136956,12 +136957,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Apartamento",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/apartamento-con-licencia-turistica-en-calan-bosch-ciutadella-menorca/36248/",
     "inmobiliaria": "Bonnin Sanso",
@@ -136989,7 +136990,8 @@
       "https://images.bonninsanso.com/a/1/propiedades_fotos_617674_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-08T21:21:45.721207",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-09-21T21:20:37.805239"
   },
   {
     "referencia": "92760",
@@ -140319,6 +140321,40 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P27877711/Tphoto/ID4f61a901-0000-0500-0000-000016d91e54.jpg"
     ],
     "fecha_scraping": "2025-09-20T21:21:20.087552",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "M9718 (2)",
+    "titulo": "Planta baja de nueva construcción con patio en Sant Lluis",
+    "ubicacion": "Sant Lluís; Sant Lluís - S'Ullestrar - Torret",
+    "precio": null,
+    "metros": 86,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 3,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.portalmenorca.com/es/sant-lluis-sullestrar-torret/casa-23921832",
+    "inmobiliaria": "Portal Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/S5/C1112/P25275573/Tphoto/IDb5ac8101-0000-0500-0000-0000165e5362.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/S5/C1112/P25275573/Tphoto/IDb5ac8101-0000-0500-0000-0000165e5362.jpg",
+      "https://images.egorealestate.com/Z1280x960/S5/C1112/P25275573/Tphoto/IDb5ac8101-0000-0500-0000-0000165e5364.jpg",
+      "https://images.egorealestate.com/Z1280x960/S5/C1112/P25275573/Tphoto/IDb5ac8101-0000-0500-0000-0000165e5365.jpg",
+      "https://images.egorealestate.com/Z1280x960/S5/C1112/P25275573/Tphoto/IDb5ac8101-0000-0500-0000-0000165e5366.jpg",
+      "https://images.egorealestate.com/Z1280x960/S5/C1112/P25275573/Tphoto/IDb5ac8101-0000-0500-0000-0000165e5367.jpg",
+      "https://images.egorealestate.com/Z1280x960/S5/C1112/P25275573/Tphoto/IDb5ac8101-0000-0500-0000-0000165e5368.jpg",
+      "https://images.egorealestate.com/Z1280x960/S5/C1112/P25275573/Tphoto/IDb5ac8101-0000-0500-0000-0000165e5369.jpg",
+      "https://images.egorealestate.com/Z1280x960/S5/C1112/P25275573/Tphoto/IDb5ac8101-0000-0500-0000-0000165e536a.jpg",
+      "https://images.egorealestate.com/Z1280x960/S5/C1112/P25275573/Tphoto/IDb5ac8101-0000-0500-0000-0000165e536b.jpg"
+    ],
+    "fecha_scraping": "2025-09-21T21:21:41.191648",
     "fecha_ultima_actualizacion": null
   }
 ]
