@@ -15254,12 +15254,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4136",
     "inmobiliaria": "Inmobiliaria Artrutx",
@@ -15268,7 +15268,8 @@
       "https://www.inmobiliariaartrutx.com/panel/inmuebles/4136/img/plaza parking.jpg"
     ],
     "fecha_scraping": "2025-09-02T21:44:33.936818",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-09-26T21:20:18.565385"
   },
   {
     "referencia": "4406",
@@ -54143,12 +54144,12 @@
     "habitaciones": 5,
     "banos": 4,
     "tipo": "Casa",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/magnifica-propiedad-en-el-centro-historico-mahon-menorca/90803/",
     "inmobiliaria": "Bonnin Sanso",
@@ -54186,7 +54187,8 @@
       "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:07:57.083120",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-09-26T21:20:26.059509"
   },
   {
     "referencia": "92326",
@@ -63405,12 +63407,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Casa",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/encantadora-casa-menorquina-en-el-centro-historico-en-mahon-menorca/92085/",
     "inmobiliaria": "Bonnin Sanso",
@@ -63461,7 +63463,8 @@
       "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:12:18.414158",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-09-26T21:20:26.059526"
   },
   {
     "referencia": "92087",
@@ -68800,12 +68803,12 @@
     "habitaciones": 2,
     "banos": 2,
     "tipo": "Apartamento",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/apartamento-con-vistas-panoramicas-al-mar-en-addaia-menorca/92509/",
     "inmobiliaria": "Bonnin Sanso",
@@ -68839,7 +68842,8 @@
       "https://images.bonninsanso.com/6/1/propiedades_fotos_686439_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:14:51.503532",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-09-26T21:20:26.059535"
   },
   {
     "referencia": "36793",
@@ -69937,12 +69941,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Apartamento",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/apartamento-planta-baja-en-calan-bosch-ciutadella-menorca/36817/",
     "inmobiliaria": "Bonnin Sanso",
@@ -69979,7 +69983,8 @@
       "https://images.bonninsanso.com/6/3/propiedades_fotos_687777_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:15:17.804324",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-09-26T21:20:26.059538"
   },
   {
     "referencia": "36818",
@@ -93800,12 +93805,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=837",
     "inmobiliaria": "Fincas Seminari",
@@ -93829,7 +93834,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/837/med/08"
     ],
     "fecha_scraping": "2025-09-02T22:32:50.983082",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-09-26T21:20:44.631476"
   },
   {
     "referencia": "206-114368",
@@ -96869,12 +96875,12 @@
     "habitaciones": 3,
     "banos": 1,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1319",
     "inmobiliaria": "Fincas Seminari",
@@ -96888,7 +96894,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1319/med/3"
     ],
     "fecha_scraping": "2025-09-02T22:34:10.545192",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-09-26T21:20:44.631483"
   },
   {
     "referencia": "206-102270",
@@ -98094,12 +98101,12 @@
     "habitaciones": 3,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": "PRIMERA LINIA DE MAR",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1706",
     "inmobiliaria": "Fincas Seminari",
@@ -98163,7 +98170,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1706/med/z.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:34:47.914356",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-09-26T21:20:44.631487"
   },
   {
     "referencia": "207-305866",
@@ -100569,12 +100577,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmocampsbosch.com/propiedad.php?id=98",
     "inmobiliaria": "Inmobiliaria Camps Bosch",
@@ -100590,7 +100598,8 @@
       "https://inmocampsbosch.com/panel/inmuebles/98/img/11.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:35:55.873858",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-09-26T21:20:46.076595"
   },
   {
     "referencia": "SO 025",
@@ -135646,12 +135655,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Apartamento",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": true,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://menorcasa.com/es/property/modern-apartment-with-stunning-views-in-mahon/",
     "inmobiliaria": "Menorcasa",
@@ -135698,7 +135707,8 @@
       "https://menorcasa.com/wp-content/uploads/2025/01/Mahon-45.jpg"
     ],
     "fecha_scraping": "2025-09-04T19:02:24.432734",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-09-26T21:21:28.624676"
   },
   {
     "referencia": "5050",
@@ -139131,12 +139141,12 @@
     "habitaciones": null,
     "banos": 1,
     "tipo": "Casa",
-    "estado": "EXCLUSIVA",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-4422-casa-en-el-corazon-de-ciutadella/",
     "inmobiliaria": "Inmobiliaria Palau",
@@ -139169,7 +139179,8 @@
       "https://inmobiliariapalau.com/wp-content/uploads/2025/08/IMG_3064.jpeg"
     ],
     "fecha_scraping": "2025-09-17T21:20:53.017940",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-09-26T21:20:23.450704"
   },
   {
     "referencia": "4421",
