@@ -41594,12 +41594,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/parcela-del-proyecto-de-reparcelacion-en-el-poligono-de-ciutadella/35824/",
     "inmobiliaria": "Bonnin Sanso",
@@ -41615,7 +41615,8 @@
       "https://images.bonninsanso.com/8/8/propiedades_fotos_647351_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:01:42.694381",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-09-28T21:20:01.050266"
   },
   {
     "referencia": "27194",
@@ -54728,12 +54729,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/solar-con-atractivo-proyecto-con-licencia-de-obras-en-son-parc-mercadal-menorca/36232/",
     "inmobiliaria": "Bonnin Sanso",
@@ -54756,7 +54757,8 @@
       "https://images.bonninsanso.com/9/1/zonas_fotos_28_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:08:16.337320",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-09-28T21:20:01.050302"
   },
   {
     "referencia": "90991",
@@ -56928,12 +56930,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/plaza-de-parking-en-calan-bosch-ciutadella-menorca/36315/",
     "inmobiliaria": "Bonnin Sanso",
@@ -56944,7 +56946,8 @@
       "https://images.bonninsanso.com/f/c/propiedades_fotos_625098_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:09:21.155865",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-09-28T21:20:01.050311"
   },
   {
     "referencia": "91278",
@@ -142459,6 +142462,37 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P28011705/Tphoto/IDb96cab01-0000-0500-0000-000016f8fb06.jpg"
     ],
     "fecha_scraping": "2025-09-27T21:21:24.399023",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "36315",
+    "titulo": "Garega en el corazón de Cala’n Bosch – tu solución al problema del aparcamiento, Calan Bosch, Ciutadelle, Menorca",
+    "ubicacion": "Calan Bosch",
+    "precio": 16800,
+    "metros": 14,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": null,
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/garega-en-el-corazon-de-cala-n-bosch-tu-solucion-al-problema-del-aparcamiento-calan-bosch-ciutadelle-menorca/36315/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/3/c/propiedades_fotos_701948_w120_h90_wm_1.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/3/c/propiedades_fotos_701948_w120_h90_wm_1.jpg",
+      "https://images.bonninsanso.com/4/a/propiedades_fotos_701949_w120_h90_wm_1.jpg",
+      "https://images.bonninsanso.com/2/2/propiedades_fotos_701950_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/8/8/propiedades_fotos_701951_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/f/c/propiedades_fotos_625098_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/7/6/propiedades_fotos_625097_w120_h90_wm.jpg"
+    ],
+    "fecha_scraping": "2025-09-28T21:20:03.385317",
     "fecha_ultima_actualizacion": null
   }
 ]
