@@ -72830,12 +72830,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/encantadora-casa-de-pueblo-de-dos-plantas-en-alayor-con-terraza-en-la-azotea-y-elementos-originales/92726/",
     "inmobiliaria": "Bonnin Sanso",
@@ -72871,7 +72871,8 @@
       "https://images.bonninsanso.com/f/8/propiedades_fotos_696782_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:16:43.630707",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-10-05T21:19:48.626472"
   },
   {
     "referencia": "36851",
@@ -145415,6 +145416,37 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P27063699/Tphoto/ID93f59c01-0000-0500-0000-000017129a5e.jpg"
     ],
     "fecha_scraping": "2025-10-04T21:21:29.731793",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "92819",
+    "titulo": "¿No encuentras la casa que buscas? Créala tú.!",
+    "ubicacion": "Es Mercadal; Addaia",
+    "precio": 230000,
+    "metros": null,
+    "metros_parcela": 732,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/no-encuentras-la-casa-que-buscas-creala-tu/92819/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/0/b/propiedades_fotos_702275_w120_h90_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/0/b/propiedades_fotos_702275_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/3/3/propiedades_fotos_702273_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/5/d/propiedades_fotos_702274_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/7/4/propiedades_fotos_702270_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/0/b/propiedades_fotos_702272_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/5/8/propiedades_fotos_702271_w120_h90_wm.jpg"
+    ],
+    "fecha_scraping": "2025-10-05T21:19:50.474762",
     "fecha_ultima_actualizacion": null
   }
 ]
