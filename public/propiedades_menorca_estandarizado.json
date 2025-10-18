@@ -7858,12 +7858,12 @@
     "habitaciones": 5,
     "banos": 2,
     "tipo": "Villa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/elegante-villa-en-un-entorno-rural-tranquilo-y-natural-al-final-de-un-callejon-sin-salida/",
     "inmobiliaria": "Fincas Llongas",
@@ -7926,7 +7926,8 @@
       "https://fincasllongas.com/files/a7300310-800x480.jpg?v=1697708920"
     ],
     "fecha_scraping": "2025-09-02T21:40:19.467275",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-10-18T21:20:06.926221"
   },
   {
     "referencia": "Ref. 7325",
@@ -79080,12 +79081,12 @@
     "habitaciones": 26,
     "banos": null,
     "tipo": "Edificio",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "http://www.fincasfaro.net/es/ficha/1085/",
     "inmobiliaria": "Fincas Faro",
@@ -79117,7 +79118,8 @@
       "http://www.fincasfaro.net/watermark/555362/380x380"
     ],
     "fecha_scraping": "2025-09-02T22:22:12.569370",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-10-18T21:20:22.418409"
   },
   {
     "referencia": "1467",
@@ -91583,12 +91585,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/chalet-con-vistas-al-mar-en-calan-porter/22850671",
     "inmobiliaria": "Casas en Menorca",
@@ -91597,7 +91599,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P26782735/Tphoto/ID0fac9801-0000-0500-0000-000015575f8e.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:30:57.264990",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-10-18T21:20:29.649437"
   },
   {
     "referencia": "21523708",
@@ -127920,12 +127923,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/chalet-en-punta-prima/21703934",
     "inmobiliaria": "3Villas",
@@ -127934,7 +127937,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P25587504/Tphoto/ID306f8601-0000-0500-0000-00001686b3ae.jpg"
     ],
     "fecha_scraping": "2025-09-04T18:52:15.954547",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-10-18T21:20:57.802545"
   },
   {
     "referencia": "19565199",
@@ -129901,12 +129905,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/local-comercial-en-mahon/19886276",
     "inmobiliaria": "3Villas",
@@ -129915,7 +129919,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P23013069/Tphoto/IDcd265f01-0000-0500-0000-000010400e0b.jpg"
     ],
     "fecha_scraping": "2025-09-04T18:53:50.072731",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-10-18T21:20:57.802555"
   },
   {
     "referencia": "22154269",
@@ -141971,12 +141976,12 @@
     "habitaciones": 4,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "http://www.fincasfaro.net/es/ficha/1334/",
     "inmobiliaria": "Fincas Faro",
@@ -141994,7 +141999,8 @@
       "http://www.fincasfaro.net/watermark/563610/600x600"
     ],
     "fecha_scraping": "2025-09-26T09:51:25.076893",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-10-18T21:20:22.418507"
   },
   {
     "referencia": "52845",
@@ -147644,12 +147650,12 @@
     "habitaciones": 4,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/tercer-piso-muy-amplio-en-mahon/24131248",
     "inmobiliaria": "Casas en Menorca",
@@ -147658,7 +147664,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28019433/Tphoto/IDe98aab01-0000-0500-0000-000016f978a6.jpg"
     ],
     "fecha_scraping": "2025-10-09T21:22:58.915563",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-10-18T21:20:29.649522"
   },
   {
     "referencia": "24137243",
@@ -149930,6 +149937,84 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P28267278/Tphoto/ID0e53af01-0000-0500-0000-0000174ac7f9.jpg"
     ],
     "fecha_scraping": "2025-10-17T21:22:40.917644",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "24296492",
+    "titulo": "DÚPLEX CON TERRAZA Y VISTAS AL MAR EN ARENAL D'EN CASTELL",
+    "ubicacion": "Es Mercadal; Arenal D'En Castell",
+    "precio": 1500,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": null,
+    "estado": null,
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": true,
+    "url_detalle": "https://www.saimmobiliaria.com/inmueble/duplex-con-terraza-y-vistas-al-mar-en-arenal-den-castell/24296492",
+    "inmobiliaria": "SA Inmobiliaria",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P27892646/Tphoto/IDa69ba901-0000-0500-0000-000017508278.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P27892646/Tphoto/IDa69ba901-0000-0500-0000-000017508278.jpg"
+    ],
+    "fecha_scraping": "2025-10-18T21:20:55.384789",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "24295978",
+    "titulo": "Piso en 1ª planta en Ferreries",
+    "ubicacion": "Ferreries",
+    "precio": 340000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.3villas.es/inmueble/piso-en-1-planta-en-ferreries/24295978",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P28267894/Tphoto/ID7655af01-0000-0500-0000-000017503191.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P28267894/Tphoto/ID7655af01-0000-0500-0000-000017503191.jpg"
+    ],
+    "fecha_scraping": "2025-10-18T21:20:59.365637",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "21703934",
+    "titulo": "Chalet en venta en Punta Prima",
+    "ubicacion": "Sant Lluís; Biniancolla - Punta Prima",
+    "precio": 650000,
+    "metros": 114,
+    "metros_parcela": 114,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.3villas.es/inmueble/chalet-en-venta-en-punta-prima/21703934",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P25587504/Tphoto/ID306f8601-0000-0500-0000-00001750cf6e.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P25587504/Tphoto/ID306f8601-0000-0500-0000-00001750cf6e.jpg"
+    ],
+    "fecha_scraping": "2025-10-18T21:21:01.681406",
     "fecha_ultima_actualizacion": null
   }
 ]
