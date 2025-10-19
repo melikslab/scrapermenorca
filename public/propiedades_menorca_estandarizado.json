@@ -44259,12 +44259,12 @@
     "habitaciones": null,
     "banos": 1,
     "tipo": "Local",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/interesante-propuesta-gran-local-comercial-montado-como-cafeteria-cala-canutells-menorca/28751/",
     "inmobiliaria": "Bonnin Sanso",
@@ -44280,7 +44280,8 @@
       "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:03:13.542727",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-10-19T21:20:45.569900"
   },
   {
     "referencia": "28755",
@@ -137769,12 +137770,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Apartamento",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": true,
     "url_detalle": "https://www.bonninsanso.com/es/compra/luminoso-apartamento-en-en-ubicacion-centrica-en-mahon-menorca/92750/",
     "inmobiliaria": "Bonnin Sanso",
@@ -137800,7 +137801,8 @@
       "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-11T21:21:03.735350",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-10-19T21:20:45.570045"
   },
   {
     "referencia": "8304",
