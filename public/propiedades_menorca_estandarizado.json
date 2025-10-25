@@ -8382,12 +8382,12 @@
     "habitaciones": 12,
     "banos": 12,
     "tipo": "Finca",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/predio-de-agroturismo-con-gran-encanto/",
     "inmobiliaria": "Fincas Llongas",
@@ -8430,7 +8430,8 @@
       "https://fincasllongas.com/files/a7309147-800x480.jpg?v=1687966384"
     ],
     "fecha_scraping": "2025-09-02T21:40:31.929656",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-10-25T21:21:14.471755"
   },
   {
     "referencia": "Ref. 7292",
@@ -56602,12 +56603,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Villa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/preciosa-villa-de-una-sola-planta-en-son-parc-menorca/91229/",
     "inmobiliaria": "Bonnin Sanso",
@@ -56653,7 +56654,8 @@
       "https://images.bonninsanso.com/9/1/zonas_fotos_28_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:09:13.828646",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-10-25T21:21:27.979742"
   },
   {
     "referencia": "91245",
@@ -90932,12 +90934,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Apartamento",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/apartamento-con-licencia-en-sol-del-este/23225826",
     "inmobiliaria": "Casas en Menorca",
@@ -90946,7 +90948,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P27215740/Tphoto/ID7c479f01-0000-0500-0000-000015e1a3a2.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:30:25.310914",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-10-25T21:21:42.190104"
   },
   {
     "referencia": "20688311",
@@ -151731,6 +151734,84 @@
       "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4786/22131248.jpg"
     ],
     "fecha_scraping": "2025-10-24T21:23:08.537381",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "Ref. 7657",
+    "titulo": "Solar urbano en venta en Ciutadella",
+    "ubicacion": "Ciutadella",
+    "precio": 2625000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Solar",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://fincasllongas.com/propiedad/solar-urbano-en-venta-en-ciutadella/",
+    "inmobiliaria": "Fincas Llongas",
+    "imagen_destacada": "https://fincasllongas.com/files/8ef1278a-a2db-4888-833c-c1a3e9296529-6-800x480.jpg?v=1756544168",
+    "galeria": [
+      "https://fincasllongas.com/files/8ef1278a-a2db-4888-833c-c1a3e9296529-6-800x480.jpg?v=1756544168"
+    ],
+    "fecha_scraping": "2025-10-25T21:21:16.127076",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "24408977",
+    "titulo": "CASA EN ALTOS CON GRAN TERRAZA EN ES CASTELL",
+    "ubicacion": "Es Castell",
+    "precio": 370000,
+    "metros": 100,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.saimmobiliaria.com/inmueble/casa-en-altos-con-gran-terraza-en-es-castell/24408977",
+    "inmobiliaria": "SA Inmobiliaria",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P28535012/Tphoto/IDe468b301-0000-0500-0000-0000176fffdd.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P28535012/Tphoto/IDe468b301-0000-0500-0000-0000176fffdd.jpg"
+    ],
+    "fecha_scraping": "2025-10-25T21:22:06.596712",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "24407897",
+    "titulo": "Acogedor apartamento en planta baja en Mahón",
+    "ubicacion": "Maó",
+    "precio": 265000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Apartamento",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.3villas.es/inmueble/acogedor-apartamento-en-planta-baja-en-mahon/24407897",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P28533748/Tphoto/IDf463b301-0000-0500-0000-0000176fdfa4.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P28533748/Tphoto/IDf463b301-0000-0500-0000-0000176fdfa4.jpg"
+    ],
+    "fecha_scraping": "2025-10-25T21:22:10.944984",
     "fecha_ultima_actualizacion": null
   }
 ]
