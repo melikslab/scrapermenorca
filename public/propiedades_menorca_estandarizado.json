@@ -46625,12 +46625,12 @@
     "habitaciones": 3,
     "banos": 1,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/casa-situada-en-pleno-centro-de-mahon-menorca/29372/",
     "inmobiliaria": "Bonnin Sanso",
@@ -46676,7 +46676,8 @@
       "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:04:17.873035",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-10-26T21:21:16.674815"
   },
   {
     "referencia": "29444",
@@ -71471,12 +71472,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Piso",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/piso-en-tercera-planta-con-parking-y-ascensor-mahon-menorca/92639/",
     "inmobiliaria": "Bonnin Sanso",
@@ -71509,7 +71510,8 @@
       "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:15:57.645126",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-10-26T21:21:16.674849"
   },
   {
     "referencia": "92642",
@@ -95338,19 +95340,20 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=659",
     "inmobiliaria": "Fincas Seminari",
     "imagen_destacada": "",
     "galeria": [],
     "fecha_scraping": "2025-09-02T22:33:27.870191",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-10-26T21:21:33.737385"
   },
   {
     "referencia": "206-098225",
@@ -95956,19 +95959,20 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1350",
     "inmobiliaria": "Fincas Seminari",
     "imagen_destacada": "",
     "galeria": [],
     "fecha_scraping": "2025-09-02T22:33:42.110532",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-10-26T21:21:33.737389"
   },
   {
     "referencia": "201-677250",
