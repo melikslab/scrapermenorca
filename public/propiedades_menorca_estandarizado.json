@@ -130271,12 +130271,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/encantadora-casa-costera-con-vistas-en-es-grao/22948822",
     "inmobiliaria": "3Villas",
@@ -130285,7 +130285,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P26558825/Tphoto/ID69419501-0000-0500-0000-0000157b15b3.jpg"
     ],
     "fecha_scraping": "2025-09-04T18:54:03.577632",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-11-01T21:20:40.706419"
   },
   {
     "referencia": "20948659",
@@ -153500,6 +153501,32 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P28587455/Tphoto/IDbf35b401-0000-0500-0000-000017812b3f.jpg"
     ],
     "fecha_scraping": "2025-10-31T21:21:42.683430",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "22948822",
+    "titulo": "Encantadora casa costera con vistas en Es Grau",
+    "ubicacion": "Maó; Es Grau - Serra Morena",
+    "precio": 765000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.3villas.es/inmueble/encantadora-casa-costera-con-vistas-en-es-grau/22948822",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P26558825/Tphoto/ID69419501-0000-0500-0000-0000157b15b5.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P26558825/Tphoto/ID69419501-0000-0500-0000-0000157b15b5.jpg"
+    ],
+    "fecha_scraping": "2025-11-01T21:20:42.565635",
     "fecha_ultima_actualizacion": null
   }
 ]
