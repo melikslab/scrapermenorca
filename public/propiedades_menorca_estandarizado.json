@@ -92413,12 +92413,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/cuarto-piso-con-vistas-al-mar-en-es-castell/23610275",
     "inmobiliaria": "Casas en Menorca",
@@ -92427,7 +92427,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P27644355/Tphoto/IDc3d1a501-0000-0500-0000-00001672d8ca.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:31:31.684220",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-11-08T21:20:54.519652"
   },
   {
     "referencia": "23495133",
@@ -92647,12 +92648,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-menorquina-con-gran-terraza-privada-en-el-centro-de-mahon/20684894",
     "inmobiliaria": "Casas en Menorca",
@@ -92661,7 +92662,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24200280/Tphoto/ID58447101-0000-0500-0000-00001365d732.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:31:42.754648",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-11-08T21:20:54.519658"
   },
   {
     "referencia": "21665217",
@@ -155787,6 +155789,32 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28648564/Tphoto/ID7424b501-0000-0500-0000-000017929987.jpg"
     ],
     "fecha_scraping": "2025-11-07T21:19:57.392452",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "24518290",
+    "titulo": "Chalet con licencia turística en venta en Cala Llonga",
+    "ubicacion": "Maó; Cala Llonga - Sa Mesquida",
+    "precio": 495000,
+    "metros": 1000,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/chalet-con-licencia-turistica-en-venta-en-cala-llonga/24518290",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28665973/Tphoto/ID7568b501-0000-0500-0000-00001795f118.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28665973/Tphoto/ID7568b501-0000-0500-0000-00001795f118.jpg"
+    ],
+    "fecha_scraping": "2025-11-08T21:20:56.048928",
     "fecha_ultima_actualizacion": null
   }
 ]
