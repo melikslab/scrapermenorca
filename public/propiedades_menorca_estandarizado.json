@@ -66085,12 +66085,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/encantadora-casa-con-vista-al-mar-calan-porter-menorca/92334/",
     "inmobiliaria": "Bonnin Sanso",
@@ -66121,7 +66121,8 @@
       "https://images.bonninsanso.com/b/9/propiedades_fotos_683023_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:13:33.973109",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-11-16T21:21:46.062477"
   },
   {
     "referencia": "92337",
