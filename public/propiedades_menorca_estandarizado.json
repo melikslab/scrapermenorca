@@ -92189,12 +92189,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Apartamento",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/apartamento-cerca-del-mar-en-calan-blanes/21603106",
     "inmobiliaria": "Casas en Menorca",
@@ -92203,7 +92203,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P25458353/Tphoto/IDb1768401-0000-0500-0000-000014084b4e.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:31:19.419694",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-11-22T21:22:16.204935"
   },
   {
     "referencia": "20688273",
@@ -150219,12 +150220,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": null,
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": true,
     "url_detalle": "https://www.saimmobiliaria.com/inmueble/duplex-con-terraza-y-vistas-al-mar-en-arenal-den-castell/24296492",
     "inmobiliaria": "SA Inmobiliaria",
@@ -150233,7 +150234,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P27892646/Tphoto/IDa69ba901-0000-0500-0000-000017508278.jpg"
     ],
     "fecha_scraping": "2025-10-18T21:20:55.384789",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-11-22T21:22:40.370072"
   },
   {
     "referencia": "24295978",
@@ -160207,6 +160209,58 @@
       "https://media.mobiliagestion.es/Portals/inmofinquestorres/Images/1359/15693008-large.jpg"
     ],
     "fecha_scraping": "2025-11-21T21:23:46.543767",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "24623426",
+    "titulo": "Apartamento con vistas y licencia en Arenal d'en Castell",
+    "ubicacion": "Es Mercadal; Arenal D'En Castell",
+    "precio": 285000,
+    "metros": 6,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Apartamento",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/apartamento-con-vistas-y-licencia-en-arenal-den-castell/24623426",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28790225/Tphoto/IDd14db701-0000-0500-0000-000017bea68e.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28790225/Tphoto/IDd14db701-0000-0500-0000-000017bea68e.jpg"
+    ],
+    "fecha_scraping": "2025-11-22T21:22:17.864527",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "24623762",
+    "titulo": "Casa entera con garaje en Alaior",
+    "ubicacion": "Alaior",
+    "precio": 425000,
+    "metros": 150,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": false,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-entera-con-garaje-en-alaior/24623762",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28790606/Tphoto/ID4e4fb701-0000-0500-0000-000017bec484.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28790606/Tphoto/ID4e4fb701-0000-0500-0000-000017bec484.jpg"
+    ],
+    "fecha_scraping": "2025-11-22T21:22:19.935607",
     "fecha_ultima_actualizacion": null
   }
 ]
