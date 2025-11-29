@@ -7418,12 +7418,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/45168-2/",
     "inmobiliaria": "Fincas Llongas",
@@ -7442,7 +7442,8 @@
       "https://fincasllongas.com/files/a7300780-800x480.jpg?v=1701362491"
     ],
     "fecha_scraping": "2025-09-02T21:40:07.359751",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-11-29T21:22:35.387464"
   },
   {
     "referencia": "Ref. 7349",
@@ -44832,12 +44833,12 @@
     "habitaciones": null,
     "banos": 2,
     "tipo": "Local",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/local-comercial-en-son-bou-menorca/90612/",
     "inmobiliaria": "Bonnin Sanso",
@@ -44863,7 +44864,8 @@
       "https://images.bonninsanso.com/0/a/propiedades_fotos_600596_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:03:28.251260",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-11-29T21:22:46.379142"
   },
   {
     "referencia": "92683",
@@ -126215,12 +126217,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/chalet-en-venta-con-licencia-turistica-en-binibeca-nou/20624067",
     "inmobiliaria": "3Villas",
@@ -126229,7 +126231,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P24134542/Tphoto/ID8e437001-0000-0500-0000-000011ccd381.jpg"
     ],
     "fecha_scraping": "2025-09-04T18:50:44.566418",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-11-29T21:23:38.210728"
   },
   {
     "referencia": "21389342",
@@ -127550,12 +127553,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/restaurante-en-puerto-de-mahon/19973686",
     "inmobiliaria": "3Villas",
@@ -127564,7 +127567,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P23226465/Tphoto/ID61686201-0000-0500-0000-00001086c0a9.jpg"
     ],
     "fecha_scraping": "2025-09-04T18:51:46.663708",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-11-29T21:23:38.210735"
   },
   {
     "referencia": "23645148",
@@ -157419,12 +157423,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/se-vende-segundo-piso-en-excelente-estado-en-el-centro-de-mahon/24332753",
     "inmobiliaria": "3Villas",
@@ -157433,7 +157437,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P28130609/Tphoto/ID313dad01-0000-0500-0000-000017a32d84.jpg"
     ],
     "fecha_scraping": "2025-11-12T21:25:39.915809",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-11-29T21:23:38.210786"
   },
   {
     "referencia": "Ref. 7672",
@@ -160806,12 +160811,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/plaza-de-garaje-doble-en-parking-comunitario/93001/",
     "inmobiliaria": "Bonnin Sanso",
@@ -160825,7 +160830,8 @@
       "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-11-25T21:24:26.574736",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-11-29T21:22:46.379319"
   },
   {
     "referencia": "2061",
@@ -161781,6 +161787,146 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28838718/Tphoto/ID3e0bb801-0000-0500-0000-000017d08295.jpg"
     ],
     "fecha_scraping": "2025-11-28T21:23:38.137239",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "93001",
+    "titulo": "Plaza de garaje doble en parking comunitario, Mahón, Menorca",
+    "ubicacion": "Maó",
+    "precio": 30000,
+    "metros": 20,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Garaje",
+    "estado": "",
+    "piscina": false,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/plaza-de-garaje-doble-en-parking-comunitario-mahon-menorca/93001/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/c/c/propiedades_fotos_706652_w120_h90_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/c/c/propiedades_fotos_706652_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/1/d/propiedades_fotos_706661_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/c/7/propiedades_fotos_706657_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/9/8/propiedades_fotos_706650_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/0/8/propiedades_fotos_706656_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
+    ],
+    "fecha_scraping": "2025-11-29T21:22:48.656374",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "8329",
+    "titulo": "PISO CON TERRAZA",
+    "ubicacion": "Ciutadella",
+    "precio": 241500,
+    "metros": 65,
+    "metros_parcela": null,
+    "habitaciones": 1,
+    "banos": 1,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": true,
+    "garaje": true,
+    "ascensor": true,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.enprimeralinea.immo/piso-en-ciutadella-de-menorca-con-ascensor-es1673450.html",
+    "inmobiliaria": "En Primera Linea",
+    "imagen_destacada": "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1673450/image/a56fc4c8-44a4-447e-bccf-d9ff1a48b495.jpg?v=20251128121205127",
+    "galeria": [
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1673450/image/a56fc4c8-44a4-447e-bccf-d9ff1a48b495.jpg?v=20251128121205127",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1673450/image/thumb/585_335/a56fc4c8-44a4-447e-bccf-d9ff1a48b495.jpg?20251128121205127",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1658923/image/thumb/585_335/post-de-instagram-vertical-inmobiliaria-pisos-elegante-verde-beige-a4-horizontal.jpg",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1653045/image/thumb/585_335/WhatsApp%20Image%202025-10-09%20at%2010.48.37.jpg",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1646117/image/thumb/585_335/WhatsApp%20Image%202025-09-22%20at%2010.25.55.jpg",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1612555/image/thumb/585_335/img_9018.jpg"
+    ],
+    "fecha_scraping": "2025-11-29T21:23:03.246327",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "8330",
+    "titulo": null,
+    "ubicacion": "Ciutadella",
+    "precio": 320000,
+    "metros": 90,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 1,
+    "tipo": null,
+    "estado": null,
+    "piscina": true,
+    "garaje": true,
+    "ascensor": true,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.enprimeralinea.immo/apartamento-en-ciutadella-de-menorca-es1673459.html",
+    "inmobiliaria": "En Primera Linea",
+    "imagen_destacada": "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1639630/image/thumb/585_335/WhatsApp%20Image%202025-09-01%20at%2012.17.24%20%281%29.jpg",
+    "galeria": [
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1639630/image/thumb/585_335/WhatsApp%20Image%202025-09-01%20at%2012.17.24%20%281%29.jpg"
+    ],
+    "fecha_scraping": "2025-11-29T21:23:05.846510",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "24675643",
+    "titulo": "Apartamento en primera línea de mar en Macaret",
+    "ubicacion": "Es Mercadal; Na Macaret",
+    "precio": 350000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Apartamento",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/apartamento-en-primera-linea-de-mar-en-macaret/24675643",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28846658/Tphoto/ID422ab801-0000-0500-0000-000017d341d1.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28846658/Tphoto/ID422ab801-0000-0500-0000-000017d341d1.jpg"
+    ],
+    "fecha_scraping": "2025-11-29T21:23:13.236399",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "19400377",
+    "titulo": "Casa en centro de Ferreries",
+    "ubicacion": "Ferreries",
+    "precio": 1300,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": true,
+    "url_detalle": "https://www.3villas.es/inmueble/casa-en-centro-de-ferreries/19400377",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P22336368/Tphoto/ID70d35401-0000-0500-0000-00000f65fcc2.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P22336368/Tphoto/ID70d35401-0000-0500-0000-00000f65fcc2.jpg"
+    ],
+    "fecha_scraping": "2025-11-29T21:23:40.274808",
     "fecha_ultima_actualizacion": null
   }
 ]
