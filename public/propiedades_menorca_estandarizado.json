@@ -57477,12 +57477,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/casa-adosada-con-terreno-en-el-corazon-de-sant-lluis-menorca/91373/",
     "inmobiliaria": "Bonnin Sanso",
@@ -57523,7 +57523,8 @@
       "https://images.bonninsanso.com/a/1/propiedades_fotos_630165_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:09:34.516087",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-11-30T21:22:25.544270"
   },
   {
     "referencia": "91821",
@@ -73374,12 +73375,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/casa-reformada-en-el-casco-antiguo-ciutadella-menorca/36864/",
     "inmobiliaria": "Bonnin Sanso",
@@ -73413,7 +73414,8 @@
       "https://images.bonninsanso.com/6/7/propiedades_fotos_696382_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:16:56.263038",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-11-30T21:22:25.544293"
   },
   {
     "referencia": "92749",
