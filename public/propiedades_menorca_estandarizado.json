@@ -48900,12 +48900,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/casa-de-pueblo-en-primera-planta-recien-reformada-con-2-terrazas-en-mahon-menorca/29805/",
     "inmobiliaria": "Bonnin Sanso",
@@ -48940,7 +48940,8 @@
       "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:05:36.867438",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-01T21:22:22.587894"
   },
   {
     "referencia": "92699",
@@ -56907,12 +56908,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Villa",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/propiedad-de-primera-calidad-en-la-costa-sur-de-menorca-con-vistas-al-mar-disfrute-del-maravilloso-puesto-de-sol-en-una-ubicacion-privilegiada/91258/",
     "inmobiliaria": "Bonnin Sanso",
@@ -56989,7 +56990,8 @@
       "https://images.bonninsanso.com/f/7/propiedades_fotos_633272_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:09:18.225414",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-01T21:22:22.587908"
   },
   {
     "referencia": "91263",
@@ -68907,12 +68909,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Chalet",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/bungalow-en-cap-d-artrutx-ciutadella-menorca/36783/",
     "inmobiliaria": "Bonnin Sanso",
@@ -68929,7 +68931,8 @@
       "https://images.bonninsanso.com/3/f/propiedades_fotos_685651_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:14:48.494366",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-01T21:22:22.587923"
   },
   {
     "referencia": "92506",
@@ -70175,12 +70178,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Ático",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/atico-duplex-en-pleno-casco-antiguo-de-ciutadella-menorca/36818/",
     "inmobiliaria": "Bonnin Sanso",
@@ -70215,7 +70218,8 @@
       "https://images.bonninsanso.com/8/6/propiedades_fotos_686607_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:15:19.191055",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-01T21:22:22.587927"
   },
   {
     "referencia": "92558",
@@ -70570,12 +70574,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Piso",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/vivienda-luminosa-con-vistas-al-mar-en-una-de-las-zonas-mas-exclusivas-de-ciutadella-menorca/36825/",
     "inmobiliaria": "Bonnin Sanso",
@@ -70606,7 +70610,8 @@
       "https://images.bonninsanso.com/f/2/propiedades_fotos_695092_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:15:29.465742",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-01T21:22:22.587930"
   },
   {
     "referencia": "36826",
@@ -71306,12 +71311,12 @@
     "habitaciones": 3,
     "banos": 1,
     "tipo": "Piso",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/exclusiva-propiedad-en-planta-baja-en-mahon-menorca/92631/",
     "inmobiliaria": "Bonnin Sanso",
@@ -71346,7 +71351,8 @@
       "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:15:50.333554",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-01T21:22:22.587933"
   },
   {
     "referencia": "92632",
@@ -72480,12 +72486,12 @@
     "habitaciones": 5,
     "banos": 3,
     "tipo": "Villa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/un-oasis-menorquin-a-solo-minutos-de-sant-lluis-menorca/92716/",
     "inmobiliaria": "Bonnin Sanso",
@@ -72532,7 +72538,8 @@
       "https://images.bonninsanso.com/d/e/propiedades_fotos_694925_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:16:23.690185",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-01T21:22:22.587936"
   },
   {
     "referencia": "92717",
@@ -73485,12 +73492,12 @@
     "habitaciones": 3,
     "banos": 3,
     "tipo": "Apartamento",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/nuevo-formato-de-venta-en-copropiedad-en-fornells-menorca/92759/",
     "inmobiliaria": "Bonnin Sanso",
@@ -73514,7 +73521,8 @@
       "https://images.bonninsanso.com/c/d/propiedades_fotos_696432_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:16:59.781183",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-01T21:22:22.587940"
   },
   {
     "referencia": "92771",
@@ -160970,12 +160978,12 @@
     "habitaciones": 1,
     "banos": 1,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/oportunidad-bonito-piso-en-venta-con-ascensor-parking-y-trastero-en-ciutadella-2/",
     "inmobiliaria": "Fincas Llongas",
@@ -160984,7 +160992,8 @@
       "https://fincasllongas.com/files/8ef1278a-a2db-4888-833c-c1a3e9296529-6-1024x576-1-800x480.jpg?v=1763979998"
     ],
     "fecha_scraping": "2025-11-26T21:23:12.973007",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-01T21:22:12.300249"
   },
   {
     "referencia": "4451",
