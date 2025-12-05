@@ -8276,12 +8276,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/chalet-adosado-en-primera-linea-de-mar/",
     "inmobiliaria": "Fincas Llongas",
@@ -8335,7 +8335,8 @@
       "https://fincasllongas.com/files/plano3-800x480.jpg?v=1689150945"
     ],
     "fecha_scraping": "2025-09-02T21:40:29.283746",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-05T21:24:49.166827"
   },
   {
     "referencia": "Ref. 7296",
@@ -64048,12 +64049,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/en-construccion-chalet-en-sa-caleta-ciutadella-menorca/36652/",
     "inmobiliaria": "Bonnin Sanso",
@@ -64075,7 +64076,8 @@
       "https://images.bonninsanso.com/6/9/propiedades_fotos_667416_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:12:31.230840",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-05T21:25:04.999360"
   },
   {
     "referencia": "92146",
@@ -139065,12 +139067,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.saimmobiliaria.com/inmueble/planta-baja-con-patio-en-es-castell/23767817",
     "inmobiliaria": "SA Inmobiliaria",
@@ -139079,7 +139081,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P27809079/Tphoto/ID3755a801-0000-0500-0000-000016b8ae4f.jpg"
     ],
     "fecha_scraping": "2025-09-13T21:21:11.623986",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-05T21:25:43.270113"
   },
   {
     "referencia": "23536152",
