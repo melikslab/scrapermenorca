@@ -59138,12 +59138,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/encantadora-casa-de-pueblo-reformada-con-patio-mahon-menorca/91623/",
     "inmobiliaria": "Bonnin Sanso",
@@ -59196,7 +59196,8 @@
       "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:10:19.080966",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-06T21:22:29.074868"
   },
   {
     "referencia": "91629",
@@ -93634,12 +93635,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-menorquina-entera-en-alaior/23671072",
     "inmobiliaria": "Casas en Menorca",
@@ -93648,7 +93649,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P27708184/Tphoto/ID18cba601-0000-0500-0000-0000168f8625.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:32:24.569595",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-06T21:22:42.291899"
   },
   {
     "referencia": "23692511",
@@ -162932,6 +162934,58 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P28860967/Tphoto/ID2762b801-0000-0500-0000-000017d7b559.jpg"
     ],
     "fecha_scraping": "2025-12-04T21:27:17.972842",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "24727956",
+    "titulo": "Apartamento con piscina y licencia en Cala'n Blanes",
+    "ubicacion": "Ciutadella; Cala En Blanes",
+    "precio": 270000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Apartamento",
+    "estado": null,
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/apartamento-con-piscina-y-licencia-en-calan-blanes/24727956",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28902529/Tphoto/ID8104b901-0000-0500-0000-000017e27c88.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28902529/Tphoto/ID8104b901-0000-0500-0000-000017e27c88.jpg"
+    ],
+    "fecha_scraping": "2025-12-06T21:22:44.470287",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "24729290",
+    "titulo": "Primer piso para reformar en Ciutadella",
+    "ubicacion": "Ciutadella",
+    "precio": 231000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/primer-piso-para-reformar-en-ciutadella/24729290",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28904001/Tphoto/ID410ab901-0000-0500-0000-000017e2d6fc.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28904001/Tphoto/ID410ab901-0000-0500-0000-000017e2d6fc.jpg"
+    ],
+    "fecha_scraping": "2025-12-06T21:22:46.819290",
     "fecha_ultima_actualizacion": null
   }
 ]
