@@ -43930,12 +43930,12 @@
     "habitaciones": 5,
     "banos": null,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/casa-con-local-en-pleno-funcionamiento-y-jardin-en-la-bajada-al-puerto-antiguo-de-ciutadella-menorca/35295/",
     "inmobiliaria": "Bonnin Sanso",
@@ -43959,7 +43959,8 @@
       "https://images.bonninsanso.com/c/f/propiedades_fotos_660059_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:03:02.131114",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-08T21:22:29.601710"
   },
   {
     "referencia": "35302",
