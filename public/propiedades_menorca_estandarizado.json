@@ -301,12 +301,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Apartamento",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/apartamento-con-terraza-privada-piscina-comutiaria-y-acceso-directo-al-mar-en-cala-morell/",
     "inmobiliaria": "Fincas Llongas",
@@ -331,7 +331,8 @@
       "https://fincasllongas.com/files/dsc08054-hdr-800x480.jpg?v=1755855814"
     ],
     "fecha_scraping": "2025-09-02T21:36:47.022744",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-09T21:23:51.510232"
   },
   {
     "referencia": "Ref. 7620",
@@ -14515,12 +14516,12 @@
     "habitaciones": 2,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4180",
     "inmobiliaria": "Inmobiliaria Artrutx",
@@ -14545,7 +14546,8 @@
       "https://www.inmobiliariaartrutx.com/panel/inmuebles/4180/img/17.jpg"
     ],
     "fecha_scraping": "2025-09-02T21:44:02.786200",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-09T21:23:53.365349"
   },
   {
     "referencia": "4652",
@@ -66079,12 +66081,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/encantadora-casa-de-pueblo-en-el-centro-de-alayor-menorca/92314/",
     "inmobiliaria": "Bonnin Sanso",
@@ -66124,7 +66126,8 @@
       "https://images.bonninsanso.com/3/9/propiedades_fotos_678115_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:13:32.535019",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-09T21:24:07.443863"
   },
   {
     "referencia": "92334",
@@ -150556,12 +150559,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Piso",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/exclusiva-piso-clasico-y-luminoso-en-mahon-con-terrazas-y-trasteros/92748/",
     "inmobiliaria": "Bonnin Sanso",
@@ -150584,7 +150587,8 @@
       "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-10-21T21:23:18.125858",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-09T21:24:07.443990"
   },
   {
     "referencia": "36929",
@@ -152128,12 +152132,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Piso",
-    "estado": "EXCLUSIVA",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-4439-exclusivo-piso-en-preciosa-zona-de-ciutadella/",
     "inmobiliaria": "Inmobiliaria Palau",
@@ -152172,7 +152176,8 @@
       "https://inmobiliariapalau.com/wp-content/uploads/2025/09/unnamed-7.png"
     ],
     "fecha_scraping": "2025-10-27T21:21:53.962399",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-09T21:24:02.476032"
   },
   {
     "referencia": "36921",
@@ -152805,12 +152810,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/encantador-chalet-en-son-carrio-tranquilidad-y-comodidad-en-un-solo-lugar-2/",
     "inmobiliaria": "Fincas Llongas",
@@ -152819,7 +152824,8 @@
       "https://fincasllongas.com/files/8ef1278a-a2db-4888-833c-c1a3e9296529-6-800x480.jpg?v=1756544168"
     ],
     "fecha_scraping": "2025-10-30T21:22:29.258965",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-09T21:23:51.510465"
   },
   {
     "referencia": "33965",
@@ -162987,6 +162993,137 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28904001/Tphoto/ID410ab901-0000-0500-0000-000017e2d6fc.jpg"
     ],
     "fecha_scraping": "2025-12-06T21:22:46.819290",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4873",
+    "titulo": "2º PISO CON ASCENSOR",
+    "ubicacion": "Ciutadella",
+    "precio": 325500,
+    "metros": 66,
+    "metros_parcela": null,
+    "habitaciones": 2,
+    "banos": 2,
+    "tipo": "Piso",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": true,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4385",
+    "inmobiliaria": "Inmobiliaria Artrutx",
+    "imagen_destacada": "https://www.inmobiliariaartrutx.com/panel/inmuebles/4385/img/01.jpg",
+    "galeria": [
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4385/img/01.jpg"
+    ],
+    "fecha_scraping": "2025-12-09T21:23:54.705011",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4874",
+    "titulo": "ÁTICO CON TERRAZAS",
+    "ubicacion": "Ciutadella",
+    "precio": 408450,
+    "metros": 68,
+    "metros_parcela": null,
+    "habitaciones": 2,
+    "banos": 2,
+    "tipo": "Ático",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": true,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4386",
+    "inmobiliaria": "Inmobiliaria Artrutx",
+    "imagen_destacada": "https://www.inmobiliariaartrutx.com/panel/inmuebles/4386/img/01.jpg",
+    "galeria": [
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4386/img/01.jpg"
+    ],
+    "fecha_scraping": "2025-12-09T21:23:56.612534",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4452",
+    "titulo": "BARCAFETERÍA LLAVE",
+    "ubicacion": "Mano Listo Para Abrir",
+    "precio": 100000,
+    "metros": 70,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": 2,
+    "tipo": "Local",
+    "estado": "EXCLUSIVA",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-4452-bar-cafeteria-llave-en-mano-listo-para-abrir/",
+    "inmobiliaria": "Inmobiliaria Palau",
+    "imagen_destacada": "https://inmobiliariapalau.com/wp-content/uploads/2025/12/Gemini_Generated_Image_7ef5wv7ef5wv7ef5-1024x585.png",
+    "galeria": [
+      "https://inmobiliariapalau.com/wp-content/uploads/2025/12/Gemini_Generated_Image_7ef5wv7ef5wv7ef5-1024x585.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2025/12/Gemini_Generated_Image_cdvtrtcdvtrtcdvt-1024x585.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2025/12/Gemini_Generated_Image_hxzbljhxzbljhxzb-1024x585.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2025/12/Gemini_Generated_Image_otdmthotdmthotdm-1024x585.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2024/02/twitter_X.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2025/11/Ref.-4451-Fotos-retocadas-ia-32.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2025/11/unnamed-10.jpg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2025/11/ChatGPT-Image-18-nov-2025-16_05_09.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2025/11/ChatGPT-Image-17-nov-2025-20_39_42.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2025/11/WhatsApp-Image-2025-10-31-at-20.01.11-1.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2025/11/WhatsApp-Image-2025-10-10-at-13.32.44.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2025/11/Imagen-de-WhatsApp-2025-11-17-a-las-12.32.04_f9cccde2.jpg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2025/11/Ref.-4445-Fotografias-1.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2025/11/604a0491-0004200846.jpg"
+    ],
+    "fecha_scraping": "2025-12-09T21:24:04.142849",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "92748",
+    "titulo": "Exclusiva: Piso clásico y luminoso en Mahón con terrazas y trasteros, Menorca",
+    "ubicacion": "Maó",
+    "precio": 277000,
+    "metros": 95,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 2,
+    "tipo": "Piso",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/exclusiva-piso-clasico-y-luminoso-en-mahon-con-terrazas-y-trasteros-menorca/92748/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/b/c/propiedades_fotos_696452_w120_h90_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/b/c/propiedades_fotos_696452_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/1/3/propiedades_fotos_696443_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/7/d/propiedades_fotos_696439_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/f/2/propiedades_fotos_696450_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/0/0/propiedades_fotos_696451_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/2/9/propiedades_fotos_696447_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/f/f/propiedades_fotos_696440_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/d/f/propiedades_fotos_696444_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/0/d/propiedades_fotos_696441_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/a/6/propiedades_fotos_696433_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/1/5/propiedades_fotos_696434_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/4/d/propiedades_fotos_696436_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/1/2/propiedades_fotos_696454_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/7/0/propiedades_fotos_696455_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
+    ],
+    "fecha_scraping": "2025-12-09T21:24:10.642494",
     "fecha_ultima_actualizacion": null
   }
 ]
