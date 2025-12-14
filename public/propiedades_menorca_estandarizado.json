@@ -150037,12 +150037,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/vivienda-unifamiliar-en-ferreries/24265884",
     "inmobiliaria": "3Villas",
@@ -150051,7 +150051,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P28309564/Tphoto/ID3cf8af01-0000-0500-0000-00001733f8cb.jpg"
     ],
     "fecha_scraping": "2025-10-16T21:22:24.123948",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-14T21:24:51.471337"
   },
   {
     "referencia": "24266636",
@@ -163886,6 +163887,37 @@
       "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4835/22928459.jpg"
     ],
     "fecha_scraping": "2025-12-13T21:23:33.381653",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "8332",
+    "titulo": "PISO CÉNTRICO",
+    "ubicacion": "Ciutadella",
+    "precio": 265000,
+    "metros": 100,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 1,
+    "tipo": "Piso",
+    "estado": "EXCLUSIVA",
+    "piscina": true,
+    "garaje": true,
+    "ascensor": true,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.enprimeralinea.immo/piso-en-ciutadella-de-menorca-es1679266.html",
+    "inmobiliaria": "En Primera Linea",
+    "imagen_destacada": "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1679266/image/img_0728.jpg?v=20251212103852130",
+    "galeria": [
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1679266/image/img_0728.jpg?v=20251212103852130",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1679266/image/thumb/585_335/img_0728.jpg?20251212103852130",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1646117/image/thumb/585_335/WhatsApp%20Image%202025-09-22%20at%2010.25.55.jpg",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1646106/image/thumb/585_335/WhatsApp%20Image%202025-09-22%20at%2010.22.39%20%281%29-2.jpg",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1656690/image/thumb/585_335/WhatsApp%20Image%202025-10-17%20at%2010.09.45.jpg",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1646753/image/thumb/585_335/img_0213.jpg"
+    ],
+    "fecha_scraping": "2025-12-14T21:24:23.727907",
     "fecha_ultima_actualizacion": null
   }
 ]
