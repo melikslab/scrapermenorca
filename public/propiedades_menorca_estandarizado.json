@@ -91164,12 +91164,12 @@
     "habitaciones": 4,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/amplio-piso-con-ascensor-en-el-centro-de-ciutadella/20688311",
     "inmobiliaria": "Casas en Menorca",
@@ -91178,7 +91178,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24202516/Tphoto/ID144d7101-0000-0500-0000-000011edfc28.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:30:26.564884",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-24T21:25:16.266331"
   },
   {
     "referencia": "20688350",
@@ -93400,12 +93401,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Apartamento",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/apartamento-con-piscina-en-calan-bosch/23625589",
     "inmobiliaria": "Casas en Menorca",
@@ -93414,7 +93415,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P27660181/Tphoto/ID950fa601-0000-0500-0000-00001692acad.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:32:11.005076",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-24T21:25:16.266342"
   },
   {
     "referencia": "23296003",
@@ -119165,12 +119167,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Edificio",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": true,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.saimmobiliaria.com/inmueble/edificio-con-vistas-a-cales-fonts/22814758",
     "inmobiliaria": "SA Inmobiliaria",
@@ -119179,7 +119181,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P26659913/Tphoto/ID49cc9601-0000-0500-0000-0000154cabaf.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:45:42.732715",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-24T21:25:41.350375"
   },
   {
     "referencia": "23112536",
@@ -136800,12 +136803,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/en-exclusiva-luminoso-piso-con-terraza-y-parking-en-mahon/23765396",
     "inmobiliaria": "Casas en Menorca",
@@ -136814,7 +136817,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P27809257/Tphoto/IDe955a801-0000-0500-0000-000016b7ceec.jpg"
     ],
     "fecha_scraping": "2025-09-05T04:12:06.006926",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-24T21:25:16.266422"
   },
   {
     "referencia": "23776269",
@@ -166635,6 +166639,32 @@
       "https://zenhousecredit.com/img/calcular.jpg"
     ],
     "fecha_scraping": "2025-12-23T21:26:21.376792",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "24828135",
+    "titulo": "Local comercial en alquiler en el corazón histórico de Ciutadella",
+    "ubicacion": "Ciutadella",
+    "precio": 1100,
+    "metros": 80,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Local",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": true,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/local-comercial-en-alquiler-en-el-corazon-historico-de-ciutadella/24828135",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29010921/Tphoto/IDe9abba01-0000-0500-0000-00001807730b.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29010921/Tphoto/IDe9abba01-0000-0500-0000-00001807730b.jpg"
+    ],
+    "fecha_scraping": "2025-12-24T21:25:18.227249",
     "fecha_ultima_actualizacion": null
   }
 ]
