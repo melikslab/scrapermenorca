@@ -166666,5 +166666,31 @@
     ],
     "fecha_scraping": "2025-12-24T21:25:18.227249",
     "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "24836413",
+    "titulo": "Primer piso ALQUILADO en Ciutadella",
+    "ubicacion": "Ciutadella",
+    "precio": 330000,
+    "metros": 120,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/primer-piso-alquilado-en-ciutadella/24836413",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29019464/Tphoto/ID48cdba01-0000-0500-0000-0000180a014c.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29019464/Tphoto/ID48cdba01-0000-0500-0000-0000180a014c.jpg"
+    ],
+    "fecha_scraping": "2025-12-25T21:25:26.280844",
+    "fecha_ultima_actualizacion": null
   }
 ]
