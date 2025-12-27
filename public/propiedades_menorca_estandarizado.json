@@ -32489,12 +32489,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Nave",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/nave-en-casco-urbano-ferrerias-menorca/40905/",
     "inmobiliaria": "Bonnin Sanso",
@@ -32520,7 +32520,8 @@
       "https://images.bonninsanso.com/5/6/propiedades_fotos_519177_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T21:56:36.775047",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-27T21:24:11.091189"
   },
   {
     "referencia": "40789",
@@ -152492,12 +152493,12 @@
     "habitaciones": 3,
     "banos": 1,
     "tipo": "Piso",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/oportunidad-en-mahon-piso-con-gran-potencial-cerca-del-centro-mahon-menorca/92925/",
     "inmobiliaria": "Bonnin Sanso",
@@ -152513,7 +152514,8 @@
       "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-10-28T21:23:24.426788",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2025-12-27T21:24:11.091377"
   },
   {
     "referencia": "24424049",
