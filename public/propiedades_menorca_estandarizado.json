@@ -166895,5 +166895,43 @@
     ],
     "fecha_scraping": "2025-12-30T21:26:55.334212",
     "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4881",
+    "titulo": "APARTAMENTO  EN  CALA'N BLANES",
+    "ubicacion": "Cala'N Blanes",
+    "precio": 240000,
+    "metros": 47,
+    "metros_parcela": null,
+    "habitaciones": 1,
+    "banos": 1,
+    "tipo": "Apartamento",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4399",
+    "inmobiliaria": "Inmobiliaria Artrutx",
+    "imagen_destacada": "https://www.inmobiliariaartrutx.com/panel/inmuebles/4399/img/01.jpg",
+    "galeria": [
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4399/img/01.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4399/img/02.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4399/img/03.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4399/img/04.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4399/img/05.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4399/img/06.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4399/img/07.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4399/img/08.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4399/img/09.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4399/img/10.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4399/img/11.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4399/img/12.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4399/img/13.jpg"
+    ],
+    "fecha_scraping": "2025-12-31T21:25:25.692745",
+    "fecha_ultima_actualizacion": null
   }
 ]
