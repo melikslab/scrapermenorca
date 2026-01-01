@@ -92190,12 +92190,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/solar-industrial-en-el-poligono-de-sant-lluis/21315574",
     "inmobiliaria": "Casas en Menorca",
@@ -92204,7 +92204,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P25076588/Tphoto/ID6ca37e01-0000-0500-0000-000013555727.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:31:14.554251",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-01T21:26:21.478112"
   },
   {
     "referencia": "22138277",
