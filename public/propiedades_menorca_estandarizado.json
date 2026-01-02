@@ -16118,12 +16118,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Ático",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4189",
     "inmobiliaria": "Inmobiliaria Artrutx",
@@ -16133,7 +16133,8 @@
       "https://www.inmobiliariaartrutx.com/panel/inmuebles/4189/img/Plano.JPG"
     ],
     "fecha_scraping": "2025-09-02T21:45:04.023597",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-02T21:22:39.648975"
   },
   {
     "referencia": "4840",
@@ -165779,12 +165780,12 @@
     "habitaciones": 1,
     "banos": 1,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://zenhousecredit.com/propiedad.php?id=1739",
     "inmobiliaria": "Zenhouse Credit",
@@ -165800,7 +165801,8 @@
       "https://zenhousecredit.com/img/calcular.jpg"
     ],
     "fecha_scraping": "2025-12-22T21:25:49.694876",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-02T21:23:01.390089"
   },
   {
     "referencia": "52874",
@@ -166933,6 +166935,58 @@
       "https://www.inmobiliariaartrutx.com/panel/inmuebles/4399/img/13.jpg"
     ],
     "fecha_scraping": "2025-12-31T21:25:25.692745",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4325",
+    "titulo": "Local con gran potencial",
+    "ubicacion": "Ciutadella",
+    "precio": 350000,
+    "metros": 65,
+    "metros_parcela": null,
+    "habitaciones": 0,
+    "banos": 0,
+    "tipo": "Local",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.ponsmorales.com/es/venta/ref-4325",
+    "inmobiliaria": "Pons Morales",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4325/14018987.jpg",
+    "galeria": [
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4325/14018987.jpg"
+    ],
+    "fecha_scraping": "2026-01-02T21:23:50.208269",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4838",
+    "titulo": "Vivienda a estrenar en el centro de Ciutadella de Menorca",
+    "ubicacion": "Ciutadella",
+    "precio": 825000,
+    "metros": 160,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 4,
+    "tipo": "Chalet",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": true,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.ponsmorales.com/es/venta/ref-4838",
+    "inmobiliaria": "Pons Morales",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4838/23560021.jpg",
+    "galeria": [
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4838/23560021.jpg"
+    ],
+    "fecha_scraping": "2026-01-02T21:23:50.244008",
     "fecha_ultima_actualizacion": null
   }
 ]
