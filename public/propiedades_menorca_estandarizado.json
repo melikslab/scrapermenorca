@@ -159655,12 +159655,12 @@
     "habitaciones": 1,
     "banos": 1,
     "tipo": "Piso",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/precioso-piso-en-planta-baja-con-vistas-al-mar-en-coves-noves-menorca/92666/",
     "inmobiliaria": "Bonnin Sanso",
@@ -159684,7 +159684,8 @@
       "https://images.bonninsanso.com/b/c/zonas_fotos_85_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-11-19T21:21:11.870965",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-04T21:25:28.404359"
   },
   {
     "referencia": "36955",
@@ -163921,12 +163922,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/tercer-piso-en-es-castell/24766189",
     "inmobiliaria": "Casas en Menorca",
@@ -163935,7 +163936,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28943383/Tphoto/ID17a4b901-0000-0500-0000-000017f02357.jpg"
     ],
     "fecha_scraping": "2025-12-13T21:23:08.308368",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-04T21:25:43.549119"
   },
   {
     "referencia": "4835",
