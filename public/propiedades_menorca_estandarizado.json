@@ -67280,12 +67280,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Piso",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/interesante-piso-en-mahon-menorca/92408/",
     "inmobiliaria": "Bonnin Sanso",
@@ -67306,7 +67306,8 @@
       "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:14:06.891420",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-06T21:28:01.322252"
   },
   {
     "referencia": "92416",
@@ -73597,12 +73598,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Apartamento",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/apartamento-con-licencia-turistica-en-coves-noves-menorca-vistas-al-mar-y-campo/92771/",
     "inmobiliaria": "Bonnin Sanso",
@@ -73625,7 +73626,8 @@
       "https://images.bonninsanso.com/b/c/zonas_fotos_85_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:17:01.382275",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-06T21:28:01.322264"
   },
   {
     "referencia": "36871",
@@ -156989,12 +156991,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Nave",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": true,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/nave-industrial-en-el-poligono-de-es-castell/24531645",
     "inmobiliaria": "Casas en Menorca",
@@ -157003,7 +157005,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24194490/Tphoto/IDba2d7101-0000-0500-0000-000011e7ad2a.jpg"
     ],
     "fecha_scraping": "2025-11-11T21:24:06.942285",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-06T21:28:15.572375"
   },
   {
     "referencia": "24532559",
@@ -160356,12 +160359,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/casa-de-campo-en-venta-en-es-mercadal-sa-roca/24616937",
     "inmobiliaria": "3Villas",
@@ -160370,7 +160373,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P28765619/Tphoto/IDb3edb601-0000-0500-0000-000017b82490.jpg"
     ],
     "fecha_scraping": "2025-11-21T21:23:41.085911",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-06T21:28:38.379671"
   },
   {
     "referencia": "1359",
