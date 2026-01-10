@@ -139637,12 +139637,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-menorquina-en-mahon/23867481",
     "inmobiliaria": "Casas en Menorca",
@@ -139651,7 +139651,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P27920510/Tphoto/ID7e08aa01-0000-0500-0000-000016dee15c.jpg"
     ],
     "fecha_scraping": "2025-09-16T21:22:07.140487",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-10T21:25:04.477712"
   },
   {
     "referencia": "4422",
@@ -150038,12 +150039,12 @@
     "habitaciones": 4,
     "banos": 4,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/piso-con-garaje-y-gran-jardin-en-el-centro-de-mahon/24266545",
     "inmobiliaria": "Casas en Menorca",
@@ -150052,7 +150053,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28390474/Tphoto/ID4a34b101-0000-0500-0000-000017473c2d.jpg"
     ],
     "fecha_scraping": "2025-10-16T21:21:51.749504",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-10T21:25:04.477736"
   },
   {
     "referencia": "205-122475",
@@ -168007,6 +168009,58 @@
       "https://www.vidalmenorca.com/static/uploads/018065.lazy.jpg"
     ],
     "fecha_scraping": "2026-01-09T21:28:37.462359",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "24895266",
+    "titulo": "Almacén en Alaior",
+    "ubicacion": "Alaior",
+    "precio": 700,
+    "metros": 250,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": null,
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": true,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/almacen-en-alaior/24895266",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29081029/Tphoto/IDc5bdbb01-0000-0500-0000-0000181ed313.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29081029/Tphoto/IDc5bdbb01-0000-0500-0000-0000181ed313.jpg"
+    ],
+    "fecha_scraping": "2026-01-10T21:25:06.388224",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "24894253",
+    "titulo": "EN ALQUILER - CASA EN ALTOS CON TERRAZA",
+    "ubicacion": "Maó - Mahón; Maó",
+    "precio": 900,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": true,
+    "url_detalle": "https://www.saimmobiliaria.com/inmueble/en-alquiler-casa-en-altos-con-terraza/24894253",
+    "inmobiliaria": "SA Inmobiliaria",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P29010665/Tphoto/IDe9aaba01-0000-0500-0000-0000181e8e8d.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P29010665/Tphoto/IDe9aaba01-0000-0500-0000-0000181e8e8d.jpg"
+    ],
+    "fecha_scraping": "2026-01-10T21:25:32.268876",
     "fecha_ultima_actualizacion": null
   }
 ]
