@@ -41154,12 +41154,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/conjunto-de-almacenes-para-conversion-a-casa-o-grupo-de-viviendas-alayor-menorca/26921/",
     "inmobiliaria": "Bonnin Sanso",
@@ -41187,7 +41187,8 @@
       "https://images.bonninsanso.com/3/f/propiedades_fotos_449385_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:01:24.001863",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-15T21:28:56.090975"
   },
   {
     "referencia": "34758",
@@ -77070,12 +77071,12 @@
     "habitaciones": 7,
     "banos": 3,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasarmengol.com/propiedad/m-7188-casa-de-campo-en-alaior/",
     "inmobiliaria": "Fincas Armengol",
@@ -77213,7 +77214,8 @@
       "https://fincasarmengol.com/propiedad/m-7188-casa-de-campo-en-alaior/"
     ],
     "fecha_scraping": "2025-09-02T22:20:20.028799",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-15T21:29:02.574209"
   },
   {
     "referencia": "c-990-sola",
@@ -118892,12 +118894,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": true,
     "url_detalle": "https://www.saimmobiliaria.com/inmueble/alquiler-temporal-en-es-castell/8106367",
     "inmobiliaria": "SA Inmobiliaria",
@@ -118906,7 +118908,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P9474400/Tphoto/ID60919000-0000-0500-0000-00000e970cff.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:45:28.048505",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-15T21:29:36.616020"
   },
   {
     "referencia": "20866666",
@@ -129075,12 +129078,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/casa-de-campo-con-piscina-en-es-castell/21380873",
     "inmobiliaria": "3Villas",
@@ -129089,7 +129092,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P25113623/Tphoto/ID17347f01-0000-0500-0000-00001377ad4b.jpg"
     ],
     "fecha_scraping": "2025-09-04T18:52:51.465120",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-15T21:29:38.787953"
   },
   {
     "referencia": "20116875",
@@ -129546,12 +129550,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": true,
     "url_detalle": "https://www.3villas.es/inmueble/amplio-local-comercial-muy-centrico/22989323",
     "inmobiliaria": "3Villas",
@@ -129560,7 +129564,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P26937020/Tphoto/IDbc069b01-0000-0500-0000-0000158cb889.jpg"
     ],
     "fecha_scraping": "2025-09-04T18:53:13.673676",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-15T21:29:38.787960"
   },
   {
     "referencia": "23486193",
@@ -164497,12 +164502,12 @@
     "habitaciones": 1,
     "banos": 1,
     "tipo": "Huerto",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/huerto-con-vivienda-en-ferreries/",
     "inmobiliaria": "Fincas Llongas",
@@ -164531,7 +164536,8 @@
       "https://fincasllongas.com/files/dsc04375-800x480.jpg?v=1765961917"
     ],
     "fecha_scraping": "2025-12-17T21:27:32.662319",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-15T21:28:41.249859"
   },
   {
     "referencia": "90113",
@@ -168688,6 +168694,107 @@
       "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4839/23739245.jpg"
     ],
     "fecha_scraping": "2026-01-14T21:30:22.395540",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4885",
+    "titulo": "LOCAL COMERCIAL",
+    "ubicacion": "Cap D'Artrutx; Ciutadella; Cap d'Artrutx",
+    "precio": 525000,
+    "metros": 228,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Local",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": true,
+    "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4404",
+    "inmobiliaria": "Inmobiliaria Artrutx",
+    "imagen_destacada": "https://www.inmobiliariaartrutx.com/panel/inmuebles/4404/img/01.jpg",
+    "galeria": [
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4404/img/01.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4404/img/02.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4404/img/03.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4404/img/04.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4404/img/05.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4404/img/06.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4404/img/07.jpg"
+    ],
+    "fecha_scraping": "2026-01-15T21:28:45.571692",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "92955",
+    "titulo": "Interesante apartamento en Arenal d´en Castell, Menorca.",
+    "ubicacion": "Es Mercadal; Arenal",
+    "precio": 250000,
+    "metros": 45,
+    "metros_parcela": null,
+    "habitaciones": 1,
+    "banos": 1,
+    "tipo": "Apartamento",
+    "estado": "",
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/interesante-apartamento-en-arenal-d-en-castell-menorca/92955/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/9/a/propiedades_fotos_708104_w120_h90_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/9/a/propiedades_fotos_708104_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/f/f/propiedades_fotos_708103_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/5/8/propiedades_fotos_708119_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/7/a/propiedades_fotos_708120_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/9/c/propiedades_fotos_708129_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/c/4/propiedades_fotos_708130_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/0/8/propiedades_fotos_708132_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/6/b/propiedades_fotos_708127_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/d/2/propiedades_fotos_708124_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/c/6/propiedades_fotos_708108_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/6/a/propiedades_fotos_708106_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/4/8/propiedades_fotos_708123_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/a/f/propiedades_fotos_708121_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/8/6/propiedades_fotos_708114_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/9/e/propiedades_fotos_708113_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/6/5/propiedades_fotos_708109_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/5/4/propiedades_fotos_708111_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/a/0/propiedades_fotos_708133_w120_h90_wm.jpg"
+    ],
+    "fecha_scraping": "2026-01-15T21:28:58.516315",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "24925965",
+    "titulo": "Apartamento reformado en primera línea de mar",
+    "ubicacion": "Sant Lluís; Biniancolla - Punta Prima",
+    "precio": null,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Apartamento",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": true,
+    "url_detalle": "https://www.3villas.es/inmueble/apartamento-reformado-en-primera-linea-de-mar/24925965",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29081047/Tphoto/IDd7bdbb01-0000-0500-0000-0000181ed45b.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29081047/Tphoto/IDd7bdbb01-0000-0500-0000-0000181ed45b.jpg"
+    ],
+    "fecha_scraping": "2026-01-15T21:29:40.650852",
     "fecha_ultima_actualizacion": null
   }
 ]
