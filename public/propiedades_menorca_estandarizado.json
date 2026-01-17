@@ -32434,12 +32434,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Local",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/restaurante-con-alojamiento-puerto-de-addaya-es-mercadal-menorca/90343/",
     "inmobiliaria": "Bonnin Sanso",
@@ -32485,7 +32485,8 @@
       "https://images.bonninsanso.com/1/7/propiedades_fotos_591111_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T21:56:35.306554",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-17T21:24:09.540803"
   },
   {
     "referencia": "40905",
@@ -73185,12 +73186,12 @@
     "habitaciones": 3,
     "banos": 1,
     "tipo": "Chalet",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/chalet-con-licencia-turistica-en-cap-artruix-ciutadella-menorca/36853/",
     "inmobiliaria": "Bonnin Sanso",
@@ -73221,7 +73222,8 @@
       "https://images.bonninsanso.com/6/e/propiedades_fotos_695637_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:16:46.500181",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-17T21:24:09.540863"
   },
   {
     "referencia": "92740",
@@ -93631,12 +93633,12 @@
     "habitaciones": null,
     "banos": 3,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-en-primera-linea-de-mar-en-es-castell/20684715",
     "inmobiliaria": "Casas en Menorca",
@@ -93645,7 +93647,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24200113/Tphoto/IDb1437101-0000-0500-0000-000011ecb2ae.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:32:19.519043",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-17T21:24:23.787651"
   },
   {
     "referencia": "20684694",
@@ -162868,12 +162871,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Huerto",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/huerto-con-caseta-rustica-en-ferrerias-naturaleza-vistas-y-tranquilidad/24693798",
     "inmobiliaria": "3Villas",
@@ -162882,7 +162885,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P28846932/Tphoto/ID542bb801-0000-0500-0000-000017d8768f.jpg"
     ],
     "fecha_scraping": "2025-12-03T21:25:11.403538",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-01-17T21:24:47.286504"
   },
   {
     "referencia": "Ref. 7687",
@@ -169214,6 +169218,32 @@
       "https://media.mobiliagestion.es/Portals/inmofinquestorres/Images/1718/23773370-large.jpg"
     ],
     "fecha_scraping": "2026-01-16T21:29:33.576756",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "24942567",
+    "titulo": "Encantador apartamento en Cala en Porter con terraza y piscina comunitaria",
+    "ubicacion": "Alaior; Cala En Porter",
+    "precio": 275000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": 2,
+    "banos": null,
+    "tipo": "Apartamento",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.3villas.es/inmueble/encantador-apartamento-en-cala-en-porter-con-terraza-y-piscina-comunitaria/24942567",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29117243/Tphoto/ID3b4bbc01-0000-0500-0000-0000182b6d8a.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29117243/Tphoto/ID3b4bbc01-0000-0500-0000-0000182b6d8a.jpg"
+    ],
+    "fecha_scraping": "2026-01-17T21:24:49.063005",
     "fecha_ultima_actualizacion": null
   }
 ]
