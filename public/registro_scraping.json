@@ -804,10 +804,6 @@
       "hash_contenido": "0e1e937b",
       "fecha_ultimo_escaneo": "2025-09-02T21:42:55.433523"
     },
-    "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=3938": {
-      "hash_contenido": "9b2cf3b0",
-      "fecha_ultimo_escaneo": "2025-09-02T21:42:58.242073"
-    },
     "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=2781": {
       "hash_contenido": "c24143a0",
       "fecha_ultimo_escaneo": "2025-09-02T21:42:59.652525"
@@ -851,10 +847,6 @@
     "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4060": {
       "hash_contenido": "c9308cb1",
       "fecha_ultimo_escaneo": "2025-09-02T21:43:15.162189"
-    },
-    "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=1328": {
-      "hash_contenido": "93973245",
-      "fecha_ultimo_escaneo": "2025-09-02T21:43:16.551457"
     },
     "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=2741": {
       "hash_contenido": "bf3a4f6a",
@@ -1744,10 +1736,6 @@
       "hash_contenido": "184d5334",
       "fecha_ultimo_escaneo": "2025-09-02T21:52:00.860346"
     },
-    "https://inmobiliariapalau.com/propiedad/ref-4173-edificio-en-casco-antiguo-de-ciutadella/": {
-      "hash_contenido": "ce365c3a",
-      "fecha_ultimo_escaneo": "2025-09-02T21:52:02.431032"
-    },
     "https://inmobiliariapalau.com/propiedad/ref-4335-terreno-con-proyecto-socio-sanitario-en-mahon/": {
       "hash_contenido": "f24e63f9",
       "fecha_ultimo_escaneo": "2025-09-02T21:52:04.556871"
@@ -2151,10 +2139,6 @@
     "https://www.bonninsanso.com/es/compra/casa-adosada-con-patio-en-el-centro-de-es-castell-menorca/90836/": {
       "hash_contenido": "4918dafd",
       "fecha_ultimo_escaneo": "2025-09-02T21:55:58.230592"
-    },
-    "https://www.bonninsanso.com/es/compra/interesante-proyecto-urbanistico-para-desarrollar-en-el-centro-de-alayor-menorca/25355/": {
-      "hash_contenido": "58b96ac4",
-      "fecha_ultimo_escaneo": "2025-09-02T21:56:01.264762"
     },
     "https://www.bonninsanso.com/es/compra/casa-en-chaflan-con-patio-para-reforma-o-para-nueva-edificacion-en-ciutadella-menorca/34361/": {
       "hash_contenido": "1724b505",
@@ -3740,10 +3724,6 @@
       "hash_contenido": "2af482fa",
       "fecha_ultimo_escaneo": "2025-09-02T22:09:10.815415"
     },
-    "https://www.bonninsanso.com/es/compra/encantador-chalet-adosado-en-cala-n-bosch-con-licencia-turistica-ciutadella-menorca/36291/": {
-      "hash_contenido": "fcd816c0",
-      "fecha_ultimo_escaneo": "2025-09-02T22:09:12.225255"
-    },
     "https://www.bonninsanso.com/es/compra/exclusiva-espectacular-edificio-en-primera-linea-de-mar-del-puerto-de-mahon-menorca/91245/": {
       "hash_contenido": "7573b5ab",
       "fecha_ultimo_escaneo": "2025-09-02T22:09:15.350060"
@@ -3831,10 +3811,6 @@
     "https://www.bonninsanso.com/es/compra/impresionante-casa-con-piscina-en-el-centro-de-fornells-menorca/91543/": {
       "hash_contenido": "6238a9e7",
       "fecha_ultimo_escaneo": "2025-09-02T22:10:05.919571"
-    },
-    "https://www.bonninsanso.com/es/compra/exclusivo-chalet-reformado-con-licencia-turistica-en-santo-tomas-menorca/92535/": {
-      "hash_contenido": "15e5380f",
-      "fecha_ultimo_escaneo": "2025-09-02T22:10:07.426380"
     },
     "https://www.bonninsanso.com/es/compra/solar-con-gran-potencial-edificable-en-ferrerias-menorca/36807/": {
       "hash_contenido": "6457b9f9",
@@ -7642,7 +7618,7 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-3577": {
       "hash_contenido": "89e747f7",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:26.789182"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.542417"
     },
     "https://www.ponsmorales.com/es/venta/ref-3616": {
       "hash_contenido": "50887db1",
@@ -7650,11 +7626,11 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-3339": {
       "hash_contenido": "72cb38b0",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:26.789193"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.542429"
     },
     "https://www.ponsmorales.com/es/venta/ref-2352": {
       "hash_contenido": "9f279945",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:26.789198"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.659512"
     },
     "https://www.ponsmorales.com/es/venta/ref-1314": {
       "hash_contenido": "b63aa312",
@@ -7662,7 +7638,7 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-3286": {
       "hash_contenido": "28892da0",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:26.789207"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.659531"
     },
     "https://www.ponsmorales.com/es/venta/ref-2918": {
       "hash_contenido": "8535ab14",
@@ -7670,7 +7646,7 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-3697": {
       "hash_contenido": "31343d35",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:26.789213"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.659537"
     },
     "https://www.ponsmorales.com/es/venta/ref-3698": {
       "hash_contenido": "1a499250",
@@ -7682,15 +7658,15 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-3700": {
       "hash_contenido": "88c7c6e4",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:26.906543"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.659542"
     },
     "https://www.ponsmorales.com/es/venta/ref-3701": {
       "hash_contenido": "288e1e46",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:26.906561"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.659546"
     },
     "https://www.ponsmorales.com/es/venta/ref-3702": {
       "hash_contenido": "4cac9b06",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:26.906566"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.659551"
     },
     "https://www.ponsmorales.com/es/venta/ref-3713": {
       "hash_contenido": "90cb4dfb",
@@ -7698,19 +7674,19 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-3753": {
       "hash_contenido": "cda16b25",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:26.906571"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.659555"
     },
     "https://www.ponsmorales.com/es/venta/ref-3759": {
       "hash_contenido": "5c13c0c0",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:26.906575"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.659559"
     },
     "https://www.ponsmorales.com/es/venta/ref-3041": {
       "hash_contenido": "7573b5ab",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:26.906579"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.659562"
     },
     "https://www.ponsmorales.com/es/venta/ref-3772": {
       "hash_contenido": "8ebb871c",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:26.906583"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.659566"
     },
     "https://www.ponsmorales.com/es/venta/ref-3352": {
       "hash_contenido": "7e560267",
@@ -7726,7 +7702,7 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-3875": {
       "hash_contenido": "36b64a53",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:26.906587"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.779891"
     },
     "https://www.ponsmorales.com/es/venta/ref-3894": {
       "hash_contenido": "6da6a115",
@@ -7734,15 +7710,15 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-3896": {
       "hash_contenido": "7573b5ab",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:26.906591"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.779909"
     },
     "https://www.ponsmorales.com/es/venta/ref-3918": {
       "hash_contenido": "8b16b61f",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:26.906595"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.779913"
     },
     "https://www.ponsmorales.com/es/venta/ref-4056": {
       "hash_contenido": "4cda4f47",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.041598"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.779917"
     },
     "https://www.ponsmorales.com/es/venta/ref-4072": {
       "hash_contenido": "056c3640",
@@ -7754,23 +7730,23 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4088": {
       "hash_contenido": "4701e19a",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.041615"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.779921"
     },
     "https://www.ponsmorales.com/es/venta/ref-4089": {
       "hash_contenido": "4701e19a",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.041620"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.779926"
     },
     "https://www.ponsmorales.com/es/venta/ref-4099": {
       "hash_contenido": "7573b5ab",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.041629"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.779933"
     },
     "https://www.ponsmorales.com/es/venta/ref-4104": {
       "hash_contenido": "f278b0e6",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.041633"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.779937"
     },
     "https://www.ponsmorales.com/es/venta/ref-4124": {
       "hash_contenido": "7573b5ab",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.041637"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.779940"
     },
     "https://www.ponsmorales.com/es/venta/ref-4125": {
       "hash_contenido": "7573b5ab",
@@ -7786,39 +7762,39 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4176": {
       "hash_contenido": "67e8b65b",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.041640"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.901293"
     },
     "https://www.ponsmorales.com/es/venta/ref-4177": {
       "hash_contenido": "4cc84819",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.041645"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.901311"
     },
     "https://www.ponsmorales.com/es/venta/ref-4188": {
       "hash_contenido": "8e8c017b",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.041649"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.901316"
     },
     "https://www.ponsmorales.com/es/venta/ref-4194": {
       "hash_contenido": "ef37ebef",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.162522"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.901320"
     },
     "https://www.ponsmorales.com/es/venta/ref-4217": {
       "hash_contenido": "58c5462a",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.162540"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.901325"
     },
     "https://www.ponsmorales.com/es/venta/ref-4232": {
       "hash_contenido": "9941d873",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.162545"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.901330"
     },
     "https://www.ponsmorales.com/es/venta/ref-4233": {
       "hash_contenido": "7573b5ab",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.162550"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.901334"
     },
     "https://www.ponsmorales.com/es/venta/ref-4237": {
       "hash_contenido": "c24143a0",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.162554"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.901339"
     },
     "https://www.ponsmorales.com/es/venta/ref-4243": {
       "hash_contenido": "7cf3382a",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.162558"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.901343"
     },
     "https://www.ponsmorales.com/es/venta/ref-4251": {
       "hash_contenido": "766b9e68",
@@ -7830,15 +7806,15 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4270": {
       "hash_contenido": "8a27ab1e",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.162571"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.023716"
     },
     "https://www.ponsmorales.com/es/venta/ref-4272": {
       "hash_contenido": "6aec0a12",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.162574"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.023722"
     },
     "https://www.ponsmorales.com/es/venta/ref-4297": {
       "hash_contenido": "c098f1bb",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.283989"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.023728"
     },
     "https://www.ponsmorales.com/es/venta/ref-4318": {
       "hash_contenido": "02b1b530",
@@ -7846,27 +7822,27 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4319": {
       "hash_contenido": "7573b5ab",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.284006"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.023731"
     },
     "https://www.ponsmorales.com/es/venta/ref-4322": {
       "hash_contenido": "2276fc70",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.284011"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.023735"
     },
     "https://www.ponsmorales.com/es/venta/ref-4329": {
       "hash_contenido": "6a568770",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.284019"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.023742"
     },
     "https://www.ponsmorales.com/es/venta/ref-4346": {
       "hash_contenido": "7573b5ab",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.284023"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.023746"
     },
     "https://www.ponsmorales.com/es/venta/ref-4356": {
       "hash_contenido": "8f8dac94",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.284027"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.023749"
     },
     "https://www.ponsmorales.com/es/venta/ref-4357": {
       "hash_contenido": "b951e0b5",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.284031"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.145047"
     },
     "https://www.ponsmorales.com/es/venta/ref-4362": {
       "hash_contenido": "ad41a7e6",
@@ -7882,47 +7858,47 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4375": {
       "hash_contenido": "19d94162",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.284034"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.145065"
     },
     "https://www.ponsmorales.com/es/venta/ref-4377": {
       "hash_contenido": "bfd8721f",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.284038"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.145070"
     },
     "https://www.ponsmorales.com/es/venta/ref-4384": {
       "hash_contenido": "2e239e48",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.405974"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.145075"
     },
     "https://www.ponsmorales.com/es/venta/ref-4393": {
       "hash_contenido": "7d012879",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.406027"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.145084"
     },
     "https://www.ponsmorales.com/es/venta/ref-4396": {
       "hash_contenido": "49e25deb",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.406032"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.145088"
     },
     "https://www.ponsmorales.com/es/venta/ref-4398": {
       "hash_contenido": "98ef6097",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.406036"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.145091"
     },
     "https://www.ponsmorales.com/es/venta/ref-4406": {
       "hash_contenido": "428ef008",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.406041"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.145095"
     },
     "https://www.ponsmorales.com/es/venta/ref-4420": {
       "hash_contenido": "cda16b25",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.406044"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.145100"
     },
     "https://www.ponsmorales.com/es/venta/ref-4423": {
       "hash_contenido": "ed8449c2",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.406048"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.267362"
     },
     "https://www.ponsmorales.com/es/venta/ref-4426": {
       "hash_contenido": "7573b5ab",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.406051"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.267381"
     },
     "https://www.ponsmorales.com/es/venta/ref-4428": {
       "hash_contenido": "58c5462a",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.406054"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.267386"
     },
     "https://www.ponsmorales.com/es/venta/ref-4435": {
       "hash_contenido": "b49053f6",
@@ -7930,7 +7906,7 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4438": {
       "hash_contenido": "e675ff96",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.528190"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.267390"
     },
     "https://www.ponsmorales.com/es/venta/ref-4464": {
       "hash_contenido": "4e46c9e6",
@@ -7942,27 +7918,27 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4470": {
       "hash_contenido": "4cc84819",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.528208"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.267395"
     },
     "https://www.ponsmorales.com/es/venta/ref-4478": {
       "hash_contenido": "90cb4dfb",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.528214"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.267400"
     },
     "https://www.ponsmorales.com/es/venta/ref-4492": {
       "hash_contenido": "fbf47d4f",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.528218"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.267404"
     },
     "https://www.ponsmorales.com/es/venta/ref-4500": {
       "hash_contenido": "4cc84819",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.528222"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.267408"
     },
     "https://www.ponsmorales.com/es/venta/ref-4501": {
       "hash_contenido": "a7c3e3e5",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.528225"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.267411"
     },
     "https://www.ponsmorales.com/es/venta/ref-4512": {
       "hash_contenido": "24b9fd1b",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.528229"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.267415"
     },
     "https://www.ponsmorales.com/es/venta/ref-4516": {
       "hash_contenido": "8a34f09d",
@@ -7970,19 +7946,19 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4518": {
       "hash_contenido": "69c44cf8",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.528233"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.390405"
     },
     "https://www.ponsmorales.com/es/venta/ref-4534": {
       "hash_contenido": "7573b5ab",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.528236"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.390423"
     },
     "https://www.ponsmorales.com/es/venta/ref-4536": {
       "hash_contenido": "4cc84819",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.528240"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.390428"
     },
     "https://www.ponsmorales.com/es/venta/ref-4543": {
       "hash_contenido": "e34fe8b2",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.650089"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.390432"
     },
     "https://www.ponsmorales.com/es/venta/ref-4544": {
       "hash_contenido": "8dd382ec",
@@ -7990,15 +7966,15 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4550": {
       "hash_contenido": "164593f5",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.650109"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.390455"
     },
     "https://www.ponsmorales.com/es/venta/ref-4553": {
       "hash_contenido": "4cc84819",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.650114"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.390459"
     },
     "https://www.ponsmorales.com/es/venta/ref-4555": {
       "hash_contenido": "69c44cf8",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.650118"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.390462"
     },
     "https://www.ponsmorales.com/es/venta/ref-4557": {
       "hash_contenido": "7573b5ab",
@@ -8010,11 +7986,11 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4564": {
       "hash_contenido": "4cc84819",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.650122"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.390467"
     },
     "https://www.ponsmorales.com/es/venta/ref-4571": {
       "hash_contenido": "a44b75aa",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.650126"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.390470"
     },
     "https://www.ponsmorales.com/es/venta/ref-4574": {
       "hash_contenido": "2868ba7b",
@@ -8022,7 +7998,7 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4575": {
       "hash_contenido": "0230969e",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.650130"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.390474"
     },
     "https://www.ponsmorales.com/es/venta/ref-4581": {
       "hash_contenido": "e57abf53",
@@ -8030,15 +8006,15 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4583": {
       "hash_contenido": "9b26c253",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.773002"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.512818"
     },
     "https://www.ponsmorales.com/es/venta/ref-4586": {
       "hash_contenido": "512dd1a3",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.773020"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.512823"
     },
     "https://www.ponsmorales.com/es/venta/ref-4604": {
       "hash_contenido": "81963cf8",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.773029"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.512832"
     },
     "https://www.ponsmorales.com/es/venta/ref-4610": {
       "hash_contenido": "2fb2b9b8",
@@ -8046,31 +8022,31 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4622": {
       "hash_contenido": "50887db1",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.773033"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.512835"
     },
     "https://www.ponsmorales.com/es/venta/ref-4630": {
       "hash_contenido": "e57abf53",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.773036"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.512839"
     },
     "https://www.ponsmorales.com/es/venta/ref-4633": {
       "hash_contenido": "02b1b530",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.773040"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.512842"
     },
     "https://www.ponsmorales.com/es/venta/ref-4642": {
       "hash_contenido": "f1b5e50b",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.773043"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.635556"
     },
     "https://www.ponsmorales.com/es/venta/ref-4626": {
       "hash_contenido": "6f4958bc",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.773046"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.635574"
     },
     "https://www.ponsmorales.com/es/venta/ref-4608": {
       "hash_contenido": "c9bd3c00",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.773050"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.635578"
     },
     "https://www.ponsmorales.com/es/venta/ref-4647": {
       "hash_contenido": "7ca5a44f",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.895397"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.635584"
     },
     "https://www.ponsmorales.com/es/venta/ref-4649": {
       "hash_contenido": "b503d704",
@@ -8078,15 +8054,15 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4650": {
       "hash_contenido": "923ca608",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.895415"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.635587"
     },
     "https://www.ponsmorales.com/es/venta/ref-4651": {
       "hash_contenido": "9b26c253",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.895420"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.635591"
     },
     "https://www.ponsmorales.com/es/venta/ref-4656": {
       "hash_contenido": "e78bb328",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.895424"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.635596"
     },
     "https://www.ponsmorales.com/es/venta/ref-4661": {
       "hash_contenido": "cded9856",
@@ -8094,51 +8070,51 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4665": {
       "hash_contenido": "9b26c253",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.895429"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.635599"
     },
     "https://www.ponsmorales.com/es/venta/ref-4662": {
       "hash_contenido": "68dd13d9",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.895433"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.635603"
     },
     "https://www.ponsmorales.com/es/venta/ref-4668": {
       "hash_contenido": "23ba1659",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.895436"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.635607"
     },
     "https://www.ponsmorales.com/es/venta/ref-4669": {
       "hash_contenido": "d0cceedc",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.895441"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.759597"
     },
     "https://www.ponsmorales.com/es/venta/ref-4673": {
       "hash_contenido": "4601cda2",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.895445"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.759615"
     },
     "https://www.ponsmorales.com/es/venta/ref-4678": {
       "hash_contenido": "39a70d5a",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.895448"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.759621"
     },
     "https://www.ponsmorales.com/es/venta/ref-4677": {
       "hash_contenido": "60d51acd",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.018817"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.759625"
     },
     "https://www.ponsmorales.com/es/venta/ref-4708": {
       "hash_contenido": "44951cad",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.018868"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.759638"
     },
     "https://www.ponsmorales.com/es/venta/ref-4711": {
       "hash_contenido": "cbe9ff31",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.018881"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.759641"
     },
     "https://www.ponsmorales.com/es/venta/ref-4714": {
       "hash_contenido": "c9bd3c00",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.018886"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.759644"
     },
     "https://www.ponsmorales.com/es/venta/ref-4717": {
       "hash_contenido": "7573b5ab",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.018889"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.759649"
     },
     "https://www.ponsmorales.com/es/venta/ref-4722": {
       "hash_contenido": "8b16b61f",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.018893"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.882318"
     },
     "https://www.ponsmorales.com/es/venta/ref-4723": {
       "hash_contenido": "90cb4dfb",
@@ -8146,11 +8122,11 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4729": {
       "hash_contenido": "44951cad",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.018896"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.882337"
     },
     "https://www.ponsmorales.com/es/venta/ref-4731": {
       "hash_contenido": "90cb4dfb",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.018900"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.882342"
     },
     "https://www.ponsmorales.com/es/venta/ref-4736": {
       "hash_contenido": "58c5462a",
@@ -8170,19 +8146,19 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4748": {
       "hash_contenido": "1c95046c",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.143818"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.882355"
     },
     "https://www.ponsmorales.com/es/venta/ref-4750": {
       "hash_contenido": "74825b99",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.143824"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.882359"
     },
     "https://www.ponsmorales.com/es/venta/ref-4751": {
       "hash_contenido": "2698813a",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.143827"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.882363"
     },
     "https://www.ponsmorales.com/es/venta/ref-4753": {
       "hash_contenido": "b6dab545",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.143832"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.882367"
     },
     "https://www.ponsmorales.com/es/venta/ref-4764": {
       "hash_contenido": "27849019",
@@ -8190,15 +8166,15 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4766": {
       "hash_contenido": "938ade65",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.143835"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.882372"
     },
     "https://www.ponsmorales.com/es/venta/ref-4768": {
       "hash_contenido": "36edf76e",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.143838"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:45.007854"
     },
     "https://www.ponsmorales.com/es/venta/ref-4776": {
       "hash_contenido": "5d0af4d6",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.143843"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:45.007873"
     },
     "https://www.ponsmorales.com/es/venta/ref-4777": {
       "hash_contenido": "81fc9a08",
@@ -8206,19 +8182,19 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4791": {
       "hash_contenido": "ecd5ee94",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.270216"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:45.007882"
     },
     "https://www.ponsmorales.com/es/venta/ref-4792": {
       "hash_contenido": "ecd5ee94",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.270235"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:45.007887"
     },
     "https://www.ponsmorales.com/es/venta/ref-4800": {
       "hash_contenido": "59db9434",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.270241"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:45.007892"
     },
     "https://www.finquestorres.net/es/venta/ref-1078": {
       "hash_contenido": "0cb12135",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:29.776907"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.534522"
     },
     "https://www.finquestorres.net/es/venta/ref-1109": {
       "hash_contenido": "8535ab14",
@@ -8226,11 +8202,11 @@
     },
     "https://www.finquestorres.net/es/venta/ref-1221": {
       "hash_contenido": "3f43ec56",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:29.776917"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.534532"
     },
     "https://www.finquestorres.net/es/venta/ref-1226": {
       "hash_contenido": "19ad3efe",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:29.776921"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.656024"
     },
     "https://www.finquestorres.net/es/venta/ref-1261": {
       "hash_contenido": "766b9e68",
@@ -8238,11 +8214,11 @@
     },
     "https://www.finquestorres.net/es/venta/ref-1297": {
       "hash_contenido": "5b2620f2",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:29.776926"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.656043"
     },
     "https://www.finquestorres.net/es/venta/ref-1333": {
       "hash_contenido": "766b9e68",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:29.776929"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.656049"
     },
     "https://www.finquestorres.net/es/venta/ref-1350": {
       "hash_contenido": "484a0286",
@@ -8250,7 +8226,7 @@
     },
     "https://www.finquestorres.net/es/venta/ref-1353": {
       "hash_contenido": "98ef6097",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:29.898941"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.656053"
     },
     "https://www.finquestorres.net/es/venta/ref-1367": {
       "hash_contenido": "40ae2f6c",
@@ -8258,43 +8234,43 @@
     },
     "https://www.finquestorres.net/es/venta/ref-1478": {
       "hash_contenido": "28892da0",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:29.898965"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.656063"
     },
     "https://www.finquestorres.net/es/venta/ref-1500": {
       "hash_contenido": "cc4ed519",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:29.898969"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.656066"
     },
     "https://www.finquestorres.net/es/venta/ref-1506": {
       "hash_contenido": "4cda4f47",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:29.898973"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.656070"
     },
     "https://www.finquestorres.net/es/venta/ref-1574": {
       "hash_contenido": "39db39d5",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:29.898977"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.656073"
     },
     "https://www.finquestorres.net/es/venta/ref-1575": {
       "hash_contenido": "39db39d5",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:29.898980"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.656078"
     },
     "https://www.finquestorres.net/es/venta/ref-1578": {
       "hash_contenido": "2e239e48",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:29.898984"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.779761"
     },
     "https://www.finquestorres.net/es/venta/ref-1614": {
       "hash_contenido": "c9308cb1",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:29.898987"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.779780"
     },
     "https://www.finquestorres.net/es/venta/ref-1616": {
       "hash_contenido": "92e4de5e",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:29.898991"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.779785"
     },
     "https://www.finquestorres.net/es/venta/ref-1618": {
       "hash_contenido": "6aec0a12",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.022980"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.779788"
     },
     "https://www.finquestorres.net/es/venta/ref-1630": {
       "hash_contenido": "7ec0e92f",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.022997"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.779793"
     },
     "https://www.finquestorres.net/es/venta/ref-1643": {
       "hash_contenido": "93cef31e",
@@ -8306,15 +8282,15 @@
     },
     "https://www.finquestorres.net/es/venta/ref-1648": {
       "hash_contenido": "387bfb7b",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.023002"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.779796"
     },
     "https://www.finquestorres.net/es/venta/ref-1658": {
       "hash_contenido": "056c3640",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.023006"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.779799"
     },
     "https://www.finquestorres.net/es/venta/ref-1659": {
       "hash_contenido": "056c3640",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.023010"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.779802"
     },
     "https://www.finquestorres.net/es/venta/ref-1660": {
       "hash_contenido": "ca9ec4db",
@@ -8326,27 +8302,27 @@
     },
     "https://www.finquestorres.net/es/venta/ref-1662": {
       "hash_contenido": "4701e19a",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.023013"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.779806"
     },
     "https://www.finquestorres.net/es/venta/ref-1663": {
       "hash_contenido": "4701e19a",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.023016"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.779810"
     },
     "https://www.finquestorres.net/es/venta/ref-1664": {
       "hash_contenido": "4701e19a",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.023019"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.903552"
     },
     "https://www.finquestorres.net/es/venta/ref-1665": {
       "hash_contenido": "d21d9d53",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.023023"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.903569"
     },
     "https://www.finquestorres.net/es/venta/ref-1670": {
       "hash_contenido": "9b26c253",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.023026"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.903574"
     },
     "https://www.finquestorres.net/es/venta/ref-1672": {
       "hash_contenido": "0b391d04",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.149009"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.903579"
     },
     "https://www.finquestorres.net/es/venta/ref-1674": {
       "hash_contenido": "db44a8ea",
@@ -8362,7 +8338,7 @@
     },
     "https://www.finquestorres.net/es/venta/ref-1681": {
       "hash_contenido": "4ba54705",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.149027"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.903582"
     },
     "https://www.finquestorres.net/es/venta/ref-1685": {
       "hash_contenido": "b503d704",
@@ -8374,11 +8350,11 @@
     },
     "https://www.finquestorres.net/es/venta/ref-1691": {
       "hash_contenido": "27849019",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.149032"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.903587"
     },
     "https://www.finquestorres.net/es/venta/ref-1692": {
       "hash_contenido": "b4ce88e4",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.149037"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.903592"
     },
     "https://www.finquestorres.net/es/venta/ref-1693": {
       "hash_contenido": "44951cad",
@@ -8386,19 +8362,19 @@
     },
     "https://www.finquestorres.net/es/venta/ref-1694": {
       "hash_contenido": "81409db7",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.149063"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.903596"
     },
     "https://www.finquestorres.net/es/venta/ref-1695": {
       "hash_contenido": "39db39d5",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.149067"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.903600"
     },
     "https://www.finquestorres.net/es/venta/ref-1696": {
       "hash_contenido": "6b50c4cc",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.149070"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.903603"
     },
     "https://www.finquestorres.net/es/venta/ref-1698": {
       "hash_contenido": "b22c8b11",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.149074"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:47.027752"
     },
     "https://www.finquestorres.net/es/venta/ref-1700": {
       "hash_contenido": "74825b99",
@@ -8406,15 +8382,15 @@
     },
     "https://www.finquestorres.net/es/venta/ref-1701": {
       "hash_contenido": "28892da0",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.149078"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:47.027772"
     },
     "https://www.finquestorres.net/es/venta/ref-1702": {
       "hash_contenido": "4c7ff08b",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.149082"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:47.027777"
     },
     "https://www.finquestorres.net/es/venta/ref-1706": {
       "hash_contenido": "43d32032",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.275518"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:47.027782"
     },
     "https://inmomenorcacentro.com/propiedad.php?id=1589": {
       "hash_contenido": "cd464a9c",
@@ -8835,10 +8811,6 @@
     "https://www.3villas.es/inmueble/terreno-edificable-en-venta-en-fornells/23289022": {
       "hash_contenido": "18293d8c",
       "fecha_ultimo_escaneo": "2025-09-04T18:53:16.108112"
-    },
-    "https://www.3villas.es/inmueble/bonita-casa-reformada-en-el-centro-de-sant-lluis/20863139": {
-      "hash_contenido": "a88a734a",
-      "fecha_ultimo_escaneo": "2025-09-04T18:53:17.319061"
     },
     "https://www.3villas.es/inmueble/encantadora-casa-con-licencia-turistica-en-cap-den-font/23143312": {
       "hash_contenido": "a9bf5a1e",
@@ -9694,7 +9666,7 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4807": {
       "hash_contenido": "1df83ff9",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.270245"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:45.007896"
     },
     "https://www.bonninsanso.com/es/compra/amplio-local-comercial-en-mahon-menorca/24533/": {
       "hash_contenido": "fdf6d069",
@@ -9734,7 +9706,7 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4782": {
       "hash_contenido": "5bff63d1",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.143848"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:45.007878"
     },
     "https://www.finquestorres.net/es/venta/ref-1656": {
       "hash_contenido": "766b9e68",
@@ -9842,11 +9814,11 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4694": {
       "hash_contenido": "49e25deb",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.018859"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.759628"
     },
     "https://www.finquestorres.net/es/venta/ref-1708": {
       "hash_contenido": "d6a28429",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.275541"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:47.027790"
     },
     "https://www.bonninsanso.com/es/compra/terreno-agricola-con-agua-y-derecho-a-luz-en-ciutadella-menorca/36570/": {
       "hash_contenido": "36500f94",
@@ -10004,10 +9976,6 @@
       "hash_contenido": "d4694a91",
       "fecha_ultimo_escaneo": "2025-10-07T21:21:42.974795"
     },
-    "https://www.casasenmenorca.com/inmueble/apartamento-con-jardin-en-planta-baja-en-addaia/24070827": {
-      "hash_contenido": "30f39e76",
-      "fecha_ultimo_escaneo": "2025-10-07T21:21:45.462048"
-    },
     "https://www.fincasseminari.com/propiedad-venta.php?id=1723": {
       "hash_contenido": "2b1a1e3f",
       "fecha_ultimo_escaneo": "2025-10-07T21:21:53.559540"
@@ -10046,7 +10014,7 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4697": {
       "hash_contenido": "378d867c",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.018864"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.759634"
     },
     "https://fincasllongas.com/propiedad/casa-en-el-centro-historico-de-mahon/": {
       "hash_contenido": "0600e04c",
@@ -10106,7 +10074,7 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4812": {
       "hash_contenido": "a8ff031f",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.270253"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:45.007905"
     },
     "https://www.bonninsanso.com/es/compra/villa-en-ejecucion-para-vivir-el-mediterraneo-son-parc-menorca-entrega-2026-27/92779/": {
       "hash_contenido": "017b4411",
@@ -10158,7 +10126,7 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4744": {
       "hash_contenido": "7573b5ab",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.143773"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.882346"
     },
     "https://www.bonninsanso.com/es/compra/bonito-apartamento-al-lado-de-cales-fonts-con-vistas-parciales-al-mar-es-castell-menorca/92859/": {
       "hash_contenido": "8a8b8861",
@@ -10202,7 +10170,7 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4094": {
       "hash_contenido": "4701e19a",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.041624"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.779929"
     },
     "https://www.bonninsanso.com/es/compra/parcela-exclusiva-con-gran-potencial-en-zona-de-playa-punta-prima-menorca/92381/": {
       "hash_contenido": "a10ff71e",
@@ -10310,7 +10278,7 @@
     },
     "https://www.finquestorres.net/es/venta/ref-1709": {
       "hash_contenido": "f8f8a4d4",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.275547"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:47.027795"
     },
     "https://www.bonninsanso.com/es/compra/casa-de-campo-en-s-uestra-sant-lluis-menorca/92914/": {
       "hash_contenido": "8dd382ec",
@@ -10770,11 +10738,7 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4578": {
       "hash_contenido": "1370c99e",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.650143"
-    },
-    "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4362": {
-      "hash_contenido": "0ab61aee",
-      "fecha_ultimo_escaneo": "2025-11-05T21:24:03.367451"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.512813"
     },
     "https://www.fincasciutadella.com/propiedad-v.php?id=1064": {
       "hash_contenido": "ed10669e",
@@ -10810,11 +10774,11 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4822": {
       "hash_contenido": "4acde9e4",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.270274"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:45.131176"
     },
     "https://www.finquestorres.net/es/venta/ref-1712": {
       "hash_contenido": "88ab8ef2",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.275551"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:47.027799"
     },
     "https://www.bonninsanso.com/es/compra/magnifica-propiedad-rodeada-de-exuberantes-jardines-alayor-menorca/91376/": {
       "hash_contenido": "8ebb871c",
@@ -11174,7 +11138,7 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4603": {
       "hash_contenido": "81963cf8",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.773024"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.512828"
     },
     "https://inmomenorcacentro.com/propiedad.php?id=1607": {
       "hash_contenido": "17bde38d",
@@ -11218,7 +11182,7 @@
     },
     "https://www.finquestorres.net/es/venta/ref-1359": {
       "hash_contenido": "93cef31e",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:29.898959"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:46.656058"
     },
     "https://www.casasenmenorca.com/inmueble/apartamento-con-vistas-y-licencia-en-arenal-den-castell/24623426": {
       "hash_contenido": "d4694a91",
@@ -11290,11 +11254,11 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4811": {
       "hash_contenido": "69c44cf8",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.270250"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:45.007900"
     },
     "https://www.ponsmorales.com/es/venta/ref-4827": {
       "hash_contenido": "31343d35",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.270283"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:45.131207"
     },
     "https://fincasllongas.com/propiedad/chalet-con-licencia-turistica-en-calan-bosch-2/": {
       "hash_contenido": "0600e04c",
@@ -11386,7 +11350,7 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4576": {
       "hash_contenido": "8535ab14",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.650135"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.512791"
     },
     "https://www.ponsmorales.com/es/venta/ref-4831": {
       "hash_contenido": "1bfa711d",
@@ -11394,11 +11358,11 @@
     },
     "https://www.finquestorres.net/es/venta/ref-1707": {
       "hash_contenido": "79b6d2fc",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.275536"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:47.027786"
     },
     "https://www.finquestorres.net/es/venta/ref-1715": {
       "hash_contenido": "d5ffd557",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.275556"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:47.027803"
     },
     "https://www.bonninsanso.com/es/compra/encantador-duplex-con-terraza-y-jardin-en-cala-galdana-ferreries-menorca/36749/": {
       "hash_contenido": "83e44355",
@@ -11526,7 +11490,7 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4835": {
       "hash_contenido": "88da495f",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.392705"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:45.131211"
     },
     "https://www.enprimeralinea.immo/piso-en-ciutadella-de-menorca-es1679266.html": {
       "hash_contenido": "cded9856",
@@ -11626,11 +11590,11 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4244": {
       "hash_contenido": "d5ffd557",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.162562"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:43.901346"
     },
     "https://www.ponsmorales.com/es/venta/ref-4267": {
       "hash_contenido": "63eb0f79",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.162566"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.023697"
     },
     "https://www.bonninsanso.com/es/compra/atico-con-terraza-y-vistas-al-mar-en-es-castell-menorca/93036/": {
       "hash_contenido": "9c523532",
@@ -11806,11 +11770,11 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4325": {
       "hash_contenido": "27849019",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.284015"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.023738"
     },
     "https://www.ponsmorales.com/es/venta/ref-4838": {
       "hash_contenido": "c442c46b",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.392726"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:45.131217"
     },
     "http://www.fincasfaro.net/es/ficha/2094/": {
       "hash_contenido": "47ec8ed0",
@@ -11870,11 +11834,11 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4390": {
       "hash_contenido": "1c250a64",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.406013"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.145080"
     },
     "https://www.ponsmorales.com/es/venta/ref-4819": {
       "hash_contenido": "26fc9f7d",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.270257"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:45.007911"
     },
     "https://inmobiliariapalau.com/propiedad/ref-4455-apartamento-en-cala-galdana/": {
       "hash_contenido": "067af444",
@@ -11980,13 +11944,9 @@
       "hash_contenido": "3af66537",
       "fecha_ultimo_escaneo": "2026-01-14T21:30:17.924428"
     },
-    "https://www.3villas.es/inmueble/piso-en-planta-baja-con-patio-para-alquilar/24917811": {
-      "hash_contenido": "e89fd052",
-      "fecha_ultimo_escaneo": "2026-01-14T21:30:20.026494"
-    },
     "https://www.ponsmorales.com/es/venta/ref-4839": {
       "hash_contenido": "55a65014",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.392731"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:45.131221"
     },
     "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4404": {
       "hash_contenido": "d5ffd557",
@@ -12034,7 +11994,7 @@
     },
     "https://www.finquestorres.net/es/venta/ref-1718": {
       "hash_contenido": "47f4da2e",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.275561"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:47.027807"
     },
     "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4406": {
       "hash_contenido": "cb5322ad",
@@ -12058,11 +12018,11 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4577": {
       "hash_contenido": "7573b5ab",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:27.650139"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.512808"
     },
     "https://www.ponsmorales.com/es/venta/ref-4823": {
       "hash_contenido": "b22c8b11",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.270278"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:45.131202"
     },
     "https://fincasllongas.com/propiedad/acogedor-chalet-con-garaje-en-fornells-2/": {
       "hash_contenido": "f986a2fd",
@@ -12090,11 +12050,11 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4852": {
       "hash_contenido": "1fa15caa",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.392737"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:45.131227"
     },
     "https://www.finquestorres.net/es/venta/ref-1719": {
       "hash_contenido": "b58a342d",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.275565"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:47.152820"
     },
     "https://www.bonninsanso.com/es/compra/apartamento-en-exclusiva-en-cala-n-bosch-ciutadella-de-menorca/36896/": {
       "hash_contenido": "43d32032",
@@ -12122,7 +12082,7 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4853": {
       "hash_contenido": "0ba66442",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.392741"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:45.131230"
     },
     "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=3333": {
       "hash_contenido": "79b6d2fc",
@@ -12186,11 +12146,11 @@
     },
     "https://www.ponsmorales.com/es/venta/ref-4746": {
       "hash_contenido": "964a95c4",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:28.143813"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:44.882350"
     },
     "https://www.finquestorres.net/es/venta/ref-1720": {
       "hash_contenido": "f7abe90a",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.275569"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:47.152847"
     },
     "https://fincasllongas.com/propiedad/apartamento-reformado-en-calan-blanes-3/": {
       "hash_contenido": "67ced4b6",
@@ -12238,7 +12198,7 @@
     },
     "https://www.finquestorres.net/es/venta/ref-1721": {
       "hash_contenido": "4974dfa7",
-      "fecha_ultimo_escaneo": "2026-01-29T21:35:30.275574"
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:47.152852"
     },
     "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4408": {
       "hash_contenido": "94c3e962",
@@ -12311,6 +12271,34 @@
     "https://www.3villas.es/inmueble/alquiler-de-piso-en-ciutadella-de-menorca/25040891": {
       "hash_contenido": "8e7eb489",
       "fecha_ultimo_escaneo": "2026-01-29T21:35:24.450590"
+    },
+    "https://www.bonninsanso.com/es/compra/chalet-individual-con-piscina-privada-y-licencia-turistica-en-cala-blanca-ciutadella-menorca/36981/": {
+      "hash_contenido": "df2aa275",
+      "fecha_ultimo_escaneo": "2026-01-30T21:34:50.872158"
+    },
+    "https://zenhousecredit.com/propiedad.php?id=2298": {
+      "hash_contenido": "3cac032e",
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:01.606358"
+    },
+    "https://www.casasenmenorca.com/inmueble/casa-entera-en-el-centro-de-ciutadella/25050058": {
+      "hash_contenido": "0d81f1d4",
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:09.824137"
+    },
+    "https://www.fincasseminari.com/propiedad-venta.php?id=1736": {
+      "hash_contenido": "03894f2e",
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:18.164223"
+    },
+    "https://www.saimmobiliaria.com/inmueble/en-exclusiva-duplex-con-terraza-en-es-castell/25052369": {
+      "hash_contenido": "6843faba",
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:34.861302"
+    },
+    "https://www.3villas.es/inmueble/casa-en-centro-de-ferreries/19400377": {
+      "hash_contenido": "e89fd052",
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:38.962778"
+    },
+    "https://www.3villas.es/inmueble/local-comercial-en-el-puerto-de-mahon/25002725": {
+      "hash_contenido": "45a96e65",
+      "fecha_ultimo_escaneo": "2026-01-30T21:35:40.964274"
     }
   },
   "urls_eliminadas": {
@@ -15938,10 +15926,6 @@
       "fecha_eliminacion": "2026-01-28T21:36:44.559773",
       "ultima_referencia": "desconocida"
     },
-    "https://www.3villas.es/inmueble/casa-en-centro-de-ferreries/19400377": {
-      "fecha_eliminacion": "2026-01-28T21:37:09.520102",
-      "ultima_referencia": "desconocida"
-    },
     "https://fincasllongas.com/propiedad/chalet-con-licencia-turistica-en-son-vilar-es-castell/": {
       "fecha_eliminacion": "2026-01-29T21:34:30.798399",
       "ultima_referencia": "desconocida"
@@ -15985,13 +15969,53 @@
     "https://www.fincasseminari.com/propiedad-venta.php?id=1693": {
       "fecha_eliminacion": "2026-01-29T21:35:07.173558",
       "ultima_referencia": "desconocida"
+    },
+    "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=1328": {
+      "fecha_eliminacion": "2026-01-30T21:34:40.616828",
+      "ultima_referencia": "desconocida"
+    },
+    "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4362": {
+      "fecha_eliminacion": "2026-01-30T21:34:40.616845",
+      "ultima_referencia": "desconocida"
+    },
+    "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=3938": {
+      "fecha_eliminacion": "2026-01-30T21:34:40.616849",
+      "ultima_referencia": "desconocida"
+    },
+    "https://inmobiliariapalau.com/propiedad/ref-4173-edificio-en-casco-antiguo-de-ciutadella/": {
+      "fecha_eliminacion": "2026-01-30T21:34:45.896189",
+      "ultima_referencia": "desconocida"
+    },
+    "https://www.bonninsanso.com/es/compra/interesante-proyecto-urbanistico-para-desarrollar-en-el-centro-de-alayor-menorca/25355/": {
+      "fecha_eliminacion": "2026-01-30T21:34:48.710853",
+      "ultima_referencia": "desconocida"
+    },
+    "https://www.bonninsanso.com/es/compra/encantador-chalet-adosado-en-cala-n-bosch-con-licencia-turistica-ciutadella-menorca/36291/": {
+      "fecha_eliminacion": "2026-01-30T21:34:48.710875",
+      "ultima_referencia": "desconocida"
+    },
+    "https://www.bonninsanso.com/es/compra/exclusivo-chalet-reformado-con-licencia-turistica-en-santo-tomas-menorca/92535/": {
+      "fecha_eliminacion": "2026-01-30T21:34:48.710879",
+      "ultima_referencia": "desconocida"
+    },
+    "https://www.casasenmenorca.com/inmueble/apartamento-con-jardin-en-planta-baja-en-addaia/24070827": {
+      "fecha_eliminacion": "2026-01-30T21:35:07.819938",
+      "ultima_referencia": "desconocida"
+    },
+    "https://www.3villas.es/inmueble/piso-en-planta-baja-con-patio-para-alquilar/24917811": {
+      "fecha_eliminacion": "2026-01-30T21:35:37.237177",
+      "ultima_referencia": "desconocida"
+    },
+    "https://www.3villas.es/inmueble/bonita-casa-reformada-en-el-centro-de-sant-lluis/20863139": {
+      "fecha_eliminacion": "2026-01-30T21:35:37.237194",
+      "ultima_referencia": "desconocida"
     }
   },
   "ultima_ejecucion_completa": "2025-09-02T22:46:16.969596",
   "estadisticas": {
-    "total_urls_conocidas": 3078,
-    "ultimo_escaneo_incremental": "2026-01-29T21:35:25.450719",
+    "total_urls_conocidas": 3075,
+    "ultimo_escaneo_incremental": "2026-01-30T21:35:41.964420",
     "cambios_detectados": 0,
-    "urls_eliminadas": 1004
+    "urls_eliminadas": 1014
   }
 }
