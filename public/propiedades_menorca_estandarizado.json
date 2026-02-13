@@ -85287,12 +85287,12 @@
     "habitaciones": null,
     "banos": 1,
     "tipo": "Local",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://zenhousecredit.com/propiedad.php?id=1434",
     "inmobiliaria": "Zenhouse Credit",
@@ -85302,7 +85302,8 @@
       "https://zenhousecredit.com/img/calcular.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:25:49.589955",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-02-13T21:42:51.855552"
   },
   {
     "referencia": "52374",
@@ -87861,12 +87862,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-entera-con-terrazas-en-alaior/21572704",
     "inmobiliaria": "Casas en Menorca",
@@ -87875,7 +87876,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P25413678/Tphoto/ID2ec88301-0000-0500-0000-000013f430d9.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:27:44.156537",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-02-13T21:42:59.246125"
   },
   {
     "referencia": "20688342",
@@ -176091,6 +176093,95 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29351218/Tphoto/ID32ddbf01-0000-0500-0000-00001869d725.jpg"
     ],
     "fecha_scraping": "2026-02-12T21:41:38.907923",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "8339",
+    "titulo": "PISO CON AZOTEA",
+    "ubicacion": "Ciutadella",
+    "precio": 360000,
+    "metros": 142,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 1,
+    "tipo": "Piso",
+    "estado": "EXCLUSIVA",
+    "piscina": true,
+    "garaje": true,
+    "ascensor": true,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.enprimeralinea.immo/piso-en-ciutadella-de-menorca-es1695796.html",
+    "inmobiliaria": "En Primera Linea",
+    "imagen_destacada": "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1695796/image/WhatsApp Image 2026-02-12 at 10.59.30 (2).jpg?v=20260212124007530",
+    "galeria": [
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1695796/image/WhatsApp Image 2026-02-12 at 10.59.30 (2).jpg?v=20260212124007530",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1695796/image/thumb/585_335/WhatsApp%20Image%202026-02-12%20at%2010.59.30%20%282%29.jpg?20260212124007530",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1662499/image/thumb/585_335/img_0606.jpg",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1681094/image/thumb/585_335/chatgpt-image-17-dic-2025-18_37_49.png",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1199215/image/thumb/585_335/Captura%202024-04-24%20a%20las%2011.52.19.jpg"
+    ],
+    "fecha_scraping": "2026-02-13T21:42:56.963797",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25161988",
+    "titulo": "Casa muy céntrica en Ciutadella",
+    "ubicacion": "Ciutadella",
+    "precio": 630000,
+    "metros": 200,
+    "metros_parcela": null,
+    "habitaciones": 6,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-muy-centrica-en-ciutadella/25161988",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29378077/Tphoto/ID1d46c001-0000-0500-0000-0000186fdcd6.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29378077/Tphoto/ID1d46c001-0000-0500-0000-0000186fdcd6.jpg"
+    ],
+    "fecha_scraping": "2026-02-13T21:43:00.801768",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "203-344890",
+    "titulo": "Chalet en fantástica zona de Ciutadella",
+    "ubicacion": "Son Oleo; Ciutadella; Sa caleta",
+    "precio": 890000,
+    "metros": 2,
+    "metros_parcela": 317,
+    "habitaciones": 3,
+    "banos": 2,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": true,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1738",
+    "inmobiliaria": "Fincas Seminari",
+    "imagen_destacada": "https://www.fincasseminari.com/panel/inmuebles/1738/img/01",
+    "galeria": [
+      "https://www.fincasseminari.com/panel/inmuebles/1738/img/01",
+      "https://www.fincasseminari.com/panel/inmuebles/1738/img/02",
+      "https://www.fincasseminari.com/panel/inmuebles/1738/img/04",
+      "https://www.fincasseminari.com/panel/inmuebles/1738/img/AC96C1ECA4.jpg",
+      "https://www.fincasseminari.com/panel/inmuebles/1738/med/01",
+      "https://www.fincasseminari.com/panel/inmuebles/1738/med/02",
+      "https://www.fincasseminari.com/panel/inmuebles/1738/med/04",
+      "https://www.fincasseminari.com/panel/inmuebles/1738/med/AC96C1ECA4.jpg"
+    ],
+    "fecha_scraping": "2026-02-13T21:43:09.018979",
     "fecha_ultima_actualizacion": null
   }
 ]
