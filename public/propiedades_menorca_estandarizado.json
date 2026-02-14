@@ -15525,12 +15525,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": "LICENCIA TURÍSTICA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=3773",
     "inmobiliaria": "Inmobiliaria Artrutx",
@@ -15558,7 +15558,8 @@
       "https://www.inmobiliariaartrutx.com/panel/inmuebles/3773/img/20.jpg"
     ],
     "fecha_scraping": "2025-09-02T21:44:40.995437",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-02-14T21:31:27.280247"
   },
   {
     "referencia": "4629",
@@ -173035,12 +173036,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-de-campo-con-proyecto-en-sant-lluis/21561480",
     "inmobiliaria": "Casas en Menorca",
@@ -173049,7 +173050,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P25397117/Tphoto/ID7d878301-0000-0500-0000-000013ec596f.jpg"
     ],
     "fecha_scraping": "2026-01-31T21:29:17.179887",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-02-14T21:31:54.263213"
   },
   {
     "referencia": "24988217",
@@ -176182,6 +176184,32 @@
       "https://www.fincasseminari.com/panel/inmuebles/1738/med/AC96C1ECA4.jpg"
     ],
     "fecha_scraping": "2026-02-13T21:43:09.018979",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25170339",
+    "titulo": "Piso en planta baja con piscina en Es Mercadal",
+    "ubicacion": "Es Mercadal",
+    "precio": 295000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/piso-en-planta-baja-con-piscina-en-es-mercadal/25170339",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29387286/Tphoto/ID166ac001-0000-0500-0000-000018722faa.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29387286/Tphoto/ID166ac001-0000-0500-0000-000018722faa.jpg"
+    ],
+    "fecha_scraping": "2026-02-14T21:31:56.092870",
     "fecha_ultima_actualizacion": null
   }
 ]
