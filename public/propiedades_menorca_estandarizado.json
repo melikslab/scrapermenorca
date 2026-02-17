@@ -176468,5 +176468,41 @@
     ],
     "fecha_scraping": "2026-02-16T21:37:15.676818",
     "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "93120",
+    "titulo": "Parcela en Coves Noves, Menorca",
+    "ubicacion": "Es Mercadal; Coves noves",
+    "precio": 195000,
+    "metros": null,
+    "metros_parcela": 565,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Solar",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/parcela-en-coves-noves-menorca/93120/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/b/a/propiedades_fotos_711597_w120_h90_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/b/a/propiedades_fotos_711597_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/e/3/propiedades_fotos_711599_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/3/c/propiedades_fotos_711113_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/8/8/propiedades_fotos_711112_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/2/a/propiedades_fotos_711114_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/b/7/propiedades_fotos_711598_w120_h90_wm.jpg",
+      "https://images.bonninsanso.com/b/c/zonas_fotos_83_w120_h90.jpg",
+      "https://images.bonninsanso.com/8/4/zonas_fotos_87_w120_h90.jpg",
+      "https://images.bonninsanso.com/2/7/zonas_fotos_84_w120_h90.jpg",
+      "https://images.bonninsanso.com/5/a/zonas_fotos_86_w120_h90.jpg",
+      "https://images.bonninsanso.com/b/c/zonas_fotos_85_w120_h90.jpg"
+    ],
+    "fecha_scraping": "2026-02-17T21:43:15.438448",
+    "fecha_ultima_actualizacion": null
   }
 ]
