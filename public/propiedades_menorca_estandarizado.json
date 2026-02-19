@@ -45486,12 +45486,12 @@
     "habitaciones": 5,
     "banos": 2,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/tradicional-casa-de-campo-menorquina-en-area-rural-de-es-castell-menorca-con-licencia-turistica/28952/",
     "inmobiliaria": "Bonnin Sanso",
@@ -45565,7 +45565,8 @@
       "https://images.bonninsanso.com/0/1/propiedades_fotos_540499_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:03:42.300476",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-02-19T21:40:19.225465"
   },
   {
     "referencia": "29258",
@@ -97624,12 +97625,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1714",
     "inmobiliaria": "Fincas Seminari",
@@ -97651,7 +97652,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1714/med/1000019682.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:34:19.483495",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-02-19T21:40:49.791432"
   },
   {
     "referencia": "207-308465",
@@ -126013,12 +126015,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1717",
     "inmobiliaria": "Fincas Seminari",
@@ -126028,7 +126030,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1717/med/201-693 web.jpg"
     ],
     "fecha_scraping": "2025-09-03T20:12:13.765983",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-02-19T21:40:49.791473"
   },
   {
     "referencia": "206-111298",
@@ -146737,12 +146740,12 @@
     "habitaciones": 3,
     "banos": 1,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1723",
     "inmobiliaria": "Fincas Seminari",
@@ -146780,7 +146783,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1723/med/15"
     ],
     "fecha_scraping": "2025-10-07T21:21:53.558485",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-02-19T21:40:49.791504"
   },
   {
     "referencia": "M7622 (2)",
@@ -167385,12 +167389,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": "LICENCIA TURÍSTICA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4400",
     "inmobiliaria": "Inmobiliaria Artrutx",
@@ -167418,7 +167422,8 @@
       "https://www.inmobiliariaartrutx.com/panel/inmuebles/4400/img/20.jpeg"
     ],
     "fecha_scraping": "2026-01-05T21:28:34.398346",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-02-19T21:40:07.161933"
   },
   {
     "referencia": "91499",
@@ -176799,6 +176804,171 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29403422/Tphoto/ID1ea9c001-0000-0500-0000-000018764bca.jpg"
     ],
     "fecha_scraping": "2026-02-18T21:42:22.998737",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "2102",
+    "titulo": "GRAN GARAJE CON PATIO EN SANT LLUIS",
+    "ubicacion": null,
+    "precio": 210000,
+    "metros": 11,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Garaje",
+    "estado": null,
+    "piscina": false,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "http://www.fincasfaro.net/es/ficha/2102/",
+    "inmobiliaria": "Fincas Faro",
+    "imagen_destacada": "http://www.fincasfaro.net/watermark/601992/380x380",
+    "galeria": [
+      "http://www.fincasfaro.net/watermark/601992/380x380",
+      "http://www.fincasfaro.net/watermark/601993/380x380",
+      "http://www.fincasfaro.net/watermark/601969/380x380",
+      "http://www.fincasfaro.net/watermark/601970/380x380",
+      "http://www.fincasfaro.net/watermark/601971/380x380",
+      "http://www.fincasfaro.net/watermark/601972/380x380",
+      "http://www.fincasfaro.net/watermark/601973/380x380",
+      "http://www.fincasfaro.net/watermark/601974/380x380",
+      "http://www.fincasfaro.net/watermark/601975/380x380",
+      "http://www.fincasfaro.net/watermark/601976/380x380"
+    ],
+    "fecha_scraping": "2026-02-19T21:40:30.730173",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25202778",
+    "titulo": "Chalet con piscina en Trebalúger",
+    "ubicacion": "Es Castell; Trebalúger",
+    "precio": 1150000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/chalet-con-piscina-en-trebaluger/25202778",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29421412/Tphoto/ID64efc001-0000-0500-0000-0000187ad130.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29421412/Tphoto/ID64efc001-0000-0500-0000-0000187ad130.jpg"
+    ],
+    "fecha_scraping": "2026-02-19T21:40:38.628858",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25203657",
+    "titulo": "Segundo piso en Mahón",
+    "ubicacion": "Maó - Mahón; Maó",
+    "precio": 340000,
+    "metros": 100,
+    "metros_parcela": null,
+    "habitaciones": 4,
+    "banos": null,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/segundo-piso-en-mahon/25203657",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29422424/Tphoto/ID58f3c001-0000-0500-0000-0000187b135a.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29422424/Tphoto/ID58f3c001-0000-0500-0000-0000187b135a.jpg"
+    ],
+    "fecha_scraping": "2026-02-19T21:40:40.786224",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25204135",
+    "titulo": "Casa en planta baja con garaje en Mahón",
+    "ubicacion": "Maó - Mahón; Maó",
+    "precio": 360000,
+    "metros": 20,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": false,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-en-planta-baja-con-garaje-en-mahon/25204135",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29422979/Tphoto/ID83f5c001-0000-0500-0000-0000187b3825.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29422979/Tphoto/ID83f5c001-0000-0500-0000-0000187b3825.jpg"
+    ],
+    "fecha_scraping": "2026-02-19T21:40:42.937817",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25202466",
+    "titulo": "Encantadora vivienda con acceso directo al mar en Cala Molí - Addaia, Menorca",
+    "ubicacion": "Es Mercadal; Puerto De Addaia",
+    "precio": 420000,
+    "metros": 50,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.3villas.es/inmueble/encantadora-vivienda-con-acceso-directo-al-mar-en-cala-moli-addaia-menorca/25202466",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29420948/Tphoto/ID94edc001-0000-0500-0000-0000187ab099.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29420948/Tphoto/ID94edc001-0000-0500-0000-0000187ab099.jpg"
+    ],
+    "fecha_scraping": "2026-02-19T21:41:07.097251",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "1722",
+    "titulo": "Planta baja independiente con patio privado",
+    "ubicacion": "Ciutadella",
+    "precio": 477000,
+    "metros": 135,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 1,
+    "tipo": "Casa",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.finquestorres.net/es/venta/ref-1722",
+    "inmobiliaria": "Finques Torres",
+    "imagen_destacada": "https://www.finquestorres.net/DesktopModules/InmoBS3/images/nofoto.png",
+    "galeria": [
+      "https://www.finquestorres.net/DesktopModules/InmoBS3/images/nofoto.png"
+    ],
+    "fecha_scraping": "2026-02-19T21:41:12.698486",
     "fecha_ultima_actualizacion": null
   }
 ]
