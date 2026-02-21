@@ -7063,12 +7063,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/antigua-fabrica-convertida-en-vivienda-moderna/",
     "inmobiliaria": "Fincas Llongas",
@@ -7095,7 +7095,8 @@
       "https://fincasllongas.com/files/a7301577-1-800x480.jpg?v=1708604640"
     ],
     "fecha_scraping": "2025-09-02T21:39:56.706359",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-02-21T21:30:14.683726"
   },
   {
     "referencia": "Ref. 7375",
@@ -63597,12 +63598,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/plaza-de-parking-a-escasos-minutos-del-centro-de-ciutadella-menorca/36637/",
     "inmobiliaria": "Bonnin Sanso",
@@ -63617,7 +63618,8 @@
       "https://images.bonninsanso.com/9/9/propiedades_fotos_684155_w120_h90_wm_1.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:12:15.463511",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-02-21T21:30:29.765704"
   },
   {
     "referencia": "92664",
@@ -91550,12 +91552,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/magnifica-casa-con-jardin-en-mahon/23478824",
     "inmobiliaria": "Casas en Menorca",
@@ -91564,7 +91566,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P27484066/Tphoto/IDa25fa301-0000-0500-0000-0000163ac266.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:30:37.621403",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-02-21T21:30:49.087143"
   },
   {
     "referencia": "22994352",
@@ -175519,12 +175522,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/tercer-piso-con-terraza-en-alaior/25124052",
     "inmobiliaria": "Casas en Menorca",
@@ -175533,7 +175536,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29337669/Tphoto/ID45a8bf01-0000-0500-0000-00001865a045.jpg"
     ],
     "fecha_scraping": "2026-02-10T21:51:36.012803",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-02-21T21:30:49.087271"
   },
   {
     "referencia": "25124956",
@@ -177541,6 +177545,32 @@
       "https://www.finquestorres.net/DesktopModules/InmoBS3/images/nofoto.png"
     ],
     "fecha_scraping": "2026-02-20T21:33:36.030297",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25220296",
+    "titulo": "Apartamento con licencia turística en Son Bou",
+    "ubicacion": "Alaior; Son Bou - San Jaime",
+    "precio": 395000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": 2,
+    "banos": null,
+    "tipo": "Apartamento",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.3villas.es/inmueble/apartamento-con-licencia-turistica-en-son-bou/25220296",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29414250/Tphoto/ID6ad3c001-0000-0500-0000-00001880105c.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29414250/Tphoto/ID6ad3c001-0000-0500-0000-00001880105c.jpg"
+    ],
+    "fecha_scraping": "2026-02-21T21:31:16.208034",
     "fecha_ultima_actualizacion": null
   }
 ]
