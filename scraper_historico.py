@@ -34,7 +34,6 @@ ARCHIVO_TEMP        = os.getenv('ARCHIVO_TEMP',        os.path.join(DATA_DIR, 'p
 # Diccionario global para almacenar estados desde el listado
 _estados_fincasseminari = {}
 _estados_inmocampsbosch = {}
-_estados_finquesfuguet = {}
 
 
 
@@ -4004,142 +4003,132 @@ def scrape_3villas_detalle(url, referencia=None):
         return None
 
 
-def obtener_urls_finquesfuguet():
+def scrape_finquesfuguet_listado():
     url_listado = "https://www.finquesinmofuguet.com/propiedades-venta.php"
     try:
         r = requests.get(url_listado, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, 'html.parser')
 
-        urls_propiedades = []
-        for item in soup.select("div.property-block"):
+        propiedades = []
+        items = soup.select("div.property-block")
+        total = len(items)
+
+        for idx, item in enumerate(items, 1):
+            # URL y referencia
             enlace = item.select_one("a[href*='propiedad-v.php']")
             if not enlace:
                 continue
-
             href = enlace['href']
             url_detalle = urljoin(url_listado, href)
 
-            # Referencia
             h3 = item.select_one("h3 a")
             referencia = None
+            titulo = None
             if h3:
-                m = re.search(r'REF[:\s]*(\d+)', h3.get_text(), re.IGNORECASE)
+                texto_h3 = h3.get_text(strip=True)
+                m = re.search(r'REF[:\s]*(\d+)', texto_h3, re.IGNORECASE)
                 if m:
                     referencia = m.group(1)
+                # Título es el texto después del REF y salto de línea
+                titulo = re.sub(r'REF[:\s]*\d+', '', texto_h3).strip()
+
             if not referencia:
                 m = re.search(r'id=(\d+)', href)
                 if m:
                     referencia = m.group(1)
 
-            # Estado desde listado
+           # Estado
             estado_tag = item.select_one("div.sale")
             estado = estado_tag.get_text(strip=True).upper() if estado_tag else None
-            _estados_finquesfuguet[url_detalle] = estado
+            
+            # Ignorar estados descriptivos
+            ESTADOS_IGNORAR = {'ESPECTACULAR', 'BUEN ESTADO'}
+            if estado in ESTADOS_IGNORAR:
+                estado = None
+            
+            vendido = bool(estado and ('VENDIDO' in estado or 'RESERVADO' in estado))
 
-            if referencia:
-                urls_propiedades.append((referencia, url_detalle))
+            # Precio
+            precio = None
+            precio_tag = item.select_one("div.price")
+            if precio_tag:
+                precio_txt = re.sub(r'[^\d]', '', precio_tag.get_text(strip=True))
+                if precio_txt.isdigit():
+                    precio = int(precio_txt)
 
-        return list(set(urls_propiedades))
+            # Ubicación
+            ubicacion = None
+            ubic_tag = item.select_one("div.location")
+            if ubic_tag:
+                ubicacion = estandarizar_ubicacion(ubic_tag.get_text(strip=True))
+
+            # Habitaciones
+            habitaciones = None
+            hab = item.select_one("span.flaticon-bed-1")
+            if hab:
+                m = re.search(r'\d+', hab.parent.get_text())
+                if m: habitaciones = int(m.group())
+
+            # Baños
+            banos = None
+            ban = item.select_one("span.flaticon-bathtube-with-shower")
+            if ban:
+                m = re.search(r'\d+', ban.parent.get_text())
+                if m: banos = int(m.group())
+
+            # Metros
+            metros = None
+            met = item.select_one("span.flaticon-squares")
+            if met:
+                m = re.search(r'\d+', met.parent.get_text())
+                if m: metros = int(m.group())
+
+            # Imagen
+            imagen_destacada = ''
+            img_tag = item.select_one("div.image img")
+            if img_tag:
+                src = img_tag.get('src', '')
+                if src:
+                    imagen_destacada = urljoin(url_listado, src)
+
+            # Flags desde título
+            flags = detectar_flags((titulo or '').upper())
+            piscina, garaje, ascensor, vistas_mar, alquiler = (
+                flags['piscina'], flags['garaje'], flags['ascensor'], flags['vistas_mar'], flags['alquiler']
+            )
+            alquiler = False
+
+            tipo = detectar_tipo(titulo)
+            data = crear_propiedad_estandar(
+                referencia=referencia,
+                titulo=titulo,
+                ubicacion=ubicacion,
+                precio=precio,
+                metros=metros,
+                metros_parcela=None,
+                habitaciones=habitaciones,
+                banos=banos,
+                tipo=tipo,
+                estado=estado,
+                piscina=piscina,
+                garaje=garaje,
+                ascensor=ascensor,
+                vistas_mar=vistas_mar,
+                vendido=vendido,
+                alquiler=alquiler,
+                url_detalle=url_detalle,
+                inmobiliaria='Finques Fuguet',
+                imagen_destacada=imagen_destacada,
+                galeria=[imagen_destacada] if imagen_destacada else []
+            )
+            propiedades.append(data)
+            print(f"  ✔ {idx}/{total} ref {referencia} -> {titulo}")
+
+        return propiedades
     except Exception as e:
-        print(f"Error obteniendo URLs de Finques Fuguet: {e}")
+        print(f"Error scrapeando listado Finques Fuguet: {e}")
         return []
-
-
-def scrape_finquesfuguet_detalle(url, referencia=None):
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
-        r.raise_for_status()
-        soup = BeautifulSoup(r.text, 'html.parser')
-        for tag in soup(["header", "footer"]):
-            tag.decompose()
-
-        texto_completo = soup.get_text(" ", strip=True)
-
-        # TÍTULO
-        titulo = None
-        h1 = soup.select_one("h1") or soup.select_one("h3.title")
-        if h1:
-            titulo = re.sub(r'REF[:\s]*\d+', '', h1.get_text(strip=True)).strip()
-
-        # PRECIO
-        precio = None
-        match = re.search(r'(\d{1,3}(?:[.,]\d{3})*)\s*€', texto_completo)
-        if match:
-            precio = int(match.group(1).replace('.', '').replace(',', ''))
-
-        # UBICACIÓN
-        ubicacion = None
-        ubic_tag = soup.select_one("div.location, .address, .zona")
-        if ubic_tag:
-            ubicacion = ubic_tag.get_text(strip=True)
-        ubicacion = estandarizar_ubicacion(ubicacion)
-
-        # CARACTERÍSTICAS
-        habitaciones = banos = metros = metros_parcela = None
-        hab = soup.select_one("span.flaticon-bed-1")
-        if hab:
-            m = re.search(r'\d+', hab.parent.get_text())
-            if m: habitaciones = int(m.group())
-
-        ban = soup.select_one("span.flaticon-bathtube-with-shower")
-        if ban:
-            m = re.search(r'\d+', ban.parent.get_text())
-            if m: banos = int(m.group())
-
-        met = soup.select_one("span.flaticon-squares")
-        if met:
-            m = re.search(r'\d+', met.parent.get_text())
-            if m: metros = int(m.group())
-
-        # ESTADO (desde listado)
-        estado = _estados_finquesfuguet.get(url)
-        vendido = False
-        if estado and ('VENDIDO' in estado or 'RESERVADO' in estado):
-            vendido = True
-
-        # FLAGS (desde detalle)
-        flags = detectar_flags(texto_completo.upper())
-        piscina, garaje, ascensor, vistas_mar, alquiler = (
-            flags['piscina'], flags['garaje'], flags['ascensor'], flags['vistas_mar'], flags['alquiler']
-        )
-        alquiler = False
-
-        # IMAGEN (solo portada del listado, sin entrar al detalle)
-        imagen_destacada = ''
-        img_tag = soup.select_one("div.image img, .gallery img, img[src*='inmuebles']")
-        if img_tag:
-            src = img_tag.get('src', '')
-            if src:
-                imagen_destacada = urljoin(url, src)
-
-        tipo = detectar_tipo(titulo)
-        return crear_propiedad_estandar(
-            referencia=referencia,
-            titulo=titulo,
-            ubicacion=ubicacion,
-            precio=precio,
-            metros=metros,
-            metros_parcela=metros_parcela,
-            habitaciones=habitaciones,
-            banos=banos,
-            tipo=tipo,
-            estado=estado,
-            piscina=piscina,
-            garaje=garaje,
-            ascensor=ascensor,
-            vistas_mar=vistas_mar,
-            vendido=vendido,
-            alquiler=alquiler,
-            url_detalle=url,
-            inmobiliaria='Finques Fuguet',
-            imagen_destacada=imagen_destacada,
-            galeria=[imagen_destacada] if imagen_destacada else []
-        )
-    except Exception as e:
-        print(f"Error scrapeando Finques Fuguet {url}: {e}")
-        return None
-
 
 
 def main():
