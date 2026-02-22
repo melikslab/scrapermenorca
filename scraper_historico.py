@@ -1925,14 +1925,13 @@ def scrape_bonninsanso_detalle(url, referencia):
         # ===========================
         galeria = []
         vistos = set()
-        for img in soup.select('img'):
-            if img.has_attr('src'):
-                src = img['src']
-                if not any(x in src.lower() for x in ['logo','icon','/ee/','/caracts/','/static/']):
-                    abs_url = urljoin(url, src)
-                    if abs_url not in vistos:
-                        galeria.append(abs_url)
-                        vistos.add(abs_url)
+        for a in soup.select('a[href]'):
+            href = a.get('href', '')
+            if (any(ext in href.lower() for ext in ['.jpg', '.jpeg', '.png', '.webp'])
+                    and 'images.bonninsanso.com' in href
+                    and href not in vistos):
+                galeria.append(href)
+                vistos.add(href)
         imagen_destacada = galeria[0] if galeria else ''
 
         # ===========================
