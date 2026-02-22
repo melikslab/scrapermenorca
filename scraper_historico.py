@@ -4088,6 +4088,12 @@ def main():
     for prop in propiedades_finquestorres:
         gestor.agregar_propiedad(prop)
         registro.registrar_url_escaneada(prop['url_detalle'], prop.get('precio'), prop.get('estado'))
+
+    # Blanca de Olivar
+    propiedades_blancadeolivar = scrape_mobilia_listado("https://www.blancadeolivar.com/es/venta", "Blanca de Olivar")
+    for prop in propiedades_blancadeolivar:
+        gestor.agregar_propiedad(prop)
+        registro.registrar_url_escaneada(prop['url_detalle'], prop.get('precio'), prop.get('estado'))
     
     # Finalizar y guardar (con opción de organizar por inmobiliaria)
     GUARDAR_POR_INMOBILIARIA = False  # Configurar según preferencia
