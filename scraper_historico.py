@@ -4179,7 +4179,6 @@ def main():
         (scrape_menorcasa_detalle, "Menorcasa", obtener_urls_menorcasa),
         (scrape_saimmobiliaria_detalle, "SA Inmobiliaria", obtener_urls_saimmobiliaria),
         (scrape_3villas_detalle, "3Villas",obtener_urls_3villas),
-        (scrape_finquesfuguet_detalle, "Finques Fuguet", obtener_urls_finquesfuguet),
     ]
 
     """ Prortal menorca incluye
@@ -4221,6 +4220,12 @@ def main():
     # Blanca de Olivar
     propiedades_blancadeolivar = scrape_mobilia_listado("https://www.blancadeolivar.com/es/venta", "Blanca de Olivar")
     for prop in propiedades_blancadeolivar:
+        gestor.agregar_propiedad(prop)
+        registro.registrar_url_escaneada(prop['url_detalle'], prop.get('precio'), prop.get('estado'))
+
+    # Finques Fuguet
+    propiedades_finquesfuguet = scrape_finquesfuguet_listado()
+    for prop in propiedades_finquesfuguet:
         gestor.agregar_propiedad(prop)
         registro.registrar_url_escaneada(prop['url_detalle'], prop.get('precio'), prop.get('estado'))
     
