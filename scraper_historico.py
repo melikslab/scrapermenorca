@@ -4004,7 +4004,7 @@ def scrape_3villas_detalle(url, referencia=None):
         return None
 
 
-    def obtener_urls_finquesfuguet():
+def obtener_urls_finquesfuguet():
     url_listado = "https://www.finquesinmofuguet.com/propiedades-venta.php"
     try:
         r = requests.get(url_listado, headers=HEADERS, timeout=30)
