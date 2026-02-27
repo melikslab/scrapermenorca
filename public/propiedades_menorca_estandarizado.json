@@ -30439,12 +30439,12 @@
     "habitaciones": 6,
     "banos": 5,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-3981-magnifica-villa-en-calan-blanes/",
     "inmobiliaria": "Inmobiliaria Palau",
@@ -30505,7 +30505,8 @@
       "https://inmobiliariapalau.com/wp-content/uploads/2025/08/20250726_103634-1-scaled.jpg"
     ],
     "fecha_scraping": "2025-09-02T21:55:37.158725",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-02-27T21:37:02.253255"
   },
   {
     "referencia": "90155",
@@ -53605,12 +53606,12 @@
     "habitaciones": 6,
     "banos": 5,
     "tipo": "Chalet",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/exclusivo-chalet-de-lujo-en-primera-linea-en-la-zona-residencial-de-los-delfines-ciutadella-menorca/36090/",
     "inmobiliaria": "Bonnin Sanso",
@@ -53653,7 +53654,8 @@
       "https://images.bonninsanso.com/5/a/propiedades_fotos_614868_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:07:31.795829",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-02-27T21:37:05.061167"
   },
   {
     "referencia": "90651",
@@ -65514,12 +65516,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/plaza-de-aparcamiento-en-parking-comunitario-es-castell-menorca/92254/",
     "inmobiliaria": "Bonnin Sanso",
@@ -65537,7 +65539,8 @@
       "https://images.bonninsanso.com/a/8/propiedades_fotos_673159_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:13:08.720923",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-02-27T21:37:05.061184"
   },
   {
     "referencia": "92256",
@@ -75320,12 +75323,12 @@
     "habitaciones": 3,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasarmengol.com/propiedad/m-6490-chalet-en-largentina/",
     "inmobiliaria": "Fincas Armengol",
@@ -75387,7 +75390,8 @@
       "https://fincasarmengol.com/propiedad/m-6490-chalet-en-largentina/"
     ],
     "fecha_scraping": "2025-09-02T22:18:36.397480",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-02-27T21:37:08.184608"
   },
   {
     "referencia": "c-7047-cas",
@@ -82448,12 +82452,12 @@
     "habitaciones": 3,
     "banos": 1,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://zenhousecredit.com/propiedad.php?id=2229",
     "inmobiliaria": "Zenhouse Credit",
@@ -82471,7 +82475,8 @@
       "https://zenhousecredit.com/img/calcular.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:24:05.054808",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-02-27T21:37:19.880859"
   },
   {
     "referencia": "52832",
@@ -181129,6 +181134,82 @@
       "https://www.finquestorres.net/DesktopModules/InmoBS3/images/nofoto.png"
     ],
     "fecha_scraping": "2026-02-26T21:40:13.807039",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "52889",
+    "titulo": "piso",
+    "ubicacion": "Ciutadella",
+    "precio": 414000,
+    "metros": 110,
+    "metros_parcela": null,
+    "habitaciones": 4,
+    "banos": 2,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://zenhousecredit.com/propiedad.php?id=2302",
+    "inmobiliaria": "Zenhouse Credit",
+    "imagen_destacada": "https://zenhousecredit.com/img/fotospropiedades/27604.jpg",
+    "galeria": [
+      "https://zenhousecredit.com/img/fotospropiedades/27604.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27605.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27606.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27607.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27608.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27609.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27610.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27611.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27612.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27613.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27614.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27615.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27616.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27617.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27618.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27619.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27620.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27621.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27622.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27623.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27624.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27625.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27626.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/27627.jpg",
+      "https://zenhousecredit.com/img/calcular.jpg"
+    ],
+    "fecha_scraping": "2026-02-27T21:37:21.389101",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4846",
+    "titulo": "Confortable casa de campo en Son Morell, Ciutadella de Menorca",
+    "ubicacion": "Ciutadella",
+    "precio": 670000,
+    "metros": 210,
+    "metros_parcela": null,
+    "habitaciones": 4,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.ponsmorales.com/es/venta/ref-4846",
+    "inmobiliaria": "Pons Morales",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4846/24678560.jpg",
+    "galeria": [
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4846/24678560.jpg"
+    ],
+    "fecha_scraping": "2026-02-27T21:37:49.146646",
     "fecha_ultima_actualizacion": null
   }
 ]
