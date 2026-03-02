@@ -38231,12 +38231,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/promocion-sa-tamarells-ubicada-en-la-prestigiosa-urbanizacion-de-coves-noves-menorca/26023/",
     "inmobiliaria": "Bonnin Sanso",
@@ -38275,7 +38275,8 @@
       "https://images.bonninsanso.com/b/c/zonas_fotos_85_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-02T21:59:43.922919",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-02T21:40:55.831557"
   },
   {
     "referencia": "34469",
@@ -68618,12 +68619,12 @@
     "habitaciones": 3,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/chalet-con-pisicna-y-jardin-en-sa-caleta-ciutadella-menorca/36778/",
     "inmobiliaria": "Bonnin Sanso",
@@ -68676,7 +68677,8 @@
       "https://images.bonninsanso.com/e/8/propiedades_fotos_683624_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:14:36.643455",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-02T21:40:55.831604"
   },
   {
     "referencia": "92481",
