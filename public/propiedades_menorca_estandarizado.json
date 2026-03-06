@@ -39481,12 +39481,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/solar-edificable-en-zona-residencial-de-mahon-menorca/26560/",
     "inmobiliaria": "Bonnin Sanso",
@@ -39500,7 +39500,8 @@
       "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:00:23.476264",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-06T21:36:16.400297"
   },
   {
     "referencia": "26563",
@@ -68014,12 +68015,12 @@
     "habitaciones": 17,
     "banos": 17,
     "tipo": "Edificio",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/un-refugio-con-historia-en-la-costa-sur-de-menorca/92443/",
     "inmobiliaria": "Bonnin Sanso",
@@ -68078,7 +68079,8 @@
       "https://images.bonninsanso.com/f/6/propiedades_fotos_684109_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:14:23.181732",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-06T21:36:16.400337"
   },
   {
     "referencia": "92444",
@@ -79814,19 +79816,20 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "http://www.fincasfaro.net/es/ficha/1130/",
     "inmobiliaria": "Fincas Faro",
     "imagen_destacada": "",
     "galeria": [],
     "fecha_scraping": "2025-09-02T22:22:27.329587",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-06T21:36:26.133758"
   },
   {
     "referencia": "1970",
@@ -90090,12 +90093,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/preciosa-casa-con-patio-y-muy-centrica-en-mahon/21227302",
     "inmobiliaria": "Casas en Menorca",
@@ -90104,7 +90107,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24955963/Tphoto/ID3bcc7c01-0000-0500-0000-0000131e8427.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:29:26.315169",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-06T21:36:34.785275"
   },
   {
     "referencia": "20688102",
@@ -91409,12 +91413,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/segundo-piso-con-parking-en-mahon/22814727",
     "inmobiliaria": "Casas en Menorca",
@@ -91423,7 +91427,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P26742444/Tphoto/IDac0e9801-0000-0500-0000-0000154cbc38.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:30:29.035851",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-06T21:36:34.785282"
   },
   {
     "referencia": "22988988",
@@ -148775,12 +148780,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/piso-con-patio-en-ciutadella/22794621",
     "inmobiliaria": "Casas en Menorca",
@@ -148789,7 +148794,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P26721752/Tphoto/IDd8bd9701-0000-0500-0000-00001548400e.jpg"
     ],
     "fecha_scraping": "2025-10-11T21:20:12.329410",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-06T21:36:34.785378"
   },
   {
     "referencia": "24218700",
@@ -151922,12 +151928,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": null,
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/traspaso-de-heladeria-en-pleno-funcionamiento-en-el-puerto-de-ciutadella/",
     "inmobiliaria": "Fincas Llongas",
@@ -151945,7 +151951,8 @@
       "https://fincasllongas.com/files/dsc08638-1-800x480.jpg?v=1761297803"
     ],
     "fecha_scraping": "2025-10-24T21:21:49.747214",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-06T21:36:05.726405"
   },
   {
     "referencia": "4423",
@@ -164915,12 +164922,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "http://www.fincasfaro.net/es/ficha/2090/",
     "inmobiliaria": "Fincas Faro",
@@ -164938,7 +164945,8 @@
       "http://www.fincasfaro.net/watermark/559934/600x600"
     ],
     "fecha_scraping": "2025-12-17T21:28:18.091743",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-06T21:36:26.133894"
   },
   {
     "referencia": "52866",
@@ -170536,12 +170544,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Terreno",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/terreno-rustico-en-las-inmediaciones-de-mercadal/91655/",
     "inmobiliaria": "Bonnin Sanso",
@@ -170557,7 +170565,8 @@
       "https://images.bonninsanso.com/4/6/propiedades_fotos_71640_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2026-01-22T21:30:50.186772",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-06T21:36:16.400503"
   },
   {
     "referencia": "26099",
@@ -180391,19 +180400,20 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/edificable-en-alayor-pueblo/93151/",
     "inmobiliaria": "Bonnin Sanso",
     "imagen_destacada": "",
     "galeria": [],
     "fecha_scraping": "2026-02-24T21:42:41.103077",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-06T21:36:16.400523"
   },
   {
     "referencia": "28952",
@@ -181266,12 +181276,12 @@
     "habitaciones": 4,
     "banos": 4,
     "tipo": null,
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/vistas-espectaculares-sobre-el-puerto-de-addaya-menorca/91724/",
     "inmobiliaria": "Bonnin Sanso",
@@ -181303,7 +181313,8 @@
       "https://images.bonninsanso.com/7/6/propiedades_fotos_646071_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-02-28T21:28:18.109611",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-06T21:36:16.400527"
   },
   {
     "referencia": "25267591",
@@ -182444,6 +182455,58 @@
       "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4881/24763618.jpg"
     ],
     "fecha_scraping": "2026-03-05T21:44:06.832522",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25322912",
+    "titulo": "Local comercial en el centro de Mahón",
+    "ubicacion": "Maó - Mahón; Maó",
+    "precio": 1200,
+    "metros": 30,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Local",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": true,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/local-comercial-en-el-centro-de-mahon/25322912",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29550570/Tphoto/IDeae7c201-0000-0500-0000-0000189d85d6.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29550570/Tphoto/IDeae7c201-0000-0500-0000-0000189d85d6.jpg"
+    ],
+    "fecha_scraping": "2026-03-06T21:36:36.463674",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25322817",
+    "titulo": "Chalet encantador en Alcaufar",
+    "ubicacion": "Sant Lluís; S'Algar - Alcaufar",
+    "precio": 976000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": 4,
+    "banos": 1,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.3villas.es/inmueble/chalet-encantador-en-alcaufar/25322817",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29548706/Tphoto/IDa2e0c201-0000-0500-0000-0000189d7b86.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29548706/Tphoto/IDa2e0c201-0000-0500-0000-0000189d7b86.jpg"
+    ],
+    "fecha_scraping": "2026-03-06T21:37:02.162082",
     "fecha_ultima_actualizacion": null
   }
 ]
