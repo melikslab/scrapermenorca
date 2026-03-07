@@ -93582,12 +93582,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Apartamento",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/apartamento-con-vistas-al-mar-en-macaret/22858124",
     "inmobiliaria": "Casas en Menorca",
@@ -93596,7 +93596,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P26790381/Tphoto/IDedc99801-0000-0500-0000-000015597e92.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:32:09.746957",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-07T21:28:47.187945"
   },
   {
     "referencia": "23625589",
@@ -168796,12 +168797,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": null,
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/vivir-menorca-desde-la-calma-a-un-paso-del-mar-calan-porter/93053/",
     "inmobiliaria": "Bonnin Sanso",
@@ -168831,7 +168832,8 @@
       "https://images.bonninsanso.com/f/4/propiedades_fotos_708335_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2026-01-14T21:29:10.798564",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-07T21:28:33.662401"
   },
   {
     "referencia": "24919754",
@@ -174369,12 +174371,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Oficina",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": true,
     "url_detalle": "https://www.3villas.es/inmueble/oficina-en-plaza-de-la-esplanada-mahon/25075982",
     "inmobiliaria": "3Villas",
@@ -174383,7 +174385,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29281093/Tphoto/ID45cbbe01-0000-0500-0000-0000185789fe.jpg"
     ],
     "fecha_scraping": "2026-02-04T21:41:12.258735",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-07T21:29:09.946533"
   },
   {
     "referencia": "27197",
