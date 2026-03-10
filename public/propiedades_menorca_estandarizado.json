@@ -35352,12 +35352,12 @@
     "habitaciones": 8,
     "banos": 3,
     "tipo": "Finca",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/finca-rustica-en-mahon-con-posibilidad-de-explotacion-agraria/24492/",
     "inmobiliaria": "Bonnin Sanso",
@@ -35425,7 +35425,8 @@
       "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-02T21:58:17.143513",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-10T21:35:52.502326"
   },
   {
     "referencia": "90358",
@@ -53167,12 +53168,12 @@
     "habitaciones": 5,
     "banos": 4,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/imponente-casa-con-piscina-en-zona-proxima-al-centro-de-mahon-menorca/90642/",
     "inmobiliaria": "Bonnin Sanso",
@@ -53214,7 +53215,8 @@
       "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:07:19.896018",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-10T21:35:52.502356"
   },
   {
     "referencia": "90523",
@@ -84921,12 +84923,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://zenhousecredit.com/propiedad.php?id=1560",
     "inmobiliaria": "Zenhouse Credit",
@@ -84980,7 +84982,8 @@
       "https://zenhousecredit.com/img/calcular.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:25:36.828096",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-10T21:36:06.601339"
   },
   {
     "referencia": "52616",
@@ -119287,12 +119290,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Apartamento",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.saimmobiliaria.com/inmueble/apartamento-en-salgar/21122161",
     "inmobiliaria": "SA Inmobiliaria",
@@ -119301,7 +119304,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P24822175/Tphoto/ID9fc17a01-0000-0500-0000-000012e5aa8c.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:45:37.852363",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-10T21:36:38.803762"
   },
   {
     "referencia": "19826506",
@@ -119738,12 +119742,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.saimmobiliaria.com/inmueble/duplex-con-terraza-y-vistas-al-mar-en-arenal-den-castell/22743726",
     "inmobiliaria": "SA Inmobiliaria",
@@ -119752,7 +119756,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P26668175/Tphoto/ID8fec9601-0000-0500-0000-000015382ab8.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:45:58.535437",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-10T21:36:38.803769"
   },
   {
     "referencia": "22889979",
@@ -119764,12 +119769,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.saimmobiliaria.com/inmueble/en-exclusiva-piso-con-balcon-en-es-castell/22889979",
     "inmobiliaria": "SA Inmobiliaria",
@@ -119778,7 +119783,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P26823768/Tphoto/ID584c9901-0000-0500-0000-00001562df10.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:45:59.740360",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-10T21:36:38.803771"
   },
   {
     "referencia": "23601953",
@@ -119790,12 +119796,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Terreno",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.saimmobiliaria.com/inmueble/terreno-rustico-con-casita-en-es-castell/23601953",
     "inmobiliaria": "SA Inmobiliaria",
@@ -119804,7 +119810,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P27606907/Tphoto/ID7b3fa501-0000-0500-0000-000016720a25.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:46:00.958316",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-10T21:36:38.803773"
   },
   {
     "referencia": "23620531",
@@ -119924,12 +119931,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Ático",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.saimmobiliaria.com/inmueble/atico-con-terraza-en-cala-corb/8023768",
     "inmobiliaria": "SA Inmobiliaria",
@@ -119938,7 +119945,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P9377913/Tphoto/ID79188f00-0000-0500-0000-0000148d1320.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:46:07.052609",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-10T21:36:38.803775"
   },
   {
     "referencia": "23196268",
@@ -128559,12 +128567,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/local-comercial-zona-paseo-maritimo/21101215",
     "inmobiliaria": "3Villas",
@@ -128573,7 +128581,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P24792116/Tphoto/ID344c7a01-0000-0500-0000-000012dfffb2.jpg"
     ],
     "fecha_scraping": "2025-09-04T18:52:18.366387",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-10T21:36:41.005309"
   },
   {
     "referencia": "23096441",
@@ -145445,12 +145454,12 @@
     "habitaciones": 2,
     "banos": 2,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasarmengol.com/propiedad/m-2641-piso-en-mahon/",
     "inmobiliaria": "Fincas Armengol",
@@ -145522,7 +145531,8 @@
       "https://fincasarmengol.com/propiedad/m-2641-piso-en-mahon/"
     ],
     "fecha_scraping": "2025-10-03T21:21:02.137182",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-10T21:36:01.202623"
   },
   {
     "referencia": "2071",
@@ -148626,12 +148636,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.saimmobiliaria.com/inmueble/en-exclusiva-casa-menorquina-en-mahon/22980300",
     "inmobiliaria": "SA Inmobiliaria",
@@ -148640,7 +148650,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P26925929/Tphoto/ID69db9a01-0000-0500-0000-00001586db28.jpg"
     ],
     "fecha_scraping": "2025-10-10T21:22:11.627646",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-10T21:36:38.803829"
   },
   {
     "referencia": "24190182",
@@ -182568,12 +182579,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Villa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/villa-de-dos-plantas-con-piscina-y-licencia-turistica-en-son-vitamina-menorca/91452/",
     "inmobiliaria": "Bonnin Sanso",
@@ -182610,7 +182621,8 @@
       "https://images.bonninsanso.com/a/4/propiedades_fotos_634142_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-03-09T21:39:48.356648",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-10T21:35:52.502572"
   },
   {
     "referencia": "93121",
@@ -182682,6 +182694,95 @@
       "https://media.mobiliagestion.es/Portals/inmobomenorca/Images/1045/24747743-large.jpg"
     ],
     "fecha_scraping": "2026-03-09T21:40:32.206695",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "93177",
+    "titulo": "Amplio local comercial cerca del puerto en Mahón. Menorca.",
+    "ubicacion": "Maó",
+    "precio": 280000,
+    "metros": 152,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Local",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/amplio-local-comercial-cerca-del-puerto-en-mahon-menorca/93177/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/d/3/propiedades_fotos_712699_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/d/3/propiedades_fotos_712699_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/0/propiedades_fotos_712700_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/d/propiedades_fotos_712714_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/5/propiedades_fotos_712713_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/a/propiedades_fotos_712701_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/2/propiedades_fotos_712712_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/7/propiedades_fotos_712709_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/b/propiedades_fotos_712708_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/8/propiedades_fotos_712711_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/d/propiedades_fotos_712703_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/f/propiedades_fotos_712707_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/4/propiedades_fotos_712715_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-03-10T21:35:57.646646",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25352107",
+    "titulo": "Tercer piso en el centro de Ciutadella",
+    "ubicacion": "Ciutadella",
+    "precio": 330000,
+    "metros": 91,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/tercer-piso-en-el-centro-de-ciutadella/25352107",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29581797/Tphoto/IDe561c301-0000-0500-0000-000018a5c463.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29581797/Tphoto/IDe561c301-0000-0500-0000-000018a5c463.jpg"
+    ],
+    "fecha_scraping": "2026-03-10T21:36:14.736308",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25352166",
+    "titulo": "Casa reformada con piscina y jardín en Son Vitamina",
+    "ubicacion": "Alaior; Cala En Porter",
+    "precio": 790000,
+    "metros": 200,
+    "metros_parcela": 200,
+    "habitaciones": 5,
+    "banos": 3,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.3villas.es/inmueble/casa-reformada-con-piscina-y-jardin-en-son-vitamina/25352166",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29551366/Tphoto/ID06ebc201-0000-0500-0000-000018a5cabb.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29551366/Tphoto/ID06ebc201-0000-0500-0000-000018a5cabb.jpg"
+    ],
+    "fecha_scraping": "2026-03-10T21:36:42.773872",
     "fecha_ultima_actualizacion": null
   }
 ]
