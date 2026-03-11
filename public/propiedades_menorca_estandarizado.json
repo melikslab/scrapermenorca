@@ -27691,12 +27691,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-4408-casa-de-pueblo-con-patio-en-mahon/",
     "inmobiliaria": "Inmobiliaria Palau",
@@ -27744,7 +27744,8 @@
       "https://inmobiliariapalau.com/wp-content/uploads/2025/08/20250726_103634-1-scaled.jpg"
     ],
     "fecha_scraping": "2025-09-02T21:53:56.639133",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-11T21:40:01.689611"
   },
   {
     "referencia": "4370",
@@ -32192,12 +32193,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/amplia-nave-local-en-el-poligono-de-san-luis-menorca/21498/",
     "inmobiliaria": "Bonnin Sanso",
@@ -32207,7 +32208,8 @@
       "https://images.bonninsanso.com/d/8/propiedades_fotos_98665_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T21:56:23.023755",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-11T21:40:07.810730"
   },
   {
     "referencia": "20871",
@@ -89446,12 +89448,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/parking-en-el-poblado-de-pescadores-de-binibeca-vell/20684741",
     "inmobiliaria": "Casas en Menorca",
@@ -89460,7 +89462,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24200128/Tphoto/IDc0437101-0000-0500-0000-000011ecb3e1.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:28:55.334050",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-11T21:40:21.754003"
   },
   {
     "referencia": "20688103",
@@ -91289,12 +91292,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/parking-en-el-poblado-de-pescadores-de-binibeca-vell/20684740",
     "inmobiliaria": "Casas en Menorca",
@@ -91303,7 +91306,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24200127/Tphoto/IDbf437101-0000-0500-0000-000011ecb3d7.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:30:21.626596",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-11T21:40:21.754012"
   },
   {
     "referencia": "20688132",
@@ -127303,12 +127307,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/encantador-piso-con-patio-en-una-de-las-mejores-zonas-de-mahon/23117003",
     "inmobiliaria": "3Villas",
@@ -127317,7 +127321,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P27077611/Tphoto/IDeb2b9d01-0000-0500-0000-00001642c565.jpg"
     ],
     "fecha_scraping": "2025-09-04T18:51:19.772788",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-11T21:41:10.667204"
   },
   {
     "referencia": "20948393",
@@ -130617,12 +130622,12 @@
     "habitaciones": 3,
     "banos": 1,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/piso-en-1-planta-mas-solar-edificable-con-garaje/22796328",
     "inmobiliaria": "3Villas",
@@ -130631,7 +130636,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P26543680/Tphoto/ID40069501-0000-0500-0000-00001548db74.jpg"
     ],
     "fecha_scraping": "2025-09-04T18:53:54.858126",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-11T21:41:10.667215"
   },
   {
     "referencia": "23234874",
@@ -157224,12 +157230,12 @@
     "habitaciones": 3,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": true,
     "url_detalle": "http://www.fincasfaro.net/es/ficha/912/",
     "inmobiliaria": "Fincas Faro",
@@ -157252,7 +157258,8 @@
       "http://www.fincasfaro.net/watermark/597858/380x380"
     ],
     "fecha_scraping": "2025-11-11T21:23:54.579165",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-11T21:40:14.277540"
   },
   {
     "referencia": "24531342",
@@ -162566,12 +162573,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmomenorcacentro.com/propiedad.php?id=1609",
     "inmobiliaria": "Inmo Menorca Centro",
@@ -162594,7 +162601,8 @@
       "https://inmomenorcacentro.com/panel/inmuebles/1609/img/14 - HUERTO.jpg"
     ],
     "fecha_scraping": "2025-12-02T21:25:44.775992",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-11T21:40:00.028764"
   },
   {
     "referencia": "1610",
@@ -182783,6 +182791,187 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29551366/Tphoto/ID06ebc201-0000-0500-0000-000018a5cabb.jpg"
     ],
     "fecha_scraping": "2026-03-10T21:36:42.773872",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "Ref. 7708",
+    "titulo": "Bonito piso con ascensor y piscina comunitaria en Ciutadella",
+    "ubicacion": "Ciutadella",
+    "precio": 382000,
+    "metros": null,
+    "metros_parcela": 103,
+    "habitaciones": 3,
+    "banos": 3,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": true,
+    "garaje": false,
+    "ascensor": true,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://fincasllongas.com/propiedad/bonito-piso-con-ascensor-y-piscina-comunitaria-en-ciutadella/",
+    "inmobiliaria": "Fincas Llongas",
+    "imagen_destacada": "https://fincasllongas.com/files/6563d125-762a-4803-a3cb-842f62b9118f-800x480.jpg?v=1773231270",
+    "galeria": [
+      "https://fincasllongas.com/files/6563d125-762a-4803-a3cb-842f62b9118f-800x480.jpg?v=1773231270",
+      "https://fincasllongas.com/files/b62e17b1-4f34-45b8-b6c9-6bf3b51e3fdf-800x480.jpg?v=1773231289",
+      "https://fincasllongas.com/files/37ce01f5-978b-405e-891b-6a54f340869c-800x480.jpg?v=1773231265",
+      "https://fincasllongas.com/files/ac36d7f9-5eaf-49ec-bdb8-2cbcdadc1df6-800x480.jpg?v=1773231283",
+      "https://fincasllongas.com/files/622c1b6e-f28a-4761-8098-064c66b784b5-800x480.jpg?v=1773231268",
+      "https://fincasllongas.com/files/7b1dc52f-0c12-4ffb-9dad-1049206feaed-800x480.jpg?v=1773231263",
+      "https://fincasllongas.com/files/70501b42-9e34-4d5b-ab67-e3c4a809843b-800x480.jpg?v=1773231275",
+      "https://fincasllongas.com/files/4682443e-ae74-4023-95e4-93e0f445d1b8-800x480.jpg?v=1773231277",
+      "https://fincasllongas.com/files/05f815d3-c9a1-4396-bb02-d0721ad0e6ee-800x480.jpg?v=1773231260"
+    ],
+    "fecha_scraping": "2026-03-11T21:39:52.016894",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4901",
+    "titulo": "APARTAMENTO A 1ª LÍNEA DE MAR",
+    "ubicacion": "Ciutadella",
+    "precio": 295000,
+    "metros": 67,
+    "metros_parcela": null,
+    "habitaciones": 2,
+    "banos": 1,
+    "tipo": "Apartamento",
+    "estado": "EXCLUSIVA",
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4422",
+    "inmobiliaria": "Inmobiliaria Artrutx",
+    "imagen_destacada": "https://www.inmobiliariaartrutx.com/panel/inmuebles/4422/img/1.jpeg",
+    "galeria": [
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4422/img/1.jpeg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4422/img/2.jpeg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4422/img/4.jpeg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4422/img/5.jpeg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4422/img/6.jpeg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4422/img/7.jpeg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4422/img/8.jpeg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4422/img/9.jpeg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4422/img/40.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4422/img/41.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4422/img/42.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4422/img/43.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4422/img/44.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4422/img/45.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4422/img/46.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4422/img/47.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4422/img/48.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4422/img/49.jpg"
+    ],
+    "fecha_scraping": "2026-03-11T21:39:55.837623",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25364202",
+    "titulo": "Casa en planta baja con patio en Mahón",
+    "ubicacion": "Maó - Mahón; Maó",
+    "precio": 340000,
+    "metros": 100,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-en-planta-baja-con-patio-en-mahon/25364202",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29594959/Tphoto/ID4f95c301-0000-0500-0000-000018a8de4f.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29594959/Tphoto/ID4f95c301-0000-0500-0000-000018a8de4f.jpg"
+    ],
+    "fecha_scraping": "2026-03-11T21:40:23.689485",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25365642",
+    "titulo": "Apartamento con increíbles vistas al mar en Arenal d'en Castell",
+    "ubicacion": "Es Mercadal; Arenal D'En Castell",
+    "precio": 380000,
+    "metros": 17,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Apartamento",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/apartamento-con-increibles-vistas-al-mar-en-arenal-den-castell/25365642",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29593577/Tphoto/IDe98fc301-0000-0500-0000-000018a88f63.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29593577/Tphoto/IDe98fc301-0000-0500-0000-000018a88f63.jpg"
+    ],
+    "fecha_scraping": "2026-03-11T21:40:26.157151",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25365664",
+    "titulo": "¡Piso totalmente reformado en el corazón de Mahón!",
+    "ubicacion": "Maó - Mahón; Maó",
+    "precio": 260000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": 2,
+    "banos": null,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.3villas.es/inmueble/piso-totalmente-reformado-en-el-corazon-de-mahon/25365664",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29563264/Tphoto/ID8019c301-0000-0500-0000-000018a9527e.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29563264/Tphoto/ID8019c301-0000-0500-0000-000018a9527e.jpg"
+    ],
+    "fecha_scraping": "2026-03-11T21:41:12.281617",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "872",
+    "titulo": "Primer piso en venta",
+    "ubicacion": "Ciutadella",
+    "precio": 330000,
+    "metros": 80,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 2,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.finquesinmofuguet.com/propiedad-v.php?id=872",
+    "inmobiliaria": "Finques Fuguet",
+    "imagen_destacada": "https://www.finquesinmofuguet.com/panel/inmuebles/872/med/1.jpg",
+    "galeria": [
+      "https://www.finquesinmofuguet.com/panel/inmuebles/872/med/1.jpg"
+    ],
+    "fecha_scraping": "2026-03-11T21:41:19.921844",
     "fecha_ultima_actualizacion": null
   }
 ]
