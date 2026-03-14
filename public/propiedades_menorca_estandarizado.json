@@ -88145,12 +88145,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Edificio",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/precioso-hotel-de-interior-con-patio-y-terraza-en-alaior/21541312",
     "inmobiliaria": "Casas en Menorca",
@@ -88159,7 +88159,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P25345381/Tphoto/ID65bd8201-0000-0500-0000-000013d5138f.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:27:53.893932",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-14T21:33:42.346546"
   },
   {
     "referencia": "20688090",
@@ -90219,12 +90220,12 @@
     "habitaciones": 5,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/chalet-con-piscina-y-garaje-en-mahon/23234407",
     "inmobiliaria": "Casas en Menorca",
@@ -90233,7 +90234,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P27225783/Tphoto/IDb76e9f01-0000-0500-0000-000015e58512.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:29:31.207498",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-14T21:33:42.346557"
   },
   {
     "referencia": "20688159",
@@ -128374,12 +128376,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/chalet-con-licencia-turistica-en-venta-en-puerto-addaya/23679361",
     "inmobiliaria": "3Villas",
@@ -128388,7 +128390,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P27711267/Tphoto/ID23d7a601-0000-0500-0000-0000169079ac.jpg"
     ],
     "fecha_scraping": "2025-09-04T18:52:08.775271",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-14T21:34:02.127991"
   },
   {
     "referencia": "20069425",
@@ -183675,6 +183678,81 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P29603813/Tphoto/IDe5b7c301-0000-0500-0000-000018ab9288.jpg"
     ],
     "fecha_scraping": "2026-03-13T21:40:42.080247",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "Ref. 7711",
+    "titulo": "SE VENDE EN EXCLUSIVA Casa independiente en 1ª planta con derecho a vuelo en Ciutadella",
+    "ubicacion": "Ciutadella",
+    "precio": 420000,
+    "metros": null,
+    "metros_parcela": 91,
+    "habitaciones": 3,
+    "banos": 1,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://fincasllongas.com/propiedad/se-vende-en-exclusiva-casa-independiente-en-1a-planta-con-derecho-a-vuelo-en-ciutadella/",
+    "inmobiliaria": "Fincas Llongas",
+    "imagen_destacada": "https://fincasllongas.com/files/dsc06122-hdr-1-800x480.jpg?v=1773480694",
+    "galeria": [
+      "https://fincasllongas.com/files/dsc06122-hdr-1-800x480.jpg?v=1773480694",
+      "https://fincasllongas.com/files/dsc06117-800x480.jpg?v=1773480691",
+      "https://fincasllongas.com/files/dsc06128-hdr-1-800x480.jpg?v=1773480696",
+      "https://fincasllongas.com/files/dsc06129-hdr-800x480.jpg?v=1773480699",
+      "https://fincasllongas.com/files/dsc06098-hdr-800x480.jpg?v=1773480675",
+      "https://fincasllongas.com/files/dsc06097-hdr-800x480.jpg?v=1773480673",
+      "https://fincasllongas.com/files/dsc06107-hdr-800x480.jpg?v=1773480678",
+      "https://fincasllongas.com/files/dsc06088-hdr-800x480.jpg?v=1773480670",
+      "https://fincasllongas.com/files/dsc06087-800x480.jpg?v=1773480667",
+      "https://fincasllongas.com/files/dsc06109-hdr-800x480.jpg?v=1773480683",
+      "https://fincasllongas.com/files/dsc06075-hdr-800x480.jpg?v=1773480659",
+      "https://fincasllongas.com/files/dsc06076-hdr-800x480.jpg?v=1773480661",
+      "https://fincasllongas.com/files/dsc06084-hdr-800x480.jpg?v=1773480664",
+      "https://fincasllongas.com/files/dsc06115-2-800x480.jpg?v=1773480686",
+      "https://fincasllongas.com/files/dsc06116-800x480.jpg?v=1773480689",
+      "https://fincasllongas.com/files/dsc06108-2-800x480.jpg?v=1773480681",
+      "https://fincasllongas.com/files/dsc06132-hdr-800x480.jpg?v=1773480701",
+      "https://fincasllongas.com/files/dsc06137-hdr-800x480.jpg?v=1773480704",
+      "https://fincasllongas.com/files/dsc06138-hdr-800x480.jpg?v=1773480706",
+      "https://fincasllongas.com/files/dsc06141-hdr-800x480.jpg?v=1773480709",
+      "https://fincasllongas.com/files/dsc06144-hdr-1-800x480.jpg?v=1773480712",
+      "https://fincasllongas.com/files/dsc06154-hdr-800x480.jpg?v=1773480715",
+      "https://fincasllongas.com/files/dsc06155-hdr-800x480.jpg?v=1773480717",
+      "https://fincasllongas.com/files/dsc06160-hdr-800x480.jpg?v=1773480720"
+    ],
+    "fecha_scraping": "2026-03-14T21:33:09.929432",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25387402",
+    "titulo": "Casa entera muy céntrica en Mahón",
+    "ubicacion": "Maó - Mahón; Maó",
+    "precio": 490000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-entera-muy-centrica-en-mahon/25387402",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29620696/Tphoto/IDd8f9c301-0000-0500-0000-000018b20fe7.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29620696/Tphoto/IDd8f9c301-0000-0500-0000-000018b20fe7.jpg"
+    ],
+    "fecha_scraping": "2026-03-14T21:33:44.411093",
     "fecha_ultima_actualizacion": null
   }
 ]
