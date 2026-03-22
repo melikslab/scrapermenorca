@@ -61749,12 +61749,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/chalet-adosado-con-jardin-y-piscina-privada-en-coves-noves-menorca/91877/",
     "inmobiliaria": "Bonnin Sanso",
@@ -61800,7 +61800,8 @@
       "https://images.bonninsanso.com/b/c/zonas_fotos_85_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:11:21.606118",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-22T21:33:24.314228"
   },
   {
     "referencia": "91888",
@@ -186194,6 +186195,37 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29631245/Tphoto/ID0d23c401-0000-0500-0000-000018b92949.jpg"
     ],
     "fecha_scraping": "2026-03-21T21:33:22.080553",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "8246",
+    "titulo": "PISO CON PARKING",
+    "ubicacion": "Ciutadella",
+    "precio": 303850,
+    "metros": 61,
+    "metros_parcela": null,
+    "habitaciones": 2,
+    "banos": 2,
+    "tipo": "Piso",
+    "estado": "EXCLUSIVA",
+    "piscina": true,
+    "garaje": true,
+    "ascensor": true,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.enprimeralinea.immo/piso-en-ciutadella-de-menorca-con-piscina-es1717163.html",
+    "inmobiliaria": "En Primera Linea",
+    "imagen_destacada": "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1717163/image/img_6712.jpg?v=20260320122656183",
+    "galeria": [
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1717163/image/img_6712.jpg?v=20260320122656183",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1717163/image/thumb/585_335/img_6712.jpg?20260320122656183",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1658923/image/thumb/585_335/post-de-instagram-vertical-inmobiliaria-pisos-elegante-verde-beige-a4-horizontal.jpg",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1698068/image/thumb/585_335/adae68d5-3200-435d-94e8-7c46eabc6814.jpg",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1712552/image/thumb/585_335/img_6533.jpg",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1673450/image/thumb/585_335/a56fc4c8-44a4-447e-bccf-d9ff1a48b495.jpg"
+    ],
+    "fecha_scraping": "2026-03-22T21:33:38.313267",
     "fecha_ultima_actualizacion": null
   }
 ]
