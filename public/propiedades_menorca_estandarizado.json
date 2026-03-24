@@ -2600,12 +2600,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/chalet-o-casa-a-estrenar-con-piscina-en-son-bou-2/",
     "inmobiliaria": "Fincas Llongas",
@@ -2623,7 +2623,8 @@
       "https://fincasllongas.com/files/a7304666-800x480.jpg?v=1744452249"
     ],
     "fecha_scraping": "2025-09-02T21:37:46.832268",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-24T21:44:26.644790"
   },
   {
     "referencia": "Ref. 7563",
@@ -66178,12 +66179,12 @@
     "habitaciones": 3,
     "banos": 4,
     "tipo": "Villa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/villa-costera-unica-con-vistas-panoramicas-al-mar-y-licencia-turistica-en-san-jaime-menorca/92303/",
     "inmobiliaria": "Bonnin Sanso",
@@ -66266,7 +66267,8 @@
       "https://images.bonninsanso.com/9/8/propiedades_fotos_677131_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:13:31.057111",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-24T21:44:36.405561"
   },
   {
     "referencia": "92314",
@@ -66892,12 +66894,12 @@
     "habitaciones": 2,
     "banos": 2,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/exclusiva-vivienda-en-el-casco-antiguo-de-ferrerias-menorca/36729/",
     "inmobiliaria": "Bonnin Sanso",
@@ -66932,7 +66934,8 @@
       "https://images.bonninsanso.com/1/4/propiedades_fotos_688851_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:13:51.729982",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-24T21:44:36.405566"
   },
   {
     "referencia": "92425",
@@ -100787,12 +100790,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Apartamento",
-    "estado": "EN EXCLUSIVA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmocampsbosch.com/propiedad.php?id=105",
     "inmobiliaria": "Inmobiliaria Camps Bosch",
@@ -100827,7 +100830,8 @@
       "https://inmocampsbosch.com/panel/inmuebles/105/img/10 vistas 4.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:35:42.925368",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-24T21:45:06.008751"
   },
   {
     "referencia": "PK 026",
@@ -120095,12 +120099,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.saimmobiliaria.com/inmueble/casa-con-patio-en-mahon/23298041",
     "inmobiliaria": "SA Inmobiliaria",
@@ -120109,7 +120113,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P27290615/Tphoto/IDf76ba001-0000-0500-0000-000015fabffa.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:46:13.115172",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-24T21:45:19.564128"
   },
   {
     "referencia": "3623",
@@ -160639,12 +160644,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.saimmobiliaria.com/inmueble/piso-con-balcon-en-es-castell/24614204",
     "inmobiliaria": "SA Inmobiliaria",
@@ -160653,7 +160658,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P28759388/Tphoto/ID5cd5b601-0000-0500-0000-000017b5d0d6.jpg"
     ],
     "fecha_scraping": "2025-11-21T21:23:32.513748",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-24T21:45:19.564218"
   },
   {
     "referencia": "23463786",
@@ -186929,6 +186935,132 @@
       "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4896/25110216.jpg"
     ],
     "fecha_scraping": "2026-03-23T21:45:12.952340",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "93144",
+    "titulo": "Bonita planta baja con licencia turística en San Jaime, Menorca",
+    "ubicacion": "Son Bou",
+    "precio": 310000,
+    "metros": 62,
+    "metros_parcela": null,
+    "habitaciones": 2,
+    "banos": 1,
+    "tipo": "Piso",
+    "estado": "",
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/bonita-planta-baja-con-licencia-turistica-en-san-jaime-menorca/93144/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/c/7/propiedades_fotos_714249_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/c/7/propiedades_fotos_714249_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/2/propiedades_fotos_714259_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/b/propiedades_fotos_714258_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/4/propiedades_fotos_714253_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/8/propiedades_fotos_714252_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/b/propiedades_fotos_714254_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/b/propiedades_fotos_714257_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/f/propiedades_fotos_714255_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/5/propiedades_fotos_714256_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/3/propiedades_fotos_714260_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/4/propiedades_fotos_714262_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/e/propiedades_fotos_714261_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/b/propiedades_fotos_714264_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/a/propiedades_fotos_714263_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/5/propiedades_fotos_714268_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/9/propiedades_fotos_714267_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/d/propiedades_fotos_714266_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/7/propiedades_fotos_714265_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/e/propiedades_fotos_714251_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/b/propiedades_fotos_714250_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-03-24T21:44:40.654546",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "207-3111",
+    "titulo": "Propiedad en la fantástica zona de Sant Nicolau",
+    "ubicacion": "Ciutadella",
+    "precio": 1575000,
+    "metros": 2,
+    "metros_parcela": 908,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": null,
+    "estado": null,
+    "piscina": false,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1746",
+    "inmobiliaria": "Fincas Seminari",
+    "imagen_destacada": "https://www.fincasseminari.com/panel/inmuebles/1746/img/2026-03-24-11-52-55-063.jpeg",
+    "galeria": [
+      "https://www.fincasseminari.com/panel/inmuebles/1746/img/2026-03-24-11-52-55-063.jpeg",
+      "https://www.fincasseminari.com/panel/inmuebles/1746/img/2026-03-24-11-53-07-995.jpeg",
+      "https://www.fincasseminari.com/panel/inmuebles/1746/med/2026-03-24-11-52-55-063.jpeg",
+      "https://www.fincasseminari.com/panel/inmuebles/1746/med/2026-03-24-11-53-07-995.jpeg"
+    ],
+    "fecha_scraping": "2026-03-24T21:45:03.721076",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "2588",
+    "titulo": "Acogedor apartamento con terraza cerca del puerto de Ciutadella",
+    "ubicacion": "Ciutadella; Paseo Marítimo",
+    "precio": 275000,
+    "metros": 69,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": 1,
+    "tipo": "Piso",
+    "estado": "EXCLUSIVA",
+    "piscina": true,
+    "garaje": true,
+    "ascensor": true,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.ponsmorales.com/es/venta/ref-2588",
+    "inmobiliaria": "Pons Morales",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/2588/23668322.jpg",
+    "galeria": [
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/2588/23668322.jpg"
+    ],
+    "fecha_scraping": "2026-03-24T21:45:23.120824",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "876",
+    "titulo": "Garaje a pie de calle en Ciutadella de M",
+    "ubicacion": "Ciutadella",
+    "precio": 210000,
+    "metros": 80,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": 1,
+    "tipo": "Garaje",
+    "estado": null,
+    "piscina": false,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.finquesinmofuguet.com/propiedad-v.php?id=876",
+    "inmobiliaria": "Finques Fuguet",
+    "imagen_destacada": "https://www.finquesinmofuguet.com/panel/inmuebles/876/med/WhatsApp Image 2026-03-24 at 17.41.11.jpeg",
+    "galeria": [
+      "https://www.finquesinmofuguet.com/panel/inmuebles/876/med/WhatsApp Image 2026-03-24 at 17.41.11.jpeg"
+    ],
+    "fecha_scraping": "2026-03-24T21:45:28.860966",
     "fecha_ultima_actualizacion": null
   }
 ]
