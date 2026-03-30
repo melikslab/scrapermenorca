@@ -119656,12 +119656,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.saimmobiliaria.com/inmueble/en-exclusiva-solar-urbano-en-mahon/23227463",
     "inmobiliaria": "SA Inmobiliaria",
@@ -119670,7 +119670,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P27156030/Tphoto/ID3e5e9e01-0000-0500-0000-000015cb8574.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:45:52.508472",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-30T21:52:00.180476"
   },
   {
     "referencia": "23087393",
@@ -186832,12 +186833,12 @@
     "habitaciones": 3,
     "banos": 3,
     "tipo": null,
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/ido-fornells-vivir-donde-el-mar-marca-el-ritmo-menorca/93199/",
     "inmobiliaria": "Bonnin Sanso",
@@ -186882,7 +186883,8 @@
       "https://images.bonninsanso.com/d/e/promociones_fotos_1423_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-03-23T21:44:25.299985",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-03-30T21:51:13.059226"
   },
   {
     "referencia": "52894",
@@ -188497,6 +188499,82 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29094804/Tphoto/ID94f3bb01-0000-0500-0000-000018231ca8.jpg"
     ],
     "fecha_scraping": "2026-03-28T21:38:04.397831",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4908",
+    "titulo": "LOCAL COMERCIAL",
+    "ubicacion": "Ciutadella",
+    "precio": 189000,
+    "metros": 122,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Local",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4430",
+    "inmobiliaria": "Inmobiliaria Artrutx",
+    "imagen_destacada": "https://www.inmobiliariaartrutx.com/noimagen.png",
+    "galeria": [
+      "https://www.inmobiliariaartrutx.com/noimagen.png"
+    ],
+    "fecha_scraping": "2026-03-30T21:50:57.120765",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "93199",
+    "titulo": "Apartamento/Piso en Fornells (Pueblo)",
+    "ubicacion": "Fornells",
+    "precio": null,
+    "metros": 197,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 3,
+    "tipo": "Apartamento",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/apartamento-piso-en-fornells-pueblo/93199/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "",
+    "galeria": [],
+    "fecha_scraping": "2026-03-30T21:51:15.670400",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "23227463",
+    "titulo": "¡EN EXCLUSIVA! SOLAR EDIFICABLE EN MAÓ",
+    "ubicacion": "Maó - Mahón; Maó",
+    "precio": 850000,
+    "metros": 599,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Solar",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.saimmobiliaria.com/inmueble/en-exclusiva-solar-edificable-en-mao/23227463",
+    "inmobiliaria": "SA Inmobiliaria",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P27156030/Tphoto/ID3e5e9e01-0000-0500-0000-000015cb8574.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P27156030/Tphoto/ID3e5e9e01-0000-0500-0000-000015cb8574.jpg"
+    ],
+    "fecha_scraping": "2026-03-30T21:52:02.275527",
     "fecha_ultima_actualizacion": null
   }
 ]
