@@ -65993,12 +65993,12 @@
     "habitaciones": 3,
     "banos": 1,
     "tipo": "Chalet",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/interesante-chalet-en-punta-prima-menorca/92297/",
     "inmobiliaria": "Bonnin Sanso",
@@ -66032,7 +66032,8 @@
       "https://images.bonninsanso.com/f/2/propiedades_fotos_674772_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:13:22.243433",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-04T21:38:57.422361"
   },
   {
     "referencia": "92299",
@@ -189622,6 +189623,32 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29337331/Tphoto/IDf3a6bf01-0000-0500-0000-000018f607c1.jpg"
     ],
     "fecha_scraping": "2026-04-02T21:46:57.816816",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25563228",
+    "titulo": "Apartamento en Cala Torret para alquiler de temporada",
+    "ubicacion": "Sant Lluís; Binibèquer",
+    "precio": 2125,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": 2,
+    "banos": null,
+    "tipo": "Apartamento",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": true,
+    "url_detalle": "https://www.3villas.es/inmueble/apartamento-en-cala-torret-para-alquiler-de-temporada/25563228",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29751881/Tphoto/ID49fac501-0000-0500-0000-000018e66181.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29751881/Tphoto/ID49fac501-0000-0500-0000-000018e66181.jpg"
+    ],
+    "fecha_scraping": "2026-04-04T21:39:39.209023",
     "fecha_ultima_actualizacion": null
   }
 ]
