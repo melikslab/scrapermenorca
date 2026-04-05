@@ -182984,12 +182984,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-en-planta-baja-con-patio-en-mahon/25364202",
     "inmobiliaria": "Casas en Menorca",
@@ -182998,7 +182998,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29594959/Tphoto/ID4f95c301-0000-0500-0000-000018a8de4f.jpg"
     ],
     "fecha_scraping": "2026-03-11T21:40:23.689485",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-05T21:39:46.000601"
   },
   {
     "referencia": "25365642",
