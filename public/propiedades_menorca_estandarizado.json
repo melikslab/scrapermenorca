@@ -23013,12 +23013,12 @@
     "habitaciones": 5,
     "banos": 6,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-4213-chalet-en-son-bou/",
     "inmobiliaria": "Inmobiliaria Palau",
@@ -23108,7 +23108,8 @@
       "https://inmobiliariapalau.com/wp-content/uploads/2025/08/20250726_103634-1-scaled.jpg"
     ],
     "fecha_scraping": "2025-09-02T21:51:02.209400",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-09T21:52:45.538810"
   },
   {
     "referencia": "4349",
@@ -23454,12 +23455,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-4146-plaza-de-parking-en-ciutadella/",
     "inmobiliaria": "Inmobiliaria Palau",
@@ -23478,7 +23479,8 @@
       "https://inmobiliariapalau.com/wp-content/uploads/2025/08/20250726_103634-1-scaled.jpg"
     ],
     "fecha_scraping": "2025-09-02T21:51:17.747197",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-09T21:52:45.538815"
   },
   {
     "referencia": "4206",
@@ -27778,12 +27780,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-4370-plaza-de-parking-en-ciutadella/",
     "inmobiliaria": "Inmobiliaria Palau",
@@ -27805,7 +27807,8 @@
       "https://inmobiliariapalau.com/wp-content/uploads/2025/08/20250726_103634-1-scaled.jpg"
     ],
     "fecha_scraping": "2025-09-02T21:53:58.199561",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-09T21:52:45.538822"
   },
   {
     "referencia": "4365",
@@ -40292,12 +40295,12 @@
     "habitaciones": 3,
     "banos": 1,
     "tipo": "Garaje",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/vivienda-con-garaje-2-linea-de-mar-cala-mesquida-menorca/26748/",
     "inmobiliaria": "Bonnin Sanso",
@@ -40329,7 +40332,8 @@
       "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:00:50.679871",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-09T21:52:48.330875"
   },
   {
     "referencia": "26794",
@@ -44204,12 +44208,12 @@
     "habitaciones": 6,
     "banos": 2,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/tradicional-casa-de-campo-a-escasos-minutos-de-mahon-menorca/28519/",
     "inmobiliaria": "Bonnin Sanso",
@@ -44244,7 +44248,8 @@
       "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:03:06.402626",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-09T21:52:48.330884"
   },
   {
     "referencia": "28525",
@@ -47217,12 +47222,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/atractivo-chalet-en-canutells-con-licencia-turistica-menorca/92271/",
     "inmobiliaria": "Bonnin Sanso",
@@ -47255,7 +47260,8 @@
       "https://images.bonninsanso.com/7/c/zonas_fotos_98_w120_h90.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:04:30.875788",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-09T21:52:48.330890"
   },
   {
     "referencia": "29535",
@@ -68456,12 +68462,12 @@
     "habitaciones": 2,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/bungalow-en-son-xoriguer-ciutadella-menorca/36766/",
     "inmobiliaria": "Bonnin Sanso",
@@ -68484,7 +68490,8 @@
       "https://images.bonninsanso.com/3/8/propiedades_fotos_683931_w120_h90_wm.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:14:29.157321",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-09T21:52:48.330915"
   },
   {
     "referencia": "92474",
@@ -126280,12 +126287,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-4415-%f0%9f%8f%a1-casa-chalet-con-proyecto-de-ampliacion-en-cala-llonga/",
     "inmobiliaria": "Inmobiliaria Palau",
@@ -126329,7 +126336,8 @@
       "https://inmobiliariapalau.com/wp-content/uploads/2025/08/20250729_160633-scaled.jpg"
     ],
     "fecha_scraping": "2025-09-04T18:49:34.661632",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-09T21:52:45.538976"
   },
   {
     "referencia": "23765418",
@@ -145713,12 +145721,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/chalet-en-cala-rata-en-primera-linea-de-mar/24027939",
     "inmobiliaria": "Casas en Menorca",
@@ -145727,7 +145735,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28144110/Tphoto/IDee71ad01-0000-0500-0000-0000170fa28b.jpg"
     ],
     "fecha_scraping": "2025-10-03T21:21:21.812726",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-09T21:53:40.379556"
   },
   {
     "referencia": "22138468",
@@ -151441,12 +151450,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Piso",
-    "estado": "EXCLUSIVA",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-4416-amplio-piso-con-caracter-a-5-minutos-del-centro-de-mao/",
     "inmobiliaria": "Inmobiliaria Palau",
@@ -151480,7 +151489,8 @@
       "https://inmobiliariapalau.com/wp-content/uploads/2025/09/IMG_0931.jpeg"
     ],
     "fecha_scraping": "2025-10-22T21:19:37.086581",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-09T21:52:45.539023"
   },
   {
     "referencia": "4436",
@@ -166434,12 +166444,12 @@
     "habitaciones": 1,
     "banos": 1,
     "tipo": "Apartamento",
-    "estado": "EXCLUSIVA",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-4446-planta-baja-en-son-vilar/",
     "inmobiliaria": "Inmobiliaria Palau",
@@ -166464,7 +166474,8 @@
       "https://inmobiliariapalau.com/wp-content/uploads/2025/11/Ref.-4445-Fotografias-1.png"
     ],
     "fecha_scraping": "2025-12-23T21:25:42.130654",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-09T21:52:45.539055"
   },
   {
     "referencia": "4438",
@@ -184341,12 +184352,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": true,
     "url_detalle": "https://www.bonninsanso.com/es/compra/casa-adosada-con-licencia-turistica-piscina-privada-y-vistas-al-mar-en-punta-prima-menorca/93167/",
     "inmobiliaria": "Bonnin Sanso",
@@ -184372,7 +184383,8 @@
       "https://images.bonninsanso.com/0/1/propiedades_fotos_713606_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-03-17T21:46:28.211261",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-09T21:52:48.331090"
   },
   {
     "referencia": "93191",
@@ -187625,12 +187637,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Casa",
-    "estado": "RESERVADO",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-4465-duplex-con-jardin-en-cala-galdana-duplicar/",
     "inmobiliaria": "Inmobiliaria Palau",
@@ -187685,7 +187697,8 @@
       "https://inmobiliariapalau.com/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-04-at-12.11.10-2.jpg"
     ],
     "fecha_scraping": "2026-03-26T21:38:11.157982",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-09T21:52:45.539099"
   },
   {
     "referencia": "90538",
@@ -190510,6 +190523,145 @@
       "https://www.finquesinmofuguet.com/panel/inmuebles/878/med/WhatsApp Image 2026-04-03 at 15.10.44.jpeg"
     ],
     "fecha_scraping": "2026-04-08T21:53:04.054329",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "90006",
+    "titulo": "Espacioso cochera en el centro de Es Castell, Menorca",
+    "ubicacion": "Es Castell",
+    "precio": 100000,
+    "metros": 112,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": null,
+    "estado": "",
+    "piscina": false,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/espacioso-cochera-en-el-centro-de-es-castell-menorca/90006/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/5/a/propiedades_fotos_715501_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/5/a/propiedades_fotos_715501_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/2/propiedades_fotos_715499_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/1/propiedades_fotos_715500_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/9/propiedades_fotos_715145_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-04-09T21:52:53.651556",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "93167",
+    "titulo": "En exclusiva: Casa adosada con licencia turística, piscina privada y vistas al mar en Punta Prima, Menorca",
+    "ubicacion": "Punta Prima",
+    "precio": 640000,
+    "metros": 109,
+    "metros_parcela": 500,
+    "habitaciones": 3,
+    "banos": 2,
+    "tipo": "Casa",
+    "estado": "",
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": true,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/en-exclusiva-casa-adosada-con-licencia-turistica-piscina-privada-y-vistas-al-mar-en-punta-prima-menorca/93167/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/6/0/propiedades_fotos_715294_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/6/0/propiedades_fotos_715294_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/1/propiedades_fotos_715336_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/3/propiedades_fotos_715295_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/b/propiedades_fotos_715297_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/5/propiedades_fotos_715304_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/7/propiedades_fotos_715302_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/0/propiedades_fotos_715303_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/9/propiedades_fotos_715301_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/7/propiedades_fotos_715298_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/4/propiedades_fotos_715309_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/b/propiedades_fotos_715310_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/d/propiedades_fotos_715311_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/6/propiedades_fotos_715313_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/d/propiedades_fotos_715315_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/8/propiedades_fotos_715316_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/a/propiedades_fotos_715318_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/9/propiedades_fotos_715317_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/8/propiedades_fotos_715320_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/e/propiedades_fotos_715319_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/a/propiedades_fotos_715323_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/c/propiedades_fotos_715324_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/a/propiedades_fotos_715325_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/b/propiedades_fotos_715327_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/0/propiedades_fotos_715328_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/f/propiedades_fotos_715330_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/1/propiedades_fotos_715331_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/e/propiedades_fotos_715332_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/8/propiedades_fotos_715334_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/6/propiedades_fotos_715335_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/4/propiedades_fotos_715305_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/d/propiedades_fotos_715306_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/8/propiedades_fotos_715337_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/4/propiedades_fotos_715338_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-04-09T21:52:58.489469",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25584299",
+    "titulo": "Chalet con piscina y vistas al mar en Cala LLonga",
+    "ubicacion": "Maó - Mahón; Cala Llonga - Sa Mesquida",
+    "precio": 750000,
+    "metros": 27,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/chalet-con-piscina-y-vistas-al-mar-en-cala-llonga/25584299",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29837029/Tphoto/IDe546c701-0000-0500-0000-00001907da6c.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29837029/Tphoto/IDe546c701-0000-0500-0000-00001907da6c.jpg"
+    ],
+    "fecha_scraping": "2026-04-09T21:53:41.813630",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25583792",
+    "titulo": "Apartamento con licencia y piscina en Addaia",
+    "ubicacion": "Es Mercadal; Puerto De Addaia",
+    "precio": 345000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Apartamento",
+    "estado": null,
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/apartamento-con-licencia-y-piscina-en-addaia/25583792",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29836429/Tphoto/ID8d44c701-0000-0500-0000-00001907b018.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29836429/Tphoto/ID8d44c701-0000-0500-0000-00001907b018.jpg"
+    ],
+    "fecha_scraping": "2026-04-09T21:53:43.863414",
     "fecha_ultima_actualizacion": null
   }
 ]
