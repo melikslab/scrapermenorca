@@ -6634,12 +6634,12 @@
     "habitaciones": 3,
     "banos": 3,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/fantastico-1o-piso-de-lujo-con-patio-y-piscina-privada-en-el-casco-antiguo-de-ciutadella-2/",
     "inmobiliaria": "Fincas Llongas",
@@ -6684,7 +6684,8 @@
       "https://fincasllongas.com/files/ed2dcc98-0769-4912-aa43-d5dcc6569948-1-800x480.jpg?v=1711533039"
     ],
     "fecha_scraping": "2025-09-02T21:39:46.143668",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-12T21:42:26.576469"
   },
   {
     "referencia": "Ref. 7394",
@@ -129066,12 +129067,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/plaza-de-parking-en-venta-ubicacion-muy-bien-situada-y-accesible/23325034",
     "inmobiliaria": "3Villas",
@@ -129080,7 +129081,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P27322221/Tphoto/ID6de7a001-0000-0500-0000-00001600ab93.jpg"
     ],
     "fecha_scraping": "2025-09-04T18:52:37.964778",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-12T21:43:31.615250"
   },
   {
     "referencia": "22699521",
@@ -131226,12 +131228,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/casa-de-pueblo-con-jardin-y-piscina-en-venta-en-sant-climent/22889165",
     "inmobiliaria": "3Villas",
@@ -131240,7 +131242,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P26055546/Tphoto/ID7a938d01-0000-0500-0000-000015627839.jpg"
     ],
     "fecha_scraping": "2025-09-04T18:54:19.612695",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-12T21:43:31.615261"
   },
   {
     "referencia": "23636152",
@@ -167121,12 +167124,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": true,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/local-comercial-en-alquiler-en-el-corazon-historico-de-ciutadella/24828135",
     "inmobiliaria": "Casas en Menorca",
@@ -167135,7 +167138,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29010921/Tphoto/IDe9abba01-0000-0500-0000-00001807730b.jpg"
     ],
     "fecha_scraping": "2025-12-24T21:25:18.227249",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-12T21:42:50.837051"
   },
   {
     "referencia": "24836413",
@@ -191208,6 +191212,136 @@
       "https://inmobiliariapalau.com/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-04-at-12.11.10-2.jpg"
     ],
     "fecha_scraping": "2026-04-11T21:40:04.561018",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "20688047",
+    "titulo": "Espectacular chalet en Cala'n Blanes",
+    "ubicacion": "Ciutadella; Cala En Blanes",
+    "precio": 1150000,
+    "metros": 750,
+    "metros_parcela": 750,
+    "habitaciones": 2,
+    "banos": 2,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/espectacular-chalet-en-calan-blanes/20688047",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24201415/Tphoto/IDc7487101-0000-0500-0000-000011ed68ce.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24201415/Tphoto/IDc7487101-0000-0500-0000-000011ed68ce.jpg"
+    ],
+    "fecha_scraping": "2026-04-12T21:42:52.875415",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25602567",
+    "titulo": "Tradicional chalet con vistas al mar en Binisafua",
+    "ubicacion": "Sant Lluís; Cap D'En Font - Binissafúller",
+    "precio": 820000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/tradicional-chalet-con-vistas-al-mar-en-binisafua/25602567",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P27725734/Tphoto/IDa60fa701-0000-0500-0000-0000190e9c2a.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P27725734/Tphoto/IDa60fa701-0000-0500-0000-0000190e9c2a.jpg"
+    ],
+    "fecha_scraping": "2026-04-12T21:42:55.024891",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25602619",
+    "titulo": "Chalet con piscina en Coves Noves",
+    "ubicacion": "Es Mercadal; Na Macaret",
+    "precio": 646000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": 4,
+    "banos": null,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/chalet-con-piscina-en-coves-noves/25602619",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28869801/Tphoto/IDa984b801-0000-0500-0000-000017d9e525.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28869801/Tphoto/IDa984b801-0000-0500-0000-000017d9e525.jpg"
+    ],
+    "fecha_scraping": "2026-04-12T21:42:59.838827",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25602700",
+    "titulo": "Local en la zona de la Av. Menorca, en Mahón",
+    "ubicacion": "Maó - Mahón; Maó",
+    "precio": 1000,
+    "metros": 90,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Local",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": true,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/local-en-la-zona-de-la-av-menorca-en-mahon/25602700",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29856378/Tphoto/ID7a92c701-0000-0500-0000-0000190ec6ef.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29856378/Tphoto/ID7a92c701-0000-0500-0000-0000190ec6ef.jpg"
+    ],
+    "fecha_scraping": "2026-04-12T21:43:01.996689",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25603203",
+    "titulo": "Piso con piscina y parking en Es Castell",
+    "ubicacion": "Es Castell; Santa Ana Y Sol Del Este",
+    "precio": 320000,
+    "metros": 28,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": true,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/piso-con-piscina-y-parking-en-es-castell/25603203",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29856958/Tphoto/IDbe94c701-0000-0500-0000-0000190f2f93.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29856958/Tphoto/IDbe94c701-0000-0500-0000-0000190f2f93.jpg"
+    ],
+    "fecha_scraping": "2026-04-12T21:43:04.578686",
     "fecha_ultima_actualizacion": null
   }
 ]
