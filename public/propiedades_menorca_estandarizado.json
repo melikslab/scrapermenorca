@@ -90068,12 +90068,12 @@
     "habitaciones": 4,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/autentica-casa-de-campo-cerca-del-mar-en-alcaufar/20688083",
     "inmobiliaria": "Casas en Menorca",
@@ -90082,7 +90082,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24201472/Tphoto/ID00497101-0000-0500-0000-000013d62b02.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:29:21.461251",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-18T21:43:33.229690"
   },
   {
     "referencia": "20684595",
@@ -90386,12 +90387,12 @@
     "habitaciones": null,
     "banos": 2,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-de-campo-cerca-del-mar-en-salgar/23054484",
     "inmobiliaria": "Casas en Menorca",
@@ -90400,7 +90401,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P26511665/Tphoto/ID31899401-0000-0500-0000-0000159f7e7a.jpg"
     ],
     "fecha_scraping": "2025-09-02T22:29:36.050839",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-18T21:43:33.229698"
   },
   {
     "referencia": "22689159",
@@ -130452,12 +130454,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Nave",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/nave-industrial-en-poligono-ciutadella/21582033",
     "inmobiliaria": "3Villas",
@@ -130466,7 +130468,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P25420484/Tphoto/IDc4e28301-0000-0500-0000-000013f91110.jpg"
     ],
     "fecha_scraping": "2025-09-04T18:53:42.737837",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-18T21:44:23.859186"
   },
   {
     "referencia": "23196658",
@@ -144444,12 +144447,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/luminoso-piso-con-patio-privado-y-ubicacion-inmejorable/23997492",
     "inmobiliaria": "3Villas",
@@ -144458,7 +144461,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P28111660/Tphoto/ID2cf3ac01-0000-0500-0000-000017069acc.jpg"
     ],
     "fecha_scraping": "2025-09-30T21:23:11.311940",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-18T21:44:23.859215"
   },
   {
     "referencia": "24001276",
@@ -191360,12 +191364,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/piso-con-piscina-y-parking-en-es-castell/25603203",
     "inmobiliaria": "Casas en Menorca",
@@ -191374,7 +191378,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29856958/Tphoto/IDbe94c701-0000-0500-0000-0000190f2f93.jpg"
     ],
     "fecha_scraping": "2026-04-12T21:43:04.578686",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-04-18T21:43:33.229886"
   },
   {
     "referencia": "37019",
@@ -192856,6 +192861,84 @@
       "https://images.bonninsanso.com/4/f/propiedades_fotos_715924_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-17T21:51:57.372134",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25645191",
+    "titulo": "Apartamento con licencia en Son Bou",
+    "ubicacion": "Alaior; Son Bou - San Jaime",
+    "precio": 320000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Apartamento",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/apartamento-con-licencia-en-son-bou/25645191",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29902588/Tphoto/IDfc46c801-0000-0500-0000-0000192226e7.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29902588/Tphoto/IDfc46c801-0000-0500-0000-0000192226e7.jpg"
+    ],
+    "fecha_scraping": "2026-04-18T21:43:35.072720",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25658352",
+    "titulo": "Piso en planta baja en Sol del Este",
+    "ubicacion": "Es Castell; Santa Ana Y Sol Del Este",
+    "precio": 450000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": 4,
+    "banos": 2,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/piso-en-planta-baja-en-sol-del-este/25658352",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29918108/Tphoto/ID9c83c801-0000-0500-0000-0000192893ed.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29918108/Tphoto/ID9c83c801-0000-0500-0000-0000192893ed.jpg"
+    ],
+    "fecha_scraping": "2026-04-18T21:43:37.126472",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25646725",
+    "titulo": "Piso con gran terraza privada en Mahón",
+    "ubicacion": "Maó - Mahón; Maó",
+    "precio": 345000,
+    "metros": 84,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.3villas.es/inmueble/piso-con-gran-terraza-privada-en-mahon/25646725",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29902441/Tphoto/ID6946c801-0000-0500-0000-00001922ddc8.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29902441/Tphoto/ID6946c801-0000-0500-0000-00001922ddc8.jpg"
+    ],
+    "fecha_scraping": "2026-04-18T21:44:25.884202",
     "fecha_ultima_actualizacion": null
   }
 ]
