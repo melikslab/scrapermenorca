@@ -40,6 +40,11 @@ jobs:
         run: python scraper_historico.py
         env:
           DATA_DIR: public
+
+      - name: Pull rebase antes de commit
+        run: |
+          git config pull.rebase true
+          git pull --rebase origin main
  
 
       - name: Commit JSONs incrementales
