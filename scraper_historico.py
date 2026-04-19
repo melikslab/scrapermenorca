@@ -480,7 +480,7 @@ def crear_propiedad_estandar(**kwargs):
     alquiler = kwargs.get('alquiler', False)
 
     # 🔽 Nueva validación: si es alquiler y el precio supera 6000€, marcar como False
-    if alquiler and precio and precio > 6000:
+    if alquiler and (not precio or precio == 0 or precio > 10000):
         alquiler = False
 
 
