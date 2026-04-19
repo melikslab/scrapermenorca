@@ -500,7 +500,7 @@ def crear_propiedad_estandar(**kwargs):
         "ascensor": kwargs.get('ascensor', False),
         "vistas_mar": kwargs.get('vistas_mar', False),
         "vendido": kwargs.get('vendido', False),
-        "alquiler": kwargs.get('alquiler', False),
+        "alquiler": alquiler,
         "url_detalle": kwargs.get('url_detalle', ''),
         "inmobiliaria": kwargs.get('inmobiliaria', ''),
         "imagen_destacada": kwargs.get('imagen_destacada', ''),
