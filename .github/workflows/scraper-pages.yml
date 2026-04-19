@@ -39,17 +39,16 @@ jobs:
         env:
           DATA_DIR: public
 
-      - name: Sync con remote
-        run: |
-          git fetch origin main
-          git rebase origin/main || git rebase --skip
-
       - name: Commit JSONs incrementales
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Datos diarios: propiedades + registro"
-          file_pattern: public/**.json
-          add_options: "-A"
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git reset --soft origin/main
+          git add public/**.json
+          git diff --cached --quiet && echo "Sin cambios" && exit 0
+          git commit -m "Datos diarios: propiedades + registro"
+          git push origin main
       
 
       - name: Añadir .nojekyll e índice (opcional)
