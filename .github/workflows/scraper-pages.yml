@@ -36,13 +36,15 @@ jobs:
         env:
           DATA_DIR: public
 
+      - name: Sync con remoto
+        run: git pull --rebase origin main
+
       - name: Commit JSONs incrementales
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Datos diarios: propiedades + registro"
           file_pattern: public/**.json
           add_options: "-A"   # evita error por pathspec vacío
-          push_options: --force
 
       - name: Añadir .nojekyll e índice (opcional)
         run: |
