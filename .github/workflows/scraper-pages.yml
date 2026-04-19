@@ -5,6 +5,11 @@ on:
     - cron: "0 21 * * *"   # 021:00 UTC ≈ 23:00 Madrid
   workflow_dispatch:
 
+concurrency:
+  group: scraper
+  cancel-in-progress: true
+  
+
 permissions:
   contents: write         # necesario para auto-commit
   pages: write
@@ -35,8 +40,7 @@ jobs:
         run: python scraper_historico.py
         env:
           DATA_DIR: public
-      - name: Sync con remoto
-        run: git pull --rebase origin main
+ 
 
       - name: Commit JSONs incrementales
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -44,8 +48,6 @@ jobs:
           commit_message: "Datos diarios: propiedades + registro"
           file_pattern: public/**.json
           add_options: "-A"
-          skip_fetch: true
-          push_options: --force
 
       - name: Añadir .nojekyll e índice (opcional)
         run: |
