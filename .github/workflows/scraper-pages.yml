@@ -42,7 +42,7 @@ jobs:
           commit_message: "Datos diarios: propiedades + registro"
           file_pattern: public/**.json
           add_options: "-A"   # evita error por pathspec vacío
-      
+          push_options: --force
 
       - name: Añadir .nojekyll e índice (opcional)
         run: |
