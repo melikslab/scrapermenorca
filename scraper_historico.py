@@ -21,7 +21,7 @@ from typing import Dict, Set, List, Tuple, Optional
 # CONFIGURACIÓN GLOBAL
 PRODUCCION = True  # Cambiar a True para scrapear sin límites
 LIMITE_TEST = 999    # Límite de propiedades en modo test
-E_COMPLETO = False  # False = incremental (novedades), True = completo (verificar cambios)
+E_COMPLETO = True  # False = incremental (novedades), True = completo (verificar cambios)
 
 DATA_DIR = os.getenv('DATA_DIR', '.')
 os.makedirs(DATA_DIR, exist_ok=True)
