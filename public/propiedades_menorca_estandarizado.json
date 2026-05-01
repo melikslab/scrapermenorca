@@ -54389,12 +54389,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Casa",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/casa-senorial-en-mahon-con-piscina-y-gran-jardin-menorca/92294/",
     "inmobiliaria": "Bonnin Sanso",
@@ -54452,7 +54452,8 @@
       "https://images.bonninsanso.com/b/9/propiedades_fotos_675746_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:26:50.840444",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-01T21:58:10.195679"
   },
   {
     "referencia": "92300",
@@ -56632,12 +56633,12 @@
     "habitaciones": 4,
     "banos": 4,
     "tipo": "Villa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/villa-de-diseno-contemporaneo-con-vistas-panoramicas-al-mediterraneo-cala-canutells-menorca/92547/",
     "inmobiliaria": "Bonnin Sanso",
@@ -56677,7 +56678,8 @@
       "https://images.bonninsanso.com/a/5/propiedades_fotos_695031_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:28:30.944710",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-01T21:58:10.195686"
   },
   {
     "referencia": "92551",
@@ -114618,12 +114620,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/primer-piso-con-terraza-en-alaior/25726798",
     "inmobiliaria": "Casas en Menorca",
@@ -114632,7 +114634,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29991497/Tphoto/ID49a2c901-0000-0500-0000-000019438206.jpg"
     ],
     "fecha_scraping": "2026-04-28T22:04:54.273928",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-01T21:58:21.032778"
   },
   {
     "referencia": "25725280",
