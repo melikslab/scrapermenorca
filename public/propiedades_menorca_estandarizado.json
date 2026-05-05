@@ -36353,12 +36353,12 @@
     "habitaciones": 5,
     "banos": 4,
     "tipo": "Finca",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/hermosa-finca-rustica-en-ciutadella-menorca/34758/",
     "inmobiliaria": "Bonnin Sanso",
@@ -36400,7 +36400,8 @@
       "https://images.bonninsanso.com/3/6/propiedades_fotos_645586_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:13:22.124958",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:06:55.867309"
   },
   {
     "referencia": "34768",
@@ -40214,12 +40215,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/solar-en-venta-en-mahon-menorca/29196/",
     "inmobiliaria": "Bonnin Sanso",
@@ -40233,7 +40234,8 @@
       "https://images.bonninsanso.com/9/3/propiedades_fotos_548502_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:16:28.197408",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:06:55.867320"
   },
   {
     "referencia": "29213",
@@ -47376,12 +47378,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Piso",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/impresionante-piso-con-vistas-al-puerto-de-mahon-menorca/91033/",
     "inmobiliaria": "Bonnin Sanso",
@@ -47424,7 +47426,8 @@
       "https://images.bonninsanso.com/3/a/propiedades_fotos_616775_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:21:50.229445",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:06:55.867331"
   },
   {
     "referencia": "91250",
@@ -47686,12 +47689,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/encantadora-casa-de-pueblo-en-mahon-menorca/91680/",
     "inmobiliaria": "Bonnin Sanso",
@@ -47733,7 +47736,8 @@
       "https://images.bonninsanso.com/b/0/propiedades_fotos_644528_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:22:07.405832",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:06:55.867335"
   },
   {
     "referencia": "91140",
@@ -51315,12 +51319,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/casa-en-planta-baja-con-patio-en-san-luis-menorca/91823/",
     "inmobiliaria": "Bonnin Sanso",
@@ -51350,7 +51354,8 @@
       "https://images.bonninsanso.com/1/1/propiedades_fotos_651305_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:24:34.306629",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:06:55.867341"
   },
   {
     "referencia": "92034",
@@ -78862,12 +78867,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": "ALQUILER TODO EL AÑO",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1615",
     "inmobiliaria": "Fincas Seminari",
@@ -78929,7 +78934,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1615/med/23"
     ],
     "fecha_scraping": "2026-04-19T22:49:20.134045",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259545"
   },
   {
     "referencia": "207-308465",
@@ -79102,12 +79108,12 @@
     "habitaciones": 3,
     "banos": 5,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1627",
     "inmobiliaria": "Fincas Seminari",
@@ -79153,7 +79159,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1627/med/1_19 - Foto.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:49:27.645450",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259550"
   },
   {
     "referencia": "201-701298",
@@ -79332,12 +79339,12 @@
     "habitaciones": 16,
     "banos": 6,
     "tipo": "Finca",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1554",
     "inmobiliaria": "Fincas Seminari",
@@ -79415,7 +79422,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1554/med/32"
     ],
     "fecha_scraping": "2026-04-19T22:49:34.900065",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259552"
   },
   {
     "referencia": "203-3341",
@@ -79427,12 +79435,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Villa",
-    "estado": "ALQUILER TODO EL AÑO",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1632",
     "inmobiliaria": "Fincas Seminari",
@@ -79472,7 +79480,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1632/med/16"
     ],
     "fecha_scraping": "2026-04-19T22:49:36.703533",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259555"
   },
   {
     "referencia": "207-292675",
@@ -79484,12 +79493,12 @@
     "habitaciones": 5,
     "banos": 2,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1597",
     "inmobiliaria": "Fincas Seminari",
@@ -79591,7 +79600,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1597/med/20240618_121052.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:49:38.540956",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259556"
   },
   {
     "referencia": "208-034105",
@@ -79603,12 +79613,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=574",
     "inmobiliaria": "Fincas Seminari",
@@ -79626,7 +79636,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/574/med/05"
     ],
     "fecha_scraping": "2026-04-19T22:49:40.361766",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259558"
   },
   {
     "referencia": "203-337420",
@@ -79703,12 +79714,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Terreno",
-    "estado": "RÚSTICO",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=842",
     "inmobiliaria": "Fincas Seminari",
@@ -79718,7 +79729,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/842/med/imagen_1.JPG"
     ],
     "fecha_scraping": "2026-04-19T22:49:44.082631",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259560"
   },
   {
     "referencia": "203-344890",
@@ -79823,12 +79835,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Nave",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1497",
     "inmobiliaria": "Fincas Seminari",
@@ -79838,7 +79850,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1497/med/PENJAR.JPG"
     ],
     "fecha_scraping": "2026-04-19T22:49:51.438763",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259563"
   },
   {
     "referencia": "204-046157",
@@ -79850,12 +79863,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1377",
     "inmobiliaria": "Fincas Seminari",
@@ -79883,7 +79896,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1377/med/10"
     ],
     "fecha_scraping": "2026-04-19T22:49:53.256910",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259565"
   },
   {
     "referencia": "203-336575",
@@ -80009,12 +80023,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1619",
     "inmobiliaria": "Fincas Seminari",
@@ -80032,7 +80046,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1619/med/11"
     ],
     "fecha_scraping": "2026-04-19T22:49:58.745853",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259567"
   },
   {
     "referencia": "206-112592",
@@ -80079,12 +80094,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Terreno",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1312",
     "inmobiliaria": "Fincas Seminari",
@@ -80100,7 +80115,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1312/med/4"
     ],
     "fecha_scraping": "2026-04-19T22:50:02.456703",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259569"
   },
   {
     "referencia": "206-0352",
@@ -80112,19 +80128,20 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=658",
     "inmobiliaria": "Fincas Seminari",
     "imagen_destacada": "",
     "galeria": [],
     "fecha_scraping": "2026-04-19T22:50:04.268371",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259573"
   },
   {
     "referencia": "201-692485",
@@ -80424,12 +80441,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1620",
     "inmobiliaria": "Fincas Seminari",
@@ -80493,7 +80510,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1620/med/27"
     ],
     "fecha_scraping": "2026-04-19T22:50:15.327491",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259576"
   },
   {
     "referencia": "210-0102",
@@ -80505,12 +80523,12 @@
     "habitaciones": 7,
     "banos": 6,
     "tipo": "Finca",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1083",
     "inmobiliaria": "Fincas Seminari",
@@ -80556,7 +80574,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1083/med/Copia de b_2127.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:50:17.155869",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259578"
   },
   {
     "referencia": "203-1944",
@@ -80568,12 +80587,12 @@
     "habitaciones": 6,
     "banos": 5,
     "tipo": "Villa",
-    "estado": "PRIMERA LÍNIA DE PLAYA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=356",
     "inmobiliaria": "Fincas Seminari",
@@ -80631,7 +80650,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/356/med/25"
     ],
     "fecha_scraping": "2026-04-19T22:50:19.054337",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259580"
   },
   {
     "referencia": "201-684375",
@@ -80670,12 +80690,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=949",
     "inmobiliaria": "Fincas Seminari",
@@ -80705,7 +80725,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/949/med/11"
     ],
     "fecha_scraping": "2026-04-19T22:50:22.702195",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259582"
   },
   {
     "referencia": "206-046340",
@@ -80717,12 +80738,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "POSIBILIDAD DE 8 VIVIENDAS",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=844",
     "inmobiliaria": "Fincas Seminari",
@@ -80732,7 +80753,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/844/med/01.JPG"
     ],
     "fecha_scraping": "2026-04-19T22:50:24.506576",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259584"
   },
   {
     "referencia": "210-042900",
@@ -80744,12 +80766,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Finca",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1591",
     "inmobiliaria": "Fincas Seminari",
@@ -80801,7 +80823,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1591/med/image00050jpeg"
     ],
     "fecha_scraping": "2026-04-19T22:50:26.330232",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259585"
   },
   {
     "referencia": "210-041Precio",
@@ -81022,19 +81045,20 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=746",
     "inmobiliaria": "Fincas Seminari",
     "imagen_destacada": "",
     "galeria": [],
     "fecha_scraping": "2026-04-19T22:50:33.648229",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259588"
   },
   {
     "referencia": "206-109158",
@@ -81077,12 +81101,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1466",
     "inmobiliaria": "Fincas Seminari",
@@ -81110,7 +81134,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1466/med/20220727_110402 (FILEminimizer).jpg"
     ],
     "fecha_scraping": "2026-04-19T22:50:37.322452",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259589"
   },
   {
     "referencia": "203-318840",
@@ -81122,12 +81147,12 @@
     "habitaciones": 3,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1551",
     "inmobiliaria": "Fincas Seminari",
@@ -81191,7 +81216,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1551/med/20231002_114849.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:50:39.165261",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259591"
   },
   {
     "referencia": "205-101360",
@@ -81203,12 +81229,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1373",
     "inmobiliaria": "Fincas Seminari",
@@ -81228,7 +81254,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1373/med/06"
     ],
     "fecha_scraping": "2026-04-19T22:50:40.987909",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259593"
   },
   {
     "referencia": "205-121",
@@ -81304,12 +81331,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1573",
     "inmobiliaria": "Fincas Seminari",
@@ -81383,7 +81410,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1573/med/30"
     ],
     "fecha_scraping": "2026-04-19T22:50:46.438385",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259595"
   },
   {
     "referencia": "204-045440",
@@ -81395,12 +81423,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1376",
     "inmobiliaria": "Fincas Seminari",
@@ -81428,7 +81456,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1376/med/09"
     ],
     "fecha_scraping": "2026-04-19T22:50:48.265284",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259597"
   },
   {
     "referencia": "205-1181",
@@ -81509,12 +81538,12 @@
     "habitaciones": 3,
     "banos": 3,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1635",
     "inmobiliaria": "Fincas Seminari",
@@ -81564,7 +81593,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1635/med/IMG_2855.jpeg"
     ],
     "fecha_scraping": "2026-04-19T22:50:51.922462",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259599"
   },
   {
     "referencia": "203-1631",
@@ -81576,12 +81606,12 @@
     "habitaciones": 7,
     "banos": 6,
     "tipo": "Villa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=423",
     "inmobiliaria": "Fincas Seminari",
@@ -81617,7 +81647,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/423/med/14"
     ],
     "fecha_scraping": "2026-04-19T22:50:53.745894",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259600"
   },
   {
     "referencia": "206-097250",
@@ -81629,12 +81660,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1453",
     "inmobiliaria": "Fincas Seminari",
@@ -81656,7 +81687,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1453/med/07"
     ],
     "fecha_scraping": "2026-04-19T22:50:55.627700",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259602"
   },
   {
     "referencia": "204-037231",
@@ -81668,12 +81700,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=695",
     "inmobiliaria": "Fincas Seminari",
@@ -81695,7 +81727,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/695/med/07.JPG"
     ],
     "fecha_scraping": "2026-04-19T22:50:57.471613",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259604"
   },
   {
     "referencia": "209-011495",
@@ -81734,12 +81767,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1601",
     "inmobiliaria": "Fincas Seminari",
@@ -81807,7 +81840,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1601/med/zc"
     ],
     "fecha_scraping": "2026-04-19T22:51:01.112973",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259606"
   },
   {
     "referencia": "207-277395",
@@ -81902,12 +81936,12 @@
     "habitaciones": 5,
     "banos": 5,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1586",
     "inmobiliaria": "Fincas Seminari",
@@ -81941,7 +81975,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1586/med/11"
     ],
     "fecha_scraping": "2026-04-19T22:51:04.775519",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259607"
   },
   {
     "referencia": "204-042445",
@@ -81953,12 +81988,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=816",
     "inmobiliaria": "Fincas Seminari",
@@ -81986,7 +82021,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/816/med/10"
     ],
     "fecha_scraping": "2026-04-19T22:51:06.598274",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259609"
   },
   {
     "referencia": "207-146365",
@@ -81998,12 +82034,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": "A REFORMAR",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=493",
     "inmobiliaria": "Fincas Seminari",
@@ -82027,7 +82063,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/493/med/08"
     ],
     "fecha_scraping": "2026-04-19T22:51:08.435825",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259611"
   },
   {
     "referencia": "203-309849",
@@ -82092,12 +82129,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Villa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1449",
     "inmobiliaria": "Fincas Seminari",
@@ -82207,7 +82244,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1449/med/IMG-20220621-WA0061.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:51:12.099818",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259613"
   },
   {
     "referencia": "207-307680",
@@ -82351,12 +82389,12 @@
     "habitaciones": 5,
     "banos": 3,
     "tipo": null,
-    "estado": "VISTAS AL MAR",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1594",
     "inmobiliaria": "Fincas Seminari",
@@ -82448,7 +82486,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1594/med/zl"
     ],
     "fecha_scraping": "2026-04-19T22:51:17.670027",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259614"
   },
   {
     "referencia": "205-119135",
@@ -82460,12 +82499,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Terreno",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1607",
     "inmobiliaria": "Fincas Seminari",
@@ -82475,7 +82514,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1607/med/1"
     ],
     "fecha_scraping": "2026-04-19T22:51:19.488530",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259616"
   },
   {
     "referencia": "204-080299",
@@ -82563,12 +82603,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Finca",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1388",
     "inmobiliaria": "Fincas Seminari",
@@ -82610,7 +82650,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1388/med/DSC_0022.15"
     ],
     "fecha_scraping": "2026-04-19T22:51:24.980485",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259618"
   },
   {
     "referencia": "106-113950",
@@ -82699,12 +82740,12 @@
     "habitaciones": 6,
     "banos": 2,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1268",
     "inmobiliaria": "Fincas Seminari",
@@ -82764,7 +82805,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1268/med/26.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:51:30.431521",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259620"
   },
   {
     "referencia": "207-284680",
@@ -82776,12 +82818,12 @@
     "habitaciones": 3,
     "banos": 1,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1557",
     "inmobiliaria": "Fincas Seminari",
@@ -82839,7 +82881,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1557/med/30"
     ],
     "fecha_scraping": "2026-04-19T22:51:32.309567",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259622"
   },
   {
     "referencia": "205-107840",
@@ -82851,12 +82894,12 @@
     "habitaciones": 3,
     "banos": 1,
     "tipo": "Finca",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1390",
     "inmobiliaria": "Fincas Seminari",
@@ -82944,7 +82987,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1390/med/temp-temp-7.2"
     ],
     "fecha_scraping": "2026-04-19T22:51:34.141472",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259623"
   },
   {
     "referencia": "203-323780",
@@ -82956,12 +83000,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1592",
     "inmobiliaria": "Fincas Seminari",
@@ -83025,7 +83069,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1592/med/unnamed (7).jpg"
     ],
     "fecha_scraping": "2026-04-19T22:51:35.962979",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259625"
   },
   {
     "referencia": "207-310590",
@@ -83247,12 +83292,12 @@
     "habitaciones": 5,
     "banos": 4,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1614",
     "inmobiliaria": "Fincas Seminari",
@@ -83302,7 +83347,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1614/med/21.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:51:41.448473",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259627"
   },
   {
     "referencia": "207-296728",
@@ -83314,12 +83360,12 @@
     "habitaciones": 4,
     "banos": 5,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1616",
     "inmobiliaria": "Fincas Seminari",
@@ -83389,7 +83435,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1616/med/zg"
     ],
     "fecha_scraping": "2026-04-19T22:51:43.274888",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259629"
   },
   {
     "referencia": "203-299720",
@@ -83472,12 +83519,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "PRIMERA LÍNEA DE MAR",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=674",
     "inmobiliaria": "Fincas Seminari",
@@ -83503,7 +83550,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/674/med/09"
     ],
     "fecha_scraping": "2026-04-19T22:51:46.935767",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259631"
   },
   {
     "referencia": "207-270475",
@@ -83515,12 +83563,12 @@
     "habitaciones": 7,
     "banos": 2,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1506",
     "inmobiliaria": "Fincas Seminari",
@@ -83578,7 +83626,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1506/med/24"
     ],
     "fecha_scraping": "2026-04-19T22:51:48.756852",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259633"
   },
   {
     "referencia": "206-057225",
@@ -83712,12 +83761,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Terreno",
-    "estado": "RÚSTICO",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=967",
     "inmobiliaria": "Fincas Seminari",
@@ -83745,7 +83794,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/967/med/10.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:51:54.264498",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259635"
   },
   {
     "referencia": "209-014255",
@@ -83865,12 +83915,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=973",
     "inmobiliaria": "Fincas Seminari",
@@ -83896,7 +83946,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/973/med/09.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:51:59.683904",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259637"
   },
   {
     "referencia": "204-074400",
@@ -83908,12 +83959,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1608",
     "inmobiliaria": "Fincas Seminari",
@@ -83923,7 +83974,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1608/med/20240214_092348.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:52:01.499392",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259640"
   },
   {
     "referencia": "202-210650",
@@ -83935,12 +83987,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Apartamento",
-    "estado": "LICENCIA TURISTICA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1485",
     "inmobiliaria": "Fincas Seminari",
@@ -83988,7 +84040,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1485/med/FOTOS 1A PLANTA (16).jpg"
     ],
     "fecha_scraping": "2026-04-19T22:52:03.326288",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259642"
   },
   {
     "referencia": "203-309849",
@@ -84202,19 +84255,20 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=671",
     "inmobiliaria": "Fincas Seminari",
     "imagen_destacada": "",
     "galeria": [],
     "fecha_scraping": "2026-04-19T22:52:10.694136",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259644"
   },
   {
     "referencia": "201-706412",
@@ -84327,12 +84381,12 @@
     "habitaciones": 3,
     "banos": 3,
     "tipo": "Casa",
-    "estado": "NUEVA CONSTRUCCIÓN",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1624",
     "inmobiliaria": "Fincas Seminari",
@@ -84368,7 +84422,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1624/med/14"
     ],
     "fecha_scraping": "2026-04-19T22:52:18.006878",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259646"
   },
   {
     "referencia": "204-07840",
@@ -84380,12 +84435,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1621",
     "inmobiliaria": "Fincas Seminari",
@@ -84435,7 +84490,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1621/med/21"
     ],
     "fecha_scraping": "2026-04-19T22:52:19.834317",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259647"
   },
   {
     "referencia": "211-019850",
@@ -84447,12 +84503,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Edificio",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1533",
     "inmobiliaria": "Fincas Seminari",
@@ -84462,7 +84518,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1533/med/IMG_5061.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:52:21.648621",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:01.259649"
   },
   {
     "referencia": "PI 046",
@@ -104071,12 +104128,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/piso-atico-con-gran-terraza-en-mahon/25412977",
     "inmobiliaria": "Casas en Menorca",
@@ -104085,7 +104142,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29647695/Tphoto/ID4f63c401-0000-0500-0000-000018bf52ec.jpg"
     ],
     "fecha_scraping": "2026-04-20T22:01:59.505013",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:07:58.863226"
   },
   {
     "referencia": "25372831",
@@ -114844,12 +114902,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Apartamento",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": true,
     "url_detalle": "https://www.3villas.es/inmueble/alquiler-larga-duracion-apartamento-reformado-en-primera-linea-de-mar/24925965",
     "inmobiliaria": "3Villas",
@@ -114858,7 +114916,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29081047/Tphoto/IDd7bdbb01-0000-0500-0000-0000181ed45b.jpg"
     ],
     "fecha_scraping": "2026-04-28T22:05:26.400534",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-05T22:09:46.389875"
   },
   {
     "referencia": "879",
@@ -116267,6 +116326,377 @@
       "https://media.mobiliagestion.es/Portals/inmofinquestorres/Images/1730/25999993-large.jpg"
     ],
     "fecha_scraping": "2026-05-04T22:09:08.543738",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "Ref. 7020",
+    "titulo": "Local en venta con vistas al mar en Son Bou",
+    "ubicacion": "Son Bou",
+    "precio": 771750,
+    "metros": null,
+    "metros_parcela": 200,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Local",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://fincasllongas.com/propiedad/local-en-venta-en-son-bou/",
+    "inmobiliaria": "Fincas Llongas",
+    "imagen_destacada": "https://fincasllongas.com/files/20200721-205118-1.jpg?v=1637834696",
+    "galeria": [
+      "https://fincasllongas.com/files/20200721-205118-1.jpg?v=1637834696",
+      "https://fincasllongas.com/files/20200721-205341-1.jpg?v=1637834697",
+      "https://fincasllongas.com/files/img-20160413-wa0003-425x480.jpg?v=1637834716",
+      "https://fincasllongas.com/files/20170504-122830-1-1-425x480.jpg?v=1637834691",
+      "https://fincasllongas.com/files/20170524-111343-1-425x480.jpg?v=1637834693",
+      "https://fincasllongas.com/files/img-20190523-092121-2.jpg?v=1637834710",
+      "https://fincasllongas.com/files/img-20210501-093532-1.jpg?v=1637834714",
+      "https://fincasllongas.com/files/20210917-205637-1.jpg?v=1637834701",
+      "https://fincasllongas.com/files/img-20180508-173922-1-425x480.jpg?v=1637834704",
+      "https://fincasllongas.com/files/img-20180508-175326-1-425x480.jpg?v=1637834707",
+      "https://fincasllongas.com/files/img-20200308-105513.jpg?v=1637834712"
+    ],
+    "fecha_scraping": "2026-05-05T22:05:57.754430",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "34758",
+    "titulo": "Encantadora finca rústica en Ciutadella, Menorca",
+    "ubicacion": "Ciutadella",
+    "precio": 1250000,
+    "metros": 500,
+    "metros_parcela": 55375,
+    "habitaciones": 5,
+    "banos": 4,
+    "tipo": "Finca",
+    "estado": "",
+    "piscina": false,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/encantadora-finca-rustica-en-ciutadella-menorca/34758/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/c/5/propiedades_fotos_525494_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/c/5/propiedades_fotos_525494_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/5/propiedades_fotos_525496_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/4/propiedades_fotos_525537_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/6/propiedades_fotos_525535_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/6/propiedades_fotos_525534_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/1/propiedades_fotos_525533_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/4/propiedades_fotos_525531_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/7/propiedades_fotos_525530_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/2/propiedades_fotos_525528_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/b/propiedades_fotos_525510_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/f/propiedades_fotos_525511_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/b/propiedades_fotos_525507_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/5/propiedades_fotos_525513_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/9/propiedades_fotos_525514_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/9/propiedades_fotos_525516_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/9/propiedades_fotos_525517_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/a/propiedades_fotos_525519_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/1/propiedades_fotos_525521_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/f/propiedades_fotos_525523_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/c/propiedades_fotos_525527_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/7/propiedades_fotos_525525_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/a/propiedades_fotos_583181_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/8/propiedades_fotos_525492_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/1/propiedades_fotos_525539_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/b/propiedades_fotos_525538_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/a/propiedades_fotos_525542_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/8/propiedades_fotos_525549_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/a/propiedades_fotos_525545_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/6/propiedades_fotos_525552_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/3/propiedades_fotos_525554_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/a/propiedades_fotos_525556_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/0/propiedades_fotos_525558_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/0/propiedades_fotos_583182_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/6/propiedades_fotos_645586_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-05-05T22:06:57.933480",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "92654",
+    "titulo": "Un edificio con alma, historia y un sinfín de posibilidades. Mahón, Menorca",
+    "ubicacion": "Maó",
+    "precio": 2100000,
+    "metros": 850,
+    "metros_parcela": 331,
+    "habitaciones": 12,
+    "banos": 5,
+    "tipo": "Edificio",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/un-edificio-con-alma-historia-y-un-sinfin-de-posibilidades-mahon-menorca/92654/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/e/a/propiedades_fotos_716031_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/e/a/propiedades_fotos_716031_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/d/propiedades_fotos_716035_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/3/propiedades_fotos_716032_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/0/propiedades_fotos_716034_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/0/propiedades_fotos_716042_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/2/propiedades_fotos_716043_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/7/propiedades_fotos_716045_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/c/propiedades_fotos_716048_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/a/propiedades_fotos_716049_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/e/propiedades_fotos_716046_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/5/propiedades_fotos_716055_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/2/propiedades_fotos_716057_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/2/propiedades_fotos_716056_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/7/propiedades_fotos_716051_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/3/propiedades_fotos_716053_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/a/propiedades_fotos_716059_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/3/propiedades_fotos_716061_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/2/propiedades_fotos_716064_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/2/propiedades_fotos_716062_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/a/propiedades_fotos_716063_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/f/propiedades_fotos_716065_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/7/propiedades_fotos_716067_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/7/propiedades_fotos_716068_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/6/propiedades_fotos_716069_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/4/propiedades_fotos_716070_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/b/propiedades_fotos_716071_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/1/propiedades_fotos_716074_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/e/propiedades_fotos_716075_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/6/propiedades_fotos_716076_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/6/propiedades_fotos_716077_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/a/propiedades_fotos_716079_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/0/propiedades_fotos_716080_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/4/propiedades_fotos_716083_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/a/propiedades_fotos_716085_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/d/propiedades_fotos_716086_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/c/propiedades_fotos_716088_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/5/propiedades_fotos_716089_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/0/propiedades_fotos_716090_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/8/propiedades_fotos_716092_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/b/propiedades_fotos_716095_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/4/propiedades_fotos_716094_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/3/propiedades_fotos_716097_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/1/propiedades_fotos_716098_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/6/propiedades_fotos_716100_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/e/propiedades_fotos_716101_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/e/propiedades_fotos_716102_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/d/propiedades_fotos_716103_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/6/propiedades_fotos_716104_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/4/propiedades_fotos_716105_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/2/propiedades_fotos_716108_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/c/propiedades_fotos_716110_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/a/propiedades_fotos_716041_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/e/propiedades_fotos_716038_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/2/propiedades_fotos_716039_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/9/propiedades_fotos_716115_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-05-05T22:07:01.373808",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "92673",
+    "titulo": "Casita en dos cuerpos en 1a línea de Macaret, Menorca",
+    "ubicacion": "Mercadal",
+    "precio": 1280000,
+    "metros": 215,
+    "metros_parcela": 283,
+    "habitaciones": 7,
+    "banos": 2,
+    "tipo": null,
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/casita-en-dos-cuerpos-en-1a-linea-de-macaret-menorca/92673/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/5/0/propiedades_fotos_716126_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/5/0/propiedades_fotos_716126_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/a/propiedades_fotos_716133_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/9/propiedades_fotos_716131_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/e/propiedades_fotos_716128_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/f/propiedades_fotos_716129_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/d/propiedades_fotos_716130_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/0/propiedades_fotos_716138_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/9/propiedades_fotos_716137_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/7/propiedades_fotos_716140_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/2/propiedades_fotos_716141_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/d/propiedades_fotos_716146_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/4/propiedades_fotos_716142_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/8/propiedades_fotos_716143_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/d/propiedades_fotos_716150_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/2/propiedades_fotos_716151_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/e/propiedades_fotos_716144_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/c/propiedades_fotos_716145_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/6/propiedades_fotos_716122_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/c/propiedades_fotos_716152_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/a/propiedades_fotos_716156_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/c/propiedades_fotos_716157_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/1/propiedades_fotos_716155_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/9/propiedades_fotos_716158_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/5/propiedades_fotos_716159_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/7/propiedades_fotos_716161_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/a/propiedades_fotos_716162_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/2/propiedades_fotos_716170_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/8/propiedades_fotos_716168_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/9/propiedades_fotos_716169_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/a/propiedades_fotos_716163_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/9/propiedades_fotos_716166_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/7/propiedades_fotos_716171_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/7/propiedades_fotos_716172_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/c/propiedades_fotos_716173_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/f/propiedades_fotos_716174_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/c/propiedades_fotos_716121_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/9/propiedades_fotos_716124_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/b/propiedades_fotos_716123_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/f/propiedades_fotos_716127_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/d/propiedades_fotos_716132_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/c/propiedades_fotos_716135_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/3/propiedades_fotos_716125_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/0/propiedades_fotos_716120_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/a/propiedades_fotos_716176_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-05-05T22:07:04.530738",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "93297",
+    "titulo": "Bonito apartamento en planta baja en Sol del Este, Es Castell, Menorca.",
+    "ubicacion": "Es Castell",
+    "precio": 325000,
+    "metros": 72,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 2,
+    "tipo": "Apartamento",
+    "estado": "",
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/bonito-apartamento-en-planta-baja-en-sol-del-este-es-castell-menorca/93297/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/0/c/propiedades_fotos_718017_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/0/c/propiedades_fotos_718017_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/6/propiedades_fotos_718021_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/0/propiedades_fotos_718014_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/7/propiedades_fotos_718010_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/a/propiedades_fotos_718012_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/4/propiedades_fotos_718011_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/b/propiedades_fotos_718009_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/4/propiedades_fotos_718008_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/1/propiedades_fotos_717996_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/f/propiedades_fotos_717998_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/b/propiedades_fotos_717999_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/6/propiedades_fotos_718000_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/5/propiedades_fotos_718001_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/c/propiedades_fotos_718002_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/1/propiedades_fotos_718003_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/8/propiedades_fotos_718004_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/5/propiedades_fotos_718005_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/1/propiedades_fotos_718006_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/b/propiedades_fotos_718013_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/d/propiedades_fotos_718015_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/4/propiedades_fotos_718016_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/4/propiedades_fotos_718023_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/5/propiedades_fotos_718019_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/d/propiedades_fotos_718020_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-05-05T22:07:07.644086",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25776419",
+    "titulo": "Primer piso con ascensor en Ciutadella",
+    "ubicacion": "Ciutadella",
+    "precio": 283500,
+    "metros": 6,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": true,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/primer-piso-con-ascensor-en-ciutadella/25776419",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30047864/Tphoto/ID787eca01-0000-0500-0000-000019576c70.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30047864/Tphoto/ID787eca01-0000-0500-0000-000019576c70.jpg"
+    ],
+    "fecha_scraping": "2026-05-05T22:08:00.616649",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "22796328",
+    "titulo": "Solar edificable con garaje",
+    "ubicacion": "Ciutadella",
+    "precio": 318000,
+    "metros": 231,
+    "metros_parcela": 231,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Solar",
+    "estado": null,
+    "piscina": false,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.3villas.es/inmueble/solar-edificable-con-garaje/22796328",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P26543680/Tphoto/ID40069501-0000-0500-0000-0000195751d0.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P26543680/Tphoto/ID40069501-0000-0500-0000-0000195751d0.jpg"
+    ],
+    "fecha_scraping": "2026-05-05T22:09:47.969355",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4740",
+    "titulo": "Casa reformada en Casco Antiguo en Ciutadella de Menorca.",
+    "ubicacion": "Ciutadella",
+    "precio": 697000,
+    "metros": 194,
+    "metros_parcela": null,
+    "habitaciones": 4,
+    "banos": 5,
+    "tipo": "Casa",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.ponsmorales.com/es/venta/ref-4740",
+    "inmobiliaria": "Pons Morales",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4740/23600327.jpg",
+    "galeria": [
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4740/23600327.jpg"
+    ],
+    "fecha_scraping": "2026-05-05T22:09:50.866672",
     "fecha_ultima_actualizacion": null
   }
 ]
