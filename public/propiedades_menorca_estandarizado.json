@@ -504,12 +504,12 @@
     "habitaciones": 2,
     "banos": 2,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/1o-piso-de-obra-nueva-con-patio-y-balcon-en-ciutadella/",
     "inmobiliaria": "Fincas Llongas",
@@ -518,7 +518,8 @@
       "https://fincasllongas.com/files/8ef1278a-a2db-4888-833c-c1a3e9296529-6-1024x576-6-800x480.jpg?v=1775640672"
     ],
     "fecha_scraping": "2026-04-19T21:42:57.799244",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-14T22:16:15.976772"
   },
   {
     "referencia": "Ref. 7724",
@@ -56717,12 +56718,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/tradicional-casa-de-campo-en-alcaufar-menorca/92551/",
     "inmobiliaria": "Bonnin Sanso",
@@ -56794,7 +56795,8 @@
       "https://images.bonninsanso.com/8/2/propiedades_fotos_692283_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:28:33.293401",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-14T22:16:27.540693"
   },
   {
     "referencia": "92715",
@@ -88348,12 +88350,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": "EXCLUSIVA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://menorcasa.com/es/property/detached-villa-with-pool-in-cala-llonga-4/",
     "inmobiliaria": "Menorcasa",
@@ -88397,7 +88399,8 @@
       "https://menorcasa.com/wp-content/uploads/2024/07/Cala-Llonga-36-1.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:55:27.695409",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-14T22:16:50.417961"
   },
   {
     "referencia": "5022",
@@ -114764,12 +114767,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://menorcasa.com/es/property/chalet-unifamiliar-con-vistas-al-campo-en-trebaluger/",
     "inmobiliaria": "Menorcasa",
@@ -114816,7 +114819,8 @@
       "https://menorcasa.com/wp-content/uploads/2026/04/Trebaluger-39-1.jpg"
     ],
     "fecha_scraping": "2026-04-28T22:05:09.698489",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-14T22:16:50.418021"
   },
   {
     "referencia": "5121",
@@ -118985,6 +118989,67 @@
       "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4909/26016822.jpg"
     ],
     "fecha_scraping": "2026-05-13T22:20:29.273058",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4494",
+    "titulo": "Edificio",
+    "ubicacion": "Ciutadella",
+    "precio": 640000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": 7,
+    "banos": 3,
+    "tipo": "Casa",
+    "estado": "EXCLUSIVA",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-4494-edificio-en-ciutadella/",
+    "inmobiliaria": "Inmobiliaria Palau",
+    "imagen_destacada": "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Gemini_Generated_Image_scmwmwscmwmwscmw-1024x768.png",
+    "galeria": [
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Gemini_Generated_Image_scmwmwscmwmwscmw-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Ref.-4494-Fotografias-IA-8-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Ref.-4494-Fotografias-IA-12-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Ref.-4494-Fotografias-IA-10-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Ref.-4494-Fotografias-IA-11-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Ref.-4494-Fotografias-IA-7-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Ref.-4494-Fotografias-IA-2-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Ref.-4494-Fotografias-IA-3-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Ref.-4494-Fotografias-IA-1-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Ref.-4494-Fotografias-IA-5-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Gemini_Generated_Image_622pym622pym622p-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Gemini_Generated_Image_sbii34sbii34sbii-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Gemini_Generated_Image_xaqx65xaqx65xaqx-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Gemini_Generated_Image_lme7bplme7bplme7-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Gemini_Generated_Image_1tclql1tclql1tcl-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Gemini_Generated_Image_vv5jxivv5jxivv5j-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Gemini_Generated_Image_a5ij6ea5ij6ea5ij-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Gemini_Generated_Image_1g78431g78431g78-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Gemini_Generated_Image_kdmgmmkdmgmmkdmg-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Gemini_Generated_Image_n38wqyn38wqyn38w-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Gemini_Generated_Image_ackba6ackba6ackb-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Gemini_Generated_Image_yaisp8yaisp8yais-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Gemini_Generated_Image_dkb267dkb267dkb2-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Gemini_Generated_Image_y52zzsy52zzsy52z-768x1024.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Gemini_Generated_Image_djj7c2djj7c2djj7-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Gemini_Generated_Image_ylyl4eylyl4eylyl-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Gemini_Generated_Image_aquyecaquyecaquy-1024x768.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2024/02/twitter_X.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/05/Gemini_Generated_Image_scmwmwscmwmwscmw-1.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/04/WhatsApp-Image-2026-04-24-at-18.24.15-2.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/04/4248136-91cea6e5.jpg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/04/Ref.-4490-Fotografias-1-IA.jpg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/03/Ref.-4486-IA-10.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/03/IMG_1471.jpg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-18-at-11.55.02.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/03/WhatsApp-Image-2026-01-27-at-19.41.20-31.jpeg"
+    ],
+    "fecha_scraping": "2026-05-14T22:16:24.176396",
     "fecha_ultima_actualizacion": null
   }
 ]
