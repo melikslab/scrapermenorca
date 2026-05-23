@@ -8535,12 +8535,12 @@
     "habitaciones": 6,
     "banos": 3,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/casa-tradicional-menorquina-de-pueblo-con-piscina/",
     "inmobiliaria": "Fincas Llongas",
@@ -8568,7 +8568,8 @@
       "https://fincasllongas.com/files/a7309231-800x480.jpg?v=1688489008"
     ],
     "fecha_scraping": "2026-04-19T21:49:05.542497",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-23T22:00:03.083425"
   },
   {
     "referencia": "Ref. 7292",
@@ -11875,12 +11876,12 @@
     "habitaciones": 1,
     "banos": 1,
     "tipo": null,
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4369",
     "inmobiliaria": "Inmobiliaria Artrutx",
@@ -11891,7 +11892,8 @@
       "https://www.inmobiliariaartrutx.com/panel/inmuebles/4369/img/03.jpg"
     ],
     "fecha_scraping": "2026-04-19T21:51:44.262905",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-23T22:00:04.804718"
   },
   {
     "referencia": "3400",
@@ -14736,12 +14738,12 @@
     "habitaciones": 1,
     "banos": 1,
     "tipo": "Piso",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4373",
     "inmobiliaria": "Inmobiliaria Artrutx",
@@ -14752,7 +14754,8 @@
       "https://www.inmobiliariaartrutx.com/panel/inmuebles/4373/img/03.jpg"
     ],
     "fecha_scraping": "2026-04-19T21:54:04.947209",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-23T22:00:04.804727"
   },
   {
     "referencia": "4496",
@@ -61335,12 +61338,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": null,
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/triplex-con-vistas-al-mar-en-coves-noves-menorca/92932/",
     "inmobiliaria": "Bonnin Sanso",
@@ -61396,7 +61399,8 @@
       "https://images.bonninsanso.com/6/e/propiedades_fotos_705990_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:32:17.012914",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-23T22:00:11.380671"
   },
   {
     "referencia": "92933",
@@ -121230,6 +121234,77 @@
       "https://zenhousecredit.com/img/calcular.jpg"
     ],
     "fecha_scraping": "2026-05-22T22:13:42.409541",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "93368",
+    "titulo": "Extraordinaria vivienda tipo dúplex  en Mercadal, Menorca.",
+    "ubicacion": "Mercadal",
+    "precio": 255000,
+    "metros": 64,
+    "metros_parcela": null,
+    "habitaciones": 1,
+    "banos": 1,
+    "tipo": "Casa",
+    "estado": "",
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/extraordinaria-vivienda-tipo-duplex-en-mercadal-menorca/93368/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/3/c/propiedades_fotos_719976_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/3/c/propiedades_fotos_719976_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/6/propiedades_fotos_719957_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/7/propiedades_fotos_719956_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/9/propiedades_fotos_719958_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/7/propiedades_fotos_719959_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/a/propiedades_fotos_719960_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/0/propiedades_fotos_719961_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/4/propiedades_fotos_719962_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/9/propiedades_fotos_719964_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/c/propiedades_fotos_719965_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/b/propiedades_fotos_719966_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/8/propiedades_fotos_719967_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/9/propiedades_fotos_719968_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/9/propiedades_fotos_719969_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/3/propiedades_fotos_719970_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/8/propiedades_fotos_719972_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/8/propiedades_fotos_719973_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/c/propiedades_fotos_719963_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/d/propiedades_fotos_719975_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/6/propiedades_fotos_719979_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-05-23T22:00:13.408620",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4919",
+    "titulo": "Elegante propiedad con extenso jardín en Sa Caleta, Ciutadella de Menorca.",
+    "ubicacion": "Ciutadella; Ciutadella; Sa caleta",
+    "precio": null,
+    "metros": 454,
+    "metros_parcela": null,
+    "habitaciones": 5,
+    "banos": 6,
+    "tipo": "Chalet",
+    "estado": "",
+    "piscina": true,
+    "garaje": true,
+    "ascensor": true,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.ponsmorales.com/es/venta/ref-4919",
+    "inmobiliaria": "Pons Morales",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4919/26499733.jpg",
+    "galeria": [
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4919/26499733.jpg"
+    ],
+    "fecha_scraping": "2026-05-23T22:00:52.488476",
     "fecha_ultima_actualizacion": null
   }
 ]
