@@ -119095,12 +119095,12 @@
     "habitaciones": 5,
     "banos": 5,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/casa-de-campo-en-uso-como-restaurante-en-los-alrededores-de-sant-lluis-menorca/27467/",
     "inmobiliaria": "Bonnin Sanso",
@@ -119136,7 +119136,8 @@
       "https://images.bonninsanso.com/e/8/propiedades_fotos_587469_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-05-15T22:03:40.850392",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-24T22:01:04.488862"
   },
   {
     "referencia": "36159",
@@ -121305,6 +121306,34 @@
       "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4919/26499733.jpg"
     ],
     "fecha_scraping": "2026-05-23T22:00:52.488476",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "8354",
+    "titulo": "CASA CON GARAJE",
+    "ubicacion": "Ciutadella",
+    "precio": 1060500,
+    "metros": 256,
+    "metros_parcela": null,
+    "habitaciones": 4,
+    "banos": 3,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": true,
+    "garaje": true,
+    "ascensor": true,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.enprimeralinea.immo/casa-chalet-en-ciutadella-de-menorca-con-garaje-es1745313.html",
+    "inmobiliaria": "En Primera Linea",
+    "imagen_destacada": "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1745313/image/photo-2026-05-23-10-44-14-15.jpg?v=20260523110028470",
+    "galeria": [
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1745313/image/photo-2026-05-23-10-44-14-15.jpg?v=20260523110028470",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1745313/image/thumb/585_335/photo-2026-05-23-10-44-14-15.jpg?20260523110028470",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1678961/image/thumb/585_335/fc4d240b-4e19-4a9b-8a9c-9a26d23c37c0.png"
+    ],
+    "fecha_scraping": "2026-05-24T22:01:29.134468",
     "fecha_ultima_actualizacion": null
   }
 ]
