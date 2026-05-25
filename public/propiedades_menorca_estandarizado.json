@@ -30831,12 +30831,12 @@
     "habitaciones": 5,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/fantastico-chalet-en-pleno-campo-zona-sa-roca-es-mercadal/92614/",
     "inmobiliaria": "Bonnin Sanso",
@@ -30864,7 +30864,8 @@
       "https://images.bonninsanso.com/b/3/propiedades_fotos_268025_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:08:56.388613",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-25T22:13:06.353598"
   },
   {
     "referencia": "22727",
@@ -63002,12 +63003,12 @@
     "habitaciones": 3,
     "banos": 4,
     "tipo": null,
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/encanto-menorquin-y-elegancia-contemporanea-en-pleno-centro-de-mahon-menorca/93097/",
     "inmobiliaria": "Bonnin Sanso",
@@ -63061,7 +63062,8 @@
       "https://images.bonninsanso.com/4/2/propiedades_fotos_710037_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:33:39.496138",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-25T22:13:06.353645"
   },
   {
     "referencia": "93107",
@@ -63484,12 +63486,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Ático",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/atico-tipo-duplex-en-zona-residencial-de-mahon-menorca/93135/",
     "inmobiliaria": "Bonnin Sanso",
@@ -63525,7 +63527,8 @@
       "https://images.bonninsanso.com/3/6/propiedades_fotos_711864_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:34:03.338442",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-25T22:13:06.353649"
   },
   {
     "referencia": "93138",
@@ -85990,12 +85993,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.vidalmenorca.com/es/propiedades/casa-rustica-situada-a-escasos-minutos-de-es-migjorn-gran-en-un-entorno-tranquilo-y-lleno-de-encanto/3248",
     "inmobiliaria": "Vidal Menorca",
@@ -86012,7 +86015,8 @@
       "https://www.vidalmenorca.com/static/uploads/018065.lazy.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:53:20.736174",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-25T22:13:29.728425"
   },
   {
     "referencia": "2038",
@@ -87057,12 +87061,12 @@
     "habitaciones": 2,
     "banos": 2,
     "tipo": "Apartamento",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.vidalmenorca.com/es/propiedades/apartamento-con-2-dormitorios-dobles-en-santo-tomas-/3241",
     "inmobiliaria": "Vidal Menorca",
@@ -87090,7 +87094,8 @@
       "https://www.vidalmenorca.com/static/uploads/081002.lazy.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:54:23.183714",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-25T22:13:29.728432"
   },
   {
     "referencia": "30001",
@@ -121334,6 +121339,51 @@
       "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1678961/image/thumb/585_335/fc4d240b-4e19-4a9b-8a9c-9a26d23c37c0.png"
     ],
     "fecha_scraping": "2026-05-24T22:01:29.134468",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "92958",
+    "titulo": "Apartamento funcional y luminoso en Cala’n Porter. Menorca",
+    "ubicacion": "Calan Porter",
+    "precio": 298000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": 2,
+    "banos": 1,
+    "tipo": "Apartamento",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/apartamento-funcional-y-luminoso-en-cala-n-porter-menorca/92958/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/f/8/propiedades_fotos_706819_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/f/8/propiedades_fotos_706819_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/1/propiedades_fotos_706841_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/9/propiedades_fotos_706840_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/2/propiedades_fotos_706836_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/b/propiedades_fotos_706837_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/a/propiedades_fotos_706834_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/e/propiedades_fotos_706833_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/4/propiedades_fotos_706832_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/e/propiedades_fotos_706831_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/1/propiedades_fotos_706830_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/0/propiedades_fotos_706828_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/4/propiedades_fotos_706826_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/6/propiedades_fotos_706825_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/a/propiedades_fotos_706838_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/3/propiedades_fotos_706823_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/e/propiedades_fotos_706818_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/e/propiedades_fotos_706820_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/9/propiedades_fotos_706816_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/a/propiedades_fotos_706822_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/f/propiedades_fotos_706842_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-05-25T22:13:08.636444",
     "fecha_ultima_actualizacion": null
   }
 ]
