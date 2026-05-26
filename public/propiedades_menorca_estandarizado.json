@@ -2423,12 +2423,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/exclusiva-encantadora-casa-menorquina-con-patio-en-el-centro-historico-de-ciutadella/",
     "inmobiliaria": "Fincas Llongas",
@@ -2454,7 +2454,8 @@
       "https://fincasllongas.com/files/dsc01941-hdr-3-800x480.jpg?v=1762278202"
     ],
     "fecha_scraping": "2026-04-19T21:44:34.795169",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-26T22:25:04.840771"
   },
   {
     "referencia": "Ref. 7658",
@@ -6401,12 +6402,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/bonito-1o-piso-con-terraza-en-ciutadella-3/",
     "inmobiliaria": "Fincas Llongas",
@@ -6429,7 +6430,8 @@
       "https://fincasllongas.com/files/dsc04537-800x480.jpg?v=1753268969"
     ],
     "fecha_scraping": "2026-04-19T21:47:29.330113",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-26T22:25:04.840779"
   },
   {
     "referencia": "Ref. 7520",
@@ -28332,12 +28334,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/solar-uso-comercial-frente-zona-verde-en-cala-n-blanes-de-ciutadella-menorca/34293/",
     "inmobiliaria": "Bonnin Sanso",
@@ -28352,7 +28354,8 @@
       "https://images.bonninsanso.com/0/f/propiedades_fotos_392872_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:06:30.399176",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-26T22:25:18.396948"
   },
   {
     "referencia": "25087",
@@ -29900,12 +29903,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/parcela-edificable-en-la-prestigiosa-urbanizacion-son-parc-menorca/20048/",
     "inmobiliaria": "Bonnin Sanso",
@@ -29924,7 +29927,8 @@
       "https://images.bonninsanso.com/d/b/propiedades_fotos_529381_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:07:49.818691",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-26T22:25:18.396954"
   },
   {
     "referencia": "19980",
@@ -39056,12 +39060,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/solar-edificable-en-son-parc-menorca/28764/",
     "inmobiliaria": "Bonnin Sanso",
@@ -39073,7 +39077,8 @@
       "https://images.bonninsanso.com/f/1/propiedades_fotos_529374_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:15:42.537907",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-26T22:25:18.396967"
   },
   {
     "referencia": "90133",
@@ -42714,12 +42719,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/solar-edificable-en-es-castell-menorca/29909/",
     "inmobiliaria": "Bonnin Sanso",
@@ -42733,7 +42738,8 @@
       "https://images.bonninsanso.com/6/e/propiedades_fotos_578310_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:18:50.078628",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-26T22:25:18.396974"
   },
   {
     "referencia": "29911",
@@ -50596,12 +50602,12 @@
     "habitaciones": 12,
     "banos": 3,
     "tipo": "Finca",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/finca-en-explotacion-en-ciutadella-menorca/36459/",
     "inmobiliaria": "Bonnin Sanso",
@@ -50652,7 +50658,8 @@
       "https://images.bonninsanso.com/6/0/propiedades_fotos_660544_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:24:06.277116",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-26T22:25:18.396983"
   },
   {
     "referencia": "91702",
@@ -56995,12 +57002,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Apartamento",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/exclusivo-apartamento-en-primera-linea-con-vistas-espectaculares-al-mar-en-son-parc-menorca/92579/",
     "inmobiliaria": "Bonnin Sanso",
@@ -57041,7 +57048,8 @@
       "https://images.bonninsanso.com/e/f/propiedades_fotos_687898_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:28:42.426806",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-26T22:25:18.396992"
   },
   {
     "referencia": "92584",
@@ -58264,12 +58272,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/chalet-con-piscina-y-vistas-mar-en-addaya-menorca/92702/",
     "inmobiliaria": "Bonnin Sanso",
@@ -58317,7 +58325,8 @@
       "https://images.bonninsanso.com/d/6/propiedades_fotos_696070_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:29:43.521658",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-26T22:25:18.396996"
   },
   {
     "referencia": "92712",
@@ -58329,12 +58338,12 @@
     "habitaciones": 5,
     "banos": 5,
     "tipo": "Casa",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/exquisita-casa-de-autor-en-s-uestra-tradicion-y-diseno-en-perfecta-armonia-sant-lluis-menorca/92712/",
     "inmobiliaria": "Bonnin Sanso",
@@ -58374,7 +58383,8 @@
       "https://images.bonninsanso.com/c/c/propiedades_fotos_695778_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:29:45.922459",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-26T22:25:18.396998"
   },
   {
     "referencia": "46011",
@@ -62695,12 +62705,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Apartamento",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/encantador-apartamento-costero-en-planta-baja-con-orientacion-sur-en-binibeca-menorca/93070/",
     "inmobiliaria": "Bonnin Sanso",
@@ -62738,7 +62748,8 @@
       "https://images.bonninsanso.com/9/f/propiedades_fotos_709041_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:33:25.982035",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-26T22:25:18.397004"
   },
   {
     "referencia": "36978",
@@ -71341,12 +71352,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "http://www.fincasfaro.net/es/ficha/2065/",
     "inmobiliaria": "Fincas Faro",
@@ -71391,7 +71402,8 @@
       "http://www.fincasfaro.net/watermark/594434/380x380"
     ],
     "fecha_scraping": "2026-04-19T22:42:09.040207",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-26T22:25:27.901677"
   },
   {
     "referencia": "1976",
@@ -115571,12 +115583,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/plaza-de-parking-en-mahon-menorca/93314/",
     "inmobiliaria": "Bonnin Sanso",
@@ -115590,7 +115602,8 @@
       "https://images.bonninsanso.com/b/2/propiedades_fotos_717455_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-30T22:02:15.493357",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-26T22:25:18.397077"
   },
   {
     "referencia": "93315",
@@ -115602,12 +115615,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/plaza-de-parking-en-mahon-menorca/93315/",
     "inmobiliaria": "Bonnin Sanso",
@@ -115621,7 +115634,8 @@
       "https://images.bonninsanso.com/5/5/propiedades_fotos_717461_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-30T22:02:17.585780",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-26T22:25:18.397079"
   },
   {
     "referencia": "25746289",
@@ -120581,12 +120595,12 @@
     "habitaciones": 8,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "http://www.fincasfaro.net/es/ficha/2023/",
     "inmobiliaria": "Fincas Faro",
@@ -120613,7 +120627,8 @@
       "http://www.fincasfaro.net/watermark/556457/600x600"
     ],
     "fecha_scraping": "2026-05-20T22:27:05.401811",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-05-26T22:25:27.901744"
   },
   {
     "referencia": "4927",
@@ -121384,6 +121399,214 @@
       "https://images.bonninsanso.com/6/f/propiedades_fotos_706842_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-05-25T22:13:08.636444",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "Ref. 7760",
+    "titulo": "Complejo turístico hotelero en la costa sur de Sant Lluis",
+    "ubicacion": null,
+    "precio": 15600000,
+    "metros": null,
+    "metros_parcela": 5500,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Edificio",
+    "estado": null,
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://fincasllongas.com/propiedad/complejo-turistico-hotelero-en-la-costa-sur-de-sant-lluis/",
+    "inmobiliaria": "Fincas Llongas",
+    "imagen_destacada": "https://fincasllongas.com/files/7736-800x480.jpg?v=1779791412",
+    "galeria": [
+      "https://fincasllongas.com/files/7736-800x480.jpg?v=1779791412"
+    ],
+    "fecha_scraping": "2026-05-26T22:25:06.355449",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "Ref. 7759",
+    "titulo": "Complejo de apartamentos en la Costa Sur de Sant Lluis",
+    "ubicacion": "Sant Lluís",
+    "precio": 3120000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Apartamento",
+    "estado": null,
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://fincasllongas.com/propiedad/complejo-de-apartamentos-en-sant-lluis-punta-prima/",
+    "inmobiliaria": "Fincas Llongas",
+    "imagen_destacada": "https://fincasllongas.com/files/7736-800x480.jpg?v=1779791412",
+    "galeria": [
+      "https://fincasllongas.com/files/7736-800x480.jpg?v=1779791412"
+    ],
+    "fecha_scraping": "2026-05-26T22:25:08.688779",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "93374",
+    "titulo": "Elegante apartamento renovado con vistas al Puerto de Mahón en Es Castell",
+    "ubicacion": "Es Castell",
+    "precio": 352000,
+    "metros": 81,
+    "metros_parcela": null,
+    "habitaciones": 2,
+    "banos": 1,
+    "tipo": "Apartamento",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/elegante-apartamento-renovado-con-vistas-al-puerto-de-mahon-en-es-castell/93374/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/d/6/propiedades_fotos_719646_w1200_h900_wm_1.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/d/6/propiedades_fotos_719646_w1200_h900_wm_1.jpg",
+      "https://images.bonninsanso.com/b/c/propiedades_fotos_719625_w1200_h900_wm_1.jpg",
+      "https://images.bonninsanso.com/c/0/propiedades_fotos_719624_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/c/propiedades_fotos_719626_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/9/propiedades_fotos_719627_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/2/propiedades_fotos_719618_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/6/propiedades_fotos_719615_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/7/propiedades_fotos_719616_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/9/propiedades_fotos_719619_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/e/propiedades_fotos_719620_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/1/propiedades_fotos_719621_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/6/propiedades_fotos_719622_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/0/propiedades_fotos_719623_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/8/propiedades_fotos_719630_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/3/propiedades_fotos_719631_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/6/propiedades_fotos_719633_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/f/propiedades_fotos_719632_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/f/propiedades_fotos_719635_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/3/propiedades_fotos_719636_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/5/propiedades_fotos_719628_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/a/propiedades_fotos_719637_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/5/propiedades_fotos_719638_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/4/propiedades_fotos_719639_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/c/propiedades_fotos_719642_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/3/propiedades_fotos_719643_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/9/propiedades_fotos_719644_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/8/propiedades_fotos_719645_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-05-26T22:25:20.860063",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "1733",
+    "titulo": "Amplio piso reformado con terraza y trastero",
+    "ubicacion": "Ciutadella",
+    "precio": 440000,
+    "metros": 141,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": null,
+    "tipo": "Piso",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.finquestorres.net/es/venta/ref-1733",
+    "inmobiliaria": "Finques Torres",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmofinquestorres/Images/1733/26397243-large.jpg",
+    "galeria": [
+      "https://media.mobiliagestion.es/Portals/inmofinquestorres/Images/1733/26397243-large.jpg"
+    ],
+    "fecha_scraping": "2026-05-26T22:26:01.124788",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "883",
+    "titulo": "Casa independiente con garaje en planta",
+    "ubicacion": "Ciutadella",
+    "precio": 630000,
+    "metros": 190,
+    "metros_parcela": null,
+    "habitaciones": 4,
+    "banos": 2,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": false,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.finquesinmofuguet.com/propiedad-v.php?id=883",
+    "inmobiliaria": "Finques Fuguet",
+    "imagen_destacada": "https://www.finquesinmofuguet.com/panel/inmuebles/883/med/1.0WhatsApp Image 2026-05-20 at 11.26.21.jpeg",
+    "galeria": [
+      "https://www.finquesinmofuguet.com/panel/inmuebles/883/med/1.0WhatsApp Image 2026-05-20 at 11.26.21.jpeg"
+    ],
+    "fecha_scraping": "2026-05-26T22:26:04.311788",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "884",
+    "titulo": "Bajo independiente con garaje",
+    "ubicacion": "Ciutadella",
+    "precio": 525000,
+    "metros": 90,
+    "metros_parcela": null,
+    "habitaciones": 2,
+    "banos": 1,
+    "tipo": "Garaje",
+    "estado": null,
+    "piscina": false,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.finquesinmofuguet.com/propiedad-v.php?id=884",
+    "inmobiliaria": "Finques Fuguet",
+    "imagen_destacada": "https://www.finquesinmofuguet.com/panel/inmuebles/884/med/1.1WhatsApp Image 2026-05-22 at 12.21.45.jpeg",
+    "galeria": [
+      "https://www.finquesinmofuguet.com/panel/inmuebles/884/med/1.1WhatsApp Image 2026-05-22 at 12.21.45.jpeg"
+    ],
+    "fecha_scraping": "2026-05-26T22:26:04.312148",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "885",
+    "titulo": "Impresionante chalet en Cala Blanca",
+    "ubicacion": "Cala Blanca",
+    "precio": 625000,
+    "metros": 170,
+    "metros_parcela": null,
+    "habitaciones": 6,
+    "banos": 2,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.finquesinmofuguet.com/propiedad-v.php?id=885",
+    "inmobiliaria": "Finques Fuguet",
+    "imagen_destacada": "https://www.finquesinmofuguet.com/panel/inmuebles/885/med/1.1WhatsApp Image 2026-05-26 at 11.44.15.jpeg",
+    "galeria": [
+      "https://www.finquesinmofuguet.com/panel/inmuebles/885/med/1.1WhatsApp Image 2026-05-26 at 11.44.15.jpeg"
+    ],
+    "fecha_scraping": "2026-05-26T22:26:04.318328",
     "fecha_ultima_actualizacion": null
   }
 ]
