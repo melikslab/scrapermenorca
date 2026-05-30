@@ -122373,5 +122373,39 @@
     ],
     "fecha_scraping": "2026-05-29T22:40:27.789934",
     "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "37236",
+    "titulo": "Chalet independiente con licéncia turística en Son Carrio, Ciutadella. Menorca",
+    "ubicacion": "Ciutadella",
+    "precio": 830000,
+    "metros": 155,
+    "metros_parcela": 450,
+    "habitaciones": 3,
+    "banos": 3,
+    "tipo": "Chalet",
+    "estado": "",
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/chalet-independiente-con-licencia-turistica-en-son-carrio-ciutadella-menorca/37236/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/5/9/propiedades_fotos_720726_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/5/9/propiedades_fotos_720726_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/4/propiedades_fotos_720727_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/a/propiedades_fotos_720730_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/8/propiedades_fotos_720728_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/e/propiedades_fotos_720729_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/a/propiedades_fotos_720731_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/3/propiedades_fotos_720732_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/f/propiedades_fotos_720733_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/2/propiedades_fotos_720734_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-05-30T22:05:28.670819",
+    "fecha_ultima_actualizacion": null
   }
 ]
