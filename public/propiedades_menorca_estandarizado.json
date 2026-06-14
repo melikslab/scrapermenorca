@@ -47145,12 +47145,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Piso",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/primer-piso-en-zona-centrica-de-mahon-menorca/90958/",
     "inmobiliaria": "Bonnin Sanso",
@@ -47166,7 +47166,8 @@
       "https://images.bonninsanso.com/3/a/propiedades_fotos_694565_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:21:36.687507",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-06-14T22:17:54.391784"
   },
   {
     "referencia": "90986",
