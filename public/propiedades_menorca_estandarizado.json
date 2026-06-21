@@ -61579,12 +61579,12 @@
     "habitaciones": 4,
     "banos": 4,
     "tipo": null,
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/binidali-house-elegancia-y-calidad-frente-al-mar-en-menorca/92935/",
     "inmobiliaria": "Bonnin Sanso",
@@ -61621,7 +61621,8 @@
       "https://images.bonninsanso.com/a/b/propiedades_fotos_705677_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:32:23.881951",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-06-21T22:20:23.452756"
   },
   {
     "referencia": "92939",
@@ -118311,12 +118312,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/parking-amplio-en-fort-de-l-eau-mahon-menorca/93335/",
     "inmobiliaria": "Bonnin Sanso",
@@ -118327,7 +118328,8 @@
       "https://images.bonninsanso.com/a/1/propiedades_fotos_718518_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-05-11T22:13:09.021974",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-06-21T22:20:23.452856"
   },
   {
     "referencia": "93336",
@@ -118339,12 +118341,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/amplia-plaza-de-parking-con-trastero-en-fort-de-l-eau-mahon-menorca/93336/",
     "inmobiliaria": "Bonnin Sanso",
@@ -118355,7 +118357,8 @@
       "https://images.bonninsanso.com/3/3/propiedades_fotos_718516_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-05-11T22:13:11.540755",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-06-21T22:20:23.452859"
   },
   {
     "referencia": "52904",
