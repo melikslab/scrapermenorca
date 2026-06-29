@@ -31492,12 +31492,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/casa-a-reformar-en-avenida-principal-del-casco-antiguo-ciutadella-menorca/33822/",
     "inmobiliaria": "Bonnin Sanso",
@@ -31526,7 +31526,8 @@
       "https://images.bonninsanso.com/b/5/propiedades_fotos_445805_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:09:24.893462",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-06-29T22:14:04.813409"
   },
   {
     "referencia": "23895",
@@ -35417,12 +35418,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": null,
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/espectacular-esquina-en-ciutadella-menorca/34650/",
     "inmobiliaria": "Bonnin Sanso",
@@ -35473,7 +35474,8 @@
       "https://images.bonninsanso.com/d/8/propiedades_fotos_487164_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:12:24.639738",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-06-29T22:14:04.813418"
   },
   {
     "referencia": "26669",
@@ -40217,12 +40219,12 @@
     "habitaciones": 5,
     "banos": 1,
     "tipo": "Finca",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/autentica-finca-menorquina-en-san-luis-menorca/29165/",
     "inmobiliaria": "Bonnin Sanso",
@@ -40277,7 +40279,8 @@
       "https://images.bonninsanso.com/a/b/propiedades_fotos_548510_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:16:26.019970",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-06-29T22:14:04.813428"
   },
   {
     "referencia": "29196",
@@ -52012,12 +52015,12 @@
     "habitaciones": 4,
     "banos": 4,
     "tipo": "Casa",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/impresionante-casa-de-campo-en-una-ubicacion-tranquila-en-trebaluger-menorca/91897/",
     "inmobiliaria": "Bonnin Sanso",
@@ -52032,7 +52035,8 @@
       "https://images.bonninsanso.com/3/1/propiedades_fotos_665675_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:24:57.484349",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-06-29T22:14:04.813446"
   },
   {
     "referencia": "91902",
@@ -53072,12 +53076,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Huerto",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/huerto-de-secano-en-venta-cerca-de-alaior-5-600-m-en-entorno-rustico-alayor-menorca/92397/",
     "inmobiliaria": "Bonnin Sanso",
@@ -53091,7 +53095,8 @@
       "https://images.bonninsanso.com/c/c/propiedades_fotos_679578_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:25:47.819486",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-06-29T22:14:04.813450"
   },
   {
     "referencia": "36622",
@@ -53501,12 +53506,12 @@
     "habitaciones": 5,
     "banos": 3,
     "tipo": "Villa",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/esplendida-villa-con-licencia-turistica-en-punta-prima-menorca/92100/",
     "inmobiliaria": "Bonnin Sanso",
@@ -53560,7 +53565,8 @@
       "https://images.bonninsanso.com/9/f/propiedades_fotos_672166_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:26:05.906789",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-06-29T22:14:04.813452"
   },
   {
     "referencia": "92171",
@@ -54998,12 +55004,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/solar-rustico-en-venta-en-alaior-menorca/92348/",
     "inmobiliaria": "Bonnin Sanso",
@@ -55014,7 +55020,8 @@
       "https://images.bonninsanso.com/2/6/propiedades_fotos_676675_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:27:12.253161",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-06-29T22:14:04.813456"
   },
   {
     "referencia": "92349",
@@ -57330,12 +57337,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Terreno",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/magnifico-terreno-en-son-parc-menorca/92604/",
     "inmobiliaria": "Bonnin Sanso",
@@ -57346,7 +57353,8 @@
       "https://images.bonninsanso.com/4/9/propiedades_fotos_706294_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:28:54.109674",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-06-29T22:14:04.813461"
   },
   {
     "referencia": "92605",
@@ -58879,12 +58887,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Apartamento",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/precioso-apartamento-costero-con-vistas-al-mar-en-menorca/92720/",
     "inmobiliaria": "Bonnin Sanso",
@@ -58914,7 +58922,8 @@
       "https://images.bonninsanso.com/1/2/propiedades_fotos_695331_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:30:19.871828",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-06-29T22:14:04.813466"
   },
   {
     "referencia": "92722",
@@ -60982,12 +60991,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Apartamento",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/apartamento-con-vistas-a-la-naturaleza-y-a-un-paso-del-mar-en-cala-galdana-menorca/36926/",
     "inmobiliaria": "Bonnin Sanso",
@@ -61011,7 +61020,8 @@
       "https://images.bonninsanso.com/b/e/propiedades_fotos_711532_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:31:58.710118",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-06-29T22:14:04.813470"
   },
   {
     "referencia": "92902",
@@ -62157,12 +62167,12 @@
     "habitaciones": 3,
     "banos": 1,
     "tipo": "Piso",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/piso-para-reformar-en-segunda-planta-ferrerias-menorca/36960/",
     "inmobiliaria": "Bonnin Sanso",
@@ -62187,7 +62197,8 @@
       "https://images.bonninsanso.com/7/0/propiedades_fotos_711553_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:32:52.294699",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-06-29T22:14:04.813474"
   },
   {
     "referencia": "92991",
@@ -63346,12 +63357,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/parcela-edificable-o-garaje-en-mahon-menorca/93119/",
     "inmobiliaria": "Bonnin Sanso",
@@ -63368,7 +63379,8 @@
       "https://images.bonninsanso.com/6/c/propiedades_fotos_711362_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:33:50.781960",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-06-29T22:14:04.813477"
   },
   {
     "referencia": "93120",
@@ -64061,12 +64073,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/moderno-chalet-en-son-parc-menorca/93157/",
     "inmobiliaria": "Bonnin Sanso",
@@ -64103,7 +64115,8 @@
       "https://images.bonninsanso.com/7/f/propiedades_fotos_713199_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:34:29.615745",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-06-29T22:14:04.813481"
   },
   {
     "referencia": "93165",
@@ -64937,12 +64950,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Apartamento",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/dos-apartamentos-frente-al-mar-con-acceso-directo-oportunidad-unica-en-na-macaret-menorca/93234/",
     "inmobiliaria": "Bonnin Sanso",
@@ -64990,7 +65003,8 @@
       "https://images.bonninsanso.com/8/c/propiedades_fotos_715103_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:35:11.190605",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-06-29T22:14:04.813484"
   },
   {
     "referencia": "93237",
@@ -72421,12 +72435,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Oficina",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": true,
     "url_detalle": "http://www.fincasfaro.net/es/ficha/2089/",
     "inmobiliaria": "Fincas Faro",
@@ -72443,7 +72457,8 @@
       "http://www.fincasfaro.net/watermark/602975/600x600"
     ],
     "fecha_scraping": "2026-04-19T22:43:05.638025",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-06-29T22:14:16.075683"
   },
   {
     "referencia": "2061",
@@ -125410,12 +125425,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmomenorcacentro.com/propiedad.php?id=1628",
     "inmobiliaria": "Inmo Menorca Centro",
@@ -125443,7 +125458,8 @@
       "https://inmomenorcacentro.com/panel/inmuebles/1628/img/07-ENTRADA-piso-reformado-ciutadella-menorca (2).jpeg"
     ],
     "fecha_scraping": "2026-06-10T22:54:05.079088",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-06-29T22:14:01.802045"
   },
   {
     "referencia": "92735",
@@ -130412,6 +130428,145 @@
       "https://inmobiliariapalau.com/wp-content/uploads/2026/04/Ref.-4490-Fotografias-1-IA.jpg"
     ],
     "fecha_scraping": "2026-06-28T22:06:33.477971",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "92484",
+    "titulo": "VIvienda en planta primera muy cercana al centro de la población de Es Mercadal, Menorca.",
+    "ubicacion": "Mercadal",
+    "precio": 275000,
+    "metros": 86,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 2,
+    "tipo": "Casa",
+    "estado": "",
+    "piscina": false,
+    "garaje": true,
+    "ascensor": true,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/vivienda-en-planta-primera-muy-cercana-al-centro-de-la-poblacion-de-es-mercadal-menorca/92484/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/d/2/propiedades_fotos_7631_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/d/2/propiedades_fotos_7631_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/9/propiedades_fotos_7635_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/b/propiedades_fotos_682819_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/e/propiedades_fotos_682817_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/e/propiedades_fotos_7637_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/0/propiedades_fotos_682816_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/0/propiedades_fotos_7638_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/8/propiedades_fotos_7639_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/4/propiedades_fotos_682821_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/4/propiedades_fotos_7640_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/e/propiedades_fotos_682818_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/5/propiedades_fotos_7641_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/b/propiedades_fotos_7642_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/b/propiedades_fotos_7632_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/a/propiedades_fotos_7633_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/4/propiedades_fotos_692870_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/1/propiedades_fotos_692869_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/0/propiedades_fotos_7634_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/9/propiedades_fotos_682811_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/f/propiedades_fotos_682812_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/a/propiedades_fotos_682813_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/e/propiedades_fotos_682815_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/3/propiedades_fotos_682820_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/e/propiedades_fotos_682822_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/8/propiedades_fotos_682814_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-06-29T22:14:06.716855",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "93238",
+    "titulo": "Apartamento con vistas al mar en Santo Tomas, Menorca",
+    "ubicacion": "Es Migjorn Gran",
+    "precio": 425000,
+    "metros": 73,
+    "metros_parcela": null,
+    "habitaciones": 2,
+    "banos": 2,
+    "tipo": "Apartamento",
+    "estado": "",
+    "piscina": true,
+    "garaje": false,
+    "ascensor": true,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/apartamento-con-vistas-al-mar-en-santo-tomas-menorca/93238/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/3/1/propiedades_fotos_723317_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/3/1/propiedades_fotos_723317_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/0/propiedades_fotos_723315_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/7/propiedades_fotos_723307_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/c/propiedades_fotos_723313_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/0/propiedades_fotos_723314_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/7/propiedades_fotos_723311_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/0/propiedades_fotos_723312_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/b/propiedades_fotos_723301_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/2/propiedades_fotos_723302_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/a/propiedades_fotos_723305_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/2/propiedades_fotos_723306_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/7/propiedades_fotos_723318_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/c/propiedades_fotos_723309_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/a/propiedades_fotos_723310_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/9/propiedades_fotos_723298_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/3/propiedades_fotos_723299_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/b/propiedades_fotos_723300_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/4/propiedades_fotos_723316_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/6/propiedades_fotos_723319_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-06-29T22:14:09.400808",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "2",
+    "titulo": "Hostal con restaurante con vistas al mar",
+    "ubicacion": "Ciutadella",
+    "precio": 2600000,
+    "metros": 2,
+    "metros_parcela": 698,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Local",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1757",
+    "inmobiliaria": "Fincas Seminari",
+    "imagen_destacada": "https://www.fincasseminari.com/panel/inmuebles/1757/img/01",
+    "galeria": [
+      "https://www.fincasseminari.com/panel/inmuebles/1757/img/01",
+      "https://www.fincasseminari.com/panel/inmuebles/1757/img/02",
+      "https://www.fincasseminari.com/panel/inmuebles/1757/img/03",
+      "https://www.fincasseminari.com/panel/inmuebles/1757/img/04",
+      "https://www.fincasseminari.com/panel/inmuebles/1757/img/05",
+      "https://www.fincasseminari.com/panel/inmuebles/1757/img/06",
+      "https://www.fincasseminari.com/panel/inmuebles/1757/img/07",
+      "https://www.fincasseminari.com/panel/inmuebles/1757/img/09",
+      "https://www.fincasseminari.com/panel/inmuebles/1757/img/10",
+      "https://www.fincasseminari.com/panel/inmuebles/1757/img/11",
+      "https://www.fincasseminari.com/panel/inmuebles/1757/med/01",
+      "https://www.fincasseminari.com/panel/inmuebles/1757/med/02",
+      "https://www.fincasseminari.com/panel/inmuebles/1757/med/03",
+      "https://www.fincasseminari.com/panel/inmuebles/1757/med/04",
+      "https://www.fincasseminari.com/panel/inmuebles/1757/med/05",
+      "https://www.fincasseminari.com/panel/inmuebles/1757/med/06",
+      "https://www.fincasseminari.com/panel/inmuebles/1757/med/07",
+      "https://www.fincasseminari.com/panel/inmuebles/1757/med/09",
+      "https://www.fincasseminari.com/panel/inmuebles/1757/med/10",
+      "https://www.fincasseminari.com/panel/inmuebles/1757/med/11"
+    ],
+    "fecha_scraping": "2026-06-29T22:14:28.825943",
     "fecha_ultima_actualizacion": null
   }
 ]
