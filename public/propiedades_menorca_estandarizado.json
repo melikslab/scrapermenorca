@@ -70743,12 +70743,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "http://www.fincasfaro.net/es/ficha/1469/",
     "inmobiliaria": "Fincas Faro",
@@ -70760,7 +70760,8 @@
       "http://www.fincasfaro.net/watermark/559930/600x600"
     ],
     "fecha_scraping": "2026-04-19T22:41:18.280673",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-11T21:57:10.573199"
   },
   {
     "referencia": "1637",
@@ -71995,12 +71996,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "http://www.fincasfaro.net/es/ficha/1471/",
     "inmobiliaria": "Fincas Faro",
@@ -72012,7 +72013,8 @@
       "http://www.fincasfaro.net/watermark/559930/600x600"
     ],
     "fecha_scraping": "2026-04-19T22:42:36.181306",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-11T21:57:10.573205"
   },
   {
     "referencia": "1809",
@@ -72235,12 +72237,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "http://www.fincasfaro.net/es/ficha/1472/",
     "inmobiliaria": "Fincas Faro",
@@ -72252,7 +72254,8 @@
       "http://www.fincasfaro.net/watermark/559930/600x600"
     ],
     "fecha_scraping": "2026-04-19T22:42:52.138680",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-11T21:57:10.573208"
   },
   {
     "referencia": "1997",
@@ -73159,12 +73162,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "http://www.fincasfaro.net/es/ficha/1470/",
     "inmobiliaria": "Fincas Faro",
@@ -73174,7 +73177,8 @@
       "http://www.fincasfaro.net/watermark/559933/600x600"
     ],
     "fecha_scraping": "2026-04-19T22:43:51.111093",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-11T21:57:10.573211"
   },
   {
     "referencia": "1626",
