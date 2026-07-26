@@ -37793,12 +37793,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/parcela-con-vistas-lejanas-al-mar-coves-noves-menorca/27762/",
     "inmobiliaria": "Bonnin Sanso",
@@ -37810,7 +37810,8 @@
       "https://images.bonninsanso.com/7/8/propiedades_fotos_552083_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:14:35.804245",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-26T22:05:44.187228"
   },
   {
     "referencia": "27765",
@@ -48057,12 +48058,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/parcela-edificable-de-uso-comercial-en-biniancolla-menorca/91150/",
     "inmobiliaria": "Bonnin Sanso",
@@ -48074,7 +48075,8 @@
       "https://images.bonninsanso.com/4/7/propiedades_fotos_641265_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:22:14.703765",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-26T22:05:44.187247"
   },
   {
     "referencia": "91167",
@@ -61123,12 +61125,12 @@
     "habitaciones": 3,
     "banos": 1,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/casa-de-campo-a-las-afueras-de-san-clemente-menorca/92903/",
     "inmobiliaria": "Bonnin Sanso",
@@ -61159,7 +61161,8 @@
       "https://images.bonninsanso.com/f/d/propiedades_fotos_704876_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:32:03.382688",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-26T22:05:44.187270"
   },
   {
     "referencia": "92904",
@@ -64442,12 +64445,12 @@
     "habitaciones": 3,
     "banos": 3,
     "tipo": null,
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/ido-fornells-vivir-donde-el-mar-marca-el-ritmo-menorca/93197/",
     "inmobiliaria": "Bonnin Sanso",
@@ -64492,7 +64495,8 @@
       "https://images.bonninsanso.com/9/4/promociones_fotos_1390_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:34:46.170844",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-26T22:05:44.187278"
   },
   {
     "referencia": "93199",
