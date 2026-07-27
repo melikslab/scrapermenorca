@@ -11458,12 +11458,12 @@
     "habitaciones": null,
     "banos": 1,
     "tipo": "Local",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=886",
     "inmobiliaria": "Inmobiliaria Artrutx",
@@ -11476,7 +11476,8 @@
       "https://www.inmobiliariaartrutx.com/panel/inmuebles/886/img/05.jpg"
     ],
     "fecha_scraping": "2026-04-19T21:51:19.879968",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:12:57.638531"
   },
   {
     "referencia": "4840",
@@ -12003,19 +12004,20 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=3184",
     "inmobiliaria": "Inmobiliaria Artrutx",
     "imagen_destacada": "",
     "galeria": [],
     "fecha_scraping": "2026-04-19T21:51:49.732302",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:12:57.638537"
   },
   {
     "referencia": "4910",
@@ -12053,19 +12055,20 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=678",
     "inmobiliaria": "Inmobiliaria Artrutx",
     "imagen_destacada": "",
     "galeria": [],
     "fecha_scraping": "2026-04-19T21:51:53.391366",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:12:57.638540"
   },
   {
     "referencia": "4391",
@@ -12434,12 +12437,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=3621",
     "inmobiliaria": "Inmobiliaria Artrutx",
@@ -12482,7 +12485,8 @@
       "https://www.inmobiliariaartrutx.com/panel/inmuebles/3621/img/35.jpg"
     ],
     "fecha_scraping": "2026-04-19T21:52:13.505329",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:12:57.638543"
   },
   {
     "referencia": "4804",
@@ -13238,12 +13242,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=1166",
     "inmobiliaria": "Inmobiliaria Artrutx",
@@ -13252,7 +13256,8 @@
       "https://www.inmobiliariaartrutx.com/noimagen.png"
     ],
     "fecha_scraping": "2026-04-19T21:52:50.209062",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:12:57.638546"
   },
   {
     "referencia": "4874",
@@ -14714,19 +14719,20 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Apartamento",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=3793",
     "inmobiliaria": "Inmobiliaria Artrutx",
     "imagen_destacada": "",
     "galeria": [],
     "fecha_scraping": "2026-04-19T21:54:01.336582",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:12:57.638551"
   },
   {
     "referencia": "4885",
@@ -30857,12 +30863,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/edificable-en-son-servera-pueblo/272/",
     "inmobiliaria": "Bonnin Sanso",
@@ -30871,7 +30877,8 @@
       "https://images.bonninsanso.com/1/9/propiedades_fotos_87302_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:08:53.931101",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:13:05.736849"
   },
   {
     "referencia": "92614",
@@ -36934,12 +36941,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": null,
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/elegante-propiedad-con-licencia-turistica-y-vistas-panoramicas-sobre-la-playa-de-son-bou-alayor-menorca/27197/",
     "inmobiliaria": "Bonnin Sanso",
@@ -36986,7 +36993,8 @@
       "https://images.bonninsanso.com/5/5/propiedades_fotos_465237_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:13:46.279340",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:13:05.736863"
   },
   {
     "referencia": "29704",
@@ -44254,12 +44262,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": "RESERVADAOBRA INICIADA! EXCLUSIVA PROMOCIÓN DE OBRA NUEVA.",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/sa-llosa-homes-exclusiva-promocion-de-50-chalets-en-son-parc-menorca/90280/",
     "inmobiliaria": "Bonnin Sanso",
@@ -44326,7 +44334,8 @@
       "https://images.bonninsanso.com/4/b/promociones_fotos_1313_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:19:40.273058",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:13:05.736876"
   },
   {
     "referencia": "90287",
@@ -44338,12 +44347,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": "OBRA INICIADA! EXCLUSIVA PROMOCIÓN DE OBRA NUEVA.",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/sa-llosa-homes-exclusiva-promocion-de-50-chalets-en-son-parc-menorca/90287/",
     "inmobiliaria": "Bonnin Sanso",
@@ -44412,7 +44421,8 @@
       "https://images.bonninsanso.com/4/b/promociones_fotos_1313_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:19:42.584411",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:13:05.736878"
   },
   {
     "referencia": "90306",
@@ -45073,12 +45083,12 @@
     "habitaciones": null,
     "banos": 1,
     "tipo": "Local",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/oportunidad-de-mercado-local-en-rentabilidad-en-zona-prime-del-centro-de-mahon-menorca/90432/",
     "inmobiliaria": "Bonnin Sanso",
@@ -45102,7 +45112,8 @@
       "https://images.bonninsanso.com/6/3/propiedades_fotos_707734_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:20:11.646183",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:13:05.736881"
   },
   {
     "referencia": "36021",
@@ -46215,12 +46226,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Ático",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/moderno-atico-con-piscina-mahon-menorca/90538/",
     "inmobiliaria": "Bonnin Sanso",
@@ -46250,7 +46261,8 @@
       "https://images.bonninsanso.com/0/4/propiedades_fotos_602501_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:20:50.065441",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:13:05.736885"
   },
   {
     "referencia": "36068",
@@ -55764,12 +55776,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/chalet-con-licencia-turistica-en-cala-galdana-menorca/36750/",
     "inmobiliaria": "Bonnin Sanso",
@@ -55818,7 +55830,8 @@
       "https://images.bonninsanso.com/3/a/propiedades_fotos_685457_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:27:42.812087",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:13:05.736899"
   },
   {
     "referencia": "36751",
@@ -55830,12 +55843,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/chalet-con-licencia-turistica-con-accceso-directo-a-la-playa-en-cala-galdana-menorca/36751/",
     "inmobiliaria": "Bonnin Sanso",
@@ -55875,7 +55888,8 @@
       "https://images.bonninsanso.com/5/4/propiedades_fotos_685458_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:27:45.077904",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:13:05.736903"
   },
   {
     "referencia": "92430",
@@ -60976,12 +60990,12 @@
     "habitaciones": 5,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/exquisito-chalet-en-binixica-mahon-menorca/92891/",
     "inmobiliaria": "Bonnin Sanso",
@@ -61021,7 +61035,8 @@
       "https://images.bonninsanso.com/0/5/propiedades_fotos_711026_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:31:56.431815",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:13:05.736912"
   },
   {
     "referencia": "36926",
@@ -63091,12 +63106,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Casa",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/en-exclusiva-interesante-vivienda-en-zona-residencial-de-mahon-menorca/93096/",
     "inmobiliaria": "Bonnin Sanso",
@@ -63130,7 +63145,8 @@
       "https://images.bonninsanso.com/f/7/propiedades_fotos_711090_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:33:37.200746",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:13:05.736918"
   },
   {
     "referencia": "93097",
@@ -63735,12 +63751,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Apartamento",
-    "estado": "RESERVADA",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/apartamento-en-planta-baja-con-vistas-al-mar-en-son-parc/93141/",
     "inmobiliaria": "Bonnin Sanso",
@@ -63773,7 +63789,8 @@
       "https://images.bonninsanso.com/4/e/propiedades_fotos_713692_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:34:08.198998",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:13:05.736920"
   },
   {
     "referencia": "36992",
@@ -119422,12 +119439,12 @@
     "habitaciones": 4,
     "banos": 1,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/en-exclusiva-luminosa-vivienda-de-cuatro-dormitorios-en-mahon-menorca/93432/",
     "inmobiliaria": "Bonnin Sanso",
@@ -119465,7 +119482,8 @@
       "https://images.bonninsanso.com/2/6/propiedades_fotos_717134_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-05-15T22:03:45.191516",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:13:05.737018"
   },
   {
     "referencia": "37210",
@@ -125953,12 +125971,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmomenorcacentro.com/propiedad.php?id=1629",
     "inmobiliaria": "Inmo Menorca Centro",
@@ -125986,7 +126004,8 @@
       "https://inmomenorcacentro.com/panel/inmuebles/1629/img/05-bano-vivienda-reformada-mao (8).jpeg"
     ],
     "fecha_scraping": "2026-06-11T22:53:39.069488",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:13:00.831229"
   },
   {
     "referencia": "1631",
@@ -134445,12 +134464,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/chalet-con-licencia-turistica-en-son-gall/",
     "inmobiliaria": "Fincas Llongas",
@@ -134509,7 +134528,8 @@
       "https://fincasllongas.com/files/dsc08977-hdr-800x480.jpg?v=1782898578"
     ],
     "fecha_scraping": "2026-07-15T22:07:05.669150",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:12:55.915093"
   },
   {
     "referencia": "4949",
@@ -134813,12 +134833,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Apartamento",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/complejo-de-apartamentos-de-una-a-cuatro-habitaciones-en-ciutadella-menorca/37113/",
     "inmobiliaria": "Bonnin Sanso",
@@ -134844,7 +134864,8 @@
       "https://images.bonninsanso.com/8/e/propiedades_fotos_717270_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-07-15T22:07:32.643963",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:13:05.737044"
   },
   {
     "referencia": "37149",
@@ -137144,12 +137165,12 @@
     "habitaciones": 1,
     "banos": 1,
     "tipo": "Apartamento",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasarmengol.com/propiedad/m-191-apartamento-en-son-parc/",
     "inmobiliaria": "Fincas Armengol",
@@ -137211,7 +137232,8 @@
       "https://fincasarmengol.com/propiedad/m-191-apartamento-en-son-parc/"
     ],
     "fecha_scraping": "2026-07-23T22:10:19.452860",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-07-27T22:13:16.641210"
   },
   {
     "referencia": "casa-de-ca",
@@ -137583,6 +137605,190 @@
       "https://fincasllongas.com/files/haz-que-en-esta-fotografa-adju-nano-banana-pro-73453-800x480.jpg?v=1784973113"
     ],
     "fecha_scraping": "2026-07-25T22:01:13.989659",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "29441",
+    "titulo": "Casita en primera línea de mar de Binisafua Playa, Menorca",
+    "ubicacion": "Sant Lluís",
+    "precio": 1485000,
+    "metros": 66,
+    "metros_parcela": 250,
+    "habitaciones": 2,
+    "banos": 1,
+    "tipo": null,
+    "estado": "",
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/casita-en-primera-linea-de-mar-de-binisafua-playa-menorca/29441/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/8/6/propiedades_fotos_663544_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/8/6/propiedades_fotos_663544_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/f/propiedades_fotos_663547_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/2/propiedades_fotos_663571_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/b/propiedades_fotos_663569_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/8/propiedades_fotos_663564_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/9/propiedades_fotos_663563_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/0/propiedades_fotos_663554_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/5/propiedades_fotos_663553_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/6/propiedades_fotos_663555_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/4/propiedades_fotos_663562_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/a/propiedades_fotos_663565_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/7/propiedades_fotos_663557_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/e/propiedades_fotos_663558_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/7/propiedades_fotos_663560_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/5/propiedades_fotos_663578_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/4/propiedades_fotos_663575_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/2/propiedades_fotos_663570_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/7/propiedades_fotos_663568_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/b/propiedades_fotos_663572_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/2/propiedades_fotos_663567_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/3/propiedades_fotos_663576_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/6/propiedades_fotos_663548_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/5/propiedades_fotos_663545_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/5/propiedades_fotos_663546_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/d/propiedades_fotos_663566_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/0/propiedades_fotos_663552_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/8/propiedades_fotos_663550_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/9/propiedades_fotos_663585_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-07-27T22:13:08.327583",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "37113",
+    "titulo": "Apartamento/Piso en Ciutadella (Ciudad)",
+    "ubicacion": "Ciutadella",
+    "precio": 1300000,
+    "metros": 140,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 2,
+    "tipo": "Apartamento",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/apartamento-piso-en-ciutadella-ciudad/37113/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/8/e/propiedades_fotos_717270_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/8/e/propiedades_fotos_717270_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-07-27T22:13:11.815799",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "m-1024-apa",
+    "titulo": "Apartamento En Son Parc",
+    "ubicacion": "Es Mercadal; Son Parc",
+    "precio": 294000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": 2,
+    "banos": 2,
+    "tipo": "Apartamento",
+    "estado": null,
+    "piscina": true,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://fincasarmengol.com/propiedad/m-1024-apartamento-en-son-parc/",
+    "inmobiliaria": "Fincas Armengol",
+    "imagen_destacada": "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-1-4-1024x768.jpg?v=1785138857",
+    "galeria": [
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-1-4-1024x768.jpg?v=1785138857",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-1-4-1024x768.jpg?v=1785138857",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-1-4-100x75.jpg?v=1785138857",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-1-4-100x75.jpg?v=1785138857",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-2-4-100x75.jpg?v=1785138860",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-2-4-100x75.jpg?v=1785138860",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-3-4-100x75.jpg?v=1785138862",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-3-4-100x75.jpg?v=1785138862",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-4-4-100x75.jpg?v=1785138865",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-4-4-100x75.jpg?v=1785138865",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-5-4-100x75.jpg?v=1785138868",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-5-4-100x75.jpg?v=1785138868",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-6-4-100x133.jpg?v=1785138871",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-6-4-100x133.jpg?v=1785138871",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-7-4-100x75.jpg?v=1785138873",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-7-4-100x75.jpg?v=1785138873",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-8-4-100x75.jpg?v=1785138875",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-8-4-100x75.jpg?v=1785138875",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-9-4-100x85.jpg?v=1785138878",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-9-4-100x85.jpg?v=1785138878",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-10-4-100x77.jpg?v=1785138880",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-10-4-100x77.jpg?v=1785138880",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-11-4-100x125.jpg?v=1785138883",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-11-4-100x125.jpg?v=1785138883",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-12-4-100x75.jpg?v=1785138885",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-12-4-100x75.jpg?v=1785138885",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-13-4-100x75.jpg?v=1785138887",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-13-4-100x75.jpg?v=1785138887",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-14-4-100x75.jpg?v=1785138889",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-14-4-100x75.jpg?v=1785138889",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-15-4-100x75.jpg?v=1785138891",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-15-4-100x75.jpg?v=1785138891",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-16-4-100x75.jpg?v=1785138893",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-16-4-100x75.jpg?v=1785138893",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-17-4-100x75.jpg?v=1785138895",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-17-4-100x75.jpg?v=1785138895",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-18-4-100x133.jpg?v=1785138897",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-18-4-100x133.jpg?v=1785138897",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-19-4-100x133.jpg?v=1785138899",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-19-4-100x133.jpg?v=1785138899",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-20-4-100x75.jpg?v=1785138901",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-20-4-100x75.jpg?v=1785138901",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-21-4-100x75.jpg?v=1785138903",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-21-4-100x75.jpg?v=1785138903",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/07/13-22-1-100x66.jpg?v=1785138906",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/07/13-22-1-100x66.jpg?v=1785138906",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/themes/thematicsamplechildtheme/imagenes/pdf_export.png",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/themes/thematicsamplechildtheme/imagenes/pdf_export.png",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/themes/thematicsamplechildtheme/imagenes/pdf_english.png",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/themes/thematicsamplechildtheme/imagenes/pdf_english.png",
+      "https://fincasarmengol.com/wp-content/uploads/2026/06/17-1-2.jpg",
+      "https://fincasarmengol.com/wp-content/uploads/2026/06/24-1-4.jpg",
+      "https://fincasarmengol.com/wp-content/uploads/2026/06/2-1-11.jpg",
+      "https://fincasarmengol.com/propiedad/m-1024-apartamento-en-son-parc/"
+    ],
+    "fecha_scraping": "2026-07-27T22:13:21.496455",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4741",
+    "titulo": "Amplio local con múltiples posibilidades de uso en Ciutadella de Menorca.",
+    "ubicacion": "Ciutadella",
+    "precio": 1500000,
+    "metros": 503,
+    "metros_parcela": null,
+    "habitaciones": 0,
+    "banos": 0,
+    "tipo": "Local",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.ponsmorales.com/es/venta/ref-4741",
+    "inmobiliaria": "Pons Morales",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4741/23985804.jpg",
+    "galeria": [
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4741/23985804.jpg"
+    ],
+    "fecha_scraping": "2026-07-27T22:13:46.543419",
     "fecha_ultima_actualizacion": null
   }
 ]
