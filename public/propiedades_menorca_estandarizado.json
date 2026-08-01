@@ -49752,12 +49752,12 @@
     "habitaciones": 13,
     "banos": 6,
     "tipo": null,
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/interesante-propiedad-en-el-centro-de-alaior-menorca/91507/",
     "inmobiliaria": "Bonnin Sanso",
@@ -49857,7 +49857,8 @@
       "https://images.bonninsanso.com/2/1/propiedades_fotos_656251_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:23:29.551277",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-01T22:01:29.335434"
   },
   {
     "referencia": "91514",
@@ -100137,12 +100138,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-unifamiliar-con-jardin-en-son-vilar/22136780",
     "inmobiliaria": "Casas en Menorca",
@@ -100151,7 +100152,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P26039388/Tphoto/ID5c548d01-0000-0500-0000-0000148e58c4.jpg"
     ],
     "fecha_scraping": "2026-04-20T21:55:51.202624",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-01T22:01:45.653562"
   },
   {
     "referencia": "20684626",
@@ -103782,12 +103784,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-de-campo-en-shangri-la-mahon/24532559",
     "inmobiliaria": "Casas en Menorca",
@@ -103796,7 +103798,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28681800/Tphoto/ID48a6b501-0000-0500-0000-0000179c88b6.jpg"
     ],
     "fecha_scraping": "2026-04-20T22:01:01.853637",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-01T22:01:45.653575"
   },
   {
     "referencia": "25310376",
@@ -106301,12 +106304,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/piso-en-planta-baja-con-piscina-en-es-mercadal/25170339",
     "inmobiliaria": "Casas en Menorca",
@@ -106315,7 +106318,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29387286/Tphoto/ID166ac001-0000-0500-0000-000018722faa.jpg"
     ],
     "fecha_scraping": "2026-04-20T22:04:33.475133",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-01T22:01:45.653583"
   },
   {
     "referencia": "23852113",
@@ -107433,12 +107437,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.saimmobiliaria.com/inmueble/planta-baja-con-terraza-en-santa-ana/25542613",
     "inmobiliaria": "SA Inmobiliaria",
@@ -107447,7 +107451,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P29731975/Tphoto/ID87acc501-0000-0500-0000-000018def2ad.jpg"
     ],
     "fecha_scraping": "2026-04-20T22:06:29.591817",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-01T22:01:58.914651"
   },
   {
     "referencia": "24408977",
@@ -109270,12 +109275,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/casa-reformada-con-patio-y-terraza-en-ciutadella/21652798",
     "inmobiliaria": "3Villas",
@@ -109284,7 +109289,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P25514666/Tphoto/IDaa528501-0000-0500-0000-000014177fa8.jpg"
     ],
     "fecha_scraping": "2026-04-20T22:09:04.284749",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-01T22:02:06.001011"
   },
   {
     "referencia": "21146299",
@@ -125037,12 +125043,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/bonito-chalet-en-son-vilar-menorca/93329/",
     "inmobiliaria": "Bonnin Sanso",
@@ -125093,7 +125099,8 @@
       "https://images.bonninsanso.com/a/1/propiedades_fotos_720987_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-06-08T22:45:08.923780",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-01T22:01:29.335563"
   },
   {
     "referencia": "37211",
@@ -143068,6 +143075,99 @@
       "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4141/27828562.jpg"
     ],
     "fecha_scraping": "2026-07-31T22:11:33.430844",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "93729",
+    "titulo": "Nace Mahón District, una obra nueva en Mahón, Menorca",
+    "ubicacion": "Maó",
+    "precio": 360000,
+    "metros": 83,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 2,
+    "tipo": null,
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/nace-mahon-district-una-obra-nueva-en-mahon-menorca/93729/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/6/6/promociones_fotos_1829_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/6/6/promociones_fotos_1829_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/8/promociones_fotos_1828_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/6/promociones_fotos_1830_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/d/promociones_fotos_1831_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/5/promociones_fotos_1832_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/8/promociones_fotos_1833_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/1/promociones_fotos_1823_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/a/promociones_fotos_1883_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/7/promociones_fotos_1822_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/6/promociones_fotos_1881_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/f/promociones_fotos_1820_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/3/promociones_fotos_1879_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/2/promociones_fotos_1821_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/4/promociones_fotos_1880_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/d/promociones_fotos_1882_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/2/propiedades_fotos_726453_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-08-01T22:01:32.001361",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "24408977",
+    "titulo": "¡RESERVADO! CASA EN ALTOS CON GRAN TERRAZA EN ES CASTELL",
+    "ubicacion": "Es Castell",
+    "precio": 320000,
+    "metros": 100,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.saimmobiliaria.com/inmueble/reservado-casa-en-altos-con-gran-terraza-en-es-castell/24408977",
+    "inmobiliaria": "SA Inmobiliaria",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P28535012/Tphoto/IDe468b301-0000-0500-0000-0000194fbbd1.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P28535012/Tphoto/IDe468b301-0000-0500-0000-0000194fbbd1.jpg"
+    ],
+    "fecha_scraping": "2026-08-01T22:02:00.680494",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25542613",
+    "titulo": "¡RESERVADO! PLANTA BAJA CON TERRAZA EN SANTA ANA",
+    "ubicacion": "Es Castell; Santa Ana Y Sol Del Este",
+    "precio": 248000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.saimmobiliaria.com/inmueble/reservado-planta-baja-con-terraza-en-santa-ana/25542613",
+    "inmobiliaria": "SA Inmobiliaria",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P29731975/Tphoto/ID87acc501-0000-0500-0000-000018def2ad.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P29731975/Tphoto/ID87acc501-0000-0500-0000-000018def2ad.jpg"
+    ],
+    "fecha_scraping": "2026-08-01T22:02:03.185262",
     "fecha_ultima_actualizacion": null
   }
 ]
