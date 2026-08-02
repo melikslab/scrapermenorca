@@ -50788,12 +50788,12 @@
     "habitaciones": 4,
     "banos": 4,
     "tipo": null,
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/nuevo-formato-de-venta-en-copropiedad-en-binisafua-rotters-menorca/91702/",
     "inmobiliaria": "Bonnin Sanso",
@@ -50843,7 +50843,8 @@
       "https://images.bonninsanso.com/d/4/propiedades_fotos_650193_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:24:08.561299",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-02T22:00:29.156916"
   },
   {
     "referencia": "91706",
@@ -143168,6 +143169,32 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P29731975/Tphoto/ID87acc501-0000-0500-0000-000018def2ad.jpg"
     ],
     "fecha_scraping": "2026-08-01T22:02:03.185262",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "1699",
+    "titulo": "Apartamento con impresionantes vistas al mar",
+    "ubicacion": "Ciutadella",
+    "precio": 640000,
+    "metros": 85,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": 1,
+    "tipo": "Apartamento",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.finquestorres.net/es/venta/ref-1699",
+    "inmobiliaria": "Finques Torres",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmofinquestorres/Images/1699/27823613-large.jpg",
+    "galeria": [
+      "https://media.mobiliagestion.es/Portals/inmofinquestorres/Images/1699/27823613-large.jpg"
+    ],
+    "fecha_scraping": "2026-08-02T22:01:01.029168",
     "fecha_ultima_actualizacion": null
   }
 ]
