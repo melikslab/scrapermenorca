@@ -49102,12 +49102,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Villa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/villa-de-dos-plantas-con-piscina-en-son-vitamina-menorca/91452/",
     "inmobiliaria": "Bonnin Sanso",
@@ -49144,7 +49144,8 @@
       "https://images.bonninsanso.com/a/4/propiedades_fotos_634142_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:23:01.525290",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-09T21:39:10.172854"
   },
   {
     "referencia": "91463",
@@ -145104,6 +145105,84 @@
       "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1749454/image/thumb/585_335/img_1943.jpg"
     ],
     "fecha_scraping": "2026-08-08T21:37:54.920712",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "26408948",
+    "titulo": "Casa en planta baja con patio en Mahón",
+    "ubicacion": "Maó - Mahón; Maó",
+    "precio": 359999,
+    "metros": 87,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-en-planta-baja-con-patio-en-mahon/26408948",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30811117/Tphoto/IDed23d601-0000-0500-0000-00001a1fce0c.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30811117/Tphoto/IDed23d601-0000-0500-0000-00001a1fce0c.jpg"
+    ],
+    "fecha_scraping": "2026-08-09T21:39:25.631418",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "26409768",
+    "titulo": "Preciosa casa de campo en Llucmaçanes",
+    "ubicacion": "Maó - Mahón; Llucmaçanes",
+    "precio": 970000,
+    "metros": 600,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/preciosa-casa-de-campo-en-llucmacanes/26409768",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30811919/Tphoto/ID0f27d601-0000-0500-0000-00001a2007f2.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30811919/Tphoto/ID0f27d601-0000-0500-0000-00001a2007f2.jpg"
+    ],
+    "fecha_scraping": "2026-08-09T21:39:27.966237",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25934549",
+    "titulo": "EDIFICIO DE DOS VIVENDAS Y GARAJE EN ES CASTELL",
+    "ubicacion": "Es Castell",
+    "precio": 799000,
+    "metros": 376,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Garaje",
+    "estado": null,
+    "piscina": false,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.saimmobiliaria.com/inmueble/edificio-de-dos-vivendas-y-garaje-en-es-castell/25934549",
+    "inmobiliaria": "SA Inmobiliaria",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P30264015/Tphoto/IDcfcacd01-0000-0500-0000-0000198bcccb.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P30264015/Tphoto/IDcfcacd01-0000-0500-0000-0000198bcccb.jpg"
+    ],
+    "fecha_scraping": "2026-08-09T21:39:43.455859",
     "fecha_ultima_actualizacion": null
   }
 ]
