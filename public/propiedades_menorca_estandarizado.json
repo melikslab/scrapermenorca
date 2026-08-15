@@ -49296,12 +49296,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/parcela-en-cala-llonga-mahon-menorca/91478/",
     "inmobiliaria": "Bonnin Sanso",
@@ -49315,7 +49315,8 @@
       "https://images.bonninsanso.com/2/4/propiedades_fotos_633170_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:23:08.773977",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-15T21:27:02.852935"
   },
   {
     "referencia": "36369",
@@ -59404,12 +59405,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Apartamento",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/apartamento-con-licencia-turistica-en-coves-noves-menorca-vistas-al-mar-y-campo/92771/",
     "inmobiliaria": "Bonnin Sanso",
@@ -59448,7 +59449,8 @@
       "https://images.bonninsanso.com/9/1/propiedades_fotos_699141_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:30:40.363347",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-15T21:27:02.852953"
   },
   {
     "referencia": "92780",
