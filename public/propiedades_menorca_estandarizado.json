@@ -56079,12 +56079,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": null,
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/refugio-con-encanto-cerca-de-alcaufar-sant-lluis-menorca/92477/",
     "inmobiliaria": "Bonnin Sanso",
@@ -56131,7 +56131,8 @@
       "https://images.bonninsanso.com/2/a/propiedades_fotos_710850_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:27:59.369060",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-16T21:26:13.811623"
   },
   {
     "referencia": "92889",
@@ -101182,12 +101183,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-en-esquina-con-jardin-en-ciutadella/20684644",
     "inmobiliaria": "Casas en Menorca",
@@ -101196,7 +101197,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24200013/Tphoto/ID4d437101-0000-0500-0000-000015d23de6.jpg"
     ],
     "fecha_scraping": "2026-04-20T21:57:16.035220",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-16T21:26:26.321009"
   },
   {
     "referencia": "21530355",
@@ -104468,12 +104470,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Apartamento",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/apartamento-con-terraza-y-licencia-turistica-en-addaia/24471555",
     "inmobiliaria": "Casas en Menorca",
@@ -104482,7 +104484,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28609955/Tphoto/IDa38db401-0000-0500-0000-0000179c6144.jpg"
     ],
     "fecha_scraping": "2026-04-20T22:01:55.110480",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-16T21:26:26.321023"
   },
   {
     "referencia": "22574821",
@@ -106830,12 +106833,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-entera-con-terraza-en-mahon/24966672",
     "inmobiliaria": "Casas en Menorca",
@@ -106844,7 +106847,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29163176/Tphoto/IDa8febc01-0000-0500-0000-00001836c159.jpg"
     ],
     "fecha_scraping": "2026-04-20T22:05:13.334303",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-16T21:26:26.321033"
   },
   {
     "referencia": "24675643",
@@ -110150,12 +110154,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/chalet-en-calan-bosch-con-licencia-turistica/24587380",
     "inmobiliaria": "3Villas",
@@ -110164,7 +110168,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P28747056/Tphoto/ID30a5b601-0000-0500-0000-000017b20823.jpg"
     ],
     "fecha_scraping": "2026-04-20T22:10:13.929401",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-16T21:27:07.735315"
   },
   {
     "referencia": "25440277",
@@ -114534,12 +114539,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/casa-reformada-de-diseno-en-mahon/25703198",
     "inmobiliaria": "3Villas",
@@ -114548,7 +114553,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29966436/Tphoto/ID6440c901-0000-0500-0000-0000193a72c1.jpg"
     ],
     "fecha_scraping": "2026-04-24T21:54:47.319562",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-16T21:27:07.735330"
   },
   {
     "referencia": "Ref. 7741",
@@ -138827,12 +138833,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/piso-con-ascensor-y-parking-en-alaior/24647893",
     "inmobiliaria": "Casas en Menorca",
@@ -138841,7 +138847,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P28817179/Tphoto/ID1bb7b701-0000-0500-0000-000017c968bc.jpg"
     ],
     "fecha_scraping": "2026-07-28T22:15:47.200808",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-16T21:26:26.321097"
   },
   {
     "referencia": "25838536",
@@ -147057,6 +147064,32 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30841216/Tphoto/ID8099d601-0000-0500-0000-00001a29e821.jpg"
     ],
     "fecha_scraping": "2026-08-14T21:31:15.329091",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "21264311",
+    "titulo": "Alquiler de temporada en Sant Antoni, con vistas al puerto",
+    "ubicacion": "Maó - Mahón; Cala Llonga - Sa Mesquida",
+    "precio": 2000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": null,
+    "tipo": null,
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": true,
+    "url_detalle": "https://www.3villas.es/inmueble/alquiler-de-temporada-en-sant-antoni-con-vistas-al-puerto/21264311",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P24990114/Tphoto/IDa2517d01-0000-0500-0000-000013d53ff9.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P24990114/Tphoto/IDa2517d01-0000-0500-0000-000013d53ff9.jpg"
+    ],
+    "fecha_scraping": "2026-08-16T21:27:09.168085",
     "fecha_ultima_actualizacion": null
   }
 ]
