@@ -21235,12 +21235,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Terreno",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmomenorcacentro.com/propiedad.php?id=1577",
     "inmobiliaria": "Inmo Menorca Centro",
@@ -21256,7 +21256,8 @@
       "https://inmomenorcacentro.com/panel/inmuebles/1577/img/7.jpeg"
     ],
     "fecha_scraping": "2026-04-19T22:00:03.603744",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-17T21:30:55.033138"
   },
   {
     "referencia": "1602",
@@ -132045,12 +132046,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/parcela-construible-con-vistas-al-mar-binisafuller-menorca/93370/",
     "inmobiliaria": "Bonnin Sanso",
@@ -132064,7 +132065,8 @@
       "https://images.bonninsanso.com/f/8/propiedades_fotos_723951_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-07-05T22:08:18.261477",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-17T21:30:58.196447"
   },
   {
     "referencia": "93371",
@@ -132076,12 +132078,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/solar-edificable-sant-lluis-menorca/93371/",
     "inmobiliaria": "Bonnin Sanso",
@@ -132095,7 +132097,8 @@
       "https://images.bonninsanso.com/9/7/propiedades_fotos_723964_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-07-05T22:08:20.739968",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-17T21:30:58.196453"
   },
   {
     "referencia": "93372",
@@ -134007,12 +134010,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Apartamento",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/elegante-apartamento-en-primera-planta-en-excelente-estado-mahon-menorca/93421/",
     "inmobiliaria": "Bonnin Sanso",
@@ -134048,7 +134051,8 @@
       "https://images.bonninsanso.com/6/6/propiedades_fotos_722583_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-07-13T22:02:53.005786",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-17T21:30:58.196458"
   },
   {
     "referencia": "37264",
@@ -147090,6 +147094,94 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P24990114/Tphoto/IDa2517d01-0000-0500-0000-000013d53ff9.jpg"
     ],
     "fecha_scraping": "2026-08-16T21:27:09.168085",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "93370",
+    "titulo": "Parcela edificable con vistas al mar en Binisafuller, Menorca",
+    "ubicacion": "Sant Lluís",
+    "precio": 780000,
+    "metros": null,
+    "metros_parcela": 1963,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Solar",
+    "estado": "",
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/parcela-edificable-con-vistas-al-mar-en-binisafuller-menorca/93370/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/d/3/propiedades_fotos_723954_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/d/3/propiedades_fotos_723954_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/3/propiedades_fotos_723952_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/a/propiedades_fotos_723953_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/3/propiedades_fotos_723956_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/2/propiedades_fotos_723955_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/8/propiedades_fotos_723951_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-08-17T21:30:59.795920",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "93371",
+    "titulo": "Solar edificable en Sant Lluis, Menorca.",
+    "ubicacion": "Sant Lluís",
+    "precio": 385000,
+    "metros": null,
+    "metros_parcela": 1039,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Solar",
+    "estado": "",
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/solar-edificable-en-sant-lluis-menorca/93371/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/4/5/propiedades_fotos_723965_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/4/5/propiedades_fotos_723965_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/0/propiedades_fotos_723966_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/a/propiedades_fotos_723963_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/f/propiedades_fotos_723968_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/b/propiedades_fotos_723967_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/7/propiedades_fotos_723964_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-08-17T21:31:02.371552",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4460",
+    "titulo": "Casa con encanto en el corazón del Casco Antiguo de Ciutadella",
+    "ubicacion": "Ciutadella",
+    "precio": 380000,
+    "metros": 84,
+    "metros_parcela": null,
+    "habitaciones": 4,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.ponsmorales.com/es/venta/ref-4460",
+    "inmobiliaria": "Pons Morales",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4460/27994193.jpg",
+    "galeria": [
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4460/27994193.jpg"
+    ],
+    "fecha_scraping": "2026-08-17T21:31:31.494794",
     "fecha_ultima_actualizacion": null
   }
 ]
