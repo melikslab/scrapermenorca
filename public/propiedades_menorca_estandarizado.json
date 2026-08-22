@@ -3573,12 +3573,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/casa-de-campo-en-la-zona-rural-de-sa-roca-es-mercadal/",
     "inmobiliaria": "Fincas Llongas",
@@ -3623,7 +3623,8 @@
       "https://fincasllongas.com/files/dsc07941-hdr-800x480.jpg?v=1756112529"
     ],
     "fecha_scraping": "2026-04-19T21:45:22.353578",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-22T21:27:34.453405"
   },
   {
     "referencia": "Ref. 7624",
@@ -104378,12 +104379,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/chalet-a-unos-pasos-de-la-playa-de-arenal-den-castell/23454116",
     "inmobiliaria": "Casas en Menorca",
@@ -104392,7 +104393,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P27457351/Tphoto/ID47f7a201-0000-0500-0000-000018ae4e69.jpg"
     ],
     "fecha_scraping": "2026-04-20T22:01:46.148122",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-22T21:27:57.439157"
   },
   {
     "referencia": "25423153",
@@ -148447,12 +148449,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Edificio",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/edificio-para-reformar-a-unos-pasos-del-mar-en-alcaufar/22994352",
     "inmobiliaria": "Casas en Menorca",
@@ -148461,7 +148463,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P26943038/Tphoto/ID3e1e9b01-0000-0500-0000-0000158e9d88.jpg"
     ],
     "fecha_scraping": "2026-08-20T21:35:20.014715",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-22T21:27:57.439230"
   },
   {
     "referencia": "4185",
@@ -148664,6 +148667,60 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P30869063/Tphoto/ID4706d701-0000-0500-0000-00001a352014.jpg"
     ],
     "fecha_scraping": "2026-08-21T21:31:37.870324",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "8366",
+    "titulo": "CASA CON MUY BUENA UBICACIÓN",
+    "ubicacion": "Ciutadella",
+    "precio": 336000,
+    "metros": 66,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 1,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": true,
+    "garaje": true,
+    "ascensor": true,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.enprimeralinea.immo/casa-adosada-en-ciutadella-de-menorca-es1770709.html",
+    "inmobiliaria": "En Primera Linea",
+    "imagen_destacada": "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1770709/image/047ea735-444e-4663-9fc4-2cecf2a439ad.png?v=20260820085726087",
+    "galeria": [
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1770709/image/047ea735-444e-4663-9fc4-2cecf2a439ad.png?v=20260820085726087",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1770709/image/thumb/585_335/047ea735-444e-4663-9fc4-2cecf2a439ad.png?20260820085726087",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1640903/image/thumb/585_335/123.jpg"
+    ],
+    "fecha_scraping": "2026-08-22T21:27:55.239093",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "26475580",
+    "titulo": "Chalet con piscina cerca del mar en Cala'n Blanes",
+    "ubicacion": "Ciutadella; Cala En Blanes",
+    "precio": 895000,
+    "metros": 800,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/chalet-con-piscina-cerca-del-mar-en-calan-blanes/26475580",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30884058/Tphoto/IDda40d701-0000-0500-0000-00001a368087.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30884058/Tphoto/IDda40d701-0000-0500-0000-00001a368087.jpg"
+    ],
+    "fecha_scraping": "2026-08-22T21:27:58.925684",
     "fecha_ultima_actualizacion": null
   }
 ]
