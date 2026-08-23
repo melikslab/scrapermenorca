@@ -134596,12 +134596,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/interesante-casa-de-pueblo-con-jardin-en-alayor-menorca/93509/",
     "inmobiliaria": "Bonnin Sanso",
@@ -134652,7 +134652,8 @@
       "https://images.bonninsanso.com/7/f/propiedades_fotos_725129_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-07-14T22:05:12.654487",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-23T21:28:03.307680"
   },
   {
     "referencia": "208-08125",
