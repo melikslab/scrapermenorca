@@ -86616,12 +86616,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Apartamento",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.vidalmenorca.com/es/propiedades/apartamento-en-primera-linea-de-mar-con-3-dormitorios-dobles-en-arenal-den-castell/3236",
     "inmobiliaria": "Vidal Menorca",
@@ -86649,7 +86649,8 @@
       "https://www.vidalmenorca.com/static/uploads/094002.lazy.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:53:37.525115",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-29T03:09:22.662804"
   },
   {
     "referencia": "2077",
@@ -146015,12 +146016,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasarmengol.com/propiedad/planta-baja-en-sant-lluis-m-1023/",
     "inmobiliaria": "Fincas Armengol",
@@ -146078,7 +146079,8 @@
       "https://fincasarmengol.com/propiedad/planta-baja-en-sant-lluis-m-1023/"
     ],
     "fecha_scraping": "2026-08-12T21:54:03.405314",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-29T03:08:34.387405"
   },
   {
     "referencia": "piso-en-es",
@@ -146750,12 +146752,12 @@
     "habitaciones": 3,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasarmengol.com/propiedad/chalet-en-son-vilar-con-licencia-turistica-m-6567/",
     "inmobiliaria": "Fincas Armengol",
@@ -146853,7 +146855,8 @@
       "https://fincasarmengol.com/propiedad/chalet-en-son-vilar-con-licencia-turistica-m-6567/"
     ],
     "fecha_scraping": "2026-08-14T21:30:48.676599",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-29T03:08:34.387412"
   },
   {
     "referencia": "atico-de-l",
@@ -146865,12 +146868,12 @@
     "habitaciones": 2,
     "banos": 2,
     "tipo": "Ático",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": true,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasarmengol.com/propiedad/atico-de-lujo-en-arenal-den-castell-m-3432/",
     "inmobiliaria": "Fincas Armengol",
@@ -146966,7 +146969,8 @@
       "https://fincasarmengol.com/propiedad/atico-de-lujo-en-arenal-den-castell-m-3432/"
     ],
     "fecha_scraping": "2026-08-14T21:30:54.781219",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-29T03:08:34.387415"
   },
   {
     "referencia": "casa-de-pu",
@@ -147607,12 +147611,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasarmengol.com/propiedad/piso-en-mahon-obra-nueva-m-3437-a/",
     "inmobiliaria": "Fincas Armengol",
@@ -147684,7 +147688,8 @@
       "https://fincasarmengol.com/propiedad/piso-en-mahon-obra-nueva-m-3437-a/"
     ],
     "fecha_scraping": "2026-08-19T21:31:25.539488",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-29T03:08:34.387418"
   },
   {
     "referencia": "piso-en-ma",
@@ -148748,12 +148753,12 @@
     "habitaciones": 2,
     "banos": 2,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/encantadora-casa-adosada-con-vistas-al-campo-de-golf-son-parc-menorca/93757/",
     "inmobiliaria": "Bonnin Sanso",
@@ -148779,7 +148784,8 @@
       "https://images.bonninsanso.com/f/3/propiedades_fotos_728867_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-08-24T21:35:29.867915",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-29T03:08:26.721398"
   },
   {
     "referencia": "m-8266-cas",
@@ -149991,6 +149997,58 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30907056/Tphoto/IDb09ad701-0000-0500-0000-00001a3d7ae5.jpg"
     ],
     "fecha_scraping": "2026-08-28T05:11:43.547437",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4166",
+    "titulo": "Finca rústica con vistas al mar y piscina en Ciutadella de Menorca.",
+    "ubicacion": "Ciutadella",
+    "precio": null,
+    "metros": 557,
+    "metros_parcela": null,
+    "habitaciones": 8,
+    "banos": 3,
+    "tipo": "Finca",
+    "estado": "",
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.ponsmorales.com/es/venta/ref-4166",
+    "inmobiliaria": "Pons Morales",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4166/28116759.jpg",
+    "galeria": [
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4166/28116759.jpg"
+    ],
+    "fecha_scraping": "2026-08-29T03:09:58.789279",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4975",
+    "titulo": "Casa con encanto y espectacular bodega de marés en el corazón de Ciutadella",
+    "ubicacion": "Ciutadella",
+    "precio": 595000,
+    "metros": 144,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.ponsmorales.com/es/venta/ref-4975",
+    "inmobiliaria": "Pons Morales",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4975/28122456.jpg",
+    "galeria": [
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4975/28122456.jpg"
+    ],
+    "fecha_scraping": "2026-08-29T03:09:58.843665",
     "fecha_ultima_actualizacion": null
   }
 ]
