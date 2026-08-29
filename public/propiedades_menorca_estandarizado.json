@@ -147124,12 +147124,12 @@
     "habitaciones": 3,
     "banos": null,
     "tipo": null,
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": true,
     "url_detalle": "https://www.3villas.es/inmueble/alquiler-de-temporada-en-sant-antoni-con-vistas-al-puerto/21264311",
     "inmobiliaria": "3Villas",
@@ -147138,7 +147138,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P24990114/Tphoto/IDa2517d01-0000-0500-0000-000013d53ff9.jpg"
     ],
     "fecha_scraping": "2026-08-16T21:27:09.168085",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-08-29T23:11:18.916738"
   },
   {
     "referencia": "93370",
@@ -150049,6 +150050,84 @@
       "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4975/28122456.jpg"
     ],
     "fecha_scraping": "2026-08-29T03:09:58.843665",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "26501925",
+    "titulo": "Primer piso con ascensor en Mahón",
+    "ubicacion": "Maó - Mahón; Maó",
+    "precio": 320000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": true,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/primer-piso-con-ascensor-en-mahon/26501925",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30913179/Tphoto/ID9bb2d701-0000-0500-0000-00001a3f498a.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30913179/Tphoto/ID9bb2d701-0000-0500-0000-00001a3f498a.jpg"
+    ],
+    "fecha_scraping": "2026-08-29T23:10:59.612052",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "26502026",
+    "titulo": "Local en esquina en Alaior",
+    "ubicacion": "Alaior",
+    "precio": 260000,
+    "metros": 117,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Local",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/local-en-esquina-en-alaior/26502026",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30913334/Tphoto/ID36b3d701-0000-0500-0000-00001a3f5910.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30913334/Tphoto/ID36b3d701-0000-0500-0000-00001a3f5910.jpg"
+    ],
+    "fecha_scraping": "2026-08-29T23:11:01.776044",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "26343383",
+    "titulo": "Piso a estrenar en Ciutadella",
+    "ubicacion": "Ciutadella",
+    "precio": 361700,
+    "metros": 6623,
+    "metros_parcela": null,
+    "habitaciones": 2,
+    "banos": 2,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.3villas.es/inmueble/piso-a-estrenar-en-ciutadella/26343383",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P30706178/Tphoto/ID028ad401-0000-0500-0000-000019fe97fa.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P30706178/Tphoto/ID028ad401-0000-0500-0000-000019fe97fa.jpg"
+    ],
+    "fecha_scraping": "2026-08-29T23:11:20.384835",
     "fecha_ultima_actualizacion": null
   }
 ]
