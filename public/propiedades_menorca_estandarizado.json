@@ -85130,12 +85130,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": "EN EXCLUSIVA",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmocampsbosch.com/propiedad.php?id=65",
     "inmobiliaria": "Inmobiliaria Camps Bosch",
@@ -85169,7 +85169,8 @@
       "https://inmocampsbosch.com/panel/inmuebles/65/img/10 vistas 4.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:52:33.210961",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-04T22:56:54.306637"
   },
   {
     "referencia": "CA 037",
@@ -125053,12 +125054,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Apartamento",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/conjunto-de-apartamento-local-en-el-poblado-de-pescadores-de-binibeca-menorca/93377/",
     "inmobiliaria": "Bonnin Sanso",
@@ -125085,7 +125086,8 @@
       "https://images.bonninsanso.com/2/5/propiedades_fotos_719998_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-06-08T22:45:04.114773",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-04T22:56:36.610713"
   },
   {
     "referencia": "93379",
@@ -125308,12 +125310,12 @@
     "habitaciones": 1,
     "banos": 1,
     "tipo": "Local",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/local-comercial-en-el-pueblo-de-pescadores-de-binibeca-menorca/93392/",
     "inmobiliaria": "Bonnin Sanso",
@@ -125326,7 +125328,8 @@
       "https://images.bonninsanso.com/7/7/propiedades_fotos_720663_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-06-08T22:45:13.994244",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-04T22:56:36.610719"
   },
   {
     "referencia": "25011",
@@ -135269,12 +135272,12 @@
     "habitaciones": 3,
     "banos": 1,
     "tipo": "Apartamento",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/apartamento-en-el-poblado-de-pescadores-de-binibeca-menorca/93393/",
     "inmobiliaria": "Bonnin Sanso",
@@ -135296,7 +135299,8 @@
       "https://images.bonninsanso.com/1/5/propiedades_fotos_720674_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-07-15T22:07:41.152888",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-04T22:56:36.610739"
   },
   {
     "referencia": "finca-rust",
@@ -151070,6 +151074,42 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P30940284/Tphoto/ID7c1cd801-0000-0500-0000-00001a476dbb.jpg"
     ],
     "fecha_scraping": "2026-09-03T23:10:07.331143",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4415",
+    "titulo": "Parcela rústica",
+    "ubicacion": "Sant Lluis",
+    "precio": 47300,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Solar",
+    "estado": "EXCLUSIVA",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-4415-parcela-rustica-en-sant-lluis/",
+    "inmobiliaria": "Inmobiliaria Palau",
+    "imagen_destacada": "https://inmobiliariapalau.com/wp-content/uploads/2026/09/Captura-de-pantalla-2026-09-04-181956.png",
+    "galeria": [
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/09/Captura-de-pantalla-2026-09-04-181956.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2024/02/twitter_X.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/09/IMG_20260902_171549_hdr-1-scaled.jpg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-24-at-21.03.09-3.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/07/79ad7d9a-78c9-406e-b75d-3718f448e345.jpg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/07/1.1.jpg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-07-at-13.34.19-4.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/06/IMG_0604.jpg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-22-at-17.50.30.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-11.05.34-3.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/06/cbee2b79-d2dd-4046-a7da-38a9b9ccbfb1.jpeg"
+    ],
+    "fecha_scraping": "2026-09-04T22:56:33.127776",
     "fecha_ultima_actualizacion": null
   }
 ]
