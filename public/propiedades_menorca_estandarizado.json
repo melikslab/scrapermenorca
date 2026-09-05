@@ -101454,12 +101454,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-entera-en-primera-linea-de-mar-en-es-castell/22715993",
     "inmobiliaria": "Casas en Menorca",
@@ -101468,7 +101468,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P26639538/Tphoto/IDb27c9601-0000-0500-0000-0000152f6335.jpg"
     ],
     "fecha_scraping": "2026-04-20T21:57:36.571237",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-05T22:45:27.564193"
   },
   {
     "referencia": "24668078",
@@ -105060,12 +105061,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/chalet-de-diseno-con-vistas-al-mar-y-al-campo-en-binisafua/20684584",
     "inmobiliaria": "Casas en Menorca",
@@ -105074,7 +105075,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24199907/Tphoto/IDe3427101-0000-0500-0000-000011eca05b.jpg"
     ],
     "fecha_scraping": "2026-04-20T22:02:41.142814",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-05T22:45:27.564210"
   },
   {
     "referencia": "20684586",
@@ -123306,12 +123308,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Apartamento",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/elegante-apartamento-renovado-con-vistas-al-puerto-de-mahon-en-es-castell-menorca/93374/",
     "inmobiliaria": "Bonnin Sanso",
@@ -123346,7 +123348,8 @@
       "https://images.bonninsanso.com/6/8/propiedades_fotos_719645_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-06-02T23:05:38.096815",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-05T22:45:13.448666"
   },
   {
     "referencia": "52909",
@@ -138344,12 +138347,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-con-garaje-en-mahon/20684592",
     "inmobiliaria": "Casas en Menorca",
@@ -138358,7 +138361,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24199959/Tphoto/ID17437101-0000-0500-0000-000013b8deff.jpg"
     ],
     "fecha_scraping": "2026-07-28T22:11:38.088737",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-05T22:45:27.564273"
   },
   {
     "referencia": "20684762",
@@ -139310,12 +139314,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-entera-con-patio-en-el-centro-de-es-mercadal/25875975",
     "inmobiliaria": "Casas en Menorca",
@@ -139324,7 +139328,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30159614/Tphoto/IDfe32cc01-0000-0500-0000-00001978129f.jpg"
     ],
     "fecha_scraping": "2026-07-28T22:20:53.293769",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-05T22:45:27.564278"
   },
   {
     "referencia": "25902460",
@@ -151110,6 +151115,110 @@
       "https://inmobiliariapalau.com/wp-content/uploads/2026/06/cbee2b79-d2dd-4046-a7da-38a9b9ccbfb1.jpeg"
     ],
     "fecha_scraping": "2026-09-04T22:56:33.127776",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "26544125",
+    "titulo": "Amplio y luminoso piso en Mahón",
+    "ubicacion": "Maó - Mahón; Maó",
+    "precio": 380000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/amplio-y-luminoso-piso-en-mahon/26544125",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30956672/Tphoto/ID805cd801-0000-0500-0000-00001a4b747b.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30956672/Tphoto/ID805cd801-0000-0500-0000-00001a4b747b.jpg"
+    ],
+    "fecha_scraping": "2026-09-05T22:45:28.997171",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "26544313",
+    "titulo": "Luminoso piso con terraza en Es Castell",
+    "ubicacion": "Es Castell",
+    "precio": 275000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/luminoso-piso-con-terraza-en-es-castell/26544313",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30956935/Tphoto/ID875dd801-0000-0500-0000-00001a4b91ba.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30956935/Tphoto/ID875dd801-0000-0500-0000-00001a4b91ba.jpg"
+    ],
+    "fecha_scraping": "2026-09-05T22:45:31.418180",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "20684906",
+    "titulo": "Chalet de diseño y reciente construcción con vistas al mar en Binibeca",
+    "ubicacion": "Sant Lluís; Binibèquer",
+    "precio": 1200000,
+    "metros": 1100,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/chalet-de-diseno-y-reciente-construccion-con-vistas-al-mar-en-binibeca/20684906",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24201182/Tphoto/IDde477101-0000-0500-0000-000011ed2a67.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24201182/Tphoto/IDde477101-0000-0500-0000-000011ed2a67.jpg"
+    ],
+    "fecha_scraping": "2026-09-05T22:45:33.735410",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "25521627",
+    "titulo": "Exclusivo chalet en primera línea de mar",
+    "ubicacion": "Ciutadella; Cala En Blanes",
+    "precio": 1150000,
+    "metros": 600,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": 3,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.3villas.es/inmueble/exclusivo-chalet-en-primera-linea-de-mar/25521627",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29736049/Tphoto/ID71bcc501-0000-0500-0000-000018e1eccf.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29736049/Tphoto/ID71bcc501-0000-0500-0000-000018e1eccf.jpg"
+    ],
+    "fecha_scraping": "2026-09-05T22:45:49.697345",
     "fecha_ultima_actualizacion": null
   }
 ]
