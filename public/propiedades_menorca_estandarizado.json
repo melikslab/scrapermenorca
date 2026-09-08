@@ -49011,12 +49011,12 @@
     "habitaciones": 3,
     "banos": 3,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/magnifica-casa-de-campo-totalmente-reformada-cercana-a-ciutadella-menorca/36356/",
     "inmobiliaria": "Bonnin Sanso",
@@ -49054,7 +49054,8 @@
       "https://images.bonninsanso.com/8/1/propiedades_fotos_634095_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:22:56.581660",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-08T23:18:02.130878"
   },
   {
     "referencia": "92839",
@@ -132399,12 +132400,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/solar-urbanizable-con-proyecto-presentado-en-ferreries-menorca/37256/",
     "inmobiliaria": "Bonnin Sanso",
@@ -132420,7 +132421,8 @@
       "https://images.bonninsanso.com/6/a/propiedades_fotos_722779_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-07-06T22:19:48.139320",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-08T23:18:02.131013"
   },
   {
     "referencia": "2130",
@@ -136901,12 +136903,12 @@
     "habitaciones": 3,
     "banos": 1,
     "tipo": null,
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/casita-de-aperos-con-posibilidades-de-legalizacion-mahon-menorca/93425/",
     "inmobiliaria": "Bonnin Sanso",
@@ -136938,7 +136940,8 @@
       "https://images.bonninsanso.com/c/6/propiedades_fotos_722062_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-07-22T22:10:02.220426",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-08T23:18:02.131029"
   },
   {
     "referencia": "93482",
@@ -151453,6 +151456,97 @@
       "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4899/28115750.jpg"
     ],
     "fecha_scraping": "2026-09-07T23:24:11.818690",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4969",
+    "titulo": "BONITO PISO EN 3º PL",
+    "ubicacion": "Ciutadella",
+    "precio": 320000,
+    "metros": 132,
+    "metros_parcela": null,
+    "habitaciones": 4,
+    "banos": 2,
+    "tipo": "Piso",
+    "estado": "¡EXCLUSIVA!",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4505",
+    "inmobiliaria": "Inmobiliaria Artrutx",
+    "imagen_destacada": "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/01.jpg",
+    "galeria": [
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/01.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/02.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/03.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/04.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/05.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/06.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/07.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/08.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/09.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/10.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/11.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/12.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/13.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/14.jpg"
+    ],
+    "fecha_scraping": "2026-09-08T23:17:54.459010",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "26558316",
+    "titulo": "Chalet adosado en una zona muy tranquila de Mahón",
+    "ubicacion": "Maó - Mahón; Maó",
+    "precio": 750000,
+    "metros": 84,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/chalet-adosado-en-una-zona-muy-tranquila-de-mahon/26558316",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30971586/Tphoto/IDc296d801-0000-0500-0000-00001a4f5702.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30971586/Tphoto/IDc296d801-0000-0500-0000-00001a4f5702.jpg"
+    ],
+    "fecha_scraping": "2026-09-08T23:18:16.303889",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "26560454",
+    "titulo": "Propiedad con gran potencial en pleno casco antiguo de Ciutadella, junto a la Plaza del Mercado.",
+    "ubicacion": "Ciutadella",
+    "precio": 475000,
+    "metros": 31,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": null,
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.3villas.es/inmueble/propiedad-con-gran-potencial-en-pleno-casco-antiguo-de-ciutadella-junto-a-la-plaza-del-mercado/26560454",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P30903610/Tphoto/ID3a8dd701-0000-0500-0000-00001a4ba06d.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P30903610/Tphoto/ID3a8dd701-0000-0500-0000-00001a4ba06d.jpg"
+    ],
+    "fecha_scraping": "2026-09-08T23:18:32.660848",
     "fecha_ultima_actualizacion": null
   }
 ]
