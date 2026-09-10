@@ -5844,12 +5844,12 @@
     "habitaciones": 4,
     "banos": 4,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/exclusivo-chalet-de-lujo-en-la-prestigiosa-urbanizacion-de-son-blanc/",
     "inmobiliaria": "Fincas Llongas",
@@ -5884,7 +5884,8 @@
       "https://fincasllongas.com/files/fotos-nuevas-010-3-800x480.jpg?v=1741944599"
     ],
     "fecha_scraping": "2026-04-19T21:47:00.068553",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-10T23:02:45.760013"
   },
   {
     "referencia": "Ref. 7544",
@@ -6542,12 +6543,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/garaje-en-ciutadella-6/",
     "inmobiliaria": "Fincas Llongas",
@@ -6556,7 +6557,8 @@
       "https://fincasllongas.com/files/1-160-590x480.jpg?v=1738058276"
     ],
     "fecha_scraping": "2026-04-19T21:47:35.869299",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-10T23:02:45.760019"
   },
   {
     "referencia": "Ref. 7509",
@@ -34605,12 +34607,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/plaza-de-parking-en-zona-residencial-de-mahon-menorca/26180/",
     "inmobiliaria": "Bonnin Sanso",
@@ -34622,7 +34624,8 @@
       "https://images.bonninsanso.com/5/2/propiedades_fotos_426956_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:11:41.641941",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-10T23:02:55.351323"
   },
   {
     "referencia": "26181",
@@ -34634,12 +34637,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/plaza-de-parking-en-zona-residencial-de-mahon-menorca/26181/",
     "inmobiliaria": "Bonnin Sanso",
@@ -34652,7 +34655,8 @@
       "https://images.bonninsanso.com/7/9/propiedades_fotos_426961_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:11:43.919551",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-10T23:02:55.351328"
   },
   {
     "referencia": "26182",
@@ -34664,12 +34668,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/plaza-de-parking-en-zona-residencial-de-mahon-menorca/26182/",
     "inmobiliaria": "Bonnin Sanso",
@@ -34681,7 +34685,8 @@
       "https://images.bonninsanso.com/d/d/propiedades_fotos_426965_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:11:46.114216",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-10T23:02:55.351332"
   },
   {
     "referencia": "26183",
@@ -34693,12 +34698,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/plaza-de-parking-en-zona-residencial-de-mahon-menorca/26183/",
     "inmobiliaria": "Bonnin Sanso",
@@ -34709,7 +34714,8 @@
       "https://images.bonninsanso.com/8/e/propiedades_fotos_426968_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:11:48.406877",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-10T23:02:55.351335"
   },
   {
     "referencia": "26207",
@@ -35231,12 +35237,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/varias-plazas-de-parking-para-coches-y-moto-en-mahon-menorca/26563/",
     "inmobiliaria": "Bonnin Sanso",
@@ -35250,7 +35256,8 @@
       "https://images.bonninsanso.com/1/4/propiedades_fotos_435619_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:12:11.309101",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-10T23:02:55.351337"
   },
   {
     "referencia": "26602",
@@ -57331,12 +57338,12 @@
     "habitaciones": 3,
     "banos": 3,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/casa-de-campo-con-absoluta-privacidad-y-reforma-impecable-en-binicalsitx-ferreries-menorca/36831/",
     "inmobiliaria": "Bonnin Sanso",
@@ -57372,7 +57379,8 @@
       "https://images.bonninsanso.com/c/b/propiedades_fotos_694349_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:28:49.225355",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-10T23:02:55.351365"
   },
   {
     "referencia": "92603",
@@ -72458,12 +72466,12 @@
     "habitaciones": 6,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "http://www.fincasfaro.net/es/ficha/743/",
     "inmobiliaria": "Fincas Faro",
@@ -72504,7 +72512,8 @@
       "http://www.fincasfaro.net/watermark/600921/600x600"
     ],
     "fecha_scraping": "2026-04-19T22:42:57.616985",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-10T23:03:11.968677"
   },
   {
     "referencia": "2071",
@@ -114558,12 +114567,12 @@
     "habitaciones": 2,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/piso-de-2-habitaciones-con-parking-y-trastero/25702908",
     "inmobiliaria": "3Villas",
@@ -114572,7 +114581,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29908102/Tphoto/ID865cc801-0000-0500-0000-000019246457.jpg"
     ],
     "fecha_scraping": "2026-04-24T21:54:45.296307",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-10T23:03:35.068707"
   },
   {
     "referencia": "25703198",
@@ -123624,12 +123634,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Villa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/encantadora-villa-en-trebaluger-es-castell-menorca/93361/",
     "inmobiliaria": "Bonnin Sanso",
@@ -123676,7 +123686,8 @@
       "https://images.bonninsanso.com/e/3/propiedades_fotos_720925_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-06-03T23:08:42.977611",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-10T23:02:55.351468"
   },
   {
     "referencia": "m-9174-ter",
@@ -139866,12 +139877,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Apartamento",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/apartamento-con-vistas-al-mar-en-santa-ana-es-castell/26298495",
     "inmobiliaria": "Casas en Menorca",
@@ -139880,7 +139891,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30687837/Tphoto/ID5d42d401-0000-0500-0000-000019f8adf1.jpg"
     ],
     "fecha_scraping": "2026-07-28T22:26:18.191289",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-10T23:03:21.717234"
   },
   {
     "referencia": "21138117",
@@ -149438,12 +149450,12 @@
     "habitaciones": 3,
     "banos": 3,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasarmengol.com/propiedad/casa-de-pueblo-con-jardin-y-piscina-m-8266/",
     "inmobiliaria": "Fincas Armengol",
@@ -149533,7 +149545,8 @@
       "https://fincasarmengol.com/propiedad/casa-de-pueblo-con-jardin-y-piscina-m-8266/"
     ],
     "fecha_scraping": "2026-08-25T21:35:30.908948",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-10T23:03:03.959615"
   },
   {
     "referencia": "8367",
@@ -151547,6 +151560,176 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P30903610/Tphoto/ID3a8dd701-0000-0500-0000-00001a4ba06d.jpg"
     ],
     "fecha_scraping": "2026-09-08T23:18:32.660848",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "Ref. 6829",
+    "titulo": "Amplia casa situada en el casco antiguo de Ciutadella",
+    "ubicacion": "Ciutadella",
+    "precio": 580000,
+    "metros": null,
+    "metros_parcela": 200,
+    "habitaciones": 4,
+    "banos": 3,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://fincasllongas.com/propiedad/amplia-casa-situada-en-el-casco-antiguo-de-ciutadella/",
+    "inmobiliaria": "Fincas Llongas",
+    "imagen_destacada": "",
+    "galeria": [],
+    "fecha_scraping": "2026-09-10T23:02:47.239457",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "93771",
+    "titulo": "Chalet con piscina y jardín privado en Trebalúger, Menorca.",
+    "ubicacion": "Es Castell",
+    "precio": 690000,
+    "metros": 162,
+    "metros_parcela": 611,
+    "habitaciones": 3,
+    "banos": 2,
+    "tipo": "Chalet",
+    "estado": "",
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/chalet-con-piscina-y-jardin-privado-en-trebaluger-menorca/93771/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/2/e/propiedades_fotos_728740_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/2/e/propiedades_fotos_728740_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/5/propiedades_fotos_728737_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/5/propiedades_fotos_728736_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/1/propiedades_fotos_728744_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/9/propiedades_fotos_728742_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/9/propiedades_fotos_728747_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/5/propiedades_fotos_728746_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/e/propiedades_fotos_728751_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/6/propiedades_fotos_728750_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/3/propiedades_fotos_728749_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/2/propiedades_fotos_728748_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/b/propiedades_fotos_728756_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/c/propiedades_fotos_728757_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/e/propiedades_fotos_728754_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/b/propiedades_fotos_728753_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/0/propiedades_fotos_728755_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/f/propiedades_fotos_728741_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/3/propiedades_fotos_728739_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/5/propiedades_fotos_728738_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/a/propiedades_fotos_728761_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-09-10T23:02:57.062685",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "46139",
+    "titulo": "Amplio local comercial cerca de la playa de Cala Millor con múltiples posibilidades de uso",
+    "ubicacion": null,
+    "precio": 700000,
+    "metros": 150,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Local",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/amplio-local-comercial-cerca-de-la-playa-de-cala-millor-con-multiples-posibilidades-de-uso/46139/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/9/f/propiedades_fotos_730110_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/9/f/propiedades_fotos_730110_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/e/propiedades_fotos_730111_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/6/propiedades_fotos_730131_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/b/propiedades_fotos_730112_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/6/propiedades_fotos_730114_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/a/propiedades_fotos_730120_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/0/propiedades_fotos_730121_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/9/propiedades_fotos_730115_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/8/propiedades_fotos_730124_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/5/propiedades_fotos_730130_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/a/propiedades_fotos_730127_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/b/propiedades_fotos_730128_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/e/propiedades_fotos_730119_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/8/propiedades_fotos_730118_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/6/propiedades_fotos_730126_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/2/propiedades_fotos_730125_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/4/propiedades_fotos_730122_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/e/propiedades_fotos_730113_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/6/propiedades_fotos_730132_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-09-10T23:02:59.579278",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "8369",
+    "titulo": "CASA EN CASCO ANTIGUO",
+    "ubicacion": "Ciutadella",
+    "precio": 1500,
+    "metros": 115,
+    "metros_parcela": null,
+    "habitaciones": 2,
+    "banos": 2,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": true,
+    "garaje": true,
+    "ascensor": true,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": true,
+    "url_detalle": "https://www.enprimeralinea.immo/casa-chalet-en-ciutadella-de-menorca-con-vistas-es1775123.html",
+    "inmobiliaria": "En Primera Linea",
+    "imagen_destacada": "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1775123/image/c93edb48-7b24-4292-ad4e-1df55e840b11.png?v=20260908094543213",
+    "galeria": [
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1775123/image/c93edb48-7b24-4292-ad4e-1df55e840b11.png?v=20260908094543213",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1775123/image/thumb/585_335/c93edb48-7b24-4292-ad4e-1df55e840b11.png?20260908094543213"
+    ],
+    "fecha_scraping": "2026-09-10T23:03:17.485683",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "8370",
+    "titulo": "SEGUNDO PISO",
+    "ubicacion": "Ciutadella",
+    "precio": 315000,
+    "metros": 93,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 1,
+    "tipo": "Piso",
+    "estado": "EXCLUSIVA",
+    "piscina": true,
+    "garaje": true,
+    "ascensor": true,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.enprimeralinea.immo/piso-en-ciutadella-de-menorca-es1775664.html",
+    "inmobiliaria": "En Primera Linea",
+    "imagen_destacada": "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1775664/image/6b816c30-aaab-4ba3-a6e4-58f9e67ed21a.png?v=20260909170148043",
+    "galeria": [
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1775664/image/6b816c30-aaab-4ba3-a6e4-58f9e67ed21a.png?v=20260909170148043",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1775664/image/thumb/585_335/6b816c30-aaab-4ba3-a6e4-58f9e67ed21a.png?20260909170148043",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1754306/image/thumb/585_335/bcf2f8c9-53b0-41c7-be60-cf8e117bf4e9.png",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1768306/image/thumb/585_335/f784c1de-5329-4057-bdd4-cee0ffb402c9.jpg",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1646753/image/thumb/585_335/img_0213.jpg"
+    ],
+    "fecha_scraping": "2026-09-10T23:03:19.510093",
     "fecha_ultima_actualizacion": null
   }
 ]
