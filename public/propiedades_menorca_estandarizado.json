@@ -8980,12 +8980,12 @@
     "habitaciones": 7,
     "banos": 6,
     "tipo": "Finca",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/gran-finca-rustica-con-piscina-en-alaior/",
     "inmobiliaria": "Fincas Llongas",
@@ -9017,7 +9017,8 @@
       "https://fincasllongas.com/files/dji-0657-800x480.jpg?v=1655743288"
     ],
     "fecha_scraping": "2026-04-19T21:49:22.212071",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-11T23:08:21.527099"
   },
   {
     "referencia": "Ref. 7070",
@@ -31407,12 +31408,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/parcela-plurifamiliar-en-la-zona-de-cami-de-ses-rodees-mahon-menorca/23296/",
     "inmobiliaria": "Bonnin Sanso",
@@ -31431,7 +31432,8 @@
       "https://images.bonninsanso.com/7/3/propiedades_fotos_295388_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:09:16.166463",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-11T23:08:31.455495"
   },
   {
     "referencia": "23723",
@@ -55952,12 +55954,12 @@
     "habitaciones": 5,
     "banos": 3,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/casa-dividida-en-tres-viviendas-en-zona-centro-de-mahon-menorca/92430/",
     "inmobiliaria": "Bonnin Sanso",
@@ -55972,7 +55974,8 @@
       "https://images.bonninsanso.com/6/6/propiedades_fotos_680397_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:27:47.299544",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-11T23:08:31.455531"
   },
   {
     "referencia": "92444",
@@ -61976,12 +61979,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/chalet-individual-con-piscina-privada-y-licencia-turistica-en-cala-blanca-ciutadella-menorca/36981/",
     "inmobiliaria": "Bonnin Sanso",
@@ -62018,7 +62021,8 @@
       "https://images.bonninsanso.com/2/1/propiedades_fotos_710923_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:32:36.430904",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-11T23:08:31.455542"
   },
   {
     "referencia": "92951",
@@ -83449,12 +83453,12 @@
     "habitaciones": 3,
     "banos": 3,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1719",
     "inmobiliaria": "Fincas Seminari",
@@ -83522,7 +83526,8 @@
       "https://www.fincasseminari.com/panel/inmuebles/1719/med/1000019812.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:51:37.776852",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-11T23:08:53.824159"
   },
   {
     "referencia": "203-309849",
@@ -101279,12 +101284,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-de-costa-en-primera-linea-de-mar-en-sa-mesquida/21537316",
     "inmobiliaria": "Casas en Menorca",
@@ -101293,7 +101298,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24199846/Tphoto/IDa6427101-0000-0500-0000-000011ec99af.jpg"
     ],
     "fecha_scraping": "2026-04-20T21:57:20.497781",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-11T23:08:43.826136"
   },
   {
     "referencia": "23723429",
@@ -105254,12 +105260,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/solar-en-venta/20688363",
     "inmobiliaria": "Casas en Menorca",
@@ -105268,7 +105274,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24199935/Tphoto/IDff427101-0000-0500-0000-000012a69cae.jpg"
     ],
     "fecha_scraping": "2026-04-20T22:02:56.546122",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-11T23:08:43.826149"
   },
   {
     "referencia": "20688376",
@@ -105280,12 +105287,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/solar-en-venta/20688376",
     "inmobiliaria": "Casas en Menorca",
@@ -105294,7 +105301,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24199944/Tphoto/ID08437101-0000-0500-0000-000011eca32e.jpg"
     ],
     "fecha_scraping": "2026-04-20T22:02:58.794022",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-11T23:08:43.826152"
   },
   {
     "referencia": "20688377",
@@ -139016,12 +139024,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/primer-piso-con-parking-trastero-y-terraza-en-es-castell/25933232",
     "inmobiliaria": "Casas en Menorca",
@@ -139030,7 +139038,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30262683/Tphoto/ID9bc5cd01-0000-0500-0000-0000198b674e.jpg"
     ],
     "fecha_scraping": "2026-07-28T22:17:47.733238",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-11T23:08:43.826207"
   },
   {
     "referencia": "26234601",
@@ -139982,12 +139991,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/piso-con-parking-en-el-puerto-de-mahon/26213490",
     "inmobiliaria": "Casas en Menorca",
@@ -139996,7 +140005,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30592348/Tphoto/ID5ccdd201-0000-0500-0000-000019dcf288.jpg"
     ],
     "fecha_scraping": "2026-07-28T22:26:52.258338",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-11T23:08:43.826211"
   },
   {
     "referencia": "26308391",
@@ -149585,12 +149595,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Apartamento",
-    "estado": "¡EXCLUSIVA!",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4500",
     "inmobiliaria": "Inmobiliaria Artrutx",
@@ -149618,7 +149628,8 @@
       "https://www.inmobiliariaartrutx.com/panel/inmuebles/4500/img/21.jpg"
     ],
     "fecha_scraping": "2026-08-27T00:37:14.288052",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-11T23:08:25.177290"
   },
   {
     "referencia": "37276",
@@ -151197,12 +151208,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/chalet-de-diseno-y-reciente-construccion-con-vistas-al-mar-en-binibeca/20684906",
     "inmobiliaria": "Casas en Menorca",
@@ -151211,7 +151222,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24201182/Tphoto/IDde477101-0000-0500-0000-000011ed2a67.jpg"
     ],
     "fecha_scraping": "2026-09-05T22:45:33.735410",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-11T23:08:43.826229"
   },
   {
     "referencia": "25521627",
@@ -151730,6 +151742,143 @@
       "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1646753/image/thumb/585_335/img_0213.jpg"
     ],
     "fecha_scraping": "2026-09-10T23:03:19.510093",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "Ref. 7798",
+    "titulo": "Gran finca rústica con piscina en Alaior",
+    "ubicacion": "Alaior",
+    "precio": 5800000,
+    "metros": null,
+    "metros_parcela": 740,
+    "habitaciones": 7,
+    "banos": 6,
+    "tipo": "Finca",
+    "estado": null,
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://fincasllongas.com/propiedad/gran-finca-rustica-con-piscina-en-alaior-2/",
+    "inmobiliaria": "Fincas Llongas",
+    "imagen_destacada": "https://fincasllongas.com/files/7736-4-800x480.jpg?v=1789117400",
+    "galeria": [
+      "https://fincasllongas.com/files/7736-4-800x480.jpg?v=1789117400"
+    ],
+    "fecha_scraping": "2026-09-11T23:08:23.088868",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "26582749",
+    "titulo": "Apartamento dúplex con piscina en Addaia",
+    "ubicacion": "Es Mercadal; Puerto De Addaia",
+    "precio": 365000,
+    "metros": 90,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Apartamento",
+    "estado": null,
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/apartamento-duplex-con-piscina-en-addaia/26582749",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30821953/Tphoto/ID414ed601-0000-0500-0000-00001a23b52b.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30821953/Tphoto/ID414ed601-0000-0500-0000-00001a23b52b.jpg"
+    ],
+    "fecha_scraping": "2026-09-11T23:08:45.331533",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "20684906",
+    "titulo": "Chalet de diseño con vistas al mar en Binibeca",
+    "ubicacion": "Sant Lluís; Binibèquer",
+    "precio": 1200000,
+    "metros": 1100,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/chalet-de-diseno-con-vistas-al-mar-en-binibeca/20684906",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24201182/Tphoto/IDde477101-0000-0500-0000-000011ed2a67.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24201182/Tphoto/IDde477101-0000-0500-0000-000011ed2a67.jpg"
+    ],
+    "fecha_scraping": "2026-09-11T23:08:47.446822",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "201-717380",
+    "titulo": "Primer piso en Ciutadella",
+    "ubicacion": "Ciutadella",
+    "precio": 380000,
+    "metros": 2,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 2,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.fincasseminari.com/propiedad-venta.php?id=1767",
+    "inmobiliaria": "Fincas Seminari",
+    "imagen_destacada": "https://www.fincasseminari.com/panel/inmuebles/1767/img/1",
+    "galeria": [
+      "https://www.fincasseminari.com/panel/inmuebles/1767/img/1",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/img/2",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/img/3",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/img/4",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/img/5",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/img/6",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/img/7",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/img/8",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/img/9",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/img/10",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/img/11",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/img/12",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/img/13",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/img/14",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/img/15",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/img/16",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/img/17",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/med/1",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/med/2",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/med/3",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/med/4",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/med/5",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/med/6",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/med/7",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/med/8",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/med/9",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/med/10",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/med/11",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/med/12",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/med/13",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/med/14",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/med/15",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/med/16",
+      "https://www.fincasseminari.com/panel/inmuebles/1767/med/17"
+    ],
+    "fecha_scraping": "2026-09-11T23:08:54.986847",
     "fecha_ultima_actualizacion": null
   }
 ]
