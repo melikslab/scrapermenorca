@@ -47822,12 +47822,12 @@
     "habitaciones": 3,
     "banos": 3,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/casa-en-primera-linea-del-puerto-de-mahon-menorca/91071/",
     "inmobiliaria": "Bonnin Sanso",
@@ -47863,7 +47863,8 @@
       "https://images.bonninsanso.com/9/4/propiedades_fotos_619118_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:22:05.046921",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-12T22:56:17.732713"
   },
   {
     "referencia": "91680",
@@ -49451,12 +49452,12 @@
     "habitaciones": 5,
     "banos": 2,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/preciosa-casa-entranable-en-el-casco-antiguo-de-mercadal-menorca/91492/",
     "inmobiliaria": "Bonnin Sanso",
@@ -49492,7 +49493,8 @@
       "https://images.bonninsanso.com/f/d/propiedades_fotos_642398_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:23:15.588771",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-12T22:56:17.732720"
   },
   {
     "referencia": "91496",
@@ -53413,12 +53415,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/casa-en-altos-en-el-centro-de-mahon-menorca/92658/",
     "inmobiliaria": "Bonnin Sanso",
@@ -53444,7 +53446,8 @@
       "https://images.bonninsanso.com/c/5/propiedades_fotos_694237_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:25:59.088904",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-12T22:56:17.732728"
   },
   {
     "referencia": "92087",
@@ -105837,12 +105840,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/preciosa-casa-reformada-con-terraza-en-alaior/22205776",
     "inmobiliaria": "Casas en Menorca",
@@ -105851,7 +105854,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P25617901/Tphoto/IDede58601-0000-0500-0000-000014a909a7.jpg"
     ],
     "fecha_scraping": "2026-04-20T22:03:45.211245",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-12T22:56:30.787595"
   },
   {
     "referencia": "22168397",
@@ -138657,12 +138661,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-con-dos-viviendas-en-mahon/25933677",
     "inmobiliaria": "Casas en Menorca",
@@ -138671,7 +138675,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30263082/Tphoto/ID2ac7cd01-0000-0500-0000-0000198b7fb3.jpg"
     ],
     "fecha_scraping": "2026-07-28T22:14:09.466515",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-12T22:56:30.787662"
   },
   {
     "referencia": "25934410",
@@ -138893,12 +138898,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Apartamento",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/apartamento-con-piscina-y-vistas-al-mar-en-son-bou/26032665",
     "inmobiliaria": "Casas en Menorca",
@@ -138907,7 +138912,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30374827/Tphoto/IDab7bcf01-0000-0500-0000-000019a6e09e.jpg"
     ],
     "fecha_scraping": "2026-07-28T22:15:29.503237",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-12T22:56:30.787665"
   },
   {
     "referencia": "24647893",
@@ -142933,12 +142939,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/luminoso-piso-de-2-dormitorios-en-el-corazon-de-es-castell/26251498",
     "inmobiliaria": "3Villas",
@@ -142947,7 +142953,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P30597941/Tphoto/ID35e3d201-0000-0500-0000-000019e9baa6.jpg"
     ],
     "fecha_scraping": "2026-07-30T22:20:00.830410",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-12T22:56:49.149767"
   },
   {
     "referencia": "4911",
@@ -144694,12 +144701,12 @@
     "habitaciones": 2,
     "banos": 2,
     "tipo": "Apartamento",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/apartamento-con-piscina-comunitaria-en-addaya-menorca/93689/",
     "inmobiliaria": "Bonnin Sanso",
@@ -144729,7 +144736,8 @@
       "https://images.bonninsanso.com/2/3/propiedades_fotos_727040_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-08-07T01:02:23.256091",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-12T22:56:17.732889"
   },
   {
     "referencia": "26171782",
@@ -151879,6 +151887,99 @@
       "https://www.fincasseminari.com/panel/inmuebles/1767/med/17"
     ],
     "fecha_scraping": "2026-09-11T23:08:54.986847",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4517",
+    "titulo": "Garaje cerrado",
+    "ubicacion": "Ciutadella",
+    "precio": 60000,
+    "metros": 40,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Garaje",
+    "estado": "EXCLUSIVA",
+    "piscina": false,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-4517-garaje-cerrado-en-ciutadella/",
+    "inmobiliaria": "Inmobiliaria Palau",
+    "imagen_destacada": "https://inmobiliariapalau.com/wp-content/uploads/2026/09/IMG_4798-1024x768.jpeg",
+    "galeria": [
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/09/IMG_4798-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/09/IMG_-4800-1024x768.jpg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/09/IMG_4796-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/09/IMG_4792-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/09/IMG_4797-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2024/02/twitter_X.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/09/IMG_4798.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/09/Captura-de-pantalla-2026-09-04-181956.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/09/IMG_20260902_171549_hdr-1-scaled.jpg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-24-at-21.03.09-3.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/07/79ad7d9a-78c9-406e-b75d-3718f448e345.jpg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/07/1.1.jpg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-07-at-13.34.19-4.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/06/IMG_0604.jpg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-22-at-17.50.30.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-11.05.34-3.jpeg"
+    ],
+    "fecha_scraping": "2026-09-12T22:56:14.050640",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "26595336",
+    "titulo": "Chalet adosado con vistas al mar en Cap d'Artrutx",
+    "ubicacion": "Ciutadella; Cala D'En Bosch - Serpentona",
+    "precio": 395000,
+    "metros": 90,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/chalet-adosado-con-vistas-al-mar-en-cap-dartrutx/26595336",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P31010683/Tphoto/ID7b2fd901-0000-0500-0000-00001a5b1d6b.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P31010683/Tphoto/ID7b2fd901-0000-0500-0000-00001a5b1d6b.jpg"
+    ],
+    "fecha_scraping": "2026-09-12T22:56:32.344058",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "26596165",
+    "titulo": "Apartamento con impresionantes vistas al mar en Binibèquer Vell",
+    "ubicacion": "Sant Lluís; Binibèquer",
+    "precio": 299000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Apartamento",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/apartamento-con-impresionantes-vistas-al-mar-en-binibequer-vell/26596165",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30971670/Tphoto/ID1697d801-0000-0500-0000-00001a4f5c92.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30971670/Tphoto/ID1697d801-0000-0500-0000-00001a4f5c92.jpg"
+    ],
+    "fecha_scraping": "2026-09-12T22:56:34.799820",
     "fecha_ultima_actualizacion": null
   }
 ]
