@@ -8909,12 +8909,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/restaurante-con-encanto-ubicado-en-una-casa-de-campo-trandicional-en-sullastra-sant-lluis/",
     "inmobiliaria": "Fincas Llongas",
@@ -8929,7 +8929,8 @@
       "https://fincasllongas.com/files/fachada-de-noche.jpg?v=1663237037"
     ],
     "fecha_scraping": "2026-04-19T21:49:18.063414",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-20T23:07:10.662172"
   },
   {
     "referencia": "Ref. 7104",
