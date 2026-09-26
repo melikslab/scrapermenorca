@@ -46054,12 +46054,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/bar-cafeteria-en-zona-residencial-de-mahon-menorca/90497/",
     "inmobiliaria": "Bonnin Sanso",
@@ -46079,7 +46079,8 @@
       "https://images.bonninsanso.com/5/b/propiedades_fotos_596794_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:20:38.858391",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-26T23:28:30.710754"
   },
   {
     "referencia": "90501",
@@ -100735,12 +100736,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Finca",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/finca-menorquina-con-piscina-a-unos-minutos-de-es-grau/21660887",
     "inmobiliaria": "Casas en Menorca",
@@ -100749,7 +100750,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P25525033/Tphoto/ID297b8501-0000-0500-0000-0000141cedc5.jpg"
     ],
     "fecha_scraping": "2026-04-20T21:56:31.307752",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-26T23:28:42.262020"
   },
   {
     "referencia": "22612898",
@@ -124999,12 +125001,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Edificio",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/en-exclusiva-edificio-de-obra-nueva-en-mahon-menorca/90525/",
     "inmobiliaria": "Bonnin Sanso",
@@ -125047,7 +125049,8 @@
       "https://images.bonninsanso.com/1/2/promociones_fotos_638_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-06-08T22:44:59.367523",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-26T23:28:30.710876"
   },
   {
     "referencia": "92960",
@@ -139611,12 +139614,12 @@
     "habitaciones": 2,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/segundo-piso-en-el-centro-de-ciutadella/26239054",
     "inmobiliaria": "Casas en Menorca",
@@ -139625,7 +139628,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P30622008/Tphoto/ID3841d301-0000-0500-0000-000019e3d303.jpg"
     ],
     "fecha_scraping": "2026-07-28T22:21:56.743826",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-26T23:28:42.262087"
   },
   {
     "referencia": "26260529",
@@ -155874,6 +155878,58 @@
       "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4813/28300496.jpg"
     ],
     "fecha_scraping": "2026-09-25T23:56:45.173806",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "26683738",
+    "titulo": "Casa de campo con piscina en Ciutadella",
+    "ubicacion": "Ciutadella",
+    "precio": 798300,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-de-campo-con-piscina-en-ciutadella/26683738",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P31105347/Tphoto/ID43a1da01-0000-0500-0000-00001a7bc530.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P31105347/Tphoto/ID43a1da01-0000-0500-0000-00001a7bc530.jpg"
+    ],
+    "fecha_scraping": "2026-09-26T23:28:44.164857",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "26684373",
+    "titulo": "Cuarto piso con ascensor en Ciutadella",
+    "ubicacion": "Ciutadella",
+    "precio": 380000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": true,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/cuarto-piso-con-ascensor-en-ciutadella/26684373",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P31106039/Tphoto/IDf7a3da01-0000-0500-0000-00001a7bf5e5.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P31106039/Tphoto/IDf7a3da01-0000-0500-0000-00001a7bf5e5.jpg"
+    ],
+    "fecha_scraping": "2026-09-26T23:28:46.427354",
     "fecha_ultima_actualizacion": null
   }
 ]
