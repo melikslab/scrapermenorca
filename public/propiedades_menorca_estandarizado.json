@@ -3445,12 +3445,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/casa-de-campo-en-sant-lluis-5/",
     "inmobiliaria": "Fincas Llongas",
@@ -3507,7 +3507,8 @@
       "https://fincasllongas.com/files/dsc08673-800x480.jpg?v=1756464253"
     ],
     "fecha_scraping": "2026-04-19T21:45:18.210015",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-29T00:54:17.407687"
   },
   {
     "referencia": "Ref. 7626",
@@ -8741,12 +8742,12 @@
     "habitaciones": 5,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/chalet-unifamiliar-en-son-vilar/",
     "inmobiliaria": "Fincas Llongas",
@@ -8799,7 +8800,8 @@
       "https://fincasllongas.com/files/dsc06555-hdr-800x480.jpg?v=1754907341"
     ],
     "fecha_scraping": "2026-04-19T21:49:11.870161",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-29T00:54:17.407698"
   },
   {
     "referencia": "Ref. 7162",
@@ -8811,12 +8813,12 @@
     "habitaciones": 4,
     "banos": 4,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/chalet-con-piscina-en-llumacanes/",
     "inmobiliaria": "Fincas Llongas",
@@ -8845,7 +8847,8 @@
       "https://fincasllongas.com/files/dsc-0585-4-800x480.jpg?v=1665736239"
     ],
     "fecha_scraping": "2026-04-19T21:49:13.939929",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-29T00:54:17.407701"
   },
   {
     "referencia": "Ref. 7157",
@@ -9507,12 +9510,12 @@
     "habitaciones": 5,
     "banos": 4,
     "tipo": "Finca",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/precioso-predio-reformado-proximo-a-ciutadella/",
     "inmobiliaria": "Fincas Llongas",
@@ -9579,7 +9582,8 @@
       "https://fincasllongas.com/files/dsc07551-hdr-800x480.jpg?v=1755600437"
     ],
     "fecha_scraping": "2026-04-19T21:49:51.055701",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-29T00:54:17.407706"
   },
   {
     "referencia": "Ref. 4871",
@@ -66982,12 +66986,12 @@
     "habitaciones": 100,
     "banos": null,
     "tipo": "Solar",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasarmengol.com/propiedad/m-9159-solar-terreno-en-mahon/",
     "inmobiliaria": "Fincas Armengol",
@@ -67007,7 +67011,8 @@
       "https://fincasarmengol.com/propiedad/m-9159-solar-terreno-en-mahon/"
     ],
     "fecha_scraping": "2026-04-19T22:37:36.498158",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-29T00:54:39.592450"
   },
   {
     "referencia": "l-92-hotel",
@@ -70264,12 +70269,12 @@
     "habitaciones": 5,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "http://www.fincasfaro.net/es/ficha/2099/",
     "inmobiliaria": "Fincas Faro",
@@ -70310,7 +70315,8 @@
       "http://www.fincasfaro.net/watermark/603540/600x600"
     ],
     "fecha_scraping": "2026-04-19T22:40:40.664700",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-29T00:55:28.160653"
   },
   {
     "referencia": "217",
@@ -72022,12 +72028,12 @@
     "habitaciones": 4,
     "banos": null,
     "tipo": "Ático",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "http://www.fincasfaro.net/es/ficha/2108/",
     "inmobiliaria": "Fincas Faro",
@@ -72065,7 +72071,8 @@
       "http://www.fincasfaro.net/watermark/603534/380x380"
     ],
     "fecha_scraping": "2026-04-19T22:42:28.026956",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-29T00:55:28.160661"
   },
   {
     "referencia": "2075",
@@ -85022,12 +85029,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Piso",
-    "estado": "Buen estado",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmocampsbosch.com/propiedad.php?id=121",
     "inmobiliaria": "Inmobiliaria Camps Bosch",
@@ -85060,7 +85067,8 @@
       "https://inmocampsbosch.com/panel/inmuebles/121/img/6 terraza 3.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:52:27.786008",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-29T00:55:39.375701"
   },
   {
     "referencia": "AP 051",
@@ -119942,12 +119950,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": "Buen estado",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmocampsbosch.com/propiedad.php?id=124",
     "inmobiliaria": "Inmobiliaria Camps Bosch",
@@ -119957,7 +119965,8 @@
       "https://inmocampsbosch.com/panel/inmuebles/124/img/3.jpg"
     ],
     "fecha_scraping": "2026-05-15T22:04:15.620740",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-29T00:55:39.375768"
   },
   {
     "referencia": "PI 033",
@@ -132302,12 +132311,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/chalet-de-diseno-en-coves-noves-4/",
     "inmobiliaria": "Fincas Llongas",
@@ -132316,7 +132325,8 @@
       "https://fincasllongas.com/files/7736-2-800x480.jpg?v=1783324235"
     ],
     "fecha_scraping": "2026-07-06T22:19:25.376103",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-29T00:54:17.407905"
   },
   {
     "referencia": "Ref. 6788",
@@ -132328,12 +132338,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/chalet-de-diseno-en-coves-noves-3/",
     "inmobiliaria": "Fincas Llongas",
@@ -132342,7 +132352,8 @@
       "https://fincasllongas.com/files/7736-2-800x480.jpg?v=1783324235"
     ],
     "fecha_scraping": "2026-07-06T22:19:27.433610",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-29T00:54:17.407910"
   },
   {
     "referencia": "Ref. 6787",
@@ -132354,12 +132365,12 @@
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/chalet-de-diseno-en-coves-noves-2/",
     "inmobiliaria": "Fincas Llongas",
@@ -132368,7 +132379,8 @@
       "https://fincasllongas.com/files/7736-2-800x480.jpg?v=1783324235"
     ],
     "fecha_scraping": "2026-07-06T22:19:29.473415",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-29T00:54:17.407912"
   },
   {
     "referencia": "Ref. 6786",
@@ -132380,12 +132392,12 @@
     "habitaciones": 3,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/moderno-chalet-con-piscina-privada-en-coves-noves-6/",
     "inmobiliaria": "Fincas Llongas",
@@ -132394,7 +132406,8 @@
       "https://fincasllongas.com/files/7736-2-800x480.jpg?v=1783324235"
     ],
     "fecha_scraping": "2026-07-06T22:19:31.514370",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-29T00:54:17.407914"
   },
   {
     "referencia": "Ref. 6785",
@@ -132406,12 +132419,12 @@
     "habitaciones": 3,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/moderno-chalet-con-piscina-privada-en-coves-noves-5/",
     "inmobiliaria": "Fincas Llongas",
@@ -132420,7 +132433,8 @@
       "https://fincasllongas.com/files/7736-2-800x480.jpg?v=1783324235"
     ],
     "fecha_scraping": "2026-07-06T22:19:33.575111",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-29T00:54:17.407916"
   },
   {
     "referencia": "4942",
@@ -137931,12 +137945,12 @@
     "habitaciones": 1,
     "banos": 2,
     "tipo": "Solar",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/parcela-en-santandria-con-casita-y-piscina/",
     "inmobiliaria": "Fincas Llongas",
@@ -137967,7 +137981,8 @@
       "https://fincasllongas.com/files/haz-que-en-esta-fotografa-adju-nano-banana-pro-73453-800x480.jpg?v=1784973113"
     ],
     "fecha_scraping": "2026-07-25T22:01:13.989659",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-29T00:54:17.407939"
   },
   {
     "referencia": "29441",
@@ -148099,12 +148114,12 @@
     "habitaciones": 1,
     "banos": 2,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasarmengol.com/propiedad/casa-de-campo-en-ferreries-c-7040/",
     "inmobiliaria": "Fincas Armengol",
@@ -148209,7 +148224,8 @@
       "https://fincasarmengol.com/propiedad/casa-de-campo-en-ferreries-c-7040/"
     ],
     "fecha_scraping": "2026-08-20T21:34:25.024294",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-29T00:54:39.592584"
   },
   {
     "referencia": "hotel-en-s",
@@ -152302,12 +152318,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasarmengol.com/propiedad/solares-en-jardins-de-malbuger-m-9160/",
     "inmobiliaria": "Fincas Armengol",
@@ -152335,7 +152351,8 @@
       "https://fincasarmengol.com/propiedad/solares-en-jardins-de-malbuger-m-9160/"
     ],
     "fecha_scraping": "2026-09-14T23:48:13.759094",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-29T00:54:39.592633"
   },
   {
     "referencia": "casa-de-ca",
@@ -152459,12 +152476,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasarmengol.com/propiedad/exclusivo-solar-urbano-en-el-centro-de-mahon-321-m%c2%b2-con-licencia-y-parking-ya-construido-m-9158/",
     "inmobiliaria": "Fincas Armengol",
@@ -152484,7 +152501,8 @@
       "https://fincasarmengol.com/propiedad/exclusivo-solar-urbano-en-el-centro-de-mahon-321-m%c2%b2-con-licencia-y-parking-ya-construido-m-9158/"
     ],
     "fecha_scraping": "2026-09-14T23:48:24.246827",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-09-29T00:54:39.592636"
   },
   {
     "referencia": "casa-de-pu",
@@ -155930,6 +155948,162 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P31106039/Tphoto/IDf7a3da01-0000-0500-0000-00001a7bf5e5.jpg"
     ],
     "fecha_scraping": "2026-09-26T23:28:46.427354",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "37007",
+    "titulo": "EXCLUSIVA. Piso en primera planta con piscina comunitaria en Ciutadella, Menorca.",
+    "ubicacion": "Ciutadella",
+    "precio": 340000,
+    "metros": 89,
+    "metros_parcela": null,
+    "habitaciones": 2,
+    "banos": 2,
+    "tipo": "Piso",
+    "estado": "",
+    "piscina": true,
+    "garaje": true,
+    "ascensor": true,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/exclusiva-piso-en-primera-planta-con-piscina-comunitaria-en-ciutadella-menorca/37007/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/5/0/propiedades_fotos_730044_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/5/0/propiedades_fotos_730044_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/c/propiedades_fotos_730040_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/1/propiedades_fotos_730042_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/9/propiedades_fotos_730045_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/2/propiedades_fotos_730050_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/5/propiedades_fotos_730047_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/9/propiedades_fotos_730049_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/0/propiedades_fotos_730046_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/c/propiedades_fotos_730043_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/d/propiedades_fotos_730041_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/b/propiedades_fotos_730048_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-09-29T00:54:29.890774",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "37243",
+    "titulo": "Solar con gran potencial de desarrollo, sótano construido y proyecto, Ferrerias, Menorca",
+    "ubicacion": "Ferreries",
+    "precio": 680000,
+    "metros": 310,
+    "metros_parcela": 193,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Solar",
+    "estado": "",
+    "piscina": false,
+    "garaje": true,
+    "ascensor": true,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/solar-con-gran-potencial-de-desarrollo-sotano-construido-y-proyecto-ferrerias-menorca/37243/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/c/6/propiedades_fotos_722884_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/c/6/propiedades_fotos_722884_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/1/propiedades_fotos_722890_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/2/propiedades_fotos_722885_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/1/propiedades_fotos_722886_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/a/propiedades_fotos_722883_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/8/propiedades_fotos_722866_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/5/propiedades_fotos_722874_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/e/propiedades_fotos_722879_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/a/propiedades_fotos_722880_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/2/propiedades_fotos_722881_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-09-29T00:54:32.518424",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "93799",
+    "titulo": "Amplio apartamento en primera planta con vistas al campo de golf de Son Parc, Menorca",
+    "ubicacion": "Es Mercadal; Son Parc",
+    "precio": 399000,
+    "metros": 87,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 2,
+    "tipo": "Apartamento",
+    "estado": "",
+    "piscina": true,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/amplio-apartamento-en-primera-planta-con-vistas-al-campo-de-golf-de-son-parc-menorca/93799/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/a/6/propiedades_fotos_730290_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/a/6/propiedades_fotos_730290_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/1/propiedades_fotos_730291_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/5/propiedades_fotos_730288_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/e/propiedades_fotos_730285_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/0/propiedades_fotos_730286_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/9/propiedades_fotos_730274_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/7/propiedades_fotos_730275_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/f/propiedades_fotos_730278_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/2/propiedades_fotos_730279_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/a/propiedades_fotos_730280_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/6/propiedades_fotos_730281_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/7/propiedades_fotos_730282_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/6/propiedades_fotos_730277_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/6/propiedades_fotos_730276_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/3/propiedades_fotos_730292_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/c/propiedades_fotos_729793_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/2/propiedades_fotos_729792_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/d/propiedades_fotos_730293_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/9/propiedades_fotos_730294_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/a/propiedades_fotos_730295_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/e/propiedades_fotos_730296_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/5/propiedades_fotos_730297_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/3/propiedades_fotos_730298_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-09-29T00:54:34.835767",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "solar-terr",
+    "titulo": "Solar/Terreno en Mahón    M",
+    "ubicacion": "9159",
+    "precio": 2000000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": 100,
+    "banos": null,
+    "tipo": "Solar",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://fincasarmengol.com/propiedad/solar-terreno-en-mahon-m-9159/",
+    "inmobiliaria": "Fincas Armengol",
+    "imagen_destacada": "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/09/1-1-9-1024x769.jpg?v=1790590320",
+    "galeria": [
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/09/1-1-9-1024x769.jpg?v=1790590320",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/09/1-1-9-1024x769.jpg?v=1790590320",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/uploads/2026/09/1-1-9-100x75.jpg?v=1790590320",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/uploads/2026/09/1-1-9-100x75.jpg?v=1790590320",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/themes/thematicsamplechildtheme/imagenes/pdf_export.png",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/themes/thematicsamplechildtheme/imagenes/pdf_export.png",
+      "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://fincasarmengol.com/wp-content/themes/thematicsamplechildtheme/imagenes/pdf_english.png",
+      "https://sp-ao.shortpixel.ai/client/q_lqip,ret_wait/https://fincasarmengol.com/wp-content/themes/thematicsamplechildtheme/imagenes/pdf_english.png",
+      "https://fincasarmengol.com/wp-content/uploads/2026/08/4-1-9.jpg",
+      "https://fincasarmengol.com/wp-content/uploads/2026/09/4-1-2.jpg",
+      "https://fincasarmengol.com/wp-content/uploads/2026/09/3-1-9.jpg",
+      "https://fincasarmengol.com/propiedad/solar-terreno-en-mahon-m-9159/"
+    ],
+    "fecha_scraping": "2026-09-29T00:55:08.265430",
     "fecha_ultima_actualizacion": null
   }
 ]
