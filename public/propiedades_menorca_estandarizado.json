@@ -150062,12 +150062,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Piso",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/piso-recien-reformado-en-mahon-con-ascensor-y-balcon-menorca/93758/",
     "inmobiliaria": "Bonnin Sanso",
@@ -150089,7 +150089,8 @@
       "https://images.bonninsanso.com/8/7/propiedades_fotos_729043_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-08-28T05:11:22.485597",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-10-04T23:54:36.582800"
   },
   {
     "referencia": "26492425",
