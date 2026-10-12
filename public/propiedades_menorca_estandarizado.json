@@ -159200,5 +159200,41 @@
     ],
     "fecha_scraping": "2026-10-11T00:12:13.534129",
     "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "93881",
+    "titulo": "Nave comercial con showroom, oficinas y almacén en el Polígono Industrial de Mahón, Menorca",
+    "ubicacion": "Maó",
+    "precio": 375000,
+    "metros": 206,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": 1,
+    "tipo": "Nave",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/nave-comercial-con-showroom-oficinas-y-almacen-en-el-poligono-industrial-de-mahon-menorca/93881/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/6/4/propiedades_fotos_732709_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/6/4/propiedades_fotos_732709_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/3/propiedades_fotos_732708_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/2/propiedades_fotos_732707_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/1/propiedades_fotos_732706_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/6/propiedades_fotos_732701_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/d/propiedades_fotos_732700_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/5/propiedades_fotos_732702_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/d/propiedades_fotos_732703_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/c/propiedades_fotos_732705_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/5/propiedades_fotos_732704_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/1/propiedades_fotos_732699_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-10-12T00:23:04.416185",
+    "fecha_ultima_actualizacion": null
   }
 ]
