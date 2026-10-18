@@ -48422,12 +48422,12 @@
     "habitaciones": 13,
     "banos": 2,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/preciosa-casa-senorial-en-el-centro-de-mahon-menorca/91214/",
     "inmobiliaria": "Bonnin Sanso",
@@ -48474,7 +48474,8 @@
       "https://images.bonninsanso.com/c/d/propiedades_fotos_624221_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:22:26.073071",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-10-18T22:56:22.086469"
   },
   {
     "referencia": "91219",
@@ -60389,12 +60390,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/chalet-en-1-linea-de-cap-d-artrutx-ciutadella-menorca/36900/",
     "inmobiliaria": "Bonnin Sanso",
@@ -60429,7 +60430,8 @@
       "https://images.bonninsanso.com/e/5/propiedades_fotos_700653_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:31:25.093086",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-10-18T22:56:22.086488"
   },
   {
     "referencia": "92844",
