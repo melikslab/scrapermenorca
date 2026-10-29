@@ -51,6 +51,20 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115 Safari/537.36"
 }
 
+# Sesión HTTP compartida con reintentos: conexiones rechazadas, timeouts y servidores saturados
+# (p.ej. Casas en Menorca a veces rechaza conexiones desde GitHub Actions)
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+
+SESSION = requests.Session()
+_reintentos = Retry(
+    total=3, connect=3, read=2, backoff_factor=3,
+    status_forcelist=(429, 502, 503, 504), allowed_methods=frozenset(["GET"]),
+    respect_retry_after_header=True, raise_on_status=False,
+)
+SESSION.mount("https://", HTTPAdapter(max_retries=_reintentos))
+SESSION.mount("http://", HTTPAdapter(max_retries=_reintentos))
+
 def detectar_flags(texto):
     """Detecta flags especiales en el texto"""
     if not texto:
@@ -587,7 +601,7 @@ def is_allowed(url):
         rp = urllib.robotparser.RobotFileParser(robots_url)
         try:
             # Se descarga con nuestros HEADERS: algunas webs (p.ej. Lucas Fox) dan 403 al User-Agent de urllib
-            r = requests.get(robots_url, headers=HEADERS, timeout=15)
+            r = SESSION.get(robots_url, headers=HEADERS, timeout=15)
             if r.status_code in (401, 403):
                 rp.disallow_all = True
             elif r.status_code >= 400:
@@ -733,7 +747,7 @@ def scraper_eficiente_website(scraper_func, nombre_inmobiliaria: str,
 def obtener_urls_sitemap_principal(sitemap_url, filtro_subsitemap=None):
     """Obtener sub-sitemaps relevantes"""
     try:
-        resp = requests.get(sitemap_url, headers=HEADERS)
+        resp = SESSION.get(sitemap_url, headers=HEADERS)
         resp.raise_for_status()
         root = ET.fromstring(resp.content)
         urls = []
@@ -755,7 +769,7 @@ def obtener_urls_sitemap_principal(sitemap_url, filtro_subsitemap=None):
 def obtener_urls_pisos_de_subsitemap(subsitemap_url, patrones_validos, max_urls=None):
     """Obtener URLs de propiedades según patrón configurado, filtrando por últimos 2 años"""
     try:
-        resp = requests.get(subsitemap_url, headers=HEADERS)
+        resp = SESSION.get(subsitemap_url, headers=HEADERS)
         resp.raise_for_status()
         root = ET.fromstring(resp.content)
         urls = []
@@ -830,7 +844,7 @@ def obtener_urls_fincasllongas():
 def scrape_fincasllongas_detalle(url, referencia):
     """Scraper específico para una propiedad de fincasllongas.com"""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, 'html.parser')
         
@@ -1001,7 +1015,7 @@ def obtener_urls_artrutx():
     """Obtener todas las URLs de propiedades de Artrutx desde el listado con sus referencias"""
     url_listado = "https://www.inmobiliariaartrutx.com/venta.php"
     try:
-        r = requests.get(url_listado, headers=HEADERS, timeout=30)
+        r = SESSION.get(url_listado, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, 'html.parser')
 
@@ -1030,7 +1044,7 @@ def obtener_urls_artrutx():
 def scrape_artrutx_detalle(url, referencia):
     """Scraper específico para una propiedad de inmobiliariaartrutx.com"""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, 'html.parser')
         for tag in soup(["header", "footer"]):
@@ -1186,7 +1200,7 @@ def obtener_urls_fincasciutadella():
     """Obtener todas las URLs de propiedades de Fincas Ciutadella desde el listado con sus referencias"""
     url_listado = "https://www.fincasciutadella.com/propiedad-venta.php"
     try:
-        r = requests.get(url_listado, headers=HEADERS, timeout=30)
+        r = SESSION.get(url_listado, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, 'html.parser')
 
@@ -1226,7 +1240,7 @@ def obtener_urls_fincasciutadella():
 def scrape_fincasciutadella_detalle(url, referencia):
     """Scraper específico para una propiedad de fincasciutadella.com"""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, 'html.parser')
         for tag in soup(["header", "footer"]):
@@ -1420,7 +1434,7 @@ def scrape_mobilia_listado(url_listado, nombre):
     """
     print(f"🏠 Iniciando scraping de {nombre} ({url_listado})")
 
-    r = requests.get(url_listado, headers=HEADERS, timeout=30)
+    r = SESSION.get(url_listado, headers=HEADERS, timeout=30)
     r.raise_for_status()
     soup = BeautifulSoup(r.text, "lxml")
 
@@ -1528,7 +1542,7 @@ def obtener_urls_inmomenorcacentro():
     """Obtener todas las URLs de propiedades de inmomenorcacentro desde el listado con sus referencias"""
     url_listado = "https://inmomenorcacentro.com/propiedades.php"
     try:
-        r = requests.get(url_listado, headers=HEADERS, timeout=30)
+        r = SESSION.get(url_listado, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, 'html.parser')
 
@@ -1579,7 +1593,7 @@ def obtener_urls_inmomenorcacentro():
 def scrape_inmomenorcacentro_detalle(url, referencia):
     """Scraper específico para una propiedad de inmomenorcacentro.com"""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, 'html.parser')
         for tag in soup(["header", "footer"]):
@@ -1699,7 +1713,7 @@ def obtener_urls_inmobiliariapalau():
     """Obtener todas las URLs de propiedades de Inmobiliaria Palau desde el sitemap"""
     sitemap_url = "https://inmobiliariapalau.com/propiedad-sitemap.xml"
     try:
-        r = requests.get(sitemap_url, headers=HEADERS, timeout=30)
+        r = SESSION.get(sitemap_url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         root = ET.fromstring(r.content)
 
@@ -1725,7 +1739,7 @@ def obtener_urls_inmobiliariapalau():
 def scrape_inmobiliariapalau_detalle(url, referencia=None):
     """Scraper específico para una propiedad de inmobiliariapalau.com"""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, 'html.parser')
         for tag in soup(["header", "footer"]):
@@ -1882,7 +1896,7 @@ def obtener_urls_bonninsanso():
     """Obtener URLs de propiedades de Bonnin Sanso desde sitemap"""
     sitemap_url = "https://www.bonninsanso.com/es/sitemap.xml"
     try:
-        r = requests.get(sitemap_url, headers=HEADERS, timeout=30)
+        r = SESSION.get(sitemap_url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         root = ET.fromstring(r.content)
 
@@ -1911,7 +1925,7 @@ def obtener_urls_bonninsanso():
 def scrape_bonninsanso_detalle(url, referencia):
     """Scraper específico para una propiedad de bonninsanso.com"""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, 'html.parser')
 
@@ -2051,7 +2065,7 @@ def obtener_urls_fincasarmengol():
     """Obtener URLs de propiedades de Fincas Armengol desde el sitemap"""
     sitemap_url = "https://fincasarmengol.com/propiedad-sitemap.xml"
     try:
-        r = requests.get(sitemap_url, headers=HEADERS, timeout=30)
+        r = SESSION.get(sitemap_url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         root = ET.fromstring(r.content)
 
@@ -2074,8 +2088,11 @@ def obtener_urls_fincasarmengol():
 def scrape_fincasarmengol_detalle(url, referencia):
     """Scraper específico para una propiedad de fincasarmengol.com"""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
-        r.raise_for_status()
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
+        # Algunas fichas dan "error crítico" de WordPress al final de la página (HTTP 500)
+        # pero traen la ficha completa: se aceptan si contienen los atributos
+        if not (r.status_code == 500 and 'property_attributes' in r.text):
+            r.raise_for_status()
         soup = BeautifulSoup(r.text, 'html.parser')
         for tag in soup(["header","footer"]):
             tag.decompose()
@@ -2137,6 +2154,7 @@ def scrape_fincasarmengol_detalle(url, referencia):
         if ubicacion:
             ubicacion = ubicacion.replace('’', "'").replace('´', "'")
             ubicacion = re.sub(r'\(.*?\)|:.*$', '', ubicacion)  # "Mahón (Obra Nueva)", "Cala Blanca: Piscina..."
+            ubicacion = re.sub(r'^(el\s+)?centro\s+(de|del)\s+', '', ubicacion.strip(), flags=re.IGNORECASE)
             ubicacion = re.sub(r',?\s*Menorca$', '', ubicacion, flags=re.IGNORECASE).strip(' ,-')
         ubicacion = estandarizar_ubicacion(ubicacion)
 
@@ -2226,7 +2244,7 @@ def obtener_urls_fincasfaro():
     """Obtener URLs de propiedades de Fincas Faro desde el sitemap"""
     sitemap_url = "https://fincasfaro.net/es/sitemap.xml"
     try:
-        r = requests.get(sitemap_url, headers=HEADERS, timeout=30)
+        r = SESSION.get(sitemap_url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         root = ET.fromstring(r.content)
 
@@ -2253,7 +2271,7 @@ def obtener_urls_fincasfaro():
 def scrape_fincasfaro_detalle(url, referencia):
     """Scraper específico para una propiedad de fincasfaro.net"""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, 'html.parser')
 
@@ -2422,7 +2440,7 @@ def obtener_urls_zenhousecredit():
     """Obtener todas las URLs de propiedades de Zenhouse Credit desde el listado con sus referencias"""
     url_listado = "https://zenhousecredit.com/venta.php"
     try:
-        r = requests.get(url_listado, headers=HEADERS, timeout=30)
+        r = SESSION.get(url_listado, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, 'html.parser')
 
@@ -2450,7 +2468,7 @@ def obtener_urls_zenhousecredit():
 def scrape_zenhousecredit_detalle(url, referencia):
     """Scraper específico para una propiedad de zenhousecredit.com"""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, 'html.parser')
         for tag in soup(["header","footer"]):
@@ -2586,7 +2604,7 @@ def obtener_urls_enprimeralinea():
     """Obtener URLs de propiedades de En Primera Línea desde el sitemap"""
     sitemap_url = "https://enprimeralinea.immo/sitemap.xml"
     try:
-        r = requests.get(sitemap_url, headers=HEADERS, timeout=30)
+        r = SESSION.get(sitemap_url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         root = ET.fromstring(r.content)
 
@@ -2614,7 +2632,7 @@ def obtener_urls_enprimeralinea():
 def scrape_enprimeralinea_detalle(url, referencia=None):
     """Scraper específico para una propiedad de enprimeralinea.immo"""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, 'html.parser')
         for tag in soup(["header","footer"]):
@@ -2758,7 +2776,7 @@ def obtener_urls_casasenmenorca():
     """Obtener URLs de propiedades de Casas en Menorca desde el sitemap"""
     sitemap_url = "https://www.casasenmenorca.com/sitemap-es-es.xml"
     try:
-        r = requests.get(sitemap_url, headers=HEADERS, timeout=30)
+        r = SESSION.get(sitemap_url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         root = ET.fromstring(r.content)
 
@@ -2794,7 +2812,7 @@ def scrape_casasenmenorca_detalle(url, referencia=None):
     """Scraper específico para una propiedad de Casas en Menorca usando JSON-LD"""
     # ← CORRECCIÓN: cambiar parámetro de imagen_destacada a referencia
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, 'html.parser')
 
@@ -2939,7 +2957,7 @@ def obtener_urls_fincasseminari(max_paginas=5):
     for nump in range(1, max_paginas+1):
         url_listado = f"{base_url}?&nump={nump}"
         try:
-            r = requests.get(url_listado, headers=HEADERS, timeout=30)
+            r = SESSION.get(url_listado, headers=HEADERS, timeout=30)
             r.raise_for_status()
             soup = BeautifulSoup(r.text, "html.parser")
 
@@ -2984,7 +3002,7 @@ def obtener_urls_fincasseminari(max_paginas=5):
 def scrape_fincasseminari_detalle(url, referencia=None):
     """Scraper específico para una propiedad de fincasseminari.com"""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
         for tag in soup(["header","footer"]):
@@ -3105,7 +3123,7 @@ def obtener_urls_inmocampsbosch(max_paginas=5):
     urls_propiedades = []
 
     try:
-        r = requests.get(base_url, headers=HEADERS, timeout=30)
+        r = SESSION.get(base_url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
 
@@ -3138,7 +3156,7 @@ def obtener_urls_inmocampsbosch(max_paginas=5):
 def scrape_inmocampsbosch_detalle(url, referencia=None):
     """Scraper específico para una propiedad de inmocampsbosch.com"""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
         for tag in soup(["header","footer"]):
@@ -3254,7 +3272,7 @@ def obtener_urls_portalmenorca(max_paginas=20):
     for nump in range(1, max_paginas+1):
         url_listado = base_url.format(nump)
         try:
-            r = requests.get(url_listado, headers=HEADERS, timeout=30)
+            r = SESSION.get(url_listado, headers=HEADERS, timeout=30)
             r.raise_for_status()
             soup = BeautifulSoup(r.text, "html.parser")
 
@@ -3294,7 +3312,7 @@ def obtener_urls_portalmenorca(max_paginas=20):
 def scrape_portalmenorca_detalle(url, referencia=None):
     """Scraper para un anuncio de portalmenorca.com"""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
         for tag in soup(["header", "footer"]):
@@ -3459,7 +3477,7 @@ def obtener_urls_vidalmenorca():
     """Obtener todas las URLs de propiedades de Vidal Menorca desde el sitemap"""
     sitemap_url = "https://www.vidalmenorca.com/sitemap.xml"
     try:
-        r = requests.get(sitemap_url, headers=HEADERS, timeout=30)
+        r = SESSION.get(sitemap_url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         root = ET.fromstring(r.content)
 
@@ -3483,7 +3501,7 @@ def obtener_urls_vidalmenorca():
 def scrape_vidalmenorca_detalle(url, referencia=None):
     """Scraper para un anuncio de Vidal Menorca"""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
         for tag in soup(["header", "footer"]):
@@ -3610,7 +3628,7 @@ def obtener_urls_menorcasa(max_paginas=30):
     for pagina in range(1, max_paginas + 1):
         url_pagina = base if pagina == 1 else f"{base}page/{pagina}/"
         try:
-            r = requests.get(url_pagina, headers=HEADERS, timeout=30)
+            r = SESSION.get(url_pagina, headers=HEADERS, timeout=30)
             if r.status_code == 404:
                 break
             r.raise_for_status()
@@ -3634,7 +3652,7 @@ def obtener_urls_menorcasa(max_paginas=30):
 def scrape_menorcasa_detalle(url, referencia=None):
     """Scraper específico para un detalle de propiedad en Menorcasa"""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
         for selector in ["header", "footer", "section.rh_property__similar_properties"]:
@@ -3763,7 +3781,7 @@ def obtener_urls_saimmobiliaria():
     """Obtener todas las URLs de propiedades de SA Inmobiliaria desde el sitemap"""
     sitemap_url = "https://www.saimmobiliaria.com/sitemap-es-es.xml"
     try:
-        r = requests.get(sitemap_url, headers=HEADERS, timeout=30)
+        r = SESSION.get(sitemap_url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         root = ET.fromstring(r.content)
 
@@ -3790,7 +3808,7 @@ def obtener_urls_saimmobiliaria():
 def scrape_saimmobiliaria_detalle(url, referencia=None):
     """Scraper específico para una propiedad de saimmobiliaria.com usando JSON-LD"""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
 
@@ -3958,7 +3976,7 @@ def obtener_urls_3villas():
     """Obtener todas las URLs de propiedades de 3Villas desde el sitemap (solo /inmueble/)."""
     sitemap_url = "https://www.3villas.es/sitemap-es-es.xml"
     try:
-        r = requests.get(sitemap_url, headers=HEADERS, timeout=30)
+        r = SESSION.get(sitemap_url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         root = ET.fromstring(r.content)
 
@@ -3989,7 +4007,7 @@ def obtener_urls_3villas():
 def scrape_3villas_detalle(url, referencia=None):
     """Scraper específico para una propiedad de 3villas.es usando JSON-LD (misma plataforma que SA Inmobiliaria)."""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
 
@@ -4136,7 +4154,7 @@ def scrape_3villas_detalle(url, referencia=None):
 def scrape_finquesfuguet_listado():
     url_listado = "https://www.finquesinmofuguet.com/propiedades-venta.php"
     try:
-        r = requests.get(url_listado, headers=HEADERS, timeout=30)
+        r = SESSION.get(url_listado, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, 'html.parser')
 
@@ -4300,7 +4318,7 @@ def obtener_urls_fincasmenorquinas(max_paginas=20):
     urls, vistos = [], set()
     for page in range(max_paginas):
         try:
-            r = requests.get(FINCASMENORQUINAS_BUSCADOR, params={"opcion": "venta", "page": page},
+            r = SESSION.get(FINCASMENORQUINAS_BUSCADOR, params={"opcion": "venta", "page": page},
                              headers=HEADERS, timeout=30)
             r.raise_for_status()
         except Exception as e:
@@ -4331,7 +4349,7 @@ def obtener_urls_fincasmenorquinas(max_paginas=20):
 def scrape_fincasmenorquinas_detalle(url, referencia=None):
     """Ficha de fincasmenorquinas.com/inmueble/... (plugin inmocms)."""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "lxml")
 
@@ -4447,7 +4465,7 @@ def _lucasfox_get(url, **kwargs):
     if espera > 0:
         time.sleep(espera)
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30, **kwargs)
+        r = SESSION.get(url, headers=HEADERS, timeout=30, **kwargs)
     finally:
         _lucasfox_ultima_peticion[0] = time.time()
     r.raise_for_status()
@@ -4625,7 +4643,7 @@ def _fincascala_taxonomia(tax):
         return _fincascala_tax_cache[tax]
     mapa = {}
     try:
-        r = requests.get(f"{FINCASCALA_API}/{tax}", params={"per_page": 100, "_fields": "id,name"},
+        r = SESSION.get(f"{FINCASCALA_API}/{tax}", params={"per_page": 100, "_fields": "id,name"},
                          headers=HEADERS, timeout=30)
         r.raise_for_status()
         for t in r.json():
@@ -4656,7 +4674,7 @@ def obtener_urls_fincascala():
         estados = _fincascala_taxonomia("property_status")
         pagina, total_paginas = 1, 1
         while pagina <= total_paginas:
-            r = requests.get(f"{FINCASCALA_API}/properties",
+            r = SESSION.get(f"{FINCASCALA_API}/properties",
                              params={"per_page": 100, "page": pagina,
                                      "_fields": "id,slug,link,property_status,property_meta"},
                              headers=HEADERS, timeout=30)
@@ -4680,7 +4698,7 @@ def obtener_urls_fincascala():
         print(f"Fincas Cala: REST falló ({e}), usando sitemap")
         urls = []
         try:
-            r = requests.get(f"{FINCASCALA_BASE}/property-sitemap.xml", headers=HEADERS, timeout=30)
+            r = SESSION.get(f"{FINCASCALA_BASE}/property-sitemap.xml", headers=HEADERS, timeout=30)
             r.raise_for_status()
             for loc in re.findall(r"<loc>([^<]+)</loc>", r.text):
                 loc = loc.strip()
@@ -4708,7 +4726,7 @@ def _fincascala_ubicacion(post_id):
     if not post_id:
         return None
     try:
-        r = requests.get(f"{FINCASCALA_API}/properties/{post_id}",
+        r = SESSION.get(f"{FINCASCALA_API}/properties/{post_id}",
                          params={"_fields": "property_city,property_area"}, headers=HEADERS, timeout=30)
         r.raise_for_status()
         d = r.json()
@@ -4733,7 +4751,7 @@ def _fincascala_ubicacion(post_id):
 def scrape_fincascala_detalle(url, referencia=None):
     """Scraper de una ficha de Fincas Cala (Houzez)."""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
 
@@ -4927,7 +4945,7 @@ def _finques2030_permitido(url):
     if not _finques2030_robots_cargado[0]:
         _finques2030_robots_cargado[0] = True
         try:
-            r = requests.get(FINQUES2030_BASE + "/robots.txt", headers=HEADERS, timeout=20)
+            r = SESSION.get(FINQUES2030_BASE + "/robots.txt", headers=HEADERS, timeout=20)
             grupo, en_grupo_star = [], False
             for linea in r.text.splitlines():
                 linea = linea.split('#')[0].strip()
@@ -4953,7 +4971,7 @@ def _finques2030_get(url):
     if not _finques2030_permitido(url):
         print(f"  Finques 2030: robots.txt no permite {url}")
         return None
-    r = requests.get(url, headers=HEADERS, timeout=30)
+    r = SESSION.get(url, headers=HEADERS, timeout=30)
     r.raise_for_status()
     return r
 

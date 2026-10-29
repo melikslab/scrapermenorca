@@ -38,6 +38,7 @@ jobs:
         run: python scraper_historico.py
         env:
           DATA_DIR: public
+          PYTHONUNBUFFERED: "1"   # log en tiempo real (horas correctas en cada línea)
 
       - name: Commit JSONs incrementales
         run: |
