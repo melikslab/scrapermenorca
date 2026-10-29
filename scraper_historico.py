@@ -26,9 +26,19 @@ E_COMPLETO = False  # False = incremental (novedades), True = completo (verifica
 DATA_DIR = os.getenv('DATA_DIR', '.')
 os.makedirs(DATA_DIR, exist_ok=True)
 
+# Feed para WP All Import: SOLO propiedades disponibles (sin vendidas, reservadas ni eliminadas)
 ARCHIVO_PROPIEDADES = os.getenv('ARCHIVO_PROPIEDADES', os.path.join(DATA_DIR, 'propiedades_menorca_estandarizado.json'))
+# Histórico completo (incluye vendidas/reservadas/eliminadas). Es el estado del scraper entre ejecuciones.
+ARCHIVO_HISTORICO   = os.getenv('ARCHIVO_HISTORICO',   os.path.join(DATA_DIR, 'propiedades_menorca_historico.json'))
 ARCHIVO_REGISTRO    = os.getenv('ARCHIVO_REGISTRO',    os.path.join(DATA_DIR, 'registro_scraping.json'))
 ARCHIVO_TEMP        = os.getenv('ARCHIVO_TEMP',        os.path.join(DATA_DIR, 'propiedades_temp.json'))
+
+# En modo incremental, cada ficha ya conocida se vuelve a visitar como mucho cada N días
+# para detectar si ha pasado a reservada/vendida o ha cambiado de precio.
+DIAS_REVERIFICACION = int(os.getenv('DIAS_REVERIFICACION', '3'))
+
+# Palabras que indican que la propiedad ya no está disponible (es, ca, en)
+PATRON_NO_DISPONIBLE = re.compile(r'\b(VENDID[OA]S?|RESERVAD[OA]S?|VENUD[AE]S?|VENUTS?|RESERVAT(?:S|DA|DES)?|SOLD|RESERVED|UNDER OFFER)\b', re.IGNORECASE)
 
 
 # Diccionario global para almacenar estados desde el listado
@@ -115,7 +125,7 @@ def estandarizar_ubicacion(ubicacion_raw):
         'mahón': 'Maó',
         'mao': 'Maó',
         'camí de maó': 'Ciutadella',
-        'Maó/Mahón': 'Maó',
+        'maó/mahón': 'Maó',
         'llumesanes': 'Maó; Llumesanes',
         'san clemente': 'Maó; Sant Climent',
         'san antonio': 'Maó; Port',
@@ -135,6 +145,8 @@ def estandarizar_ubicacion(ubicacion_raw):
         'coves noves': 'Es Mercadal; Coves noves',
         'arenal': 'Es Mercadal; Arenal',
         'arenal d’en castell': 'Es Mercadal; Arenal',
+        'arenal d\'en castell': 'Es Mercadal; Arenal',
+        'punta prima': 'Sant Lluís; Punta Prima',
         'biniancolla': 'Maó; Biniancolla',
         'binisafua': 'Sant Lluís',
         'suestra': 'Sant Lluís',
@@ -150,7 +162,25 @@ def estandarizar_ubicacion(ubicacion_raw):
         'los delfines': 'Ciutadella; Cala\'n Blanes',
         'dalt es penyals': 'Ciutadella',
         'sa caleta': 'Ciutadella; Sa caleta',
-        'cala\'n bosch': 'Ciutadella; Cap d\'Artrutx'
+        'cala\'n bosch': 'Ciutadella; Cap d\'Artrutx',
+        'cap d\'artrutx': 'Ciutadella; Cap d\'Artrutx',
+        'cap d\'artruix': 'Ciutadella; Cap d\'Artrutx',
+        'cala blanca': 'Ciutadella; Cala Blanca',
+        'cala blanca con licencia turística': 'Ciutadella; Cala Blanca',
+        'son bou': 'Alaior; Son Bou',
+        'cala\'n porter': 'Alaior; Cala en Porter',
+        'cala en porter': 'Alaior; Cala en Porter',
+        'binisafuller': 'Sant Lluís; Binisafuller',
+        'binisafua roters': 'Sant Lluís; Binisafua',
+        'binisafua rotters': 'Sant Lluís; Binisafua',
+        'fornells': 'Es Mercadal; Fornells',
+        'sant lluís': 'Sant Lluís',
+        'sant lluis': 'Sant Lluís',
+        'es castell': 'Es Castell',
+        'villacarlos': 'Es Castell',
+        'es migjorn gran': 'Es Migjorn Gran',
+        'es migjorn': 'Es Migjorn Gran',
+        'sant climent': 'Maó; Sant Climent',
     }
     
     terminos_eliminar = {
@@ -186,6 +216,18 @@ def estandarizar_ubicacion(ubicacion_raw):
             resultado.append(item)
     
     return '; '.join(resultado) if len(resultado) > 1 else resultado[0] if resultado else None
+
+def texto_indica_no_disponible(texto):
+    """True si el texto (estado, etiqueta, título...) indica vendido o reservado"""
+    return bool(texto and PATRON_NO_DISPONIBLE.search(str(texto)))
+
+def esta_disponible(prop):
+    """Una propiedad va al feed de WordPress solo si no está vendida, reservada ni eliminada"""
+    if prop.get('vendido'):
+        return False
+    if prop.get('estado') == 'ELIMINADO_WEB':
+        return False
+    return not (texto_indica_no_disponible(prop.get('estado')) or texto_indica_no_disponible(prop.get('titulo')))
 
 def limpiar_texto(txt):
     if not txt:
@@ -275,6 +317,27 @@ class RegistroScraping:
     def obtener_urls_conocidas(self) -> Set[str]:
         """Retorna el conjunto de URLs ya conocidas"""
         return set(self.registro['urls_escaneadas'].keys())
+
+    def urls_para_reverificar(self, urls: List[str]) -> List[str]:
+        """
+        De las URLs dadas, devuelve las que toca volver a visitar en esta ejecución.
+        Se reparten en DIAS_REVERIFICACION ejecuciones (las más antiguas primero), para que
+        cada ficha se compruebe cada ~N días sin disparar el tiempo de ejecución.
+        """
+        if not urls or DIAS_REVERIFICACION <= 0:
+            return []
+        limite = datetime.now() - timedelta(days=DIAS_REVERIFICACION)
+        escaneadas = self.registro['urls_escaneadas']
+
+        def fecha(url):
+            try:
+                return datetime.fromisoformat(escaneadas[url]['fecha_ultimo_escaneo'])
+            except (KeyError, TypeError, ValueError):
+                return datetime.min
+
+        caducadas = sorted((u for u in urls if fecha(u) < limite), key=fecha)
+        cupo = -(-len(urls) // DIAS_REVERIFICACION)  # división redondeando hacia arriba
+        return caducadas[:cupo]
     
     def marcar_ejecucion_completa(self):
         """Marca que se ejecutó un escaneo completo"""
@@ -312,18 +375,20 @@ class RegistroScraping:
 class GestorPropiedades:
     """Maneja la carga, actualización y guardado de propiedades con preservación de fechas"""
     
-    def __init__(self, archivo_propiedades: str, archivo_temp: str):
+    def __init__(self, archivo_propiedades: str, archivo_temp: str, archivo_historico: str):
         self.archivo_propiedades = archivo_propiedades
+        self.archivo_historico = archivo_historico
         self.archivo_temp = archivo_temp
         self.propiedades_actuales = self._cargar_propiedades()
         self.propiedades_procesadas = []
         self.propiedades_por_inmobiliaria = {}  # Nuevo: organizar por inmobiliaria
-    
+
     def _cargar_propiedades(self) -> List[Dict]:
-        """Carga propiedades existentes"""
-        if os.path.exists(self.archivo_propiedades):
+        """Carga propiedades existentes desde el histórico (o desde el feed antiguo la primera vez)"""
+        origen = self.archivo_historico if os.path.exists(self.archivo_historico) else self.archivo_propiedades
+        if os.path.exists(origen):
             try:
-                with open(self.archivo_propiedades, 'r', encoding='utf-8') as f:
+                with open(origen, 'r', encoding='utf-8') as f:
                     data = json.load(f)
                     # Si es el formato antiguo (lista), convertir al nuevo formato
                     if isinstance(data, list):
@@ -391,12 +456,9 @@ class GestorPropiedades:
         return False
     
     def _calcular_hash_propiedad(self, propiedad: Dict) -> str:
-        """Calcula hash basado en precio y estado"""
-        precio = propiedad.get('precio')
-        estado = propiedad.get('estado')
-        precio_str = str(precio) if precio is not None else "None"
-        estado_str = str(estado) if estado is not None else "None"
-        contenido = f"{precio_str}|{estado_str}"
+        """Calcula hash de los campos relevantes (precio, estado, disponibilidad y datos básicos)"""
+        campos = ('precio', 'estado', 'vendido', 'titulo', 'ubicacion', 'metros', 'metros_parcela', 'habitaciones', 'banos')
+        contenido = "|".join(str(propiedad.get(c)) for c in campos)
         return hashlib.md5(contenido.encode()).hexdigest()[:8]
     
     def marcar_propiedades_eliminadas(self, urls_eliminadas: Set[str]) -> int:
@@ -414,60 +476,61 @@ class GestorPropiedades:
     
     def finalizar_y_guardar(self, guardar_por_inmobiliaria: bool = False):
         """Finaliza el proceso y guarda el archivo definitivo"""
-        if E_COMPLETO:
-            todas_propiedades = self.propiedades_actuales + self.propiedades_procesadas
-        else:
-            todas_propiedades = self.propiedades_actuales + self.propiedades_procesadas
-        
-        # Eliminar duplicados por URL (mantener la más reciente por fecha_scraping)
+        todas_propiedades = self.propiedades_actuales + self.propiedades_procesadas
+
+        # Eliminar duplicados por URL: los datos más recientes (los últimos de la lista) mandan,
+        # pero se conserva la fecha_scraping más antigua (primera vez que se encontró)
         propiedades_unicas = {}
         for prop in todas_propiedades:
             url = prop['url_detalle']
-            if url not in propiedades_unicas:
+            anterior = propiedades_unicas.get(url)
+            if anterior is None:
                 propiedades_unicas[url] = prop
+                continue
+            nueva = prop.copy()
+            fechas = [f for f in (anterior.get('fecha_scraping'), prop.get('fecha_scraping')) if f]
+            nueva['fecha_scraping'] = min(fechas) if fechas else None
+            if self._calcular_hash_propiedad(anterior) != self._calcular_hash_propiedad(prop):
+                nueva['fecha_ultima_actualizacion'] = datetime.now().isoformat()
             else:
-                # Comparar fechas de scraping para mantener la más antigua (primera vez encontrada)
-                fecha_actual = prop.get('fecha_scraping', '')
-                fecha_existente = propiedades_unicas[url].get('fecha_scraping', '')
-                
-                if fecha_actual < fecha_existente:
-                    # Preservar fecha original pero actualizar el resto
-                    prop_actualizada = prop.copy()
-                    prop_actualizada['fecha_scraping'] = fecha_actual
-                    propiedades_unicas[url] = prop_actualizada
-                elif fecha_actual > fecha_existente:
-                    # Mantener la existente que tiene fecha más antigua
-                    pass
-                else:
-                    # Misma fecha, usar la más reciente por fecha_ultima_actualizacion
-                    if prop.get('fecha_ultima_actualizacion', '') > propiedades_unicas[url].get('fecha_ultima_actualizacion', ''):
-                        propiedades_unicas[url] = prop
-        
+                nueva['fecha_ultima_actualizacion'] = anterior.get('fecha_ultima_actualizacion')
+            propiedades_unicas[url] = nueva
+
         resultado_final = list(propiedades_unicas.values())
-        
+        for prop in resultado_final:
+            # Restos de ubicaciones mal leídas (referencias como "7117" o "089") en datos antiguos
+            if re.fullmatch(r'[\d\s()]+', str(prop.get('ubicacion') or '')):
+                prop['ubicacion'] = None
+        disponibles = [p for p in resultado_final if esta_disponible(p)]
+
         try:
+            # Histórico completo: estado del scraper para la próxima ejecución
+            with open(self.archivo_historico, 'w', encoding='utf-8') as f:
+                json.dump(resultado_final, f, ensure_ascii=False, indent=2)
+
             if guardar_por_inmobiliaria:
                 # Organizar por inmobiliaria
                 propiedades_organizadas = {}
-                for prop in resultado_final:
+                for prop in disponibles:
                     inmobiliaria = prop.get('inmobiliaria', 'Desconocida')
                     if inmobiliaria not in propiedades_organizadas:
                         propiedades_organizadas[inmobiliaria] = []
                     propiedades_organizadas[inmobiliaria].append(prop)
-                
+
                 # Guardar en formato organizado
                 with open(self.archivo_propiedades, 'w', encoding='utf-8') as f:
                     json.dump(propiedades_organizadas, f, ensure_ascii=False, indent=2)
             else:
-                # Guardar en formato plano (lista)
+                # Feed para WordPress: solo disponibles, en formato plano (lista)
                 with open(self.archivo_propiedades, 'w', encoding='utf-8') as f:
-                    json.dump(resultado_final, f, ensure_ascii=False, indent=2)
-            
+                    json.dump(disponibles, f, ensure_ascii=False, indent=2)
+
             # Limpiar archivo temporal
             if os.path.exists(self.archivo_temp):
                 os.remove(self.archivo_temp)
-                
-            return len(resultado_final)
+
+            print(f"🗂️ Histórico: {len(resultado_final)} propiedades | Feed WordPress (disponibles): {len(disponibles)}")
+            return len(disponibles)
         except Exception as e:
             print(f"Error guardando archivo final: {e}")
             return 0
@@ -478,6 +541,10 @@ def crear_propiedad_estandar(**kwargs):
 
     precio = kwargs.get('precio', None)
     alquiler = kwargs.get('alquiler', False)
+
+    # Cualquier estado/título que indique vendido o reservado marca la propiedad como no disponible
+    vendido = bool(kwargs.get('vendido', False)) or texto_indica_no_disponible(kwargs.get('estado')) \
+        or texto_indica_no_disponible(kwargs.get('titulo'))
 
     # 🔽 Nueva validación: si es alquiler y el precio supera 6000€, marcar como False
     if alquiler and (not precio or precio == 0 or precio > 10000):
@@ -499,7 +566,7 @@ def crear_propiedad_estandar(**kwargs):
         "garaje": kwargs.get('garaje', False),
         "ascensor": kwargs.get('ascensor', False),
         "vistas_mar": kwargs.get('vistas_mar', False),
-        "vendido": kwargs.get('vendido', False),
+        "vendido": vendido,
         "alquiler": alquiler,
         "url_detalle": kwargs.get('url_detalle', ''),
         "inmobiliaria": kwargs.get('inmobiliaria', ''),
@@ -509,19 +576,30 @@ def crear_propiedad_estandar(**kwargs):
         "fecha_ultima_actualizacion": kwargs.get('fecha_ultima_actualizacion', None)  # Nueva para tracking
     }
 
+_robots_cache = {}
+
 def is_allowed(url):
-    """Verifica si el scraping está permitido por robots.txt"""
+    """Verifica si el scraping está permitido por robots.txt (se descarga una vez por dominio)"""
     parsed = urlparse(url)
     base = f"{parsed.scheme}://{parsed.netloc}"
-    robots_url = urljoin(base, "/robots.txt")
-    rp = urllib.robotparser.RobotFileParser()
-    try:
-        rp.set_url(robots_url)
-        rp.read()
-        return rp.can_fetch(HEADERS['User-Agent'], url)
-    except:
-        print(f"No se pudo acceder a {robots_url}")
-        return True
+    if base not in _robots_cache:
+        robots_url = urljoin(base, "/robots.txt")
+        rp = urllib.robotparser.RobotFileParser(robots_url)
+        try:
+            # Se descarga con nuestros HEADERS: algunas webs (p.ej. Lucas Fox) dan 403 al User-Agent de urllib
+            r = requests.get(robots_url, headers=HEADERS, timeout=15)
+            if r.status_code in (401, 403):
+                rp.disallow_all = True
+            elif r.status_code >= 400:
+                rp.allow_all = True
+            else:
+                rp.parse(r.text.splitlines())
+        except:
+            print(f"No se pudo acceder a {robots_url}")
+            rp = None
+        _robots_cache[base] = rp
+    rp = _robots_cache[base]
+    return rp.can_fetch(HEADERS['User-Agent'], url) if rp else True
 
 def scraper_eficiente_website(scraper_func, nombre_inmobiliaria: str, 
                              registro: RegistroScraping, 
@@ -562,21 +640,24 @@ def scraper_eficiente_website(scraper_func, nombre_inmobiliaria: str,
     urls_a_procesar = []
     urls_nuevas = 0
     urls_omitidas = 0
-    
+
+    # En incremental, las fichas ya guardadas se re-verifican por turnos (reservadas, vendidas, cambios de precio)
+    urls_reverificar = set() if E_COMPLETO else set(registro.urls_para_reverificar(
+        [url for _, url in urls_disponibles if url in propiedades_existentes]))
+
     # Filtrar URLs según el modo
     for referencia, url in urls_disponibles:
-        if not E_COMPLETO and url in urls_conocidas:
-            # En modo incremental, solo procesar si no conocemos la URL
-            if url not in propiedades_existentes:
-                urls_a_procesar.append((referencia, url))
-                urls_nuevas += 1
-            else:
-                urls_omitidas += 1
-        else:
-            # En modo completo o URL nueva
+        reaparecida = url in propiedades_existentes and (
+            url not in urls_conocidas or propiedades_existentes[url].get('estado') == 'ELIMINADO_WEB')
+        if E_COMPLETO or url not in propiedades_existentes or reaparecida:
+            # Nueva, o reaparecida en la web tras marcarse como eliminada
             urls_a_procesar.append((referencia, url))
-            if url not in urls_conocidas:
+            if url not in propiedades_existentes:
                 urls_nuevas += 1
+        elif url in urls_reverificar:
+            urls_a_procesar.append((referencia, url))
+        else:
+            urls_omitidas += 1
 
     urls_conocidas_inmo = {
         u for u in urls_conocidas
@@ -588,6 +669,7 @@ def scraper_eficiente_website(scraper_func, nombre_inmobiliaria: str,
     print(f"  📊 URLs encontradas: {len(urls_disponibles)}")
     print(f"  📊 URLs conocidas ({nombre_inmobiliaria}): {len(urls_conocidas_inmo)}")
     print(f"  📊 URLs nuevas: {urls_nuevas}")
+    print(f"  📊 URLs a re-verificar: {len(urls_reverificar)}")
     print(f"  📊 URLs a procesar: {len(urls_a_procesar)}")
     print(f"  📊 URLs omitidas (sin cambios): {urls_omitidas}")
     
@@ -614,8 +696,8 @@ def scraper_eficiente_website(scraper_func, nombre_inmobiliaria: str,
             # Scraper específico
             data = scraper_func(url, referencia)
             if data:
-                if E_COMPLETO and url in propiedades_existentes:
-                    # Modo completo: verificar cambios preservando fecha original
+                if url in propiedades_existentes:
+                    # Ya existía (modo completo o re-verificación): verificar cambios preservando fecha original
                     prop_existente = propiedades_existentes[url]
                     data['fecha_scraping'] = prop_existente.get('fecha_scraping', data['fecha_scraping'])
                     
@@ -1977,7 +2059,7 @@ def obtener_urls_fincasarmengol():
         url_tags = root.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}url")
         for url_tag in url_tags:
             loc = url_tag.find("{http://www.sitemaps.org/schemas/sitemap/0.9}loc")
-            if loc is not None and "/propiedad/" in loc.text:
+            if loc is not None and re.search(r'/propiedad/[^/]+/?$', loc.text.strip()):
                 url = loc.text.strip()
                 match = re.search(r'/propiedad/([^/]+)', url)
                 referencia = match.group(1)[:10] if match else url.split("/")[-1]
@@ -1999,58 +2081,96 @@ def scrape_fincasarmengol_detalle(url, referencia):
             tag.decompose()
 
         # ===========================
+        # ATRIBUTOS ("<b>Etiqueta:</b> valor<br>")
+        # ===========================
+        atributos = {}
+        bloque = soup.select_one("div.property_attributes")
+        if bloque:
+            for b in bloque.find_all("b"):
+                etiqueta = b.get_text(strip=True).rstrip(':').strip().lower()
+                valor = []
+                for sib in b.next_siblings:
+                    if getattr(sib, 'name', None) in ('b', 'br', 'div'):
+                        break
+                    valor.append(sib.get_text() if hasattr(sib, 'get_text') else str(sib))
+                atributos[etiqueta] = re.sub(r'\s+', ' ', ''.join(valor)).strip()
+
+        def num_atributo(*claves):
+            for clave in claves:
+                m = re.search(r'\d[\d.]*', atributos.get(clave, ''))
+                if m:
+                    return int(m.group().replace('.', ''))
+            return None
+
+        # ===========================
         # TÍTULO + UBICACIÓN
         # ===========================
+        # Formatos: "C-8108 Casa – Ciutadella", "Casa de Campo en  Alaior  M-7117",
+        #           "C-058 (1) Restaurante - Cap d'Artruix", "Solar/Terreno en Mahón    M-9159"
+        patron_ref = r'\b[A-Z]{1,2}\s?-\s?\d+(?:\s*\(\d+\))?'
         titulo, ubicacion = None, None
         titulo_elem = soup.select_one("h2")
-        if titulo_elem:
-            raw = titulo_elem.get_text(strip=True)
-            raw = re.sub(r'^[A-Z]-\d+(\s*\(\d+\))?\s*', '', raw)  # quitar ref inicial
-            raw = re.sub(r'[–—-]', '-', raw).strip()
-            m = re.search(r'\ben\s+([A-ZÁÉÍÓÚÜÑ][\w\s´’`]+)$', raw, re.IGNORECASE)
-            if m:
-                ubicacion = m.group(1).strip()
-                titulo = raw
+        raw = titulo_elem.get_text(" ", strip=True) if titulo_elem else ''
+        ref_titulo = re.search(patron_ref, raw)
+        raw = re.sub(patron_ref, ' ', raw)
+        raw = re.sub(r'\s*[–—]\s*', ' - ', raw)
+        raw = re.sub(r'\s+', ' ', raw).strip(' -')
+        raw = re.sub(r'^[A-Z]\s+|\s+-?[A-Z]$', '', raw)  # letras sueltas de variantes ("-A", "B Piso...")
+        if raw:
+            partes = [p.strip() for p in raw.split(' - ') if p.strip()]
+            m = re.search(r'\ben\s+([^\-]+)$', raw, re.IGNORECASE)
+            if len(partes) > 1:
+                ubicacion, titulo = partes[-1], " - ".join(partes[:-1])
+            elif m:
+                ubicacion, titulo = m.group(1).strip(), raw
             else:
-                partes = [p.strip() for p in raw.split('-') if p.strip()]
-                if len(partes) > 1:
-                    ubicacion, titulo = partes[-1], " - ".join(partes[:-1])
-                else:
-                    titulo = raw
+                titulo = raw
+
+        # El campo "Ubicación" de la ficha, si algún día viene relleno, tiene prioridad
+        if atributos.get('ubicación'):
+            ubicacion = atributos['ubicación']
+
+        # Sin ubicación: la letra de la referencia indica la oficina (C = Ciutadella, M = Maó)
+        ref_texto = atributos.get('referencia') or (ref_titulo.group() if ref_titulo else '')
+        if not ubicacion and ref_texto:
+            ubicacion = {'C': 'Ciutadella', 'M': 'Maó'}.get(ref_texto.strip()[:1].upper())
+        if ubicacion:
+            ubicacion = ubicacion.replace('’', "'").replace('´', "'")
+            ubicacion = re.sub(r'\(.*?\)|:.*$', '', ubicacion)  # "Mahón (Obra Nueva)", "Cala Blanca: Piscina..."
+            ubicacion = re.sub(r',?\s*Menorca$', '', ubicacion, flags=re.IGNORECASE).strip(' ,-')
         ubicacion = estandarizar_ubicacion(ubicacion)
 
         # ===========================
-        # PRECIO
+        # PRECIO + ESTADO
         # ===========================
+        precio_txt = atributos.get('precio', '')
         precio = None
-        match = re.search(r'(\d{1,3}(?:[.,]\d{3})*)\s*€', soup.get_text())
-        if match:
-            precio = int(match.group(1).replace('.','').replace(',',''))
+        m = re.search(r'(\d{1,3}(?:[.,]\d{3})+|\d+)\s*€', precio_txt)
+        if m:
+            precio = int(re.sub(r'[.,]', '', m.group(1)))
+
+        estado = None
+        vendido = False
+        for texto_estado in (precio_txt, titulo_elem.get_text(" ", strip=True) if titulo_elem else ''):
+            m = PATRON_NO_DISPONIBLE.search(texto_estado or '')
+            if m:
+                estado = 'RESERVADO' if m.group(1).upper().startswith('RESERV') else 'VENDIDO'
+                vendido = True
+                break
 
         # ===========================
         # CARACTERÍSTICAS
         # ===========================
-        habitaciones = banos = metros = metros_parcela = None
-        texto = soup.get_text()
-        m = re.search(r'(\d+)\s*(?:habitacion|dormitorio)', texto, re.IGNORECASE)
-        if m: habitaciones = int(m.group(1))
-        m = re.search(r'(\d+)\s*baño', texto, re.IGNORECASE)
-        if m: banos = int(m.group(1))
-        m = re.search(r'(\d+)\s*m[2²]?\s*construid', texto, re.IGNORECASE)
-        if m: metros = int(m.group(1))
-
-        # ===========================
-        # ESTADO
-        # ===========================
-        estado = None
-        vendido = 'VENDIDO' in texto.upper()
-        if vendido:
-            estado = "VENDIDO"
+        habitaciones = num_atributo('habitaciones', 'dormitorios')
+        banos = num_atributo('baños', 'banos')
+        metros = num_atributo('área construida', 'superficie construida')
+        metros_parcela = num_atributo('área de la parcela', 'parcela')
 
         # ===========================
         # FLAGS
         # ===========================
-        flags = detectar_flags(texto.upper())
+        descripcion = bloque.find('p').get_text(" ", strip=True) if bloque and bloque.find('p') else ''
+        flags = detectar_flags(f"{titulo or ''} {descripcion} {atributos.get('otros', '')}".upper())
         piscina, garaje, ascensor, vistas_mar, alquiler = (
             flags['piscina'], flags['garaje'], flags['ascensor'], flags['vistas_mar'], flags['alquiler']
         )
@@ -2061,19 +2181,21 @@ def scrape_fincasarmengol_detalle(url, referencia):
         galeria = []
         vistos = set()
         for img in soup.select('img'):
-            if img.has_attr('src'):
-                src = img['src']
-                if not any(x in src.lower() for x in ['logo','icon','banner','/flags/']):
-                    abs_url = urljoin(url, src)
-                    if abs_url not in vistos:
-                        galeria.append(abs_url)
-                        vistos.add(abs_url)
+            src = img.get('data-src') or img.get('src') or ''
+            if 'wp-content/uploads' not in src or 'q_lqip' in src:
+                continue
+            if any(x in src.lower() for x in ['logo','icon','banner','/flags/']):
+                continue
+            abs_url = urljoin(url, src)
+            if abs_url not in vistos:
+                galeria.append(abs_url)
+                vistos.add(abs_url)
         imagen_destacada = galeria[0] if galeria else ''
 
         # ===========================
         # CREAR PROPIEDAD
         # ===========================
-        tipo = detectar_tipo(titulo)
+        tipo = detectar_tipo(f"{titulo or ''} {atributos.get('tipo de propiedad', '')}")
         return crear_propiedad_estandar(
             referencia=referencia,
             titulo=titulo,
@@ -3481,27 +3603,32 @@ def scrape_vidalmenorca_detalle(url, referencia=None):
         print(f"Error scrapeando Vidal Menorca {url}: {e}")
         return None
 
-def obtener_urls_menorcasa():
-    """Obtener todas las URLs de propiedades de Menorcasa desde el sitemap"""
-    sitemap_url = "https://menorcasa.com/property-sitemap.xml"
-    try:
-        r = requests.get(sitemap_url, headers=HEADERS, timeout=30)
-        r.raise_for_status()
-        root = ET.fromstring(r.content)
-
-        urls_propiedades = []
-        url_elements = root.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}url")
-        for url_element in url_elements:
-            loc_element = url_element.find("{http://www.sitemaps.org/schemas/sitemap/0.9}loc")
-            if loc_element is not None:
-                url = loc_element.text
-                if "/es/property/" in url:
-                    urls_propiedades.append((None, url))  # referencia se extrae en el detalle
-
-        return list(set(urls_propiedades))
-    except Exception as e:
-        print(f"Error obteniendo URLs de Menorcasa: {e}")
-        return []
+def obtener_urls_menorcasa(max_paginas=30):
+    """Obtener las URLs de propiedades en venta de Menorcasa desde su buscador (paginado)"""
+    base = "https://menorcasa.com/es/buscador-de-propiedades/"
+    urls_propiedades, vistos = [], set()
+    for pagina in range(1, max_paginas + 1):
+        url_pagina = base if pagina == 1 else f"{base}page/{pagina}/"
+        try:
+            r = requests.get(url_pagina, headers=HEADERS, timeout=30)
+            if r.status_code == 404:
+                break
+            r.raise_for_status()
+        except Exception as e:
+            print(f"Error obteniendo URLs de Menorcasa (página {pagina}): {e}")
+            break
+        soup = BeautifulSoup(r.text, "html.parser")
+        nuevas = 0
+        for a in soup.select("a[href*='/es/property/']"):
+            url = a["href"].split("#")[0].split("?")[0]
+            if url not in vistos:
+                vistos.add(url)
+                urls_propiedades.append((None, url))  # referencia se extrae en el detalle
+                nuevas += 1
+        if nuevas == 0:
+            break
+        time.sleep(1)
+    return urls_propiedades
 
 
 def scrape_menorcasa_detalle(url, referencia=None):
@@ -3540,9 +3667,13 @@ def scrape_menorcasa_detalle(url, referencia=None):
         estado = None
         vendido = False
 
-        labels = [lbl.get_text(strip=True).upper() for lbl in soup.select(".rh_label__wrap")]
+        # Solo las etiquetas de la propia ficha (junto a la referencia), no las de propiedades similares
+        labels = [lbl.get_text(strip=True).upper() for lbl in soup.select(".rh_property__id .rh_label__wrap")]
 
-        if any("VENDIDA" in l or "RESERVADO" in l for l in labels):
+        if any("RESERVAD" in l for l in labels):
+            estado = "RESERVADO"
+            vendido = True
+        elif any("VENDID" in l for l in labels):
             estado = "VENDIDO"
             vendido = True
         elif any("EXCLUSIVA" in l for l in labels):
@@ -3588,9 +3719,8 @@ def scrape_menorcasa_detalle(url, referencia=None):
 
         imagen_destacada = imagenes[0] if imagenes else ""
 
-         # Flags
-        texto_completo = soup.get_text()
-        flags = detectar_flags(texto_completo.upper())
+         # Flags (título + descripción, sin las tarjetas de propiedades similares)
+        flags = detectar_flags(f"{titulo or ''} {descripcion or ''}".upper())
         piscina, garaje, ascensor, vistas_mar, alquiler = (
             flags["piscina"],
             flags["garaje"],
@@ -4131,6 +4261,955 @@ def scrape_finquesfuguet_listado():
         return []
 
 
+def _ubicacion_menorca(raw):
+    """Normaliza variantes que estandarizar_ubicacion no cubre ('Maó/Mahón', 'Ciudadela de Menorca'...)."""
+    if not raw:
+        return None
+    t = raw.strip()
+    low = t.lower()
+    if 'mahón' in low or 'mahon' in low or low.startswith('maó') or low == 'mao':
+        t = 'Maó'
+    elif 'ciudadela' in low or 'ciutadella' in low:
+        t = 'Ciutadella'
+    elif low in ('mercadal', 'es mercadal'):
+        t = 'Es Mercadal'
+    elif low in ('migjorn gran', 'es migjorn gran'):
+        t = 'Es Migjorn Gran'
+    return estandarizar_ubicacion(t)
+
+
+def _estado_desde_texto(txt):
+    """Devuelve ('VENDIDO'|'RESERVADO'|'', vendido) a partir del texto/clase de un badge concreto."""
+    t = (txt or '').upper()
+    if 'VENDID' in t or 'SOLD' in t:
+        return 'VENDIDO', True
+    if 'RESERVAD' in t or 'RESERVED' in t:
+        return 'RESERVADO', True
+    return '', False
+
+
+# ===== FINCAS MENORQUINAS (WordPress + inmocms) =====
+
+FINCASMENORQUINAS_BUSCADOR = "https://fincasmenorquinas.com/buscador"
+
+
+def obtener_urls_fincasmenorquinas(max_paginas=20):
+    """URLs de inmuebles en VENTA de Fincas Menorquinas.
+    El buscador acepta ?opcion=venta&page=N; hoy devuelve todo en una página (si page se ignora,
+    se repiten las mismas fichas y el bucle se corta)."""
+    urls, vistos = [], set()
+    for page in range(max_paginas):
+        try:
+            r = requests.get(FINCASMENORQUINAS_BUSCADOR, params={"opcion": "venta", "page": page},
+                             headers=HEADERS, timeout=30)
+            r.raise_for_status()
+        except Exception as e:
+            print(f"Error obteniendo listado Fincas Menorquinas (page={page}): {e}")
+            break
+        soup = BeautifulSoup(r.text, "lxml")
+        nuevas = 0
+        for a in soup.select("a.inmueble-horizontal-card[href*='/inmueble/']"):
+            url = urljoin(FINCASMENORQUINAS_BUSCADOR, a["href"].strip())
+            if url in vistos:
+                continue
+            # Solo venta (el filtro ya lo aplica, se comprueba por si acaso)
+            op = a.select_one(".inmueble-horizontal-card-content-top-price-text")
+            if op and 'VENTA' not in op.get_text(strip=True).upper():
+                continue
+            vistos.add(url)
+            m = re.search(r'-(\d+)/?$', url)
+            referencia = f"FM-{m.group(1)}" if m else url.rstrip('/').split('/')[-1][:20]
+            urls.append((referencia, url))
+            nuevas += 1
+        if nuevas == 0:
+            break
+        time.sleep(1)
+    print(f"  Fincas Menorquinas: {len(urls)} URLs")
+    return urls
+
+
+def scrape_fincasmenorquinas_detalle(url, referencia=None):
+    """Ficha de fincasmenorquinas.com/inmueble/... (plugin inmocms)."""
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=30)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "lxml")
+
+        bloque = soup.select_one(".inmocms-inmueble-block") or soup
+
+        # Referencia real de la agencia ("REF.: #E43")
+        ref_el = bloque.select_one(".inmocms-contact-info-reference, .inmocms-agente-reference")
+        if ref_el:
+            m = re.search(r'#\s*([\w-]+)', ref_el.get_text(" ", strip=True))
+            if m:
+                referencia = m.group(1)
+
+        titulo_el = bloque.select_one(".inmueble-title")
+        titulo = re.sub(r'\s+', ' ', titulo_el.get_text("")).strip() if titulo_el else None
+
+        loc_el = bloque.select_one(".inmueble-location")
+        ubicacion = _ubicacion_menorca(loc_el.get_text(" ", strip=True) if loc_el else None)
+
+        precio_el = bloque.select_one(".inmocms-price")
+        precio = _pm_clean_int(precio_el.get_text(" ", strip=True)) if precio_el else None
+
+        # Características: Habitaciones / Baños / Área / Parcela...
+        habitaciones = banos = metros = metros_parcela = None
+        for item in bloque.select(".inmocms-caracteristicas-item"):
+            t = item.select_one(".inmocms-caracteristicas-item-title")
+            v = item.select_one(".inmocms-caracteristicas-item-data-value")
+            if not t or not v:
+                continue
+            clave = t.get_text(strip=True).lower()
+            m = re.search(r'\d[\d.]*', v.get_text("", strip=True))
+            valor = int(m.group(0).replace('.', '')) if m else None
+            if valor is None:
+                continue
+            if clave.startswith('habita') or clave.startswith('dormit'):
+                habitaciones = valor
+            elif clave.startswith('baño'):
+                banos = valor
+            elif clave in ('área', 'area', 'superficie', 'construidos', 'superficie construida'):
+                metros = valor
+            elif 'parcela' in clave or 'terreno' in clave or 'solar' in clave:
+                metros_parcela = valor
+
+        # Estado: badge sobre la foto principal (<div class="inmueble-estado-general big reservado banner">)
+        estado, vendido = '', False
+        badge = bloque.select_one(".inmocms-poster .inmueble-estado-general")
+        if badge:
+            estado, vendido = _estado_desde_texto(" ".join(badge.get("class", [])) + " " + badge.get_text(" ", strip=True))
+
+        # Descripción + lista de características (para flags). Se excluye la rejilla de iconos
+        # (.inmocms-caracteristicas), que siempre muestra "Piscina" aunque no tenga.
+        descripcion = ""
+        cont = bloque.select_one(".inmueble-contenido")
+        if cont:
+            cont = BeautifulSoup(str(cont), "lxml")
+            for basura in cont.select(".inmueble-datos, .inmocms-caracteristicas, .inmocms-certificado, "
+                                      ".inmocms-inmueble-mapa, style, script"):
+                basura.decompose()
+            descripcion = cont.get_text(" ", strip=True)
+        flags = detectar_flags(f"{titulo or ''} {descripcion}")
+
+        # Galería: array JS fotos_list.push('...') con las fotos a tamaño completo
+        galeria = []
+        for src in re.findall(r"fotos_list\.push\('([^']+)'\)", r.text):
+            if src not in galeria and 'thumbnail_' not in src:
+                galeria.append(src)
+        if not galeria:
+            poster = bloque.select_one(".inmocms-poster")
+            m = re.search(r"url\('([^']+)'\)", poster.get("style", "")) if poster else None
+            if m:
+                galeria.append(m.group(1))
+        imagen_destacada = galeria[0] if galeria else ''
+
+        tipo = detectar_tipo(titulo)
+
+        return crear_propiedad_estandar(
+            referencia=referencia,
+            titulo=titulo,
+            ubicacion=ubicacion,
+            precio=precio,
+            metros=metros,
+            metros_parcela=metros_parcela,
+            habitaciones=habitaciones,
+            banos=banos,
+            tipo=tipo,
+            estado=estado,
+            piscina=flags['piscina'],
+            garaje=flags['garaje'],
+            ascensor=flags['ascensor'],
+            vistas_mar=flags['vistas_mar'],
+            vendido=vendido,
+            alquiler=False,
+            url_detalle=url,
+            inmobiliaria='Fincas Menorquinas',
+            imagen_destacada=imagen_destacada,
+            galeria=galeria,
+        )
+    except Exception as e:
+        print(f"Error scrapeando Fincas Menorquinas {url}: {e}")
+        return None
+
+
+# ===== LUCAS FOX (Menorca, venta, <= 400.000 €) =====
+
+LUCASFOX_LISTADO = "https://www.lucasfox.es/buscar.html"
+LUCASFOX_PARAMS = {"classid": "res_sale", "locationid": "5B78C6C2EC", "priceto": "400000", "pagesize": "24"}
+LUCASFOX_CRAWL_DELAY = 10  # robots.txt: "Crawl-delay: 10"
+_lucasfox_ultima_peticion = [0.0]
+
+
+def _lucasfox_get(url, **kwargs):
+    """GET respetando el Crawl-delay de 10 s de robots.txt de lucasfox.es."""
+    espera = LUCASFOX_CRAWL_DELAY - (time.time() - _lucasfox_ultima_peticion[0])
+    if espera > 0:
+        time.sleep(espera)
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=30, **kwargs)
+    finally:
+        _lucasfox_ultima_peticion[0] = time.time()
+    r.raise_for_status()
+    return r
+
+
+def obtener_urls_lucasfox(max_paginas=30):
+    """URLs de Lucas Fox: venta en Menorca con precio <= 400.000 €, recorriendo la paginación."""
+    urls, vistos = [], set()
+    total_paginas = 1
+    page = 1
+    while page <= min(total_paginas, max_paginas):
+        try:
+            r = _lucasfox_get(LUCASFOX_LISTADO, params={**LUCASFOX_PARAMS, "page": page})
+        except Exception as e:
+            print(f"Error obteniendo listado Lucas Fox (page={page}): {e}")
+            break
+        soup = BeautifulSoup(r.text, "lxml")
+
+        # "Página <strong>1</strong> de 3"
+        status = soup.select_one(".listing-pagination__status")
+        if status:
+            m = re.search(r'de\s+(\d+)', status.get_text(" ", strip=True))
+            if m:
+                total_paginas = int(m.group(1))
+
+        nuevas = 0
+        for outer in soup.select("ul.property-card-grid .property-card-outer"):
+            a = outer.select_one("a.property-card[href]")
+            if not a:
+                continue
+            url = urljoin(LUCASFOX_LISTADO, a["href"].strip())
+            if url in vistos:
+                continue
+            vistos.add(url)
+            referencia = (outer.get("data-reference") or url.rstrip('/').split('/')[-1].replace('.html', '')).upper()
+            urls.append((referencia, url))
+            nuevas += 1
+        if nuevas == 0:
+            break
+        page += 1
+    print(f"  Lucas Fox: {len(urls)} URLs ({total_paginas} páginas)")
+    return urls
+
+
+def scrape_lucasfox_detalle(url, referencia=None):
+    """Ficha de lucasfox.es/comprar-vivienda/.../menXXXXX.html"""
+    try:
+        r = _lucasfox_get(url)
+        soup = BeautifulSoup(r.text, "lxml")
+
+        # Quitar bloque de inmuebles similares para que no contamine nada
+        for card in soup.select(".property-card, .property-card-outer, ul.property-card-grid"):
+            card.decompose()
+
+        banner = soup.select_one(".detail-banner__body") or soup
+
+        metas = banner.select_one(".detail-metas")
+        if metas:
+            ref_el = metas.select_one("span.text-uppercase")
+            if ref_el and ref_el.get_text(strip=True):
+                referencia = ref_el.get_text(strip=True).upper()
+        precio_el = metas.select_one("b") if metas else None
+        precio = _pm_clean_int(precio_el.get_text(" ", strip=True)) if precio_el else None
+        tipo_txt = " ".join(s.get_text(" ", strip=True) for s in metas.select("span")) if metas else ""
+
+        h1 = banner.select_one("h1")
+        titulo = h1.get_text(" ", strip=True) if h1 else None
+
+        # Municipio: último enlace del breadcrumb (España > Islas Baleares > Menorca > Es Castell)
+        crumbs = [a.get("title") or a.get_text(strip=True) for a in banner.select("ul.crumb a")]
+        municipio = crumbs[-1] if crumbs and crumbs[-1].lower() != 'menorca' else None
+        ubicacion = _ubicacion_menorca(municipio)
+
+        habitaciones = banos = metros = metros_parcela = None
+        for li in banner.select("ul.key-facts li.key-facts__item"):
+            k = li.select_one(".key-facts__key")
+            v = li.select_one(".key-facts__value")
+            if not k or not v:
+                continue
+            clave = k.get_text(strip=True).lower()
+            m = re.search(r'\d[\d.,]*', v.get_text(strip=True))
+            valor = int(re.sub(r'[.,]', '', m.group(0))) if m else None
+            if valor is None:
+                continue
+            if clave.startswith('dormit') or clave.startswith('habita'):
+                habitaciones = valor
+            elif clave.startswith('baño'):
+                banos = valor
+            elif clave in ('plano', 'superficie', 'construidos', 'tamaño construido'):
+                metros = valor
+            elif 'parcela' in clave:
+                metros_parcela = valor
+
+        # Estado: <div class="detail-banner-sashes"><span class="sash reserved">Reservado</span>
+        estado, vendido = '', False
+        for sash in soup.select(".detail-banner__meta .detail-banner-sashes .sash"):
+            e, v = _estado_desde_texto(" ".join(sash.get("class", [])) + " " + sash.get_text(" ", strip=True))
+            if e == 'VENDIDO' or (e and not estado):
+                estado, vendido = e, v
+
+        descripcion = " ".join(d.get_text(" ", strip=True) for d in soup.select(".detail-body__content"))
+        flags = detectar_flags(f"{titulo or ''} {descripcion}")
+
+        # Galería: enlaces fancybox "images" (4x3_1600w) de la propia ficha
+        galeria = []
+        for a in soup.select('a[data-fancybox="images"][href]'):
+            src = a["href"].strip()
+            if 'images.lucasfox.com/' in src and '/4x3_' in src and src not in galeria:
+                galeria.append(src)
+        if not galeria:
+            img = soup.select_one("img.detail-banner__image")
+            if img and img.get("src"):
+                galeria.append(img["src"])
+        imagen_destacada = galeria[0] if galeria else ''
+
+        tipo = detectar_tipo(titulo) or detectar_tipo(tipo_txt)
+
+        return crear_propiedad_estandar(
+            referencia=referencia,
+            titulo=titulo,
+            ubicacion=ubicacion,
+            precio=precio,
+            metros=metros,
+            metros_parcela=metros_parcela,
+            habitaciones=habitaciones,
+            banos=banos,
+            tipo=tipo,
+            estado=estado,
+            piscina=flags['piscina'],
+            garaje=flags['garaje'],
+            ascensor=flags['ascensor'],
+            vistas_mar=flags['vistas_mar'],
+            vendido=vendido,
+            alquiler=False,
+            url_detalle=url,
+            inmobiliaria='Lucas Fox',
+            imagen_destacada=imagen_destacada,
+            galeria=galeria,
+        )
+    except Exception as e:
+        print(f"Error scrapeando Lucas Fox {url}: {e}")
+        return None
+
+
+# =====================================================================
+# FINCAS CALA (fincascala.com) - WordPress + tema Houzez
+# Para pegar en scraper_historico.py (usa HEADERS, detectar_flags,
+# detectar_tipo, estandarizar_ubicacion, crear_propiedad_estandar,
+# requests, BeautifulSoup, re, time ya importados allí).
+#
+# - Listado: REST /wp-json/wp/v2/properties (expone taxonomías y
+#   property_meta con fave_property_id / fave_property_price).
+#   Fallback: property-sitemap.xml.
+# - Detalle: HTML de la ficha (precio, etiquetas, detalles, galería)
+#   + REST del post (postid) solo para zona/ciudad, que no aparece en el HTML.
+# - Vendido/Reservado: SOLO desde el elemento de precio
+#   (.property-title-price-wrap .item-price / campo "Precio:" de Detalles)
+#   y las etiquetas Houzez de la ficha (.property-labels-wrap).
+# =====================================================================
+
+FINCASCALA_BASE = "https://fincascala.com"
+FINCASCALA_API = FINCASCALA_BASE + "/wp-json/wp/v2"
+
+# Cache de taxonomías {taxonomia: {id: nombre}}
+_fincascala_tax_cache = {}
+
+# Estados Houzez que indican venta (todo lo que no sea solo alquiler)
+_FINCASCALA_ESTADOS_ALQUILER = {"ALQUILER", "ALQUILER TURÍSTICO", "ALQUILER TURISTICO", "FOR RENT"}
+
+
+def _fincascala_taxonomia(tax):
+    """Devuelve {id: nombre} de una taxonomía Houzez (property_status, property_city, property_area...)."""
+    if tax in _fincascala_tax_cache:
+        return _fincascala_tax_cache[tax]
+    mapa = {}
+    try:
+        r = requests.get(f"{FINCASCALA_API}/{tax}", params={"per_page": 100, "_fields": "id,name"},
+                         headers=HEADERS, timeout=30)
+        r.raise_for_status()
+        for t in r.json():
+            mapa[t["id"]] = BeautifulSoup(t.get("name", ""), "html.parser").get_text().strip()
+    except Exception as e:
+        print(f"Fincas Cala: no se pudo leer taxonomía {tax}: {e}")
+    _fincascala_tax_cache[tax] = mapa
+    return mapa
+
+
+def _fincascala_estado_desde_texto(txt):
+    """Normaliza un texto de precio/etiqueta a 'VENDIDO' / 'RESERVADO' / None."""
+    if not txt:
+        return None
+    t = txt.upper()
+    if re.search(r"\bVENDID[OA]S?\b|\bVENUD[AE]S?\b|\bVENUTS?\b|\bSOLD\b", t):
+        return "VENDIDO"
+    if re.search(r"\bRESERVAD[OA]S?\b|\bRESERVAT(?:S|DA|DES)?\b|\bRESERVED\b|\bUNDER OFFER\b", t):
+        return "RESERVADO"
+    return None
+
+
+def obtener_urls_fincascala():
+    """Lista de (referencia, url) de las propiedades en VENTA de Fincas Cala.
+    Excluye las que solo tienen estado de alquiler. Incluye vendidas (se marcan en el detalle)."""
+    urls = []
+    try:
+        estados = _fincascala_taxonomia("property_status")
+        pagina, total_paginas = 1, 1
+        while pagina <= total_paginas:
+            r = requests.get(f"{FINCASCALA_API}/properties",
+                             params={"per_page": 100, "page": pagina,
+                                     "_fields": "id,slug,link,property_status,property_meta"},
+                             headers=HEADERS, timeout=30)
+            r.raise_for_status()
+            total_paginas = int(r.headers.get("X-WP-TotalPages", 1) or 1)
+            for p in r.json():
+                nombres = {estados.get(i, "").upper() for i in p.get("property_status", [])}
+                # Solo alquiler -> fuera. Sin estado o con Compra/Traspaso/etc. -> dentro
+                if nombres and nombres <= _FINCASCALA_ESTADOS_ALQUILER:
+                    continue
+                meta = p.get("property_meta") or {}
+                ref = (meta.get("fave_property_id") or [""])[0]
+                if not ref:
+                    m = re.search(r"ref-(\d+)", p.get("slug", ""))
+                    ref = m.group(1) if m else str(p["id"])
+                urls.append((str(ref).strip(), p["link"]))
+            pagina += 1
+            if pagina <= total_paginas:
+                time.sleep(1)
+    except Exception as e:
+        print(f"Fincas Cala: REST falló ({e}), usando sitemap")
+        urls = []
+        try:
+            r = requests.get(f"{FINCASCALA_BASE}/property-sitemap.xml", headers=HEADERS, timeout=30)
+            r.raise_for_status()
+            for loc in re.findall(r"<loc>([^<]+)</loc>", r.text):
+                loc = loc.strip()
+                if not re.search(r"/propiedades/[^/]+/?$", loc):
+                    continue  # descarta /propiedades/ (archivo)
+                slug = loc.rstrip("/").split("/")[-1]
+                m = re.search(r"ref-(\d+)", slug)
+                urls.append((m.group(1) if m else slug, loc))
+            # Nota: sin REST no se puede filtrar alquiler aquí; se filtra en el detalle (alquiler=True)
+        except Exception as e2:
+            print(f"Error obteniendo URLs de Fincas Cala: {e2}")
+            return []
+    # sin duplicados, manteniendo orden
+    vistos, res = set(), []
+    for ref, u in urls:
+        if u not in vistos:
+            vistos.add(u)
+            res.append((ref, u))
+    return res
+
+
+def _fincascala_ubicacion(post_id):
+    """Zona/ciudad desde la REST (el HTML de la ficha no la muestra)."""
+    ciudad = zona = None
+    if not post_id:
+        return None
+    try:
+        r = requests.get(f"{FINCASCALA_API}/properties/{post_id}",
+                         params={"_fields": "property_city,property_area"}, headers=HEADERS, timeout=30)
+        r.raise_for_status()
+        d = r.json()
+        ciudades = _fincascala_taxonomia("property_city")
+        areas = _fincascala_taxonomia("property_area")
+        if d.get("property_city"):
+            ciudad = ciudades.get(d["property_city"][0])
+        if d.get("property_area"):
+            zona = areas.get(d["property_area"][0])
+    except Exception as e:
+        print(f"Fincas Cala: sin ubicación REST para post {post_id}: {e}")
+    if zona:
+        # "Ciutadella (ciudad)" / "Ferreries (pueblo)" -> solo el municipio
+        zona = re.sub(r"\s*\((ciudad|pueblo)\)\s*$", "", zona, flags=re.I).strip()
+    partes = []
+    for p in (ciudad, zona):
+        if p and p.lower() not in [x.lower() for x in partes]:
+            partes.append(p)
+    return "; ".join(partes) if partes else None
+
+
+def scrape_fincascala_detalle(url, referencia=None):
+    """Scraper de una ficha de Fincas Cala (Houzez)."""
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=30)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        def _num(txt):
+            if not txt:
+                return None
+            m = re.search(r"\d[\d\.]*(?:,\d+)?", txt)
+            if not m:
+                return None
+            try:
+                return int(float(m.group(0).replace(".", "").replace(",", ".")))
+            except ValueError:
+                return None
+
+        # ---------- Detalles (lista "Detalles" de Houzez) ----------
+        detalles = {}
+        for li in soup.select("#property-detail-wrap li, .property-detail-wrap li"):
+            k = li.find("strong")
+            v = li.find("span")
+            if k and v:
+                detalles[k.get_text(" ", strip=True).rstrip(":").strip().lower()] = v.get_text(" ", strip=True)
+
+        def _det(*claves):
+            for c in claves:
+                for k, v in detalles.items():
+                    if k.startswith(c):
+                        return v
+            return None
+
+        # ---------- Título ----------
+        titulo = None
+        tw = soup.select_one(".property-title-price-wrap .page-title h1, .page-title-wrap h1, h1")
+        if tw:
+            titulo = tw.get_text(" ", strip=True)
+            titulo = re.sub(r'[\s,–-]*Ref\.?[\s.:–-]*\d+\s*$', '', titulo, flags=re.IGNORECASE).strip()
+
+        # ---------- Referencia ----------
+        if not referencia:
+            referencia = _det("referencia")
+            if not referencia:
+                m = re.search(r"ref-(\d+)", url)
+                referencia = m.group(1) if m else url.rstrip("/").split("/")[-1]
+
+        # ---------- Precio + estado (SOLO precio y etiquetas de la ficha) ----------
+        precio_txt = None
+        pe = soup.select_one(".property-title-price-wrap .item-price")
+        if pe:
+            precio_txt = pe.get_text(" ", strip=True)
+        if not precio_txt:
+            precio_txt = _det("precio")
+
+        estado = _fincascala_estado_desde_texto(precio_txt)
+        etiquetas = [a.get_text(" ", strip=True)
+                     for a in soup.select(".property-labels-wrap a, .property-labels-wrap span")]
+        if not estado:
+            for et in etiquetas + [_det("estado de la propiedad", "etiqueta") or ""]:
+                estado = _fincascala_estado_desde_texto(et)
+                if estado:
+                    break
+        vendido = estado in ("VENDIDO", "RESERVADO")
+
+        precio = None
+        if precio_txt and not estado and re.search(r"\d", precio_txt):
+            precio = _num(precio_txt)
+
+        # ---------- Características ----------
+        metros = _num(_det("tamaño de la propiedad", "superficie"))
+        metros_parcela = _num(_det("tamaño parcela", "tamaño del terreno", "parcela"))
+        habitaciones = _num(_det("dormitorio", "habitacion"))
+        banos = _num(_det("cuartos de baño", "cuarto de baño", "baño"))
+        tipo_txt = _det("tipo de propiedad")
+
+        # ---------- Descripción / flags ----------
+        desc_el = soup.select_one(".property-description-wrap")
+        descripcion = desc_el.get_text(" ", strip=True) if desc_el else ""
+        flags = detectar_flags(descripcion)
+
+        # alquiler: solo si el estado Houzez de la ficha es exclusivamente alquiler
+        est_houzez = {e.upper() for e in etiquetas if e}
+        alquiler = bool(est_houzez) and est_houzez <= _FINCASCALA_ESTADOS_ALQUILER
+
+        # ---------- Tipo ----------
+        tipo = detectar_tipo(tipo_txt) or detectar_tipo(titulo) or (tipo_txt or None)
+
+        # ---------- Ubicación (REST por postid; por defecto Ciutadella) ----------
+        post_id = None
+        body = soup.find("body")
+        if body:
+            m = re.search(r"postid-(\d+)", " ".join(body.get("class", [])))
+            if m:
+                post_id = m.group(1)
+        if not post_id:
+            sl = soup.find("link", rel="shortlink")
+            m = re.search(r"[?&]p=(\d+)", sl.get("href", "")) if sl else None
+            post_id = m.group(1) if m else None
+        ubic_raw = _fincascala_ubicacion(post_id)
+        # estandarizar_ubicacion puede devolver ya "Municipio; Zona" para una zona
+        # (p.ej. 'cala blanca' -> 'Ciutadella; Cala Blanca'): se estandariza cada
+        # parte por separado y se eliminan duplicados.
+        partes_ubic = []
+        for parte in (ubic_raw or "Ciutadella").split(";"):
+            est = estandarizar_ubicacion(parte.strip()) if parte.strip() else None
+            for sub in (est or "").split(";"):
+                sub = sub.strip()
+                if sub and sub.lower() not in [p.lower() for p in partes_ubic]:
+                    partes_ubic.append(sub)
+        ubicacion = "; ".join(partes_ubic) or "Ciutadella"
+
+        # ---------- Galería (solo la galería superior de la ficha) ----------
+        galeria = []
+        for sel in (".top-gallery-section img", ".lightbox-gallery-wrap img"):
+            for img in soup.select(sel):
+                src = img.get("data-src") or img.get("src") or ""
+                if not src or src.startswith("data:") or "/wp-content/uploads/" not in src:
+                    continue
+                if "logo" in src.lower():
+                    continue
+                src = urljoin(url, src)
+                if src not in galeria:
+                    galeria.append(src)
+            if galeria:
+                break
+        og = soup.find("meta", property="og:image")
+        imagen_destacada = (og.get("content") if og and og.get("content") else "") or (galeria[0] if galeria else "")
+
+        return crear_propiedad_estandar(
+            referencia=referencia,
+            titulo=titulo,
+            ubicacion=ubicacion,
+            precio=precio,
+            metros=metros,
+            metros_parcela=metros_parcela,
+            habitaciones=habitaciones,
+            banos=banos,
+            tipo=tipo,
+            estado=estado,
+            piscina=flags["piscina"],
+            garaje=flags["garaje"],
+            ascensor=flags["ascensor"],
+            vistas_mar=flags["vistas_mar"],
+            vendido=vendido,
+            alquiler=alquiler,
+            url_detalle=url,
+            inmobiliaria="Fincas Cala",
+            imagen_destacada=imagen_destacada,
+            galeria=galeria,
+        )
+    except Exception as e:
+        print(f"Error scrapeando Fincas Cala {url}: {e}")
+        return None
+
+
+# ===== FINQUES 2030 (Ciutadella; plataforma Inmoweb) =====
+#
+# Para pegar en scraper_historico.py (usa HEADERS, detectar_flags, detectar_tipo,
+# estandarizar_ubicacion, crear_propiedad_estandar, _ubicacion_menorca y _pm_clean_int).
+#
+# Notas de la web:
+#  - El castellano es el idioma por defecto en la raíz (/es/... redirige con 301 a /...).
+#  - robots.txt (User-agent: *) prohíbe URLs con query que contengan modo=, od=, dt=, i= o c=.
+#    La paginación del buscador usa &i=12&c=12 -> NO se puede seguir. Por eso se recorren la
+#    página 1 del buscador de venta (?id_tipo_operacion=1, permitida) y las páginas de categoría
+#    de venta (/casas-chalets-en-venta-3-1.html, /pisos-en-venta-24-1.html...), que van por ruta.
+#    Si una categoría tuviera más de una página y su enlace siguiente también fuera de query
+#    prohibida, se completa con las fichas "-esNNN.html" de /sitemap.xml (el detalle descarta
+#    las que no sean "Tipo de operación: Venta").
+#  - Sin Crawl-delay; se espera 1 s entre peticiones igualmente.
+#  - Estado: <span class="etiqueta">Reservado</span> dentro de la tarjeta del listado
+#    (div.venta[data-url]) y dentro de <div id="etiqueta"> en la ficha.
+
+FINQUES2030_BASE = "https://www.finques2030.com"
+FINQUES2030_LISTADO = FINQUES2030_BASE + "/results/?id_tipo_operacion=1"   # 1 = venta
+FINQUES2030_DELAY = 1
+_estados_finques2030 = {}          # url -> 'RESERVADO' | 'VENDIDO' | '' (leído del listado)
+_finques2030_robots = []           # reglas Disallow (regex) del grupo User-agent: *
+_finques2030_robots_cargado = [False]
+
+
+def _finques2030_estado(txt):
+    """('VENDIDO'|'RESERVADO'|'', vendido) a partir del texto/clase de una etiqueta concreta (es/ca/en)."""
+    t = (txt or '').upper()
+    if re.search(r'\b(VENDID[OA]S?|VENUD[AE]S?|VENUTS?|SOLD)\b', t):
+        return 'VENDIDO', True
+    if re.search(r'\b(RESERVAD[OA]S?|RESERVAT(?:S|DA|DES)?|RESERVED|UNDER OFFER)\b', t):
+        return 'RESERVADO', True
+    return '', False
+
+
+def _finques2030_permitido(url):
+    """robots.txt con comodines (* y $), que urllib.robotparser no entiende."""
+    if not _finques2030_robots_cargado[0]:
+        _finques2030_robots_cargado[0] = True
+        try:
+            r = requests.get(FINQUES2030_BASE + "/robots.txt", headers=HEADERS, timeout=20)
+            grupo, en_grupo_star = [], False
+            for linea in r.text.splitlines():
+                linea = linea.split('#')[0].strip()
+                if ':' not in linea:
+                    continue
+                k, v = [x.strip() for x in linea.split(':', 1)]
+                if k.lower() == 'user-agent':
+                    en_grupo_star = (v == '*')
+                elif k.lower() == 'disallow' and en_grupo_star and v:
+                    patron = re.escape(v).replace(r'\*', '.*')
+                    if patron.endswith(r'\$'):
+                        patron = patron[:-2] + '$'
+                    grupo.append(re.compile(patron))
+            _finques2030_robots.extend(grupo)
+        except Exception as e:
+            print(f"  Finques 2030: no se pudo leer robots.txt ({e})")
+    p = urlparse(url)
+    ruta = p.path + ('?' + p.query if p.query else '')
+    return not any(rx.match(ruta) for rx in _finques2030_robots)
+
+
+def _finques2030_get(url):
+    if not _finques2030_permitido(url):
+        print(f"  Finques 2030: robots.txt no permite {url}")
+        return None
+    r = requests.get(url, headers=HEADERS, timeout=30)
+    r.raise_for_status()
+    return r
+
+
+def _finques2030_tarjetas(soup, urls, vistos):
+    """Añade (referencia, url) de las tarjetas de un listado y guarda el estado de su etiqueta."""
+    nuevas = 0
+    for card in soup.select("div[data-url][id]"):
+        principal = card.select_one(".sliderPrincipal[data-ref]")
+        href = card.get("data-url", "")
+        if not principal or not re.search(r'-es\d+\.html$', href):
+            continue
+        # La clase de la tarjeta es la operación ("venta"); se descarta cualquier otra
+        if 'venta' not in (card.get('class') or []):
+            continue
+        url = urljoin(FINQUES2030_BASE, href)
+        if url in vistos:
+            continue
+        vistos.add(url)
+        ref_el = card.select_one(".numeroRef")
+        referencia = (ref_el.get_text(strip=True) if ref_el else '') or principal.get("data-ref") \
+            or f"F2030-{card.get('id')}"
+        etiqueta = card.find("span", class_="etiqueta", recursive=False)
+        _estados_finques2030[url] = _finques2030_estado(etiqueta.get_text(" ", strip=True))[0] if etiqueta else ''
+        urls.append((referencia, url))
+        nuevas += 1
+    return nuevas
+
+
+def obtener_urls_finques2030():
+    """URLs de inmuebles en VENTA de Finques 2030 (ver notas arriba sobre paginación y robots)."""
+    urls, vistos = [], set()
+    total = None
+    try:
+        r = _finques2030_get(FINQUES2030_LISTADO)
+    except Exception as e:
+        print(f"Error obteniendo listado Finques 2030: {e}")
+        return urls
+    if r is None:
+        return urls
+    soup = BeautifulSoup(r.text, "lxml")
+    m = re.search(r'Mostrando\s+\d+\s+a\s+\d+\s+de\s+(\d+)', soup.get_text(" ", strip=True))
+    total = int(m.group(1)) if m else None
+    _finques2030_tarjetas(soup, urls, vistos)
+
+    # Categorías de venta (enlaces por ruta "...-en-venta-<tipo>-1.html", sin query)
+    categorias = []
+    for a in soup.select("a[href]"):
+        href = a["href"].strip()
+        if re.fullmatch(r'/[a-z0-9-]+-en-venta-\d+-1\.html', href) and href not in categorias:
+            categorias.append(href)
+
+    for cat in categorias:
+        siguiente, paginas = urljoin(FINQUES2030_BASE, cat), 0
+        while siguiente and paginas < 20:
+            if total is not None and len(urls) >= total:
+                break
+            time.sleep(FINQUES2030_DELAY)
+            try:
+                r = _finques2030_get(siguiente)
+            except Exception as e:
+                print(f"Error en categoría Finques 2030 {siguiente}: {e}")
+                break
+            if r is None:
+                break
+            csoup = BeautifulSoup(r.text, "lxml")
+            _finques2030_tarjetas(csoup, urls, vistos)
+            paginas += 1
+            nxt = csoup.select_one("ul.pagination a.next[href]")
+            siguiente = urljoin(FINQUES2030_BASE, nxt["href"]) if nxt else None
+            if siguiente and not _finques2030_permitido(siguiente):
+                siguiente = None
+
+    # Respaldo: fichas en castellano del sitemap si aún faltan (el detalle filtra por venta)
+    if total is not None and len(urls) < total:
+        time.sleep(FINQUES2030_DELAY)
+        try:
+            r = _finques2030_get(FINQUES2030_BASE + "/sitemap.xml")
+            for loc in re.findall(r'<loc>([^<]+)</loc>', r.text if r else ''):
+                m2 = re.search(r'^https://www\.finques2030\.com/[a-z0-9-]+-es(\d+)\.html$', loc.strip())
+                if m2 and loc.strip() not in vistos:
+                    vistos.add(loc.strip())
+                    urls.append((f"F2030-{m2.group(1)}", loc.strip()))
+        except Exception as e:
+            print(f"Error leyendo sitemap Finques 2030: {e}")
+
+    print(f"  Finques 2030: {len(urls)} URLs" + (f" (el listado dice {total})" if total is not None else ""))
+    return urls
+
+
+def scrape_finques2030_detalle(url, referencia=None):
+    """Ficha de finques2030.com/<slug>-esNNNNNNN.html (Inmoweb)."""
+    try:
+        r = _finques2030_get(url)
+        if r is None:
+            return None
+        soup = BeautifulSoup(r.text, "lxml")
+        ficha = soup.select_one("#ficha")
+        if not ficha:
+            print(f"  Finques 2030: ficha sin #ficha {url}")
+            return None
+
+        # Datos de la lista "Detalle" (Tipo de propiedad, operación, Población, Zona, superficies...)
+        datos = {}
+        for li in ficha.select(".detallesFicha li, .caracteristicasPrincipales li"):
+            st = li.find("strong")
+            if not st:
+                continue
+            clave = st.get_text(" ", strip=True).rstrip(':').strip().lower()
+            valor = li.get_text(" ", strip=True)[len(st.get_text(" ", strip=True)):].strip()
+            datos.setdefault(clave, valor)
+
+        operacion = datos.get('tipo de operación', '')
+        if operacion and 'venta' not in operacion.lower():
+            return None   # alquiler u otra operación
+
+        ref_el = ficha.select_one(".headerLeft p span")
+        if ref_el and ref_el.get_text(strip=True):
+            referencia = ref_el.get_text(strip=True)
+
+        h1 = ficha.select_one(".headerLeft h1")
+        titulo = h1.get_text(" ", strip=True) if h1 else None
+        if titulo:
+            titulo = re.sub(r',\s*venta\s*$', '', titulo, flags=re.IGNORECASE)
+
+        precio_el = ficha.select_one(".headerRight .precio")
+        precio_txt = precio_el.get_text(" ", strip=True) if precio_el else ''
+        m = re.search(r'\d[\d.]*', precio_txt)
+        precio = _pm_clean_int(m.group(0)) if m else None
+
+        def _num(clave):
+            m = re.search(r'\d[\d.]*', datos.get(clave, ''))
+            return int(m.group(0).replace('.', '')) if m else None
+
+        metros = _num('sup. construida') or _num('sup. útil')
+        metros_parcela = _num('sup. parcela')
+        habitaciones = _num('habitaciones')
+        banos = _num('baños')
+
+        # Ubicación: Población (municipio) + Zona
+        poblacion = datos.get('población', '')
+        zona = datos.get('zona', '')
+        ubicacion = _ubicacion_menorca(poblacion) if poblacion else None
+        if ubicacion and zona:
+            # estandarizar_ubicacion('Cala Blanca') ya da 'Ciutadella; Cala Blanca'
+            zona_std = _ubicacion_menorca(zona)
+            if zona_std and zona_std != ubicacion and ';' not in ubicacion:
+                ubicacion = zona_std if zona_std.startswith(ubicacion + ';') else f"{ubicacion}; {zona_std}"
+
+        # Estado: etiqueta sobre la galería de la ficha (<div id="etiqueta"><span class="etiqueta">)
+        # y, como apoyo, la etiqueta de la tarjeta del listado y el texto del precio.
+        estado, vendido = '', False
+        etq = ficha.select_one("#etiqueta .etiqueta, #etiqueta")
+        if etq:
+            estado, vendido = _finques2030_estado(" ".join(etq.get("class", [])) + " " + etq.get_text(" ", strip=True))
+        if not estado:
+            estado, vendido = _finques2030_estado(precio_txt)
+        if not estado and _estados_finques2030.get(url):
+            estado, vendido = _estados_finques2030[url], True
+
+        # Descripción (bloque #descripcionFicha) + "Características" reales de la ficha (solo lista
+        # lo que tiene; se ignoran valores "No"). No se usa el formulario de búsqueda avanzada, que
+        # siempre muestra Piscina/Garaje/Ascensor/Vistas al mar.
+        desc_el = ficha.select_one("#descripcionFicha")
+        descripcion = desc_el.get_text(" ", strip=True) if desc_el else ''
+        caracts = []
+        for bloque in ficha.select(".detallesFicha"):
+            h3 = bloque.find("h3")
+            if h3 and h3.get_text(strip=True).lower().startswith('caracter'):
+                for li in bloque.select("li"):
+                    st = li.find("strong")
+                    if not st:
+                        continue
+                    k = st.get_text(" ", strip=True).rstrip(':')
+                    v = li.get_text(" ", strip=True)[len(st.get_text(" ", strip=True)):].strip()
+                    if v.lower().startswith('no') and not v.lower().startswith('no acristal'):
+                        continue
+                    if k.lower() == 'vistas':
+                        caracts.append(f"vistas {v.lower()}")   # "Al mar" -> "vistas al mar"
+                    else:
+                        caracts.append(k)
+        flags = detectar_flags(f"{descripcion} {' '.join(caracts)}")
+
+        tipo_prop = datos.get('tipo de propiedad', '')
+        if re.search(r'casa de campo|r[uú]stic', tipo_prop, re.IGNORECASE):
+            tipo = 'Finca'
+        else:
+            tipo = detectar_tipo(tipo_prop) or detectar_tipo(titulo)
+
+        # Galería: enlaces de la fotorama de la ficha (data-full = /image/w/N.jpg, ~1200 px)
+        galeria = []
+        for a in ficha.select("#sliderPropiedad a.imagen[data-full], #sliderPropiedad a.imagen[href]"):
+            src = a.get("data-full") or a.get("href")
+            if not src:
+                continue
+            if src.startswith("//"):
+                src = "https:" + src
+            if '/property/' in src and src not in galeria:
+                galeria.append(src)
+        if not galeria:
+            img = ficha.select_one(".header > img[src]")
+            if img:
+                galeria.append(urljoin(url, img["src"]))
+        imagen_destacada = galeria[0] if galeria else ''
+
+        return crear_propiedad_estandar(
+            referencia=referencia,
+            titulo=titulo,
+            ubicacion=ubicacion,
+            precio=precio,
+            metros=metros,
+            metros_parcela=metros_parcela,
+            habitaciones=habitaciones,
+            banos=banos,
+            tipo=tipo,
+            estado=estado,
+            piscina=flags['piscina'],
+            garaje=flags['garaje'],
+            ascensor=flags['ascensor'],
+            vistas_mar=flags['vistas_mar'],
+            vendido=vendido,
+            alquiler=False,
+            url_detalle=url,
+            inmobiliaria='Finques 2030',
+            imagen_destacada=imagen_destacada,
+            galeria=galeria,
+        )
+    except Exception as e:
+        print(f"Error scrapeando Finques 2030 {url}: {e}")
+        return None
+
+
+def procesar_listado(propiedades: List[Dict], nombre_inmobiliaria: str,
+                     registro: RegistroScraping, gestor: GestorPropiedades) -> int:
+    """Guarda las propiedades leídas de un listado completo y marca como eliminadas las que ya no aparecen"""
+    if not propiedades:
+        print(f"No se encontraron propiedades en {nombre_inmobiliaria}")
+        return 0
+
+    urls_actuales = {p['url_detalle'] for p in propiedades}
+    urls_previas = {p['url_detalle'] for p in gestor.propiedades_actuales
+                    if p.get('inmobiliaria') == nombre_inmobiliaria}
+    urls_eliminadas = urls_previas - urls_actuales
+    if urls_eliminadas:
+        registro.marcar_urls_eliminadas(urls_eliminadas)
+        gestor.marcar_propiedades_eliminadas(urls_eliminadas)
+
+    for prop in propiedades:
+        gestor.agregar_propiedad(prop)
+        registro.registrar_url_escaneada(prop['url_detalle'], prop.get('precio'), prop.get('estado'))
+
+    nuevas = len(urls_actuales - urls_previas)
+    print(f"  ✅ {nombre_inmobiliaria}: {len(propiedades)} en listado, {nuevas} nuevas, {len(urls_eliminadas)} eliminadas")
+    return nuevas
+
+
 def main():
     """Función principal con sistema eficiente mejorado"""
     modo = "PRODUCCIÓN" if PRODUCCION else f"TEST (máx. {LIMITE_TEST} propiedades por inmobiliaria)"
@@ -4143,7 +5222,7 @@ def main():
     
     # Inicializar sistemas
     registro = RegistroScraping(ARCHIVO_REGISTRO)
-    gestor = GestorPropiedades(ARCHIVO_PROPIEDADES, ARCHIVO_TEMP)
+    gestor = GestorPropiedades(ARCHIVO_PROPIEDADES, ARCHIVO_TEMP, ARCHIVO_HISTORICO)
     
     # Mostrar estadísticas iniciales
     total_conocidas = len(registro.obtener_urls_conocidas())
@@ -4179,6 +5258,10 @@ def main():
         (scrape_menorcasa_detalle, "Menorcasa", obtener_urls_menorcasa),
         (scrape_saimmobiliaria_detalle, "SA Inmobiliaria", obtener_urls_saimmobiliaria),
         (scrape_3villas_detalle, "3Villas",obtener_urls_3villas),
+        (scrape_fincascala_detalle, "Fincas Cala", obtener_urls_fincascala),
+        (scrape_fincasmenorquinas_detalle, "Fincas Menorquinas", obtener_urls_fincasmenorquinas),
+        (scrape_lucasfox_detalle, "Lucas Fox", obtener_urls_lucasfox),
+        (scrape_finques2030_detalle, "Finques 2030", obtener_urls_finques2030),
     ]
 
     """ Prortal menorca incluye
@@ -4204,31 +5287,19 @@ def main():
             print(f"❌ Error con {nombre}: {e}")
 
 
-    # Pons Morales
-    propiedades_ponsmorales = scrape_mobilia_listado("https://www.ponsmorales.com/es/venta", "Pons Morales")
-    for prop in propiedades_ponsmorales:
-        gestor.agregar_propiedad(prop)
-        registro.registrar_url_escaneada(prop['url_detalle'], prop.get('precio'), prop.get('estado'))
- 
+    # Inmobiliarias que se leen enteras desde el listado (cada noche se actualizan todas)
+    listados = [
+        ("Pons Morales", lambda: scrape_mobilia_listado("https://www.ponsmorales.com/es/venta", "Pons Morales")),
+        ("Finques Torres", lambda: scrape_mobilia_listado("https://www.finquestorres.net/es/venta", "Finques Torres")),
+        ("Blanca de Olivar", lambda: scrape_mobilia_listado("https://www.blancadeolivar.com/es/venta", "Blanca de Olivar")),
+        ("Finques Fuguet", scrape_finquesfuguet_listado),
+    ]
+    for nombre, scraper_listado in listados:
+        try:
+            nuevas_total += procesar_listado(scraper_listado(), nombre, registro, gestor)
+        except Exception as e:
+            print(f"❌ Error con {nombre}: {e}")
 
-    # Finques Torres
-    propiedades_finquestorres = scrape_mobilia_listado("https://www.finquestorres.net/es/venta", "Finques Torres")
-    for prop in propiedades_finquestorres:
-        gestor.agregar_propiedad(prop)
-        registro.registrar_url_escaneada(prop['url_detalle'], prop.get('precio'), prop.get('estado'))
-
-    # Blanca de Olivar
-    propiedades_blancadeolivar = scrape_mobilia_listado("https://www.blancadeolivar.com/es/venta", "Blanca de Olivar")
-    for prop in propiedades_blancadeolivar:
-        gestor.agregar_propiedad(prop)
-        registro.registrar_url_escaneada(prop['url_detalle'], prop.get('precio'), prop.get('estado'))
-
-    # Finques Fuguet
-    propiedades_finquesfuguet = scrape_finquesfuguet_listado()
-    for prop in propiedades_finquesfuguet:
-        gestor.agregar_propiedad(prop)
-        registro.registrar_url_escaneada(prop['url_detalle'], prop.get('precio'), prop.get('estado'))
-    
     # Finalizar y guardar (con opción de organizar por inmobiliaria)
     GUARDAR_POR_INMOBILIARIA = False  # Configurar según preferencia
     total_final = gestor.finalizar_y_guardar(guardar_por_inmobiliaria=GUARDAR_POR_INMOBILIARIA)
@@ -4240,7 +5311,8 @@ def main():
     
     print("\n" + "=" * 60)
     print("✅ SCRAPING COMPLETADO")
-    print(f"📊 Total de propiedades en archivo final: {total_final}")
+    print(f"📊 Propiedades disponibles en el feed: {total_final}")
+    print(f"🗂️ Histórico completo: {ARCHIVO_HISTORICO}")
     print(f"💾 Archivo guardado: {ARCHIVO_PROPIEDADES}")
     print(f"📝 Registro actualizado: {ARCHIVO_REGISTRO}")
     
