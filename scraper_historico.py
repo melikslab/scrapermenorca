@@ -5213,7 +5213,7 @@ def procesar_listado(propiedades: List[Dict], nombre_inmobiliaria: str,
 
     urls_actuales = {p['url_detalle'] for p in propiedades}
     urls_previas = {p['url_detalle'] for p in gestor.propiedades_actuales
-                    if p.get('inmobiliaria') == nombre_inmobiliaria}
+                    if p.get('inmobiliaria') == nombre_inmobiliaria and p.get('estado') != 'ELIMINADO_WEB'}
     urls_eliminadas = urls_previas - urls_actuales
     if urls_eliminadas:
         registro.marcar_urls_eliminadas(urls_eliminadas)
