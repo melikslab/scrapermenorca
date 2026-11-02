@@ -20065,7 +20065,7 @@
     "referencia": "23750",
     "titulo": "Edificio de 10 viviendas en Mahón, Menorca",
     "ubicacion": "Maó",
-    "precio": 830000,
+    "precio": null,
     "metros": null,
     "metros_parcela": 481,
     "habitaciones": null,
@@ -20096,7 +20096,7 @@
       "https://images.bonninsanso.com/1/4/propiedades_fotos_314274_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:09:20.499744",
-    "fecha_ultima_actualizacion": "2026-10-29T11:08:41.917803"
+    "fecha_ultima_actualizacion": "2026-11-02T00:35:34.991503"
   },
   {
     "referencia": "25104",
@@ -98137,7 +98137,7 @@
     "titulo": "PISO DÚPLEX CON TERRAZA Y PISCINA COMUNITARIA",
     "ubicacion": "Es Castell; Santa Ana Y Sol Del Este",
     "precio": 315000,
-    "metros": 95,
+    "metros": 90,
     "metros_parcela": null,
     "habitaciones": null,
     "banos": null,
@@ -98151,12 +98151,12 @@
     "alquiler": false,
     "url_detalle": "https://www.saimmobiliaria.com/inmueble/piso-duplex-con-terraza-y-piscina-comunitaria/26868394",
     "inmobiliaria": "SA Inmobiliaria",
-    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P31306176/Tphoto/IDc0b1dd01-0000-0500-0000-00001ab80354.jpg",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P31306176/Tphoto/IDc0b1dd01-0000-0500-0000-00001abc61b9.jpg",
     "galeria": [
-      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P31306176/Tphoto/IDc0b1dd01-0000-0500-0000-00001ab80354.jpg"
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P31306176/Tphoto/IDc0b1dd01-0000-0500-0000-00001abc61b9.jpg"
     ],
     "fecha_scraping": "2026-10-29T00:42:56.944490",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-02T00:48:37.933267"
   },
   {
     "referencia": "26875932",
