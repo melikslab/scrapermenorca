@@ -627,12 +627,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": null,
+    "estado": "VENDIDO",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/garaje-en-planta-sotano-ciutadella/",
     "inmobiliaria": "Fincas Llongas",
@@ -650,7 +650,7 @@
       "https://fincasllongas.com/files/dsc07896-800x480.jpg?v=1775646703"
     ],
     "fecha_scraping": "2026-04-19T21:43:03.847963",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-05T01:24:46.729063"
   },
   {
     "referencia": "Ref. 7721",
@@ -7035,12 +7035,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/49325-2/",
     "inmobiliaria": "Fincas Llongas",
@@ -7093,7 +7093,8 @@
       "https://fincasllongas.com/files/f85f99d7-0890-4592-963f-863b86140bc9-800x480.jpg?v=1730718572"
     ],
     "fecha_scraping": "2026-04-19T21:47:56.509703",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-11-05T01:24:30.195555"
   },
   {
     "referencia": "Ref. 7483",
@@ -10435,12 +10436,12 @@
     "habitaciones": 3,
     "banos": 1,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4410",
     "inmobiliaria": "Inmobiliaria Artrutx",
@@ -10462,7 +10463,8 @@
       "https://www.inmobiliariaartrutx.com/panel/inmuebles/4410/img/14.jpg"
     ],
     "fecha_scraping": "2026-04-19T21:50:24.957810",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-11-05T01:26:04.072641"
   },
   {
     "referencia": "4680",
@@ -43236,7 +43238,7 @@
     "referencia": "29866",
     "titulo": "Local en Puerto de Mahón, Menorca",
     "ubicacion": "Maó; Port",
-    "precio": 250000,
+    "precio": 200000,
     "metros": 90,
     "metros_parcela": null,
     "habitaciones": null,
@@ -43267,7 +43269,7 @@
       "https://images.bonninsanso.com/9/8/propiedades_fotos_594972_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:18:39.315776",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-05T01:35:46.397137"
   },
   {
     "referencia": "29876",
@@ -103434,7 +103436,7 @@
     "referencia": "25133776",
     "titulo": "Solar urbanizable en Ciutadella",
     "ubicacion": "Ciutadella",
-    "precio": 315000,
+    "precio": 290000,
     "metros": 200,
     "metros_parcela": null,
     "habitaciones": null,
@@ -103454,7 +103456,7 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29348243/Tphoto/ID93d1bf01-0000-0500-0000-000018689c55.jpg"
     ],
     "fecha_scraping": "2026-04-20T22:00:21.797172",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-05T01:40:27.528930"
   },
   {
     "referencia": "23603623",
@@ -108269,7 +108271,7 @@
     "referencia": "25237570",
     "titulo": "Amplio y luminoso Piso - 3 Habitaciones",
     "ubicacion": "Ciutadella",
-    "precio": 350000,
+    "precio": 320000,
     "metros": null,
     "metros_parcela": null,
     "habitaciones": 3,
@@ -108289,7 +108291,7 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P29411499/Tphoto/IDabc8c001-0000-0500-0000-0000187bd37e.jpg"
     ],
     "fecha_scraping": "2026-04-20T22:07:28.958118",
-    "fecha_ultima_actualizacion": "2026-10-29T11:40:06.373385"
+    "fecha_ultima_actualizacion": "2026-11-05T01:45:08.442651"
   },
   {
     "referencia": "22889165",
@@ -110045,12 +110047,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/parcela-excepcional-en-cami-de-cala-morell/24691328",
     "inmobiliaria": "3Villas",
@@ -110059,7 +110061,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P28841717/Tphoto/IDf516b801-0000-0500-0000-000017d186b7.jpg"
     ],
     "fecha_scraping": "2026-04-20T22:09:56.582192",
-    "fecha_ultima_actualizacion": "2026-10-29T11:41:18.036992"
+    "fecha_ultima_actualizacion": "2026-10-29T11:41:18.036992",
+    "fecha_eliminacion": "2026-11-05T01:44:33.706525"
   },
   {
     "referencia": "25322817",
@@ -129218,12 +129221,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
-    "estado": "EXCLUSIVA",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-4506-espectacular-finca-agricola/",
     "inmobiliaria": "Inmobiliaria Palau",
@@ -129270,7 +129273,8 @@
       "https://inmobiliariapalau.com/wp-content/uploads/2026/09/IMG_4798.jpeg"
     ],
     "fecha_scraping": "2026-06-20T22:16:42.148695",
-    "fecha_ultima_actualizacion": "2026-10-31T00:37:23.035441"
+    "fecha_ultima_actualizacion": "2026-10-31T00:37:23.035441",
+    "fecha_eliminacion": "2026-11-05T01:28:42.006549"
   },
   {
     "referencia": "37050",
@@ -145056,9 +145060,9 @@
     "alquiler": false,
     "url_detalle": "https://www.ponsmorales.com/es/venta/ref-4940",
     "inmobiliaria": "Pons Morales",
-    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4940/27646637.jpg",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4940/27646638.jpg",
     "galeria": [
-      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4940/27646637.jpg"
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4940/27646638.jpg"
     ],
     "fecha_scraping": "2026-08-07T01:03:01.388508",
     "fecha_ultima_actualizacion": null
@@ -152598,12 +152602,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://zenhousecredit.com/propiedad.php?id=2309",
     "inmobiliaria": "Zenhouse Credit",
@@ -152617,7 +152621,8 @@
       "https://zenhousecredit.com/img/calcular.jpg"
     ],
     "fecha_scraping": "2026-09-14T23:49:30.472981",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-11-05T01:37:55.172544"
   },
   {
     "referencia": "Ref. 7799",
@@ -156044,12 +156049,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-junto-al-convent-de-santa-clara-en-ciutadella/26692339",
     "inmobiliaria": "Casas en Menorca",
@@ -156058,7 +156063,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P31114783/Tphoto/ID1fc6da01-0000-0500-0000-00001a7f4906.jpg"
     ],
     "fecha_scraping": "2026-09-30T00:16:01.712086",
-    "fecha_ultima_actualizacion": "2026-10-30T00:57:42.054715"
+    "fecha_ultima_actualizacion": "2026-10-30T00:57:42.054715",
+    "fecha_eliminacion": "2026-11-05T01:39:03.874985"
   },
   {
     "referencia": "25903757",
@@ -157511,9 +157517,9 @@
     "alquiler": false,
     "url_detalle": "https://www.ponsmorales.com/es/venta/ref-4610",
     "inmobiliaria": "Pons Morales",
-    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4610/28628641.jpg",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4610/28628635.jpg",
     "galeria": [
-      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4610/28628641.jpg"
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4610/28628635.jpg"
     ],
     "fecha_scraping": "2026-10-07T00:32:37.752291",
     "fecha_ultima_actualizacion": null
@@ -160834,12 +160840,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/chalet-pareado-con-piscina-privada-en-un-entorno-natural-y-tranquilo/",
     "inmobiliaria": "Fincas Llongas",
@@ -160858,7 +160864,8 @@
       "https://fincasllongas.com/files/whatsapp-image-2026-10-08-at-10.45.27-800x480.jpeg?v=1792399512"
     ],
     "fecha_scraping": "2026-10-20T00:11:29.380824",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-11-05T01:24:30.195775"
   },
   {
     "referencia": "4984",
@@ -164928,7 +164935,7 @@
     "referencia": "E46",
     "titulo": "Venta de Apartamento en Cala’n Blanes, Ciutadella de 37m² con 1 dormitorio y 1 baño",
     "ubicacion": "Ciutadella",
-    "precio": 295000,
+    "precio": 285000,
     "metros": 35,
     "metros_parcela": null,
     "habitaciones": 1,
@@ -164946,7 +164953,6 @@
     "imagen_destacada": "https://0ls15DTh1T.inmocms.com/store/inmuebles/6ad47ce03c846_filtre-(7).jpg",
     "galeria": [
       "https://0ls15DTh1T.inmocms.com/store/inmuebles/6ad47ce03c846_filtre-(7).jpg",
-      "https://0ls15DTh1T.inmocms.com/store/inmuebles/6ad47ce127605_filtre-(11).jpg",
       "https://0ls15DTh1T.inmocms.com/store/inmuebles/6ad47ce1d1de5_filtre-(4).jpg",
       "https://0ls15DTh1T.inmocms.com/store/inmuebles/6ad47ce28d3e4_filtre-(5).jpg",
       "https://0ls15DTh1T.inmocms.com/store/inmuebles/6ad47ce34829c_filtre-(8).jpg",
@@ -164955,10 +164961,11 @@
       "https://0ls15DTh1T.inmocms.com/store/inmuebles/6ad47ce61e1fc_filtre.jpg",
       "https://0ls15DTh1T.inmocms.com/store/inmuebles/6ad47ce6e23a9_filtre-(2).jpg",
       "https://0ls15DTh1T.inmocms.com/store/inmuebles/6ad47ce7dd1c9_filtre-(3).jpg",
-      "https://0ls15DTh1T.inmocms.com/store/inmuebles/6ad47ce8a0f5b_filtre-(6).jpg"
+      "https://0ls15DTh1T.inmocms.com/store/inmuebles/6ad47ce8a0f5b_filtre-(6).jpg",
+      "https://0ls15DTh1T.inmocms.com/store/inmuebles/6ad47ce127605_filtre-(11).jpg"
     ],
     "fecha_scraping": "2026-10-29T11:48:38.792206",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-05T01:46:36.881306"
   },
   {
     "referencia": "E47",
@@ -168345,6 +168352,300 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P31340457/Tphoto/IDa937de01-0000-0500-0000-00001ac275cc.jpg"
     ],
     "fecha_scraping": "2026-11-04T01:27:28.441400",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4999",
+    "titulo": "PRECIOSA CASA CON TERRAZA",
+    "ubicacion": "Ciutadella",
+    "precio": 595000,
+    "metros": 199,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 2,
+    "tipo": "Casa",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4543",
+    "inmobiliaria": "Inmobiliaria Artrutx",
+    "imagen_destacada": "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/01.jpg",
+    "galeria": [
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/01.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/02.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/03.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/04.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/05.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/06.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/07.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/08.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/09.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/10.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/11.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/12.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/13.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/14.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/15.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/16.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/17.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/18.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/19.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4543/img/20.jpg"
+    ],
+    "fecha_scraping": "2026-11-05T01:26:19.047950",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "37293",
+    "titulo": "En Exclusiva. Magnífica villa en 1ªlínea de Cap d’Artrutx, Ciutadella, Menorca.",
+    "ubicacion": "Ciutadella",
+    "precio": 990000,
+    "metros": 115,
+    "metros_parcela": 715,
+    "habitaciones": 3,
+    "banos": 2,
+    "tipo": "Villa",
+    "estado": "",
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/en-exclusiva-magnifica-villa-en-1-linea-de-cap-d-artrutx-ciutadella-menorca/37293/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/b/3/propiedades_fotos_733541_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/b/3/propiedades_fotos_733541_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/b/propiedades_fotos_733537_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/3/propiedades_fotos_733549_w1200_h900_wm_1.jpg",
+      "https://images.bonninsanso.com/8/7/propiedades_fotos_733540_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/8/propiedades_fotos_733524_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/f/propiedades_fotos_733529_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/f/propiedades_fotos_733534_w1200_h900_wm_1.jpg",
+      "https://images.bonninsanso.com/9/8/propiedades_fotos_733533_w1200_h900_wm_1.jpg",
+      "https://images.bonninsanso.com/6/6/propiedades_fotos_733532_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/0/propiedades_fotos_733539_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/6/propiedades_fotos_733543_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/6/propiedades_fotos_733525_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/a/propiedades_fotos_733546_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/b/propiedades_fotos_733545_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/7/9/propiedades_fotos_733458_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/b/propiedades_fotos_733542_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/7/propiedades_fotos_733522_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/7/propiedades_fotos_733528_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/6/propiedades_fotos_733461_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/3/propiedades_fotos_733457_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/e/propiedades_fotos_733459_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/6/propiedades_fotos_733518_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/2/propiedades_fotos_733519_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/6/propiedades_fotos_733523_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/6/propiedades_fotos_733527_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/e/propiedades_fotos_733530_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/2/propiedades_fotos_733531_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/c/propiedades_fotos_733535_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/3/propiedades_fotos_733536_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/3/propiedades_fotos_733538_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/2/propiedades_fotos_733547_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-11-05T01:36:13.751796",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "37336",
+    "titulo": "Exclusivo ático dúplex junto al puerto de Ciutadella, Menorca",
+    "ubicacion": "Ciutadella",
+    "precio": 420000,
+    "metros": 115,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 2,
+    "tipo": "Ático",
+    "estado": "",
+    "piscina": true,
+    "garaje": false,
+    "ascensor": true,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/exclusivo-atico-duplex-junto-al-puerto-de-ciutadella-menorca/37336/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/0/9/propiedades_fotos_733889_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/0/9/propiedades_fotos_733889_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/1/propiedades_fotos_733888_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/0/propiedades_fotos_733891_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/2/propiedades_fotos_733890_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/4/propiedades_fotos_733893_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/3/propiedades_fotos_733894_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/5/propiedades_fotos_733895_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/f/propiedades_fotos_733896_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/e/propiedades_fotos_733897_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/9/propiedades_fotos_733898_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/3/propiedades_fotos_733899_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/0/propiedades_fotos_733900_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/a/5/propiedades_fotos_733901_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/a/propiedades_fotos_733902_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/c/propiedades_fotos_733903_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/0/propiedades_fotos_733904_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/4/propiedades_fotos_733905_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/d/propiedades_fotos_733906_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/8/a/propiedades_fotos_733907_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/2/propiedades_fotos_733909_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/c/propiedades_fotos_733910_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/d/propiedades_fotos_733911_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-11-05T01:36:16.474180",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "26918097",
+    "titulo": "Local con piscina en Es Castell",
+    "ubicacion": "Es Castell; Santa Ana Y Sol Del Este",
+    "precio": 199000,
+    "metros": 58,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Local",
+    "estado": null,
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/local-con-piscina-en-es-castell/26918097",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P31358839/Tphoto/ID777fde01-0000-0500-0000-00001ac95f6b.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P31358839/Tphoto/ID777fde01-0000-0500-0000-00001ac95f6b.jpg"
+    ],
+    "fecha_scraping": "2026-11-05T01:41:17.268312",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "26918889",
+    "titulo": "Local comercial muy céntrico en Es Castell",
+    "ubicacion": "Es Castell",
+    "precio": 545000,
+    "metros": 251,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Local",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/local-comercial-muy-centrico-en-es-castell/26918889",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P31359767/Tphoto/ID1783de01-0000-0500-0000-00001ac9aa10.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P31359767/Tphoto/ID1783de01-0000-0500-0000-00001ac9aa10.jpg"
+    ],
+    "fecha_scraping": "2026-11-05T01:41:18.566931",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "AP 055",
+    "titulo": "Apartamento con licencia turística",
+    "ubicacion": "Ciutadella; Sa caleta",
+    "precio": 295000,
+    "metros": 56,
+    "metros_parcela": 53,
+    "habitaciones": 1,
+    "banos": 1,
+    "tipo": "Apartamento",
+    "estado": "Muy buen estado",
+    "piscina": true,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://inmocampsbosch.com/propiedad.php?id=129",
+    "inmobiliaria": "Inmobiliaria Camps Bosch",
+    "imagen_destacada": "https://inmocampsbosch.com/panel/inmuebles/129/img/2 d m 1.jpg",
+    "galeria": [
+      "https://inmocampsbosch.com/panel/inmuebles/129/img/2 d m 1.jpg",
+      "https://inmocampsbosch.com/panel/inmuebles/129/img/2 d m 2.jpg",
+      "https://inmocampsbosch.com/panel/inmuebles/129/img/3 baño 1.jpg",
+      "https://inmocampsbosch.com/panel/inmuebles/129/img/4 cocina 1.jpg",
+      "https://inmocampsbosch.com/panel/inmuebles/129/img/4 cocina 3.jpg",
+      "https://inmocampsbosch.com/panel/inmuebles/129/img/5 s c 1.jpg",
+      "https://inmocampsbosch.com/panel/inmuebles/129/img/5 s c 2.jpg",
+      "https://inmocampsbosch.com/panel/inmuebles/129/img/5 s c 3.jpg",
+      "https://inmocampsbosch.com/panel/inmuebles/129/img/5 s c 4.jpg",
+      "https://inmocampsbosch.com/panel/inmuebles/129/img/5 s c 6.jpg",
+      "https://inmocampsbosch.com/panel/inmuebles/129/img/5 s c 7.jpg",
+      "https://inmocampsbosch.com/panel/inmuebles/129/img/5 s c 8.jpg",
+      "https://inmocampsbosch.com/panel/inmuebles/129/img/8 padel 3.jpg",
+      "https://inmocampsbosch.com/panel/inmuebles/129/img/9 piscina 1.jpg",
+      "https://inmocampsbosch.com/panel/inmuebles/129/img/9 piscina 2.jpg",
+      "https://inmocampsbosch.com/panel/inmuebles/129/img/9 piscina 3.jpg",
+      "https://inmocampsbosch.com/panel/inmuebles/129/img/9 piscina 5.jpg"
+    ],
+    "fecha_scraping": "2026-11-05T01:42:09.261877",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "20483369",
+    "titulo": "Excelente chalet con piscina y Licencia Turística en Binisafúa",
+    "ubicacion": "Sant Lluís; Cap D'En Font - Binissafúller",
+    "precio": 1100000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.3villas.es/inmueble/excelente-chalet-con-piscina-y-licencia-turistica-en-binisafua/20483369",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P23945411/Tphoto/IDc3606d01-0000-0500-0000-00001acdf2d8.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P23945411/Tphoto/IDc3606d01-0000-0500-0000-00001acdf2d8.jpg"
+    ],
+    "fecha_scraping": "2026-11-05T01:45:49.429299",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "1744",
+    "titulo": "Chalet con piscina privada y licencia turística",
+    "ubicacion": "Ciutadella",
+    "precio": 760000,
+    "metros": 164,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": null,
+    "tipo": "Chalet",
+    "estado": "",
+    "piscina": true,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.finquestorres.net/es/venta/ref-1744",
+    "inmobiliaria": "Finques Torres",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmofinquestorres/Images/1744/29194772-large.jpg",
+    "galeria": [
+      "https://media.mobiliagestion.es/Portals/inmofinquestorres/Images/1744/29194772-large.jpg"
+    ],
+    "fecha_scraping": "2026-11-05T01:48:23.582810",
     "fecha_ultima_actualizacion": null
   }
 ]
