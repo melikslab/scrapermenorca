@@ -77284,7 +77284,7 @@
     "referencia": "52807",
     "titulo": "SOLAR",
     "ubicacion": "Ciutadella",
-    "precio": null,
+    "precio": 289000,
     "metros": 231,
     "metros_parcela": null,
     "habitaciones": null,
@@ -77306,7 +77306,7 @@
       "https://zenhousecredit.com/img/calcular.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:46:58.122979",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-08T00:31:59.187661"
   },
   {
     "referencia": "51849",
@@ -96454,7 +96454,7 @@
     "referencia": "4822",
     "titulo": "Chalet independiente en Calan Blanes, Ciutadella de Menorca.",
     "ubicacion": "Ciutadella; Cala’N Blanes",
-    "precio": 450000,
+    "precio": 420000,
     "metros": 109,
     "metros_parcela": null,
     "habitaciones": 3,
@@ -96474,7 +96474,7 @@
       "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4822/22381057.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:59:06.901148",
-    "fecha_ultima_actualizacion": "2026-10-29T11:53:59.276607"
+    "fecha_ultima_actualizacion": "2026-11-08T00:41:11.423464"
   },
   {
     "referencia": "4823",
@@ -105376,12 +105376,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/impresionante-casa-con-jacuzzi-interior-y-vistas-sobre-el-puerto-de-mahon/20684635",
     "inmobiliaria": "Casas en Menorca",
@@ -105390,7 +105390,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24200005/Tphoto/ID45437101-0000-0500-0000-00001ad3bdad.jpg"
     ],
     "fecha_scraping": "2026-04-20T22:03:03.380301",
-    "fecha_ultima_actualizacion": "2026-11-07T01:01:28.887937"
+    "fecha_ultima_actualizacion": "2026-11-07T01:01:28.887937",
+    "fecha_eliminacion": "2026-11-08T00:32:28.325758"
   },
   {
     "referencia": "20684653",
@@ -113445,12 +113446,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.saimmobiliaria.com/inmueble/en-exclusiva-planta-baja-con-patio-en-es-castell/25672932",
     "inmobiliaria": "SA Inmobiliaria",
@@ -113459,7 +113460,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C6464/P29856764/Tphoto/IDfc93c701-0000-0500-0000-000019380d82.jpg"
     ],
     "fecha_scraping": "2026-04-21T21:53:14.056174",
-    "fecha_ultima_actualizacion": "2026-10-29T12:28:30.290321"
+    "fecha_ultima_actualizacion": "2026-10-29T12:28:30.290321",
+    "fecha_eliminacion": "2026-11-08T00:37:15.628876"
   },
   {
     "referencia": "20595093",
@@ -117291,7 +117293,7 @@
     "referencia": "22796328",
     "titulo": "Solar edificable con garaje",
     "ubicacion": "Ciutadella",
-    "precio": 318000,
+    "precio": 291500,
     "metros": 231,
     "metros_parcela": 231,
     "habitaciones": null,
@@ -117306,12 +117308,12 @@
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/solar-edificable-con-garaje/22796328",
     "inmobiliaria": "3Villas",
-    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P26543680/Tphoto/ID40069501-0000-0500-0000-0000195751d0.jpg",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P26543680/Tphoto/ID40069501-0000-0500-0000-0000195751cf.jpg",
     "galeria": [
-      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P26543680/Tphoto/ID40069501-0000-0500-0000-0000195751d0.jpg"
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P26543680/Tphoto/ID40069501-0000-0500-0000-0000195751cf.jpg"
     ],
     "fecha_scraping": "2026-05-05T22:09:47.969355",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-08T00:37:44.550384"
   },
   {
     "referencia": "4740",
@@ -118968,7 +118970,7 @@
     "referencia": "Ref. 7750",
     "titulo": "Solar edificable en Ciutadella",
     "ubicacion": "Ciutadella",
-    "precio": 315000,
+    "precio": 290000,
     "metros": null,
     "metros_parcela": null,
     "habitaciones": null,
@@ -118993,7 +118995,7 @@
       "https://fincasllongas.com/files/dji-20260511121032-0253-d-800x480.jpg?v=1778576223"
     ],
     "fecha_scraping": "2026-05-12T22:17:02.436560",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-08T00:19:19.540156"
   },
   {
     "referencia": "92785",
@@ -119501,7 +119503,7 @@
     "referencia": "52905",
     "titulo": "chalet",
     "ubicacion": "Ciutadella; Calan Blanes",
-    "precio": 721000,
+    "precio": 662000,
     "metros": 165,
     "metros_parcela": 600,
     "habitaciones": 4,
@@ -119528,7 +119530,7 @@
       "https://zenhousecredit.com/img/calcular.jpg"
     ],
     "fecha_scraping": "2026-05-13T22:20:00.711021",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-08T00:31:54.390409"
   },
   {
     "referencia": "201-711295",
@@ -124422,7 +124424,7 @@
     "referencia": "4164",
     "titulo": "CALAN BLANES | Chalet con piscina",
     "ubicacion": "Cala'N Blanes",
-    "precio": 680000,
+    "precio": 662000,
     "metros": null,
     "metros_parcela": null,
     "habitaciones": null,
@@ -124462,7 +124464,7 @@
       "https://inmomenorcacentro.com/panel/inmuebles/1627/img/bajo-chalet-piscina-ciutadella-luminoso (14).jpeg"
     ],
     "fecha_scraping": "2026-06-05T22:20:12.200432",
-    "fecha_ultima_actualizacion": "2026-10-30T00:45:55.644613"
+    "fecha_ultima_actualizacion": "2026-11-08T00:21:42.659120"
   },
   {
     "referencia": "4503",
@@ -136627,7 +136629,7 @@
     "referencia": "93476",
     "titulo": "Chalet de obra nueva con piscina privada y vistas al mar en Cala Llonga, Mahón, Menorca.",
     "ubicacion": "Maó; Cala Llonga",
-    "precio": null,
+    "precio": 915000,
     "metros": 177,
     "metros_parcela": 453,
     "habitaciones": 3,
@@ -136690,7 +136692,7 @@
       "https://images.bonninsanso.com/e/2/propiedades_fotos_724620_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-07-18T21:56:52.120707",
-    "fecha_ultima_actualizacion": "2026-10-30T00:52:07.327742"
+    "fecha_ultima_actualizacion": "2026-11-08T00:27:59.370599"
   },
   {
     "referencia": "4954",
@@ -142831,7 +142833,7 @@
     "referencia": "25863409",
     "titulo": "Chalet 4 habitaciones con Piscina y Jardín",
     "ubicacion": "Ciutadella; Cala En Blanes",
-    "precio": 721000,
+    "precio": 662500,
     "metros": 170,
     "metros_parcela": 170,
     "habitaciones": null,
@@ -142846,12 +142848,12 @@
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/chalet-4-habitaciones-con-piscina-y-jardin/25863409",
     "inmobiliaria": "3Villas",
-    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P30140068/Tphoto/IDa4e6cb01-0000-0500-0000-0000197eb270.jpg",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P30140068/Tphoto/IDa4e6cb01-0000-0500-0000-0000197193bf.jpg",
     "galeria": [
-      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P30140068/Tphoto/IDa4e6cb01-0000-0500-0000-0000197eb270.jpg"
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P30140068/Tphoto/IDa4e6cb01-0000-0500-0000-0000197193bf.jpg"
     ],
     "fecha_scraping": "2026-07-30T22:17:14.394392",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-08T00:38:21.244660"
   },
   {
     "referencia": "26020023",
@@ -151389,12 +151391,12 @@
     "habitaciones": 4,
     "banos": 2,
     "tipo": "Piso",
-    "estado": "¡EXCLUSIVA!",
+    "estado": "VENDIDO",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4505",
     "inmobiliaria": "Inmobiliaria Artrutx",
@@ -151411,12 +151413,12 @@
       "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/09.jpg",
       "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/10.jpg",
       "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/11.jpg",
-      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/12.jpg",
       "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/13.jpg",
-      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/14.jpg"
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/14.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4505/img/12.jpg"
     ],
     "fecha_scraping": "2026-09-08T23:17:54.459010",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-08T00:20:43.741363"
   },
   {
     "referencia": "26558316",
@@ -161126,7 +161128,7 @@
     "referencia": "207-3161",
     "titulo": "Casa en fantástica zona",
     "ubicacion": "Ciutadella",
-    "precio": 1680000,
+    "precio": 1500000,
     "metros": 2,
     "metros_parcela": 550,
     "habitaciones": 4,
@@ -161199,7 +161201,7 @@
       "https://www.fincasseminari.com/panel/inmuebles/1768/med/24"
     ],
     "fecha_scraping": "2026-10-20T00:14:38.379380",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-08T00:35:14.613470"
   },
   {
     "referencia": "4714",
@@ -162205,12 +162207,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Apartamento",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/apartamento-a-unos-pasos-de-la-cala-tirant/26832266",
     "inmobiliaria": "Casas en Menorca",
@@ -162219,7 +162221,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P31267200/Tphoto/ID8019dd01-0000-0500-0000-00001aaaf22a.jpg"
     ],
     "fecha_scraping": "2026-10-23T23:49:13.627137",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-11-08T00:32:28.325845"
   },
   {
     "referencia": "26840797",
@@ -162982,7 +162985,7 @@
     "referencia": "26862118",
     "titulo": "Tríplex en venta en el corazón de Mahón, con terraza",
     "ubicacion": "Maó - Mahón; Maó",
-    "precio": 400000,
+    "precio": 380000,
     "metros": null,
     "metros_parcela": null,
     "habitaciones": null,
@@ -163002,7 +163005,7 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P31299134/Tphoto/ID3e96dd01-0000-0500-0000-00001ab612d3.jpg"
     ],
     "fecha_scraping": "2026-10-28T00:23:17.848902",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-08T00:38:00.319580"
   },
   {
     "referencia": "4993",
@@ -171114,6 +171117,110 @@
       "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4985/29216807.jpg"
     ],
     "fecha_scraping": "2026-11-07T01:10:23.866888",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "20684635",
+    "titulo": "Casa con jacuzzi interior y vistas sobre el puerto de Mahón",
+    "ubicacion": "Maó - Mahón; Maó",
+    "precio": 2415000,
+    "metros": 700,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-con-jacuzzi-interior-y-vistas-sobre-el-puerto-de-mahon/20684635",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24200005/Tphoto/ID45437101-0000-0500-0000-00001ad3bdad.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24200005/Tphoto/ID45437101-0000-0500-0000-00001ad3bdad.jpg"
+    ],
+    "fecha_scraping": "2026-11-08T00:34:34.743499",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "26946483",
+    "titulo": "Casa con piscina, garaje y vistas al mar en el Puerto de Mahón",
+    "ubicacion": "Maó - Mahón; Maó",
+    "precio": 1500000,
+    "metros": 132,
+    "metros_parcela": 132,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": true,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-con-piscina-garaje-y-vistas-al-mar-en-el-puerto-de-mahon/26946483",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P31388977/Tphoto/ID31f5de01-0000-0500-0000-00001ad3d0c4.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P31388977/Tphoto/ID31f5de01-0000-0500-0000-00001ad3d0c4.jpg"
+    ],
+    "fecha_scraping": "2026-11-08T00:34:36.045273",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "26946117",
+    "titulo": "Gran local comercial",
+    "ubicacion": "Ciutadella",
+    "precio": 1060000,
+    "metros": 580,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Local",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.3villas.es/inmueble/gran-local-comercial/26946117",
+    "inmobiliaria": "3Villas",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P31388553/Tphoto/ID89f3de01-0000-0500-0000-00001ad3b0c6.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P31388553/Tphoto/ID89f3de01-0000-0500-0000-00001ad3b0c6.jpg"
+    ],
+    "fecha_scraping": "2026-11-08T00:38:39.472557",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "5007",
+    "titulo": "Apartamento con terraza y piscina comunitaria junto a Cala en Forcat, Ciutadella de Menorca.",
+    "ubicacion": "Ciutadella; Cala’N Blanes",
+    "precio": 259000,
+    "metros": 56,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": 1,
+    "tipo": "Apartamento",
+    "estado": "",
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.ponsmorales.com/es/venta/ref-5007",
+    "inmobiliaria": "Pons Morales",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/5007/29188092.jpg",
+    "galeria": [
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/5007/29188092.jpg"
+    ],
+    "fecha_scraping": "2026-11-08T00:41:05.219409",
     "fecha_ultima_actualizacion": null
   }
 ]
