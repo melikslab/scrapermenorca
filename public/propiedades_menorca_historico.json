@@ -54337,7 +54337,7 @@
     "titulo": "En exclusiva: Caseta de playa para reformar junto al mar en Cala Mesquida. Mahon. Menorca",
     "ubicacion": "Maó",
     "precio": 480000,
-    "metros": 97,
+    "metros": 104,
     "metros_parcela": null,
     "habitaciones": 2,
     "banos": 1,
@@ -54385,7 +54385,7 @@
       "https://images.bonninsanso.com/7/6/propiedades_fotos_710606_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:26:12.707753",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-10T03:28:23.055715"
   },
   {
     "referencia": "92192",
@@ -58979,18 +58979,18 @@
     "referencia": "92685",
     "titulo": "Villa contemporánea con vistas infinitas al mar en Cala Canutells, Menorca",
     "ubicacion": "Maó",
-    "precio": 1295000,
+    "precio": null,
     "metros": 316,
     "metros_parcela": 744,
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Villa",
-    "estado": "",
+    "estado": "RESERVADA",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/villa-contemporanea-con-vistas-infinitas-al-mar-en-cala-canutells-menorca/92685/",
     "inmobiliaria": "Bonnin Sanso",
@@ -59031,7 +59031,7 @@
       "https://images.bonninsanso.com/7/3/propiedades_fotos_694135_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:29:41.133617",
-    "fecha_ultima_actualizacion": "2026-10-29T12:18:41.647304"
+    "fecha_ultima_actualizacion": "2026-11-10T03:29:41.279921"
   },
   {
     "referencia": "92702",
@@ -64611,7 +64611,7 @@
     "referencia": "93144",
     "titulo": "Bonita planta baja con licencia turística en San Jaime, Menorca",
     "ubicacion": "Alaior; Son Bou",
-    "precio": 299000,
+    "precio": null,
     "metros": 62,
     "metros_parcela": null,
     "habitaciones": 2,
@@ -64650,7 +64650,7 @@
       "https://images.bonninsanso.com/d/b/propiedades_fotos_714250_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:34:18.161909",
-    "fecha_ultima_actualizacion": "2026-10-29T12:20:11.582698"
+    "fecha_ultima_actualizacion": "2026-11-10T03:31:05.708177"
   },
   {
     "referencia": "36995",
@@ -74881,12 +74881,12 @@
     "habitaciones": 2,
     "banos": 1,
     "tipo": "Casa",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://zenhousecredit.com/propiedad.php?id=2190",
     "inmobiliaria": "Zenhouse Credit",
@@ -74914,7 +74914,8 @@
       "https://zenhousecredit.com/img/calcular.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:45:06.410534",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-11-10T03:33:42.240532"
   },
   {
     "referencia": "52891",
@@ -75807,7 +75808,7 @@
     "referencia": "51419",
     "titulo": "Casa",
     "ubicacion": "Ciutadella",
-    "precio": 420000,
+    "precio": 470000,
     "metros": 130,
     "metros_parcela": null,
     "habitaciones": 3,
@@ -75844,7 +75845,7 @@
       "https://zenhousecredit.com/img/calcular.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:45:48.467244",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-10T03:33:53.603120"
   },
   {
     "referencia": "52900",
@@ -156634,12 +156635,12 @@
     "habitaciones": 3,
     "banos": 1,
     "tipo": "Piso",
-    "estado": "EXCLUSIVA",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-4521-piso-cerca-del-mar-en-ciutadella/",
     "inmobiliaria": "Inmobiliaria Palau",
@@ -156674,7 +156675,8 @@
       "https://inmobiliariapalau.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-24-at-21.03.09-3.jpeg"
     ],
     "fecha_scraping": "2026-10-03T00:19:53.553430",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-11-10T03:24:06.879929"
   },
   {
     "referencia": "93852",
@@ -168677,7 +168679,7 @@
     "referencia": "Ref. 7814",
     "titulo": "Fantástico chalet con licencia turística en Son Carrió, Ciutadella.",
     "ubicacion": "Ciutadella; Son Carrió",
-    "precio": 0,
+    "precio": 795000,
     "metros": null,
     "metros_parcela": 164,
     "habitaciones": 4,
@@ -168714,7 +168716,7 @@
       "https://fincasllongas.com/files/whatsapp-image-2026-11-04-at-18.49.01-800x480.jpeg?v=1793873412"
     ],
     "fecha_scraping": "2026-11-06T01:27:25.292923",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-10T03:20:29.119284"
   },
   {
     "referencia": "4797",
@@ -171221,6 +171223,135 @@
       "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/5007/29188092.jpg"
     ],
     "fecha_scraping": "2026-11-08T00:41:05.219409",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4501",
+    "titulo": "Dúplex",
+    "ubicacion": "Ciutadella",
+    "precio": 350000,
+    "metros": 152,
+    "metros_parcela": null,
+    "habitaciones": 4,
+    "banos": 2,
+    "tipo": null,
+    "estado": "EXCLUSIVA",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-4501-duplex-en-ciutadella-de-menorca/",
+    "inmobiliaria": "Inmobiliaria Palau",
+    "imagen_destacada": "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-19-1024x768.jpeg",
+    "galeria": [
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-19-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-24-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-21-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-22-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-30-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-25-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-26-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-27-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-28-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-29-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-31-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-23-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-32-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-33-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-34-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-44-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-35-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-36-768x1024.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-37-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-38-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-39-1-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2024/02/twitter_X.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Gemini_Generated_Image_scmwmwscmwmwscmw.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-19.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref_4528_Foto_02.jpg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref_4527_Fotografias_IA_1.jpg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/10/Ref_4524_04.jpg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-03-18-at-11.55.02.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/10/IMG_4634.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-22-at-19.08.44.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/09/IMG_2691.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/09/Ref.-4518-19.jpeg"
+    ],
+    "fecha_scraping": "2026-11-10T03:24:13.279376",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4500",
+    "titulo": "Planta Baja con patio",
+    "ubicacion": "Ciutadella",
+    "precio": 295000,
+    "metros": 83,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 1,
+    "tipo": "Piso",
+    "estado": "EXCLUSIVA",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-4500-planta-baja-con-patio-en-ciutadella/",
+    "inmobiliaria": "Inmobiliaria Palau",
+    "imagen_destacada": "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-17-1024x768.jpeg",
+    "galeria": [
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-17-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-8-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-7-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-10-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-11-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-12-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-1-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-2-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-4-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-3-1024x768.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2024/02/twitter_X.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Gemini_Generated_Image_scmwmwscmwmwscmw.png",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref.-4494-Fotografias-19.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref_4528_Foto_02.jpg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/11/Ref_4527_Fotografias_IA_1.jpg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/10/Ref_4524_04.jpg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-03-18-at-11.55.02.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/10/IMG_4634.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-22-at-19.08.44.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/09/IMG_2691.jpeg",
+      "https://inmobiliariapalau.com/wp-content/uploads/2026/09/Ref.-4518-19.jpeg"
+    ],
+    "fecha_scraping": "2026-11-10T03:24:31.964966",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "1060",
+    "titulo": "Amplio Garaje  en zona Platja Gran",
+    "ubicacion": "Ciutadella",
+    "precio": 95000,
+    "metros": 71,
+    "metros_parcela": null,
+    "habitaciones": 0,
+    "banos": 0,
+    "tipo": "Garaje",
+    "estado": "",
+    "piscina": false,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.blancadeolivar.com/es/venta/ref-1060",
+    "inmobiliaria": "Blanca de Olivar",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmobomenorca/Images/1060/29251113-large.jpg",
+    "galeria": [
+      "https://media.mobiliagestion.es/Portals/inmobomenorca/Images/1060/29251113-large.jpg"
+    ],
+    "fecha_scraping": "2026-11-10T03:43:59.877714",
     "fecha_ultima_actualizacion": null
   }
 ]
