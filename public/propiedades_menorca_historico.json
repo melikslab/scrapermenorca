@@ -22325,12 +22325,12 @@
     "habitaciones": 5,
     "banos": 7,
     "tipo": "Edificio",
-    "estado": "EXCLUSIVA",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-3942-fonda-en-es-migjorn-gran/",
     "inmobiliaria": "Inmobiliaria Palau",
@@ -22359,7 +22359,8 @@
       "https://inmobiliariapalau.com/wp-content/uploads/2026/09/IMG_4798.jpeg"
     ],
     "fecha_scraping": "2026-04-19T22:01:46.044854",
-    "fecha_ultima_actualizacion": "2026-10-29T12:14:09.223274"
+    "fecha_ultima_actualizacion": "2026-10-29T12:14:09.223274",
+    "fecha_eliminacion": "2026-11-11T01:12:38.566549"
   },
   {
     "referencia": "4472",
@@ -28858,12 +28859,12 @@
     "habitaciones": 4,
     "banos": 4,
     "tipo": "Casa",
-    "estado": "EXCLUSIVA",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://inmobiliariapalau.com/propiedad/ref-3933-casa-de-pueblo-en-casco-antiguo/",
     "inmobiliaria": "Inmobiliaria Palau",
@@ -28930,7 +28931,8 @@
       "https://inmobiliariapalau.com/wp-content/uploads/2026/09/IMG_4798.jpeg"
     ],
     "fecha_scraping": "2026-04-19T22:06:22.818259",
-    "fecha_ultima_actualizacion": "2026-10-31T00:36:57.715597"
+    "fecha_ultima_actualizacion": "2026-10-31T00:36:57.715597",
+    "fecha_eliminacion": "2026-11-11T01:12:38.566575"
   },
   {
     "referencia": "90155",
@@ -30042,19 +30044,20 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Garaje",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/plaza-de-parking-en-mahon-menorca/40881/",
     "inmobiliaria": "Bonnin Sanso",
     "imagen_destacada": "",
     "galeria": [],
     "fecha_scraping": "2026-04-19T22:07:14.212894",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-11-11T01:14:17.480874"
   },
   {
     "referencia": "24322",
@@ -93916,12 +93919,12 @@
     "habitaciones": 0,
     "banos": 0,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.ponsmorales.com/es/venta/ref-4056",
     "inmobiliaria": "Pons Morales",
@@ -93930,7 +93933,8 @@
       "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4056/25317875.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:59:06.867013",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-11-11T01:33:00.231554"
   },
   {
     "referencia": "4088",
@@ -95563,7 +95567,7 @@
   },
   {
     "referencia": "4633",
-    "titulo": "Propiedad unifamiliar en Calan Blanes, Ciutadella de Menorca.",
+    "titulo": "Chalet con piscina y vistas al mar en Cala en Blanes",
     "ubicacion": "Ciutadella; Cala’N Blanes",
     "precio": null,
     "metros": 287,
@@ -95575,7 +95579,7 @@
     "piscina": true,
     "garaje": true,
     "ascensor": false,
-    "vistas_mar": false,
+    "vistas_mar": true,
     "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.ponsmorales.com/es/venta/ref-4633",
@@ -95585,7 +95589,7 @@
       "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4633/28536991.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:59:06.889361",
-    "fecha_ultima_actualizacion": "2026-11-03T03:15:59.268023"
+    "fecha_ultima_actualizacion": "2026-11-11T01:33:07.701951"
   },
   {
     "referencia": "4642",
@@ -99353,12 +99357,12 @@
     "habitaciones": 5,
     "banos": 4,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.finquesinmofuguet.com/propiedad-v.php?id=718",
     "inmobiliaria": "Finques Fuguet",
@@ -99367,7 +99371,8 @@
       "https://www.finquesinmofuguet.com/panel/inmuebles/718/med/-0af66b43-3336-4bb7-88ce-454a98310867 (FILEminimizer).jpg"
     ],
     "fecha_scraping": "2026-04-19T22:59:11.451428",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-11-11T01:33:06.987412"
   },
   {
     "referencia": "730",
@@ -110160,12 +110165,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Chalet",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/chalet-de-diseno-en-es-canutells-con-vistas-al-mar-y-licencia-turistica/23601309",
     "inmobiliaria": "3Villas",
@@ -110174,7 +110179,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P27556522/Tphoto/IDaa7aa401-0000-0500-0000-0000166e27c8.jpg"
     ],
     "fecha_scraping": "2026-04-20T22:10:05.381827",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-11-11T01:29:21.835313"
   },
   {
     "referencia": "24988217",
@@ -123161,7 +123167,7 @@
     "referencia": "37237",
     "titulo": "Solar en zona de alta demanda en Ciutadella. Menorca",
     "ubicacion": "Ciutadella",
-    "precio": 315000,
+    "precio": 290000,
     "metros": 37,
     "metros_parcela": 231,
     "habitaciones": null,
@@ -123184,7 +123190,7 @@
       "https://images.bonninsanso.com/a/b/propiedades_fotos_720738_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-06-01T23:05:21.702194",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-11T01:18:09.384567"
   },
   {
     "referencia": "52908",
@@ -129763,8 +129769,8 @@
     "titulo": "Autentica casita de pescadores en Es Murtar, Menorca",
     "ubicacion": "Maó",
     "precio": 1450000,
-    "metros": 157,
-    "metros_parcela": 200,
+    "metros": 206,
+    "metros_parcela": 157,
     "habitaciones": 2,
     "banos": 2,
     "tipo": null,
@@ -129772,7 +129778,7 @@
     "piscina": false,
     "garaje": true,
     "ascensor": false,
-    "vistas_mar": true,
+    "vistas_mar": false,
     "vendido": false,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/autentica-casita-de-pescadores-en-es-murtar-menorca/91927/",
@@ -129827,7 +129833,7 @@
       "https://images.bonninsanso.com/3/4/propiedades_fotos_722977_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-06-22T22:50:58.909679",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-11T01:14:55.175009"
   },
   {
     "referencia": "37050",
@@ -132498,7 +132504,7 @@
     "ubicacion": "Sant Lluís",
     "precio": 460000,
     "metros": null,
-    "metros_parcela": 1183,
+    "metros_parcela": 1288,
     "habitaciones": null,
     "banos": null,
     "tipo": "Solar",
@@ -132521,7 +132527,7 @@
       "https://images.bonninsanso.com/6/f/propiedades_fotos_723959_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-07-05T22:08:26.373290",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-11T01:18:04.803412"
   },
   {
     "referencia": "Ref. 6789",
@@ -146564,9 +146570,9 @@
     "alquiler": false,
     "url_detalle": "https://www.ponsmorales.com/es/venta/ref-4771",
     "inmobiliaria": "Pons Morales",
-    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4771/28252883.jpg",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4771/28252884.jpg",
     "galeria": [
-      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4771/28252883.jpg"
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4771/28252884.jpg"
     ],
     "fecha_scraping": "2026-08-13T21:53:55.072988",
     "fecha_ultima_actualizacion": null
@@ -148756,7 +148762,7 @@
     "referencia": "26470685",
     "titulo": "Ático con piscina, parking y terrazas en una ubicación privilegiada",
     "ubicacion": "Ciutadella",
-    "precio": 450000,
+    "precio": 430000,
     "metros": 558,
     "metros_parcela": null,
     "habitaciones": 3,
@@ -148776,7 +148782,7 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P30869063/Tphoto/ID4706d701-0000-0500-0000-00001a32315c.jpg"
     ],
     "fecha_scraping": "2026-08-21T21:31:37.870324",
-    "fecha_ultima_actualizacion": "2026-10-30T01:00:48.556155"
+    "fecha_ultima_actualizacion": "2026-11-11T01:29:43.438690"
   },
   {
     "referencia": "8366",
@@ -151503,7 +151509,7 @@
     "titulo": "Chalet con piscina y jardín privado en Trebalúger, Menorca.",
     "ubicacion": "Es Castell",
     "precio": 690000,
-    "metros": 162,
+    "metros": 152,
     "metros_parcela": 611,
     "habitaciones": 3,
     "banos": 2,
@@ -151541,7 +151547,7 @@
       "https://images.bonninsanso.com/d/a/propiedades_fotos_728761_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-09-10T23:02:57.062685",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-11T01:20:17.972797"
   },
   {
     "referencia": "46139",
@@ -155462,7 +155468,7 @@
     "referencia": "26679372",
     "titulo": "Exclusiva finca menorquina con licencia turística y total privacidad junto al Camí d'en Kane",
     "ubicacion": "Alaior",
-    "precio": 3250000,
+    "precio": 4800000,
     "metros": null,
     "metros_parcela": null,
     "habitaciones": null,
@@ -155482,7 +155488,7 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P31100537/Tphoto/ID798eda01-0000-0500-0000-00001a7a272d.jpg"
     ],
     "fecha_scraping": "2026-09-25T23:56:37.624472",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-11T01:29:40.696750"
   },
   {
     "referencia": "26678924",
@@ -156123,12 +156129,12 @@
     "habitaciones": 3,
     "banos": null,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/piso-de-3-habitaciones-en-ciutadella-segunda-planta/26692141",
     "inmobiliaria": "3Villas",
@@ -156137,7 +156143,8 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P30938391/Tphoto/ID1715d801-0000-0500-0000-00001a7f21eb.jpg"
     ],
     "fecha_scraping": "2026-09-30T00:16:20.773960",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-11-11T01:29:21.835450"
   },
   {
     "referencia": "9032",
@@ -156387,9 +156394,9 @@
     "alquiler": false,
     "url_detalle": "https://www.ponsmorales.com/es/venta/ref-2334",
     "inmobiliaria": "Pons Morales",
-    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/2334/28544729.jpg",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/2334/28544648.jpg",
     "galeria": [
-      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/2334/28544729.jpg"
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/2334/28544648.jpg"
     ],
     "fecha_scraping": "2026-10-01T00:27:29.509753",
     "fecha_ultima_actualizacion": null
@@ -157539,9 +157546,9 @@
     "alquiler": false,
     "url_detalle": "https://www.ponsmorales.com/es/venta/ref-4610",
     "inmobiliaria": "Pons Morales",
-    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4610/28628635.jpg",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4610/28628641.jpg",
     "galeria": [
-      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4610/28628635.jpg"
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4610/28628641.jpg"
     ],
     "fecha_scraping": "2026-10-07T00:32:37.752291",
     "fecha_ultima_actualizacion": null
@@ -161130,7 +161137,7 @@
     "referencia": "207-3161",
     "titulo": "Casa en fantástica zona",
     "ubicacion": "Ciutadella",
-    "precio": 1500000,
+    "precio": 1680000,
     "metros": 2,
     "metros_parcela": 550,
     "habitaciones": 4,
@@ -161203,7 +161210,7 @@
       "https://www.fincasseminari.com/panel/inmuebles/1768/med/24"
     ],
     "fecha_scraping": "2026-10-20T00:14:38.379380",
-    "fecha_ultima_actualizacion": "2026-11-08T00:35:14.613470"
+    "fecha_ultima_actualizacion": "2026-11-11T01:26:12.528570"
   },
   {
     "referencia": "4714",
@@ -166148,7 +166155,7 @@
   {
     "referencia": "MEN58292",
     "titulo": "Parcela edificable cerca del mar en venta en Cala Binidalí, Maó",
-    "ubicacion": "Maó",
+    "ubicacion": "Parcelas",
     "precio": 385245,
     "metros": null,
     "metros_parcela": 1223,
@@ -166174,7 +166181,7 @@
       "https://images.lucasfox.com/property/4x3_1600w/E95A5C7BF6.jpg"
     ],
     "fecha_scraping": "2026-10-29T11:52:42.895980",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-11T01:32:18.344320"
   },
   {
     "referencia": "MEN67359",
@@ -167241,12 +167248,12 @@
     "habitaciones": 4,
     "banos": 4,
     "tipo": null,
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/un-santuario-costero-en-alcaufar-menorca/90847/",
     "inmobiliaria": "Bonnin Sanso",
@@ -167314,7 +167321,8 @@
       "https://images.bonninsanso.com/b/4/propiedades_fotos_681997_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-10-30T00:48:59.190175",
-    "fecha_ultima_actualizacion": "2026-11-04T01:14:50.390598"
+    "fecha_ultima_actualizacion": "2026-11-04T01:14:50.390598",
+    "fecha_eliminacion": "2026-11-11T01:14:17.481212"
   },
   {
     "referencia": "93409",
@@ -170442,7 +170450,7 @@
     "referencia": "93542",
     "titulo": "Nace Mahón District, una obra nueva en Mahón, Menorca",
     "ubicacion": "Maó",
-    "precio": 299000,
+    "precio": null,
     "metros": 56,
     "metros_parcela": null,
     "habitaciones": 2,
@@ -170483,7 +170491,7 @@
       "https://images.bonninsanso.com/b/d/propiedades_fotos_731763_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-11-07T00:58:07.330932",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-11T01:18:59.140711"
   },
   {
     "referencia": "93543",
@@ -171352,6 +171360,126 @@
       "https://media.mobiliagestion.es/Portals/inmobomenorca/Images/1060/29251113-large.jpg"
     ],
     "fecha_scraping": "2026-11-10T03:43:59.877714",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "5002",
+    "titulo": "APTO CON LICENCIA TURÍSTICA",
+    "ubicacion": "Ciutadella; Cap d'Artrutx",
+    "precio": 420000,
+    "metros": 71,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": 1,
+    "tipo": "Apartamento",
+    "estado": "",
+    "piscina": true,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4546",
+    "inmobiliaria": "Inmobiliaria Artrutx",
+    "imagen_destacada": "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/01.jpg",
+    "galeria": [
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/01.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/02.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/03.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/04.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/05.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/06.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/07.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/08.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/09.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/10.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/11.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/12.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/13.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/14.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/15.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/16.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/17.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/18.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/19.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/20.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/21.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/22.jpg",
+      "https://www.inmobiliariaartrutx.com/panel/inmuebles/4546/img/23.jpg"
+    ],
+    "fecha_scraping": "2026-11-11T01:10:44.987108",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "93909",
+    "titulo": "Apartamento en primera planta con vistas a la playa en Son Parc, Menorca",
+    "ubicacion": "Es Mercadal; Son Parc",
+    "precio": 450000,
+    "metros": 68,
+    "metros_parcela": null,
+    "habitaciones": 2,
+    "banos": 2,
+    "tipo": "Apartamento",
+    "estado": "",
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.bonninsanso.com/es/compra/apartamento-en-primera-planta-con-vistas-a-la-playa-en-son-parc-menorca/93909/",
+    "inmobiliaria": "Bonnin Sanso",
+    "imagen_destacada": "https://images.bonninsanso.com/e/2/propiedades_fotos_735472_w1200_h900_wm.jpg",
+    "galeria": [
+      "https://images.bonninsanso.com/e/2/propiedades_fotos_735472_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/8/propiedades_fotos_735473_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/c/8/propiedades_fotos_735492_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/8/propiedades_fotos_735471_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/0/propiedades_fotos_735479_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/6/f/propiedades_fotos_735480_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/4/propiedades_fotos_735477_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/d/propiedades_fotos_735476_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/3/propiedades_fotos_735475_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/5/propiedades_fotos_735487_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/3/b/propiedades_fotos_735491_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/e/1/propiedades_fotos_735490_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/7/propiedades_fotos_735486_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/9/4/propiedades_fotos_735485_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/7/propiedades_fotos_735482_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/0/1/propiedades_fotos_735483_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/f/b/propiedades_fotos_735481_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/e/propiedades_fotos_735488_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/4/propiedades_fotos_735469_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/1/8/propiedades_fotos_735470_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/6/propiedades_fotos_735493_w1200_h900_wm.jpg"
+    ],
+    "fecha_scraping": "2026-11-11T01:21:03.711640",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "26961957",
+    "titulo": "Casa con local y gran patio en Alaior",
+    "ubicacion": "Alaior",
+    "precio": 580000,
+    "metros": 80,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Casa",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-con-local-y-gran-patio-en-alaior/26961957",
+    "inmobiliaria": "Casas en Menorca",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P31383809/Tphoto/ID01e1de01-0000-0500-0000-00001ad20fd6.jpg",
+    "galeria": [
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P31383809/Tphoto/ID01e1de01-0000-0500-0000-00001ad20fd6.jpg"
+    ],
+    "fecha_scraping": "2026-11-11T01:26:05.621382",
     "fecha_ultima_actualizacion": null
   }
 ]
