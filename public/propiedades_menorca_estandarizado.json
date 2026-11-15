@@ -66174,7 +66174,7 @@
     "referencia": "Ref. 7747",
     "titulo": "Chalet independiente en Cala'n Blanes",
     "ubicacion": "Cala'N Blanes; Ciutadella",
-    "precio": 450000,
+    "precio": 420000,
     "metros": null,
     "metros_parcela": 109,
     "habitaciones": 3,
@@ -66229,7 +66229,7 @@
       "https://fincasllongas.com/files/haz-que-en-esta-fotografa-haga-nano-banana-pro-85451-800x480.jpg?v=1778324521"
     ],
     "fecha_scraping": "2026-05-09T21:53:47.388154",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-15T00:56:45.024574"
   },
   {
     "referencia": "Ref. 7749",
@@ -66699,7 +66699,7 @@
     "titulo": "Piso totalmente reformado en primera planta con terraza en azotea",
     "ubicacion": "Maó",
     "precio": 320000,
-    "metros": 103,
+    "metros": 69,
     "metros_parcela": null,
     "habitaciones": 3,
     "banos": null,
@@ -66707,7 +66707,7 @@
     "estado": null,
     "piscina": false,
     "garaje": false,
-    "ascensor": true,
+    "ascensor": false,
     "vistas_mar": false,
     "vendido": false,
     "alquiler": false,
@@ -66749,11 +66749,11 @@
       "http://www.fincasfaro.net/watermark/605785/380x380",
       "http://www.fincasfaro.net/watermark/605786/380x380",
       "http://www.fincasfaro.net/watermark/615332/600x600",
-      "http://www.fincasfaro.net/watermark/615093/600x600",
-      "http://www.fincasfaro.net/watermark/610091/600x600"
+      "http://www.fincasfaro.net/watermark/615647/600x600",
+      "http://www.fincasfaro.net/watermark/615093/600x600"
     ],
     "fecha_scraping": "2026-05-12T22:17:29.219237",
-    "fecha_ultima_actualizacion": "2026-11-04T01:21:17.575731"
+    "fecha_ultima_actualizacion": "2026-11-15T01:06:36.132202"
   },
   {
     "referencia": "4901",
@@ -70087,74 +70087,6 @@
       "https://inmobiliariapalau.com/wp-content/uploads/2026/04/Ref.-4490-Fotografias-1-IA.jpg"
     ],
     "fecha_scraping": "2026-06-08T22:44:44.908028",
-    "fecha_ultima_actualizacion": null
-  },
-  {
-    "referencia": "92960",
-    "titulo": "Encanto mediterráneo a pasos del mar – Sa Mesquida, Menorca",
-    "ubicacion": "Maó",
-    "precio": 775000,
-    "metros": 121,
-    "metros_parcela": 161,
-    "habitaciones": 3,
-    "banos": 2,
-    "tipo": null,
-    "estado": "",
-    "piscina": false,
-    "garaje": true,
-    "ascensor": false,
-    "vistas_mar": false,
-    "vendido": false,
-    "alquiler": false,
-    "url_detalle": "https://www.bonninsanso.com/es/compra/encanto-mediterraneo-a-pasos-del-mar-sa-mesquida-menorca/92960/",
-    "inmobiliaria": "Bonnin Sanso",
-    "imagen_destacada": "https://images.bonninsanso.com/c/e/propiedades_fotos_721752_w1200_h900_wm.jpg",
-    "galeria": [
-      "https://images.bonninsanso.com/c/e/propiedades_fotos_721752_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/a/d/propiedades_fotos_721708_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/8/b/propiedades_fotos_721753_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/c/0/propiedades_fotos_721709_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/a/9/propiedades_fotos_721710_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/2/7/propiedades_fotos_721711_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/5/b/propiedades_fotos_721713_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/b/b/propiedades_fotos_721716_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/5/3/propiedades_fotos_721717_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/e/4/propiedades_fotos_721718_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/7/3/propiedades_fotos_721720_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/7/f/propiedades_fotos_721721_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/e/a/propiedades_fotos_721722_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/6/e/propiedades_fotos_721723_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/5/0/propiedades_fotos_721724_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/0/1/propiedades_fotos_721725_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/f/1/propiedades_fotos_721726_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/e/3/propiedades_fotos_721729_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/7/c/propiedades_fotos_721730_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/a/7/propiedades_fotos_721727_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/c/e/propiedades_fotos_721728_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/5/3/propiedades_fotos_721733_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/f/4/propiedades_fotos_721732_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/8/7/propiedades_fotos_721737_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/0/8/propiedades_fotos_721738_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/a/6/propiedades_fotos_721731_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/a/c/propiedades_fotos_721739_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/a/9/propiedades_fotos_721740_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/3/5/propiedades_fotos_721741_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/8/7/propiedades_fotos_721742_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/e/e/propiedades_fotos_721734_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/1/d/propiedades_fotos_721736_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/6/8/propiedades_fotos_721715_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/c/3/propiedades_fotos_721744_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/2/6/propiedades_fotos_721751_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/f/4/propiedades_fotos_721743_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/9/3/propiedades_fotos_721745_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/7/4/propiedades_fotos_721746_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/a/8/propiedades_fotos_721747_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/b/0/propiedades_fotos_721749_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/5/f/propiedades_fotos_721754_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/e/7/propiedades_fotos_721750_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/e/2/propiedades_fotos_721755_w1200_h900_wm.jpg"
-    ],
-    "fecha_scraping": "2026-06-08T22:45:01.540251",
     "fecha_ultima_actualizacion": null
   },
   {
@@ -73819,7 +73751,7 @@
     "referencia": "52913",
     "titulo": "Chalet",
     "ubicacion": "Ciutadella; Calan Blanes",
-    "precio": 450000,
+    "precio": 420000,
     "metros": 120,
     "metros_parcela": 450,
     "habitaciones": 3,
@@ -73858,7 +73790,7 @@
       "https://zenhousecredit.com/img/calcular.jpg"
     ],
     "fecha_scraping": "2026-07-01T22:24:31.727147",
-    "fecha_ultima_actualizacion": "2026-10-30T00:54:59.079598"
+    "fecha_ultima_actualizacion": "2026-11-15T01:07:05.471756"
   },
   {
     "referencia": "Ref. 7778",
@@ -79161,7 +79093,7 @@
     "referencia": "93473",
     "titulo": "Casa señorial con encanto en el corazón de Alaior, Menorca",
     "ubicacion": "Alaior",
-    "precio": 350000,
+    "precio": null,
     "metros": 341,
     "metros_parcela": 163,
     "habitaciones": 4,
@@ -79218,7 +79150,7 @@
       "https://images.bonninsanso.com/d/0/propiedades_fotos_725411_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-07-29T22:05:39.664109",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-15T01:03:31.790756"
   },
   {
     "referencia": "93601",
@@ -82737,7 +82669,7 @@
     "referencia": "1258",
     "titulo": "Local en Maó",
     "ubicacion": "Maó",
-    "precio": 227000,
+    "precio": 194000,
     "metros": 144,
     "metros_parcela": null,
     "habitaciones": null,
@@ -82763,7 +82695,7 @@
       "http://www.fincasfaro.net/watermark/593395/600x600"
     ],
     "fecha_scraping": "2026-08-07T21:45:52.021967",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-15T01:06:04.541620"
   },
   {
     "referencia": "20688116",
@@ -86843,7 +86775,7 @@
     "titulo": "Piso reformado y luminoso junto al casco antiguo de Mahón, con terraza comunitaria",
     "ubicacion": "Maó",
     "precio": 299000,
-    "metros": 69,
+    "metros": 97,
     "metros_parcela": null,
     "habitaciones": 3,
     "banos": null,
@@ -86892,10 +86824,10 @@
       "http://www.fincasfaro.net/watermark/613888/380x380",
       "http://www.fincasfaro.net/watermark/605685/600x600",
       "http://www.fincasfaro.net/watermark/615332/600x600",
-      "http://www.fincasfaro.net/watermark/615093/600x600"
+      "http://www.fincasfaro.net/watermark/615647/600x600"
     ],
     "fecha_scraping": "2026-09-15T23:29:39.395122",
-    "fecha_ultima_actualizacion": "2026-11-04T01:20:59.805742"
+    "fecha_ultima_actualizacion": "2026-11-15T01:06:15.555879"
   },
   {
     "referencia": "52926",
@@ -88673,56 +88605,6 @@
     "fecha_ultima_actualizacion": null
   },
   {
-    "referencia": "36634",
-    "titulo": "EN EXCLUSIVA. Bungalow de 3 dormitorios con jardín y piscina comunitaria en Los Delfines, Menorca",
-    "ubicacion": "Ciutadella",
-    "precio": null,
-    "metros": 103,
-    "metros_parcela": null,
-    "habitaciones": 3,
-    "banos": 2,
-    "tipo": null,
-    "estado": "",
-    "piscina": true,
-    "garaje": false,
-    "ascensor": false,
-    "vistas_mar": false,
-    "vendido": false,
-    "alquiler": false,
-    "url_detalle": "https://www.bonninsanso.com/es/compra/en-exclusiva-bungalow-de-3-dormitorios-con-jardin-y-piscina-comunitaria-en-los-delfines-menorca/36634/",
-    "inmobiliaria": "Bonnin Sanso",
-    "imagen_destacada": "https://images.bonninsanso.com/0/0/propiedades_fotos_726491_w1200_h900_wm.jpg",
-    "galeria": [
-      "https://images.bonninsanso.com/0/0/propiedades_fotos_726491_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/e/f/propiedades_fotos_726490_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/2/0/propiedades_fotos_726497_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/4/c/propiedades_fotos_726510_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/c/2/propiedades_fotos_726508_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/b/d/propiedades_fotos_726509_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/7/2/propiedades_fotos_726506_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/e/8/propiedades_fotos_726507_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/7/a/propiedades_fotos_726505_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/2/8/propiedades_fotos_726504_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/7/a/propiedades_fotos_726499_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/0/5/propiedades_fotos_726500_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/c/8/propiedades_fotos_726489_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/7/0/propiedades_fotos_726488_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/6/b/propiedades_fotos_726501_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/c/2/propiedades_fotos_726503_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/a/8/propiedades_fotos_726502_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/6/3/propiedades_fotos_726496_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/d/0/propiedades_fotos_726495_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/8/8/propiedades_fotos_726485_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/6/b/propiedades_fotos_726494_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/8/3/propiedades_fotos_726492_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/f/e/propiedades_fotos_726486_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/b/f/propiedades_fotos_726487_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/5/7/propiedades_fotos_726511_w1200_h900_wm.jpg"
-    ],
-    "fecha_scraping": "2026-09-25T23:55:58.951898",
-    "fecha_ultima_actualizacion": null
-  },
-  {
     "referencia": "93805",
     "titulo": "IDO Fornells... vivir donde el mar marca el ritmo. Menorca",
     "ubicacion": "Es Mercadal; Fornells",
@@ -89208,7 +89090,7 @@
     "referencia": "93358",
     "titulo": "Solar edificable en el polígono de Sant Lluís, Menorca",
     "ubicacion": "Sant Lluís",
-    "precio": 225000,
+    "precio": null,
     "metros": null,
     "metros_parcela": 1034,
     "habitaciones": null,
@@ -89232,7 +89114,7 @@
       "https://images.bonninsanso.com/3/5/propiedades_fotos_719022_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-09-30T00:15:35.702119",
-    "fecha_ultima_actualizacion": "2026-11-04T01:17:27.881931"
+    "fecha_ultima_actualizacion": "2026-11-15T01:02:56.326904"
   },
   {
     "referencia": "93850",
@@ -90556,47 +90438,6 @@
     ],
     "fecha_scraping": "2026-10-08T00:53:12.745855",
     "fecha_ultima_actualizacion": null
-  },
-  {
-    "referencia": "37325",
-    "titulo": "Bungalow en Los Arcos, Calan Blanes, Ciutadella. Menorca",
-    "ubicacion": "Ciutadella",
-    "precio": null,
-    "metros": 65,
-    "metros_parcela": null,
-    "habitaciones": 2,
-    "banos": 1,
-    "tipo": null,
-    "estado": "",
-    "piscina": false,
-    "garaje": false,
-    "ascensor": false,
-    "vistas_mar": false,
-    "vendido": false,
-    "alquiler": false,
-    "url_detalle": "https://www.bonninsanso.com/es/compra/bungalow-en-los-arcos-calan-blanes-ciutadella-menorca/37325/",
-    "inmobiliaria": "Bonnin Sanso",
-    "imagen_destacada": "https://images.bonninsanso.com/6/d/propiedades_fotos_731935_w1200_h900_wm.jpg",
-    "galeria": [
-      "https://images.bonninsanso.com/6/d/propiedades_fotos_731935_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/2/e/propiedades_fotos_731934_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/d/c/propiedades_fotos_731932_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/8/3/propiedades_fotos_731933_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/d/8/propiedades_fotos_731949_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/1/a/propiedades_fotos_731950_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/1/0/propiedades_fotos_731947_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/0/7/propiedades_fotos_731946_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/0/0/propiedades_fotos_731937_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/e/3/propiedades_fotos_731941_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/9/c/propiedades_fotos_731945_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/3/3/propiedades_fotos_731943_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/b/b/propiedades_fotos_731931_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/5/9/propiedades_fotos_731927_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/4/8/propiedades_fotos_731928_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/a/c/propiedades_fotos_731954_w1200_h900_wm.jpg"
-    ],
-    "fecha_scraping": "2026-10-08T00:53:18.465850",
-    "fecha_ultima_actualizacion": "2026-10-30T00:53:52.650933"
   },
   {
     "referencia": "26665414",
@@ -98929,7 +98770,7 @@
   {
     "referencia": "MEN74432",
     "titulo": "Encantador apartamento en el Poblado de Pescadores de Binibeca Vell con vistas al mar",
-    "ubicacion": "Sant Lluís",
+    "ubicacion": "Pisos",
     "precio": 375000,
     "metros": 35,
     "metros_parcela": 35,
@@ -98965,21 +98806,21 @@
       "https://images.lucasfox.com/property/4x3_1600w/CA8FF36886.jpg"
     ],
     "fecha_scraping": "2026-10-31T00:39:33.457719",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-15T01:15:55.922342"
   },
   {
     "referencia": "2150",
     "titulo": "Planta baja a estrenar en zona de Avenida Menorca, con 3 dormitorios y 2 baños",
     "ubicacion": "Maó",
     "precio": 339000,
-    "metros": 193,
+    "metros": 103,
     "metros_parcela": null,
     "habitaciones": 3,
     "banos": null,
     "tipo": "Piso",
     "estado": null,
     "piscina": false,
-    "garaje": true,
+    "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
     "vendido": false,
@@ -99015,11 +98856,11 @@
       "http://www.fincasfaro.net/watermark/615117/380x380",
       "http://www.fincasfaro.net/watermark/615118/380x380",
       "http://www.fincasfaro.net/watermark/615332/600x600",
-      "http://www.fincasfaro.net/watermark/610091/600x600",
-      "http://www.fincasfaro.net/watermark/614125/600x600"
+      "http://www.fincasfaro.net/watermark/615647/600x600",
+      "http://www.fincasfaro.net/watermark/610091/600x600"
     ],
     "fecha_scraping": "2026-11-01T00:00:13.201240",
-    "fecha_ultima_actualizacion": "2026-11-04T01:21:04.241468"
+    "fecha_ultima_actualizacion": "2026-11-15T01:06:20.354662"
   },
   {
     "referencia": "26888126",
@@ -99313,14 +99154,14 @@
     "titulo": "Planta baja a estrenar en la zona de Avenida Menorca, con 3 dormitorios y 2 baños",
     "ubicacion": "Maó",
     "precio": 334000,
-    "metros": 193,
+    "metros": 103,
     "metros_parcela": null,
     "habitaciones": 3,
     "banos": null,
     "tipo": "Piso",
     "estado": null,
     "piscina": false,
-    "garaje": true,
+    "garaje": false,
     "ascensor": true,
     "vistas_mar": false,
     "vendido": false,
@@ -99360,12 +99201,12 @@
       "http://www.fincasfaro.net/watermark/615360/380x380",
       "http://www.fincasfaro.net/watermark/615361/380x380",
       "http://www.fincasfaro.net/watermark/615362/380x380",
+      "http://www.fincasfaro.net/watermark/615647/600x600",
       "http://www.fincasfaro.net/watermark/615093/600x600",
-      "http://www.fincasfaro.net/watermark/610091/600x600",
-      "http://www.fincasfaro.net/watermark/614125/600x600"
+      "http://www.fincasfaro.net/watermark/610091/600x600"
     ],
     "fecha_scraping": "2026-11-04T01:21:07.311130",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-15T01:06:28.181801"
   },
   {
     "referencia": "PI 003",
@@ -101136,7 +100977,7 @@
     "referencia": "93508",
     "titulo": "S’OLIVERA MAHÓN - Diseño, luz y calidad de vida en el corazón de Mahón, Menorca",
     "ubicacion": "Maó",
-    "precio": 615000,
+    "precio": null,
     "metros": 168,
     "metros_parcela": null,
     "habitaciones": 3,
@@ -101174,10 +101015,10 @@
       "https://images.bonninsanso.com/0/8/promociones_fotos_1889_w1200_h900_wm.jpg",
       "https://images.bonninsanso.com/b/a/promociones_fotos_1890_w1200_h900_wm.jpg",
       "https://images.bonninsanso.com/3/a/promociones_fotos_1929_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/c/3/propiedades_fotos_734191_w1200_h900_wm.jpg"
+      "https://images.bonninsanso.com/7/4/promociones_fotos_2053_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-11-07T00:57:56.290079",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-15T01:03:44.975184"
   },
   {
     "referencia": "93534",
@@ -103018,6 +102859,106 @@
       "https://images.bonninsanso.com/1/d/propiedades_fotos_733141_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-11-14T01:34:08.912598",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "Ref. 7817",
+    "titulo": "Chalet independiente con piscina privada y garaje en Santandria.",
+    "ubicacion": "Ciutadella; Santandria; Son Carrió",
+    "precio": 840000,
+    "metros": null,
+    "metros_parcela": 139,
+    "habitaciones": 3,
+    "banos": 3,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": true,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://fincasllongas.com/propiedad/chalet-independiente-con-piscina-privada-y-garaje-en-santandria/",
+    "inmobiliaria": "Fincas Llongas",
+    "imagen_destacada": "https://fincasllongas.com/files/download-28-3-800x480.jpg?v=1794658160",
+    "galeria": [
+      "https://fincasllongas.com/files/download-28-3-800x480.jpg?v=1794658160",
+      "https://fincasllongas.com/files/download-38-2-800x480.jpg?v=1794658195",
+      "https://fincasllongas.com/files/download-32-3-800x480.jpg?v=1794658170",
+      "https://fincasllongas.com/files/download-35-1-800x480.jpg?v=1794658186",
+      "https://fincasllongas.com/files/download-34-3-800x480.jpg?v=1794658178",
+      "https://fincasllongas.com/files/download-40-1-800x480.jpg?v=1794658204"
+    ],
+    "fecha_scraping": "2026-11-15T00:55:43.268473",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "Ref. 7816",
+    "titulo": "Chalet independiente con jardín en Cala’n Blanes.",
+    "ubicacion": "Cala'N Blanes; Ciutadella",
+    "precio": 690000,
+    "metros": null,
+    "metros_parcela": 193,
+    "habitaciones": 4,
+    "banos": 2,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": true,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://fincasllongas.com/propiedad/magnifico-chalet-independiente-con-amplio-jardin-a-150-m-de-una-cala-en-calan-blanes/",
+    "inmobiliaria": "Fincas Llongas",
+    "imagen_destacada": "https://fincasllongas.com/files/dsc06598-800x480.jpg?v=1794646740",
+    "galeria": [
+      "https://fincasllongas.com/files/dsc06598-800x480.jpg?v=1794646740",
+      "https://fincasllongas.com/files/dsc06578-800x480.jpg?v=1794646585",
+      "https://fincasllongas.com/files/dsc06581-800x480.jpg?v=1794646610",
+      "https://fincasllongas.com/files/dsc06582-800x480.jpg?v=1794646623",
+      "https://fincasllongas.com/files/dsc06583-800x480.jpg?v=1794646638",
+      "https://fincasllongas.com/files/dsc06589-800x480.jpg?v=1794646689",
+      "https://fincasllongas.com/files/dsc06590-800x480.jpg?v=1794646702",
+      "https://fincasllongas.com/files/dsc06595-800x480.jpg?v=1794646715",
+      "https://fincasllongas.com/files/dsc06597-800x480.jpg?v=1794646727",
+      "https://fincasllongas.com/files/dsc06600-800x480.jpg?v=1794646753",
+      "https://fincasllongas.com/files/dsc06601-800x480.jpg?v=1794646766",
+      "https://fincasllongas.com/files/dsc06664-hdr-800x480.jpg?v=1794647035",
+      "https://fincasllongas.com/files/dsc06673-hdr-800x480.jpg?v=1794647049",
+      "https://fincasllongas.com/files/dsc06674-1-800x480.jpg?v=1794647062",
+      "https://fincasllongas.com/files/dsc06609-hdr-800x480.jpg?v=1794646809",
+      "https://fincasllongas.com/files/dsc06618-hdr-800x480.jpg?v=1794646820",
+      "https://fincasllongas.com/files/dsc06619-800x480.jpg?v=1794646834",
+      "https://fincasllongas.com/files/dsc06606-hdr-1-800x480.jpg?v=1794646781",
+      "https://fincasllongas.com/files/dsc06607-800x480.jpg?v=1794646794",
+      "https://fincasllongas.com/files/dsc06622-hdr-800x480.jpg?v=1794646848",
+      "https://fincasllongas.com/files/dsc06632-1-800x480.jpg?v=1794646861",
+      "https://fincasllongas.com/files/dsc06634-1-800x480.jpg",
+      "https://fincasllongas.com/files/dsc06637-800x480.jpg?v=1794646887",
+      "https://fincasllongas.com/files/dsc06639-800x480.jpg?v=1794646899",
+      "https://fincasllongas.com/files/dsc06642-800x480.jpg?v=1794646915",
+      "https://fincasllongas.com/files/dsc06643-800x480.jpg?v=1794646927",
+      "https://fincasllongas.com/files/dsc06644-800x480.jpg?v=1794646942",
+      "https://fincasllongas.com/files/dsc06654-hdr-800x480.jpg?v=1794646954",
+      "https://fincasllongas.com/files/dsc06659-hdr-800x480.jpg?v=1794646969",
+      "https://fincasllongas.com/files/dsc06660-800x480.jpg?v=1794646983",
+      "https://fincasllongas.com/files/dsc06661-800x480.jpg?v=1794646995",
+      "https://fincasllongas.com/files/dsc06662-800x480.jpg?v=1794647008",
+      "https://fincasllongas.com/files/dsc06663-800x480.jpg?v=1794647022",
+      "https://fincasllongas.com/files/dsc06681-1-800x480.jpg?v=1794647103",
+      "https://fincasllongas.com/files/dsc06675-1-800x480.jpg?v=1794647076",
+      "https://fincasllongas.com/files/dsc06676-hdr-800x480.jpg?v=1794647089",
+      "https://fincasllongas.com/files/dsc06686-hdr-800x480.jpg?v=1794647116",
+      "https://fincasllongas.com/files/dsc06687-800x480.jpg?v=1794647131",
+      "https://fincasllongas.com/files/dsc06688-800x480.jpg?v=1794647142",
+      "https://fincasllongas.com/files/dsc06689-800x480.jpg?v=1794647154",
+      "https://fincasllongas.com/files/dsc06690-800x480.jpg?v=1794647168",
+      "https://fincasllongas.com/files/dsc06696-800x480.jpg?v=1794647182",
+      "https://fincasllongas.com/files/dsc06697-800x480.jpg?v=1794647195",
+      "https://fincasllongas.com/files/dsc06698-1-800x480.jpg?v=1794647212"
+    ],
+    "fecha_scraping": "2026-11-15T00:55:44.686997",
     "fecha_ultima_actualizacion": null
   }
 ]
