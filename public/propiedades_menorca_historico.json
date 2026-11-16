@@ -100380,7 +100380,7 @@
   },
   {
     "referencia": "20684651",
-    "titulo": "Casa de campo en la tranquila Trebaluger",
+    "titulo": "Casa de campo con piscina en Trebaluger",
     "ubicacion": "Es Castell; Trebalúger",
     "precio": 850000,
     "metros": null,
@@ -100389,7 +100389,7 @@
     "banos": null,
     "tipo": "Casa",
     "estado": null,
-    "piscina": false,
+    "piscina": true,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
@@ -100397,12 +100397,12 @@
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-de-campo-en-la-tranquila-trebaluger/20684651",
     "inmobiliaria": "Casas en Menorca",
-    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24200029/Tphoto/ID5d437101-0000-0500-0000-000011ecab7b.jpg",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24200029/Tphoto/ID5d437101-0000-0500-0000-00001adda0f0.jpg",
     "galeria": [
-      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24200029/Tphoto/ID5d437101-0000-0500-0000-000011ecab7b.jpg"
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P24200029/Tphoto/ID5d437101-0000-0500-0000-00001adda0f0.jpg"
     ],
     "fecha_scraping": "2026-04-20T21:56:00.183054",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-16T01:06:11.120510"
   },
   {
     "referencia": "20684762",
@@ -165946,7 +165946,7 @@
   {
     "referencia": "MEN47570",
     "titulo": "Parcela esquinera edificable en venta en el centro de Cala'n Porter, Alaior",
-    "ubicacion": "Alaior",
+    "ubicacion": "Parcelas",
     "precio": 165000,
     "metros": null,
     "metros_parcela": 411,
@@ -165975,12 +165975,12 @@
       "https://images.lucasfox.com/property/4x3_1600w/AF04DDB4CD.jpg"
     ],
     "fecha_scraping": "2026-10-29T11:51:31.632281",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-16T01:14:06.337683"
   },
   {
     "referencia": "MEN69029",
     "titulo": "Piso en excelentes condiciones de 2 dormitorios en venta en Ciutadella",
-    "ubicacion": "Ciutadella",
+    "ubicacion": "Pisos",
     "precio": 320000,
     "metros": 66,
     "metros_parcela": 66,
@@ -166003,12 +166003,12 @@
       "https://images.lucasfox.com/development/4x3_1600w/C443FC01ED.jpg"
     ],
     "fecha_scraping": "2026-10-29T11:51:41.761664",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-16T01:14:16.319490"
   },
   {
     "referencia": "MEN69028",
     "titulo": "Piso en excelentes condiciones de 3 dormitorios con terraza de 6 m² en venta en Ciutadella",
-    "ubicacion": "Ciutadella",
+    "ubicacion": "Pisos",
     "precio": 380000,
     "metros": 75,
     "metros_parcela": 75,
@@ -166031,7 +166031,7 @@
       "https://images.lucasfox.com/development/4x3_1600w/C443FC01ED.jpg"
     ],
     "fecha_scraping": "2026-10-29T11:51:51.867559",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-16T01:14:26.455756"
   },
   {
     "referencia": "MEN69027",
