@@ -49565,7 +49565,7 @@
     "referencia": "91474",
     "titulo": "Planta baja en San Luis, Menorca",
     "ubicacion": "Sant Lluís",
-    "precio": 250000,
+    "precio": 230000,
     "metros": 69,
     "metros_parcela": null,
     "habitaciones": 1,
@@ -49595,7 +49595,7 @@
       "https://images.bonninsanso.com/7/4/propiedades_fotos_713480_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:22:54.351979",
-    "fecha_ultima_actualizacion": "2026-10-29T12:16:04.889827"
+    "fecha_ultima_actualizacion": "2026-11-21T02:10:10.843926"
   },
   {
     "referencia": "36356",
@@ -52734,12 +52734,12 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/local-en-zona-comercial-de-son-parc-menorca/91902/",
     "inmobiliaria": "Bonnin Sanso",
@@ -52762,7 +52762,8 @@
       "https://images.bonninsanso.com/9/3/propiedades_fotos_653652_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:24:59.801027",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-11-21T02:08:45.521292"
   },
   {
     "referencia": "91905",
@@ -53597,7 +53598,7 @@
     "ubicacion": "Maó; Port",
     "precio": 780000,
     "metros": 212,
-    "metros_parcela": null,
+    "metros_parcela": 86,
     "habitaciones": 2,
     "banos": 2,
     "tipo": "Casa",
@@ -53645,7 +53646,7 @@
       "https://images.bonninsanso.com/4/b/propiedades_fotos_663043_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:25:40.998791",
-    "fecha_ultima_actualizacion": "2026-10-29T12:17:13.050412"
+    "fecha_ultima_actualizacion": "2026-11-21T02:11:08.980344"
   },
   {
     "referencia": "36613",
@@ -91487,7 +91488,7 @@
     "referencia": "5090",
     "titulo": "Chalet unifamiliar con apartamento independiente en Santa Ana",
     "ubicacion": "Es Castell",
-    "precio": 1250000,
+    "precio": 995000,
     "metros": 285,
     "metros_parcela": 980,
     "habitaciones": 6,
@@ -91495,9 +91496,9 @@
     "tipo": "Chalet",
     "estado": "EXCLUSIVA",
     "piscina": true,
-    "garaje": true,
+    "garaje": false,
     "ascensor": false,
-    "vistas_mar": true,
+    "vistas_mar": false,
     "vendido": false,
     "alquiler": false,
     "url_detalle": "https://menorcasa.com/es/property/detached-villa-with-seperate-apartment-santa-ana/",
@@ -91553,7 +91554,7 @@
       "https://menorcasa.com/wp-content/uploads/2025/06/Santa-Ana-45.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:57:34.588306",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-21T02:20:46.884954"
   },
   {
     "referencia": "4983",
@@ -95936,7 +95937,7 @@
     "referencia": "4694",
     "titulo": "Propiedad en primera línea de mar con potencial de reforma en Cala d’en Busquets",
     "ubicacion": "Ciutadella; Calan Busquets",
-    "precio": 1680000,
+    "precio": 1535000,
     "metros": 235,
     "metros_parcela": null,
     "habitaciones": 6,
@@ -95956,7 +95957,7 @@
       "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4694/21858185.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:59:06.894018",
-    "fecha_ultima_actualizacion": "2026-11-17T03:57:28.869687"
+    "fecha_ultima_actualizacion": "2026-11-21T02:25:18.745078"
   },
   {
     "referencia": "4708",
@@ -104196,7 +104197,7 @@
     "referencia": "25387402",
     "titulo": "Casa entera muy céntrica en Mahón",
     "ubicacion": "Maó - Mahón; Maó",
-    "precio": 490000,
+    "precio": 435000,
     "metros": null,
     "metros_parcela": null,
     "habitaciones": null,
@@ -104211,12 +104212,12 @@
     "alquiler": false,
     "url_detalle": "https://www.casasenmenorca.com/inmueble/casa-entera-muy-centrica-en-mahon/25387402",
     "inmobiliaria": "Casas en Menorca",
-    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29620696/Tphoto/IDd8f9c301-0000-0500-0000-000018b20fe7.jpg",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29620696/Tphoto/IDd8f9c301-0000-0500-0000-000018b20feb.jpg",
     "galeria": [
-      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29620696/Tphoto/IDd8f9c301-0000-0500-0000-000018b20fe7.jpg"
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P29620696/Tphoto/IDd8f9c301-0000-0500-0000-000018b20feb.jpg"
     ],
     "fecha_scraping": "2026-04-20T22:01:21.780341",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-21T02:18:59.551631"
   },
   {
     "referencia": "24560123",
@@ -110854,7 +110855,7 @@
     "referencia": "22975698",
     "titulo": "Planta baja en venta en Sant Lluis",
     "ubicacion": "Sant Lluís; Sant Lluís - S'Ullestrar - Torret",
-    "precio": 250000,
+    "precio": 230000,
     "metros": 69,
     "metros_parcela": null,
     "habitaciones": null,
@@ -110874,7 +110875,7 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P25148710/Tphoto/ID26bd7f01-0000-0500-0000-000015b79b75.jpg"
     ],
     "fecha_scraping": "2026-04-20T22:10:59.556166",
-    "fecha_ultima_actualizacion": "2026-10-29T12:29:28.209685"
+    "fecha_ultima_actualizacion": "2026-11-21T02:23:10.644881"
   },
   {
     "referencia": "19566107",
@@ -112012,7 +112013,7 @@
     "referencia": "23379259",
     "titulo": "Casa entera en plena Plaza Esplanada de Mahón",
     "ubicacion": "Maó - Mahón; Maó",
-    "precio": 490000,
+    "precio": 435000,
     "metros": null,
     "metros_parcela": null,
     "habitaciones": null,
@@ -112027,12 +112028,12 @@
     "alquiler": false,
     "url_detalle": "https://www.3villas.es/inmueble/casa-entera-en-plena-plaza-esplanada-de-mahon/23379259",
     "inmobiliaria": "3Villas",
-    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P27378217/Tphoto/ID29c2a101-0000-0500-0000-0000188a733d.jpg",
+    "imagen_destacada": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P27378217/Tphoto/ID29c2a101-0000-0500-0000-000016a75614.JPG",
     "galeria": [
-      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P27378217/Tphoto/ID29c2a101-0000-0500-0000-0000188a733d.jpg"
+      "https://images.egorealestate.com/Z1280x960/OAYES/S5/C10403/P27378217/Tphoto/ID29c2a101-0000-0500-0000-000016a75614.JPG"
     ],
     "fecha_scraping": "2026-04-20T22:12:38.563478",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-21T02:22:24.655937"
   },
   {
     "referencia": "21494464",
@@ -114285,7 +114286,7 @@
     "referencia": "4918",
     "titulo": "CHALET EN 1ª LÍNEA DE MAR",
     "ubicacion": "Ciutadella; Sa Farola",
-    "precio": 1670000,
+    "precio": 1535000,
     "metros": 234,
     "metros_parcela": 746,
     "habitaciones": 5,
@@ -114336,7 +114337,7 @@
       "https://www.inmobiliariaartrutx.com/panel/inmuebles/4440/img/032.jpg"
     ],
     "fecha_scraping": "2026-04-24T21:53:45.554425",
-    "fecha_ultima_actualizacion": "2026-10-29T12:10:46.523207"
+    "fecha_ultima_actualizacion": "2026-11-21T02:05:52.341771"
   },
   {
     "referencia": "4919",
@@ -138402,12 +138403,12 @@
     "habitaciones": 3,
     "banos": 1,
     "tipo": "Ático",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.inmobiliariaartrutx.com/detalles-propiedad.php?id_p=4491",
     "inmobiliaria": "Inmobiliaria Artrutx",
@@ -138431,7 +138432,8 @@
       "https://www.inmobiliariaartrutx.com/panel/inmuebles/4491/img/16.jpeg"
     ],
     "fecha_scraping": "2026-07-28T22:11:01.495445",
-    "fecha_ultima_actualizacion": "2026-10-30T00:44:52.411912"
+    "fecha_ultima_actualizacion": "2026-10-30T00:44:52.411912",
+    "fecha_eliminacion": "2026-11-21T02:05:01.157890"
   },
   {
     "referencia": "93656",
@@ -163220,12 +163222,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Ático",
-    "estado": null,
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://zenhousecredit.com/propiedad.php?id=2340",
     "inmobiliaria": "Zenhouse Credit",
@@ -163251,7 +163253,8 @@
       "https://zenhousecredit.com/img/calcular.jpg"
     ],
     "fecha_scraping": "2026-10-29T00:42:37.012100",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-11-21T02:15:53.880672"
   },
   {
     "referencia": "26868818",
@@ -173753,6 +173756,240 @@
       "https://images.egorealestate.com/Z1280x960/OAYES/S5/C14034/P31461740/Tphoto/ID6c11e001-0000-0500-0000-00001aed5ac4.jpg"
     ],
     "fecha_scraping": "2026-11-20T02:11:21.422181",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "3947",
+    "titulo": "SON CARRIÓ|CHALET CON LICENCIA TURÍSTICA",
+    "ubicacion": "Ciutadella; Cala Blanca",
+    "precio": 1352000,
+    "metros": null,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": null,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": true,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://inmomenorcacentro.com/propiedad.php?id=1662",
+    "inmobiliaria": "Inmo Menorca Centro",
+    "imagen_destacada": "https://inmomenorcacentro.com/panel/inmuebles/1662/img/00.a0bf805b-ba3d-4825-a7ba-8efab4a17691.jpg",
+    "galeria": [
+      "https://inmomenorcacentro.com/panel/inmuebles/1662/img/00.a0bf805b-ba3d-4825-a7ba-8efab4a17691.jpg",
+      "https://inmomenorcacentro.com/panel/inmuebles/1662/img/00cbf7e-7c39-40f1-85f4-0e9d15d9b22d.jpg",
+      "https://inmomenorcacentro.com/panel/inmuebles/1662/img/01.1 salon - Gemini_Generated_Image_uti0kquti0kquti0.jpeg",
+      "https://inmomenorcacentro.com/panel/inmuebles/1662/img/01.1 salon Gemini_Generated_Image_ci1w13ci1w13ci1w.jpeg",
+      "https://inmomenorcacentro.com/panel/inmuebles/1662/img/01.2 salon  Gemini_Generated_Image_n69sj4n69sj4n69s.jpeg",
+      "https://inmomenorcacentro.com/panel/inmuebles/1662/img/02. cocina Gemini_Generated_Image_1c4cny1c4cny1c4c.jpeg",
+      "https://inmomenorcacentro.com/panel/inmuebles/1662/img/04.1 -. dormitorio emini_Generated_Image_cjhn3kcjhn3kcjhn.jpeg",
+      "https://inmomenorcacentro.com/panel/inmuebles/1662/img/04.1 - dormitorio - Gemini_Generated_Image_f8k45lf8k45lf8k4.jpeg",
+      "https://inmomenorcacentro.com/panel/inmuebles/1662/img/04.2 - dormitorio - Gemini_Generated_Image_mosi7qmosi7qmosi.jpeg",
+      "https://inmomenorcacentro.com/panel/inmuebles/1662/img/04.2 dormitorio - Gemini_Generated_Image_nbh5qcnbh5qcnbh5.jpeg",
+      "https://inmomenorcacentro.com/panel/inmuebles/1662/img/04.3 - dormitorio Gemini_Generated_Image_b0s1fub0s1fub0s1.jpeg",
+      "https://inmomenorcacentro.com/panel/inmuebles/1662/img/04.3 dormitorio - Gemini_Generated_Image_m44xoim44xoim44x.jpeg",
+      "https://inmomenorcacentro.com/panel/inmuebles/1662/img/04.4 dormitorio Gemini_Generated_Image_ibefm6ibefm6ibef.jpeg",
+      "https://inmomenorcacentro.com/panel/inmuebles/1662/img/05.2 - baño -Gemini_Generated_Image_g8hrrjg8hrrjg8hr.jpeg",
+      "https://inmomenorcacentro.com/panel/inmuebles/1662/img/05.3 - baño Gemini_Generated_Image_o159ono159ono159.jpeg",
+      "https://inmomenorcacentro.com/panel/inmuebles/1662/img/05. baño - Gemini_Generated_Image_97fv0m97fv0m97fv.jpeg",
+      "https://inmomenorcacentro.com/panel/inmuebles/1662/img/a7ed1315-bae9-47ca-82f0-2962a232780d.jpg",
+      "https://inmomenorcacentro.com/panel/inmuebles/1662/img/b3f6e908-cf5b-4982-a61e-56e0024d5bdd.jpg",
+      "https://inmomenorcacentro.com/panel/inmuebles/1662/img/c1aa1b0b-f675-49e4-b494-dfd7d06ce589.jpg"
+    ],
+    "fecha_scraping": "2026-11-21T02:06:25.005369",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "2162",
+    "titulo": "Planta baja a estrenar de 2 dormitorios y con piscina comunitaria",
+    "ubicacion": "Es Castell",
+    "precio": 275000,
+    "metros": 13,
+    "metros_parcela": 216,
+    "habitaciones": 4,
+    "banos": null,
+    "tipo": "Piso",
+    "estado": null,
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "http://www.fincasfaro.net/es/ficha/2162/",
+    "inmobiliaria": "Fincas Faro",
+    "imagen_destacada": "http://www.fincasfaro.net/watermark/615951/380x380",
+    "galeria": [
+      "http://www.fincasfaro.net/watermark/615951/380x380",
+      "http://www.fincasfaro.net/watermark/615952/380x380",
+      "http://www.fincasfaro.net/watermark/615953/380x380",
+      "http://www.fincasfaro.net/watermark/615954/380x380",
+      "http://www.fincasfaro.net/watermark/615955/380x380",
+      "http://www.fincasfaro.net/watermark/615956/380x380",
+      "http://www.fincasfaro.net/watermark/615957/380x380",
+      "http://www.fincasfaro.net/watermark/615958/380x380",
+      "http://www.fincasfaro.net/watermark/615959/380x380",
+      "http://www.fincasfaro.net/watermark/594058/600x600"
+    ],
+    "fecha_scraping": "2026-11-21T02:15:35.063540",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "52934",
+    "titulo": "Chalet",
+    "ubicacion": "Ciutadella; Calan Blanes",
+    "precio": 682000,
+    "metros": 130,
+    "metros_parcela": 400,
+    "habitaciones": 4,
+    "banos": 2,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": true,
+    "garaje": true,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://zenhousecredit.com/propiedad.php?id=2344",
+    "inmobiliaria": "Zenhouse Credit",
+    "imagen_destacada": "https://zenhousecredit.com/img/fotospropiedades/28310.jpg",
+    "galeria": [
+      "https://zenhousecredit.com/img/fotospropiedades/28310.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28311.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28312.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28313.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28314.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28315.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28316.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28317.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28318.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28319.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28320.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28321.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28322.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28323.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28324.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28325.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28326.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28327.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28328.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28329.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28330.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28331.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28332.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28333.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28334.jpg",
+      "https://zenhousecredit.com/img/calcular.jpg"
+    ],
+    "fecha_scraping": "2026-11-21T02:16:06.328967",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4584",
+    "titulo": "Piso reformado con carácter en el centro histórico de Mahón",
+    "ubicacion": "Maó",
+    "precio": 580000,
+    "metros": 163,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": null,
+    "tipo": "Piso",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.ponsmorales.com/es/venta/ref-4584",
+    "inmobiliaria": "Pons Morales",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4584/17423029.jpg",
+    "galeria": [
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4584/17423029.jpg"
+    ],
+    "fecha_scraping": "2026-11-21T02:25:12.790990",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "4988",
+    "titulo": "Ático con terraza y vistas al mar en Ciutadella",
+    "ubicacion": "Ciutadella; Paseo Marítimo",
+    "precio": 435000,
+    "metros": 94,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": null,
+    "tipo": "Ático",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.ponsmorales.com/es/venta/ref-4988",
+    "inmobiliaria": "Pons Morales",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4988/29323044.jpg",
+    "galeria": [
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4988/29323044.jpg"
+    ],
+    "fecha_scraping": "2026-11-21T02:25:12.810553",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "5019",
+    "titulo": "Casa frente al mar para reformar en Cala d’en Busquets - Ciutadella",
+    "ubicacion": "Ciutadella; Calan Busquets",
+    "precio": 790000,
+    "metros": 118,
+    "metros_parcela": null,
+    "habitaciones": 0,
+    "banos": 0,
+    "tipo": "Apartamento",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.ponsmorales.com/es/venta/ref-5019",
+    "inmobiliaria": "Pons Morales",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/5019/30392678.jpg",
+    "galeria": [
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/5019/30392678.jpg"
+    ],
+    "fecha_scraping": "2026-11-21T02:25:12.811836",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "5021",
+    "titulo": "Casa frente al mar para reformar en Cala d’en Busquets - Ciutadella",
+    "ubicacion": "Ciutadella; Calan Busquets",
+    "precio": 790000,
+    "metros": 117,
+    "metros_parcela": null,
+    "habitaciones": 3,
+    "banos": null,
+    "tipo": "Apartamento",
+    "estado": "",
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.ponsmorales.com/es/venta/ref-5021",
+    "inmobiliaria": "Pons Morales",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/5021/30393602.jpg",
+    "galeria": [
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/5021/30393602.jpg"
+    ],
+    "fecha_scraping": "2026-11-21T02:25:12.812098",
     "fecha_ultima_actualizacion": null
   }
 ]
