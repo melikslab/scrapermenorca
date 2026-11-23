@@ -1920,7 +1920,7 @@
     "ubicacion": "Ciutadella",
     "precio": 435000,
     "metros": null,
-    "metros_parcela": 74,
+    "metros_parcela": 94,
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Piso",
@@ -1947,7 +1947,7 @@
       "https://fincasllongas.com/files/bajo-carrer-cabrera-plano-800x480.jpg?v=1791896744"
     ],
     "fecha_scraping": "2026-04-19T21:43:57.945135",
-    "fecha_ultima_actualizacion": "2026-10-29T11:01:55.108307"
+    "fecha_ultima_actualizacion": "2026-11-23T01:30:19.512312"
   },
   {
     "referencia": "Ref. 7682",
@@ -3138,7 +3138,7 @@
     "referencia": "Ref. 7638",
     "titulo": "Vivienda con privilegiada ubicación en 1ª línea de mar en Sa Farola",
     "ubicacion": "Ciutadella; Sa Farola",
-    "precio": 830000,
+    "precio": 790000,
     "metros": null,
     "metros_parcela": 117,
     "habitaciones": 3,
@@ -3179,13 +3179,13 @@
       "https://fincasllongas.com/files/dsc03754-hdr-800x480.jpg?v=1757758100"
     ],
     "fecha_scraping": "2026-04-19T21:45:01.744874",
-    "fecha_ultima_actualizacion": "2026-10-29T11:02:30.280512"
+    "fecha_ultima_actualizacion": "2026-11-23T01:30:48.235803"
   },
   {
     "referencia": "Ref. 7637",
     "titulo": "Exclusiva vivienda en 1ª línea de mar en Sa Farola",
     "ubicacion": "Ciutadella; Sa Farola",
-    "precio": 830000,
+    "precio": 790000,
     "metros": null,
     "metros_parcela": 117,
     "habitaciones": 4,
@@ -3229,13 +3229,13 @@
       "https://fincasllongas.com/files/0e991562-de3a-4960-a5fa-328f201bc9c4.jpg?v=1767007570"
     ],
     "fecha_scraping": "2026-04-19T21:45:03.802002",
-    "fecha_ultima_actualizacion": "2026-10-29T11:02:31.928639"
+    "fecha_ultima_actualizacion": "2026-11-23T01:30:49.612030"
   },
   {
     "referencia": "Ref. 7636",
     "titulo": "Dos viviendas en 1ª línea de mar en Sa Farola, Ciutadella",
     "ubicacion": "Ciutadella; Sa Farola",
-    "precio": 1670000,
+    "precio": 1522000,
     "metros": null,
     "metros_parcela": 234,
     "habitaciones": 7,
@@ -3293,7 +3293,7 @@
       "https://fincasllongas.com/files/dsc03754-hdr-800x480.jpg?v=1757758100"
     ],
     "fecha_scraping": "2026-04-19T21:45:05.901043",
-    "fecha_ultima_actualizacion": "2026-10-29T11:02:33.544199"
+    "fecha_ultima_actualizacion": "2026-11-23T01:30:50.967980"
   },
   {
     "referencia": "Ref. 7635",
@@ -70697,9 +70697,9 @@
   {
     "referencia": "2100",
     "titulo": "PISO EN PLANTA BAJA EN ZONA DE PLATJA GRAN  DE CIUTADELLA",
-    "ubicacion": null,
+    "ubicacion": "Ciutadella",
     "precio": 215000,
-    "metros": 48,
+    "metros": 76,
     "metros_parcela": null,
     "habitaciones": null,
     "banos": null,
@@ -70707,7 +70707,7 @@
     "estado": "VENDIDO",
     "piscina": false,
     "garaje": false,
-    "ascensor": false,
+    "ascensor": true,
     "vistas_mar": false,
     "vendido": true,
     "alquiler": false,
@@ -70727,10 +70727,11 @@
       "http://www.fincasfaro.net/watermark/602992/380x380",
       "http://www.fincasfaro.net/watermark/602993/380x380",
       "http://www.fincasfaro.net/watermark/602995/380x380",
-      "http://www.fincasfaro.net/watermark/602996/380x380"
+      "http://www.fincasfaro.net/watermark/602996/380x380",
+      "http://www.fincasfaro.net/watermark/616092/600x600"
     ],
     "fecha_scraping": "2026-04-19T22:41:10.174946",
-    "fecha_ultima_actualizacion": "2026-10-29T11:19:22.683777"
+    "fecha_ultima_actualizacion": "2026-11-23T01:41:25.660313"
   },
   {
     "referencia": "1851",
@@ -165115,7 +165116,7 @@
     "referencia": "E44",
     "titulo": "Venta de piso en Ciutadella de Menorca de 105m² con 4 dormitorios y 2 baños",
     "ubicacion": "Ciutadella",
-    "precio": 480000,
+    "precio": 410000,
     "metros": 97,
     "metros_parcela": null,
     "habitaciones": 4,
@@ -165147,7 +165148,7 @@
       "https://0ls15DTh1T.inmocms.com/store/inmuebles/6ad27b95144dd_filtre-(8).jpg"
     ],
     "fecha_scraping": "2026-10-29T11:48:58.737684",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-23T01:50:25.043407"
   },
   {
     "referencia": "E43",
