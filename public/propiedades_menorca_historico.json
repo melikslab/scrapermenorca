@@ -4917,7 +4917,7 @@
     "referencia": "Ref. 7583",
     "titulo": "Se vende restaurante en funcionamiento en Cala'n Bosch – Primera línea del Puerto",
     "ubicacion": "Ciutadella; Cap d'Artrutx; Ciutadella",
-    "precio": 473000,
+    "precio": 446001,
     "metros": null,
     "metros_parcela": 147,
     "habitaciones": null,
@@ -4958,7 +4958,7 @@
       "https://fincasllongas.com/files/dsc08533-800x480.jpg?v=1747820914"
     ],
     "fecha_scraping": "2026-04-19T21:46:14.007884",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-24T05:13:05.762082"
   },
   {
     "referencia": "Ref. 7582",
@@ -44562,18 +44562,18 @@
     "referencia": "90244",
     "titulo": "Sa Llosa Homes, exclusiva promoción de 50 chalets en Son Parc, Menorca.",
     "ubicacion": "Es Mercadal; Son Parc",
-    "precio": null,
+    "precio": 717500,
     "metros": 189,
     "metros_parcela": 357,
     "habitaciones": 4,
     "banos": 3,
     "tipo": "Chalet",
-    "estado": "ELIMINADO_WEB",
+    "estado": "OBRA INICIADA! EXCLUSIVA PROMOCIÓN DE OBRA NUEVA.",
     "piscina": true,
     "garaje": true,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": true,
+    "vendido": false,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/sa-llosa-homes-exclusiva-promocion-de-50-chalets-en-son-parc-menorca/90244/",
     "inmobiliaria": "Bonnin Sanso",
@@ -44640,8 +44640,7 @@
       "https://images.bonninsanso.com/4/b/promociones_fotos_1313_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:19:30.903753",
-    "fecha_ultima_actualizacion": "2026-10-29T11:15:33.868758",
-    "fecha_eliminacion": "2026-11-03T02:57:11.628702"
+    "fecha_ultima_actualizacion": "2026-11-24T05:16:23.595573"
   },
   {
     "referencia": "90266",
@@ -61961,12 +61960,12 @@
     "habitaciones": 3,
     "banos": 3,
     "tipo": "Casa",
-    "estado": "",
+    "estado": "ELIMINADO_WEB",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": true,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/la-casa-de-playa-mediterranea-perfecta-arenal-d-en-castell-menorca/92909/",
     "inmobiliaria": "Bonnin Sanso",
@@ -62003,7 +62002,8 @@
       "https://images.bonninsanso.com/c/e/propiedades_fotos_714969_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:32:07.925595",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": null,
+    "fecha_eliminacion": "2026-11-24T05:16:18.677365"
   },
   {
     "referencia": "36933",
@@ -63230,23 +63230,27 @@
     "habitaciones": null,
     "banos": null,
     "tipo": "Local",
-    "estado": "ELIMINADO_WEB",
+    "estado": "",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": true,
+    "vendido": false,
     "alquiler": false,
     "url_detalle": "https://www.bonninsanso.com/es/compra/local-comercial-en-venta-en-mahon-menorca/93027/",
     "inmobiliaria": "Bonnin Sanso",
-    "imagen_destacada": "https://images.bonninsanso.com/0/0/propiedades_fotos_707541_w1200_h900_wm.jpg",
+    "imagen_destacada": "https://images.bonninsanso.com/0/4/propiedades_fotos_735333_w1200_h900_wm.jpg",
     "galeria": [
-      "https://images.bonninsanso.com/0/0/propiedades_fotos_707541_w1200_h900_wm.jpg",
-      "https://images.bonninsanso.com/9/8/propiedades_fotos_707540_w1200_h900_wm.jpg"
+      "https://images.bonninsanso.com/0/4/propiedades_fotos_735333_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/7/propiedades_fotos_735329_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/4/1/propiedades_fotos_735330_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/2/3/propiedades_fotos_735331_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/5/c/propiedades_fotos_735332_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/b/b/propiedades_fotos_735334_w1200_h900_wm.jpg",
+      "https://images.bonninsanso.com/d/e/propiedades_fotos_735340_w1200_h900_wm.jpg"
     ],
     "fecha_scraping": "2026-04-19T22:33:09.736933",
-    "fecha_ultima_actualizacion": null,
-    "fecha_eliminacion": "2026-11-07T00:51:33.521974"
+    "fecha_ultima_actualizacion": "2026-11-24T05:21:16.489229"
   },
   {
     "referencia": "93028",
@@ -117363,7 +117367,7 @@
   },
   {
     "referencia": "4740",
-    "titulo": "Casa reformada en Casco Antiguo en Ciutadella de Menorca.",
+    "titulo": "Casa reformada con patio y terrazas Ciutadella de Menorca.",
     "ubicacion": "Ciutadella",
     "precio": 697000,
     "metros": 194,
@@ -117380,12 +117384,12 @@
     "alquiler": false,
     "url_detalle": "https://www.ponsmorales.com/es/venta/ref-4740",
     "inmobiliaria": "Pons Morales",
-    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4740/27966027.jpg",
+    "imagen_destacada": "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4740/30432934.jpg",
     "galeria": [
-      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4740/27966027.jpg"
+      "https://media.mobiliagestion.es/Portals/inmoponsmorales/Images/4740/30432934.jpg"
     ],
     "fecha_scraping": "2026-05-05T22:09:50.866672",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-24T05:32:34.274214"
   },
   {
     "referencia": "36984",
@@ -167996,10 +168000,10 @@
     "fecha_ultima_actualizacion": "2026-11-07T00:59:45.257112"
   },
   {
-    "referencia": "201-718370",
+    "referencia": "201-718380",
     "titulo": "Planta baja zona paseo marítimo",
     "ubicacion": "Ciutadella",
-    "precio": 370000,
+    "precio": 380000,
     "metros": 2,
     "metros_parcela": null,
     "habitaciones": 3,
@@ -168020,7 +168024,7 @@
       "https://www.fincasseminari.com/panel/inmuebles/1776/med/Planta baja con patio, 88 m².jpg"
     ],
     "fecha_scraping": "2026-11-03T03:09:12.287930",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-24T05:27:11.190878"
   },
   {
     "referencia": "4996",
@@ -171918,12 +171922,12 @@
     "habitaciones": 3,
     "banos": 2,
     "tipo": "Piso",
-    "estado": null,
+    "estado": "VENDIDO",
     "piscina": false,
     "garaje": false,
     "ascensor": false,
     "vistas_mar": false,
-    "vendido": false,
+    "vendido": true,
     "alquiler": false,
     "url_detalle": "https://fincasllongas.com/propiedad/magnifico-i-amplio-piso-a-escasos-metros-del-mar-en-passeig-maritim-ciutadella/",
     "inmobiliaria": "Fincas Llongas",
@@ -171953,7 +171957,7 @@
       "https://fincasllongas.com/files/7815-sl--22-800x480.jpg?v=1794483831"
     ],
     "fecha_scraping": "2026-11-14T01:22:23.044835",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-24T05:12:36.900561"
   },
   {
     "referencia": "4529",
@@ -173234,7 +173238,7 @@
     "metros": 269,
     "metros_parcela": 403,
     "habitaciones": 4,
-    "banos": 2,
+    "banos": 3,
     "tipo": "Chalet",
     "estado": null,
     "piscina": true,
@@ -173245,13 +173249,15 @@
     "alquiler": false,
     "url_detalle": "https://www.enprimeralinea.immo/casa-chalet-en-ciutadella-de-menorca-con-piscina-es1797739.html",
     "inmobiliaria": "En Primera Linea",
-    "imagen_destacada": "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1678961/image/thumb/585_335/fc4d240b-4e19-4a9b-8a9c-9a26d23c37c0.png",
+    "imagen_destacada": "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1797739/image/WhatsApp Image 2026-11-17 at 18.33.34.jpg?v=20261123121433167",
     "galeria": [
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1797739/image/WhatsApp Image 2026-11-17 at 18.33.34.jpg?v=20261123121433167",
+      "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1797739/image/thumb/585_335/WhatsApp%20Image%202026-11-17%20at%2018.33.34.jpg?20261123121433167",
       "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1678961/image/thumb/585_335/fc4d240b-4e19-4a9b-8a9c-9a26d23c37c0.png",
       "https://storage.googleapis.com/static.inmoweb.es/clients/2653/property/1745313/image/thumb/585_335/photo-2026-05-23-10-44-14-15.jpg"
     ],
     "fecha_scraping": "2026-11-19T02:40:19.027892",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-24T05:24:15.592156"
   },
   {
     "referencia": "4952",
@@ -173283,7 +173289,7 @@
     "referencia": "Ref. 7822",
     "titulo": "Amplio chalet independiente con vistas al mar en Cala Blanca.",
     "ubicacion": "Ciutadella; Cala Blanca; Ciutadella",
-    "precio": 0,
+    "precio": 625000,
     "metros": null,
     "metros_parcela": 153,
     "habitaciones": 6,
@@ -173346,13 +173352,13 @@
       "https://fincasllongas.com/files/dsc07029-800x480.jpg?v=1795082602"
     ],
     "fecha_scraping": "2026-11-20T02:10:23.554227",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-24T05:12:35.613196"
   },
   {
     "referencia": "5008",
     "titulo": "CHALET CON PISCINA",
     "ubicacion": "Ciutadella; Cala Blanca",
-    "precio": 465000,
+    "precio": 483000,
     "metros": 80,
     "metros_parcela": 215,
     "habitaciones": 3,
@@ -173384,7 +173390,7 @@
       "https://www.inmobiliariaartrutx.com/panel/inmuebles/4552/img/13.jpg"
     ],
     "fecha_scraping": "2026-11-20T02:10:26.586886",
-    "fecha_ultima_actualizacion": null
+    "fecha_ultima_actualizacion": "2026-11-24T05:14:52.350388"
   },
   {
     "referencia": "1661",
@@ -174068,6 +174074,103 @@
       "http://www.fincasfaro.net/watermark/594058/600x600"
     ],
     "fecha_scraping": "2026-11-22T01:18:32.733012",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "52935",
+    "titulo": "Chalet",
+    "ubicacion": "Ciutadella; Son Carrio",
+    "precio": 795000,
+    "metros": 109,
+    "metros_parcela": 448,
+    "habitaciones": 3,
+    "banos": 2,
+    "tipo": "Chalet",
+    "estado": null,
+    "piscina": true,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://zenhousecredit.com/propiedad.php?id=2345",
+    "inmobiliaria": "Zenhouse Credit",
+    "imagen_destacada": "https://zenhousecredit.com/img/fotospropiedades/28335.jpg",
+    "galeria": [
+      "https://zenhousecredit.com/img/fotospropiedades/28335.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28336.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28337.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28338.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28339.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28340.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28341.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28342.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28343.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28344.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28345.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28346.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28347.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28348.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28349.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28350.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28351.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28352.jpg",
+      "https://zenhousecredit.com/img/fotospropiedades/28353.jpg",
+      "https://zenhousecredit.com/img/calcular.jpg"
+    ],
+    "fecha_scraping": "2026-11-24T05:23:39.715756",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "913",
+    "titulo": "Apartamento turístico con vistas al mar",
+    "ubicacion": "Cala'N Blanes",
+    "precio": 298000,
+    "metros": 42,
+    "metros_parcela": null,
+    "habitaciones": 2,
+    "banos": 1,
+    "tipo": "Apartamento",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": true,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.finquesinmofuguet.com/propiedad-v.php?id=913",
+    "inmobiliaria": "Finques Fuguet",
+    "imagen_destacada": "https://www.finquesinmofuguet.com/panel/inmuebles/913/med/1.1.jpg",
+    "galeria": [
+      "https://www.finquesinmofuguet.com/panel/inmuebles/913/med/1.1.jpg"
+    ],
+    "fecha_scraping": "2026-11-24T05:32:33.774743",
+    "fecha_ultima_actualizacion": null
+  },
+  {
+    "referencia": "912",
+    "titulo": "Local con posibilidad de vivienda",
+    "ubicacion": "Ciutadella",
+    "precio": 170000,
+    "metros": 42,
+    "metros_parcela": null,
+    "habitaciones": null,
+    "banos": 1,
+    "tipo": "Local",
+    "estado": null,
+    "piscina": false,
+    "garaje": false,
+    "ascensor": false,
+    "vistas_mar": false,
+    "vendido": false,
+    "alquiler": false,
+    "url_detalle": "https://www.finquesinmofuguet.com/propiedad-v.php?id=912",
+    "inmobiliaria": "Finques Fuguet",
+    "imagen_destacada": "https://www.finquesinmofuguet.com/panel/inmuebles/912/med/1.1.jpg",
+    "galeria": [
+      "https://www.finquesinmofuguet.com/panel/inmuebles/912/med/1.1.jpg"
+    ],
+    "fecha_scraping": "2026-11-24T05:32:33.781121",
     "fecha_ultima_actualizacion": null
   }
 ]
